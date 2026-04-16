@@ -12,100 +12,420 @@ for (const e of all) {
   countByTopic.set(e.data.topic, (countByTopic.get(e.data.topic) ?? 0) + 1);
   countByPhase.set(e.data.phase, (countByPhase.get(e.data.phase) ?? 0) + 1);
 }
----
-<BaseLayout title="inpro — Wiesbaden PCS guide" description="Unofficial, offline-capable information portal for anyone PCSing to Wiesbaden, Germany.">
-  <section class="hero">
-    <h1>PCSing to Wiesbaden?</h1>
-    <p class="lead">
-      An unofficial guide that answers the questions nobody put in your welcome packet.
-      Set your view to filter content to your situation. Works offline.
-    </p>
-  </section>
 
-  <section aria-labelledby="phase-h">
-    <h2 id="phase-h">Start where you are</h2>
-    <div class="phase-grid">
-      {PHASES.map(phase => (
-        <a href={`${base}/${phase}`} class="phase-card">
-          <div class="phase-n">{PHASE_LABEL[phase]}</div>
-          <div class="phase-sub">{countByPhase.get(phase) ?? 0} entries</div>
-        </a>
-      ))}
+// Hand-pick a few featured entries to show on landing
+const featuredSlugs = [
+  'medical/emergency-numbers',
+  'housing/housing-services-office',
+  'id-cac/dsn-dialing-codes',
+  'vehicle/vehicle-registration',
+  'family/army-community-service',
+  'family/school-liaison-office',
+];
+const featured = featuredSlugs
+  .map(s => all.find(e => e.slug === s))
+  .filter(Boolean);
+
+const totalEntries = all.filter(e => !e.data.stub).length;
+---
+<BaseLayout title="inpro — The unofficial Wiesbaden PCS guide" description="Unofficial, offline-capable information portal for anyone PCSing to Wiesbaden, Germany.">
+
+  <!-- ░░░ Editorial hero ░░░ -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Issue 01 — {new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' })}</p>
+        <h1 class="display">
+          PCSing to <em>Wiesbaden</em>?<br/>
+          <span class="kicker">Everything the welcome packet forgot.</span>
+        </h1>
+        <p class="lead">
+          Unofficial. Unclass. Offline-capable. Built by arrivals, for arrivals.
+          Set your view to filter content to <em>your</em> situation — or browse everything.
+        </p>
+        <div class="hero-cta">
+          <a class="btn" href={`${base}/arrive`}>Start with arrival day</a>
+          <a class="btn btn--ghost" href={`${base}/before`}>I haven't left yet</a>
+        </div>
+      </div>
+
+      <aside class="hero-stats">
+        <div class="stat">
+          <span class="stat-n">{totalEntries}</span>
+          <span class="stat-label">published entries</span>
+        </div>
+        <div class="stat">
+          <span class="stat-n">112</span>
+          <span class="stat-label">German emergency</span>
+        </div>
+        <div class="stat">
+          <span class="stat-n">065</span>
+          <span class="stat-label">wiesbaden area code</span>
+        </div>
+        <div class="stat">
+          <span class="stat-n">0<i>/</i>0</span>
+          <span class="stat-label">things we track</span>
+        </div>
+      </aside>
     </div>
   </section>
 
-  <section aria-labelledby="topics-h">
-    <h2 id="topics-h">Browse by topic</h2>
+  <!-- ░░░ Phase selector — editorial numbered list ░░░ -->
+  <section class="phase-selector">
+    <div class="section-head">
+      <p class="eyebrow">Where are you?</p>
+      <h2>Start the guide at the right point in your move.</h2>
+    </div>
+    <ol class="phase-list">
+      {PHASES.filter(p => p !== 'sponsors').map((phase, i) => (
+        <li>
+          <a href={`${base}/${phase}`} class="phase-row">
+            <span class="phase-num">{String(i + 1).padStart(2, '0')}</span>
+            <div class="phase-body">
+              <span class="phase-title">{PHASE_LABEL[phase]}</span>
+              <span class="phase-count">{countByPhase.get(phase) ?? 0} entries</span>
+            </div>
+            <span class="phase-arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <!-- ░░░ Featured entries ░░░ -->
+  {featured.length > 0 && (
+    <section class="featured">
+      <div class="section-head">
+        <p class="eyebrow">Read first</p>
+        <h2>Six things everyone wishes they'd known on arrival day.</h2>
+      </div>
+      <div class="feature-grid">
+        {featured.map((e) => (
+          <a href={`${base}/entries/${e.slug}`} class="feature-card">
+            <p class="eyebrow">{TOPIC_LABEL[e.data.topic]}</p>
+            <h3>{e.data.title}</h3>
+            <p>{e.data.summary}</p>
+            <span class="read-more">Read →</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- ░░░ Topic grid ░░░ -->
+  <section class="topics">
+    <div class="section-head">
+      <p class="eyebrow">Or browse by topic</p>
+      <h2>Every category we cover.</h2>
+    </div>
     <div class="topic-grid">
       {TOPICS.map(topic => {
         const n = countByTopic.get(topic) ?? 0;
         return (
           <a href={`${base}/topics/${topic}`} class="topic-chip" data-empty={n === 0}>
-            <span>{TOPIC_LABEL[topic]}</span>
-            <span class="count">{n}</span>
+            <span class="topic-label">{TOPIC_LABEL[topic]}</span>
+            <span class="topic-count">{n}</span>
           </a>
         );
       })}
     </div>
   </section>
 
-  <section class="cta-row">
-    <a href={`${base}/search`} class="btn">Search all content</a>
-    <a href={`${base}/sponsors`} class="btn btn--ghost">Help sponsor a newcomer</a>
+  <!-- ░░░ Manifesto blurb ░░░ -->
+  <section class="manifesto">
+    <blockquote>
+      <p>
+        PCS packets tell you where buildings are. They don't tell you that Tuesday at Housing is appointments-only, that the 2024 Welcome Packet and the current crisis page use <em>different</em> emergency numbers, or that signing a lease before HSO reviews it kills your OHA claim.
+      </p>
+      <p class="sig">— The unofficial Wiesbaden PCS guide</p>
+    </blockquote>
   </section>
 
   <style>
-    .hero { margin: 1rem 0 2.5rem; max-width: 44rem; }
-    .hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: .75rem; }
-    .hero .lead { font-size: 1.2rem; color: var(--muted); font-family: var(--font-sans); }
-
-    .phase-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-      gap: .75rem;
-      margin: 1rem 0 2rem;
+    /* ───── HERO ───── */
+    .hero {
+      margin: 2rem 0 5rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--espresso-500);
     }
-    .phase-card {
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 2.2fr) minmax(14rem, 1fr);
+      gap: 3rem;
+      align-items: start;
+    }
+    .hero-text h1 {
+      margin: 0.75rem 0 1.5rem;
+    }
+    .hero-text h1 em {
+      color: var(--terracotta);
+      font-style: italic;
+      font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144;
+    }
+    .hero-text h1 .kicker {
+      font-size: 0.55em;
+      color: var(--muted);
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+      display: block;
+      margin-top: 0.5rem;
+    }
+    .hero-text .lead {
+      font-family: var(--font-sans);
+      font-size: 1.15rem;
+      color: var(--paper);
+      max-width: 36rem;
+      line-height: 1.55;
+    }
+    .hero-text .lead em {
+      font-style: italic;
+      color: var(--ochre);
+    }
+    .hero-cta {
+      margin-top: 2rem;
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+      padding: 1.5rem;
+      background: var(--espresso-700);
+      border: 1px solid var(--espresso-500);
+    }
+    .stat {
       display: flex;
       flex-direction: column;
-      padding: 1.25rem;
-      background: var(--parchment);
-      border: 1px solid var(--rule);
-      border-radius: var(--radius);
-      text-decoration: none;
-      color: var(--ink);
-      transition: border-color var(--transition), transform var(--transition);
-      box-shadow: var(--shadow-card);
+      padding: 0.75rem 0.5rem;
     }
-    .phase-card:hover { border-color: var(--burgundy); color: var(--burgundy); transform: translateY(-1px); }
-    .phase-n { font-family: var(--font-sans); font-weight: 600; font-size: 1.05rem; }
-    .phase-sub { color: var(--muted); font-size: .85rem; margin-top: .25rem; font-family: var(--font-sans); }
+    .stat-n {
+      font-family: var(--font-display);
+      font-size: 2.8rem;
+      font-weight: 400;
+      line-height: 1;
+      color: var(--ochre);
+      font-variation-settings: "SOFT" 30, "WONK" 0, "opsz" 144;
+      font-feature-settings: "tnum" 1;
+      letter-spacing: -0.03em;
+    }
+    .stat-n i { color: var(--terracotta); font-style: italic; }
+    .stat-label {
+      font-family: var(--font-sans);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-top: 0.4rem;
+      line-height: 1.2;
+    }
 
+    /* ───── SECTION HEADS ───── */
+    .section-head {
+      margin-bottom: 2rem;
+      max-width: 40rem;
+    }
+    .section-head h2 {
+      margin-top: 0.5rem;
+      font-size: clamp(1.5rem, 2.8vw, 2.2rem);
+    }
+
+    /* ───── PHASE SELECTOR (numbered editorial list) ───── */
+    .phase-selector { margin-bottom: 5rem; }
+    .phase-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-top: 1px solid var(--espresso-500);
+    }
+    .phase-list li { border-bottom: 1px solid var(--espresso-500); }
+    .phase-row {
+      display: grid;
+      grid-template-columns: 5rem 1fr auto;
+      gap: 1.5rem;
+      align-items: baseline;
+      padding: 1.75rem 0.5rem;
+      text-decoration: none;
+      color: var(--paper);
+      transition: background var(--transition), padding var(--transition);
+    }
+    .phase-row:hover {
+      background: var(--espresso-700);
+      padding-left: 1.5rem;
+      color: var(--ochre);
+    }
+    .phase-num {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      color: var(--terracotta);
+      font-variation-settings: "SOFT" 30, "WONK" 1, "opsz" 144;
+      font-feature-settings: "tnum" 1;
+      letter-spacing: -0.04em;
+    }
+    .phase-body {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+    .phase-title {
+      font-family: var(--font-display);
+      font-size: 1.75rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      font-variation-settings: "SOFT" 40, "WONK" 0, "opsz" 144;
+    }
+    .phase-count {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    .phase-arrow {
+      font-size: 1.5rem;
+      color: var(--muted);
+      transition: transform var(--transition), color var(--transition);
+    }
+    .phase-row:hover .phase-arrow {
+      color: var(--ochre);
+      transform: translateX(0.35rem);
+    }
+
+    /* ───── FEATURED ───── */
+    .featured { margin-bottom: 5rem; }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+      gap: 1.25rem;
+    }
+    .feature-card {
+      padding: 1.5rem;
+      background: var(--espresso-700);
+      border: 1px solid var(--espresso-500);
+      text-decoration: none;
+      color: var(--paper);
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      transition: border-color var(--transition), transform var(--transition);
+    }
+    .feature-card:hover {
+      border-color: var(--ochre);
+      transform: translateY(-3px);
+      color: var(--paper);
+    }
+    .feature-card h3 {
+      margin: 0;
+      color: var(--paper);
+      font-size: 1.2rem;
+      line-height: 1.25;
+    }
+    .feature-card:hover h3 { color: var(--ochre); }
+    .feature-card p {
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin: 0;
+      line-height: 1.55;
+    }
+    .read-more {
+      margin-top: auto;
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--ochre);
+      font-weight: 600;
+    }
+
+    /* ───── TOPICS ───── */
+    .topics { margin-bottom: 5rem; }
     .topic-grid {
-      display: flex; flex-wrap: wrap; gap: .5rem;
-      margin: 1rem 0 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
     }
     .topic-chip {
-      display: inline-flex; align-items: center; gap: .5rem;
-      padding: .5rem .9rem;
-      background: var(--cream);
-      border: 1px solid var(--rule);
-      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.7rem 1.1rem;
+      background: transparent;
+      border: 1px solid var(--espresso-500);
       text-decoration: none;
-      color: var(--ink);
+      color: var(--paper);
       font-family: var(--font-sans);
-      font-size: .9rem;
+      font-size: 0.9rem;
+      font-weight: 500;
       transition: all var(--transition);
     }
-    .topic-chip:hover { border-color: var(--burgundy); color: var(--burgundy); }
-    .topic-chip[data-empty="true"] { color: var(--muted); background: transparent; }
-    .topic-chip .count {
-      display: inline-block; min-width: 1.2rem; text-align: center;
-      padding: 0 .4rem; font-size: .75rem;
-      background: var(--forest); color: var(--cream); border-radius: 999px;
+    .topic-chip:hover {
+      border-color: var(--ochre);
+      color: var(--ochre);
+      transform: translateY(-1px);
     }
-    .topic-chip[data-empty="true"] .count { background: var(--rule); color: var(--muted); }
+    .topic-chip[data-empty="true"] {
+      color: var(--muted);
+      border-color: var(--espresso-500);
+    }
+    .topic-count {
+      display: inline-block;
+      min-width: 1.25rem;
+      text-align: center;
+      font-size: 0.72rem;
+      padding: 0.1rem 0.4rem;
+      background: var(--espresso-500);
+      color: var(--paper);
+      font-family: var(--font-display);
+      font-feature-settings: "tnum" 1;
+    }
+    .topic-chip[data-empty="true"] .topic-count {
+      background: transparent;
+      color: var(--muted);
+      border: 1px solid var(--espresso-500);
+    }
 
-    .cta-row { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 2rem; }
+    /* ───── MANIFESTO ───── */
+    .manifesto {
+      border-top: 1px solid var(--espresso-500);
+      border-bottom: 1px solid var(--espresso-500);
+      padding: 3rem 0;
+      margin-top: 3rem;
+    }
+    .manifesto blockquote {
+      max-width: 44rem;
+      margin: 0 auto;
+      padding: 0 1rem;
+      font-family: var(--font-display);
+      font-size: clamp(1.1rem, 2vw, 1.5rem);
+      line-height: 1.4;
+      color: var(--paper);
+      font-variation-settings: "SOFT" 60, "WONK" 0, "opsz" 72;
+    }
+    .manifesto blockquote em {
+      font-style: italic;
+      color: var(--terracotta);
+      font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 72;
+    }
+    .manifesto .sig {
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-top: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    /* ───── RESPONSIVE ───── */
+    @media (max-width: 820px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .hero-stats { grid-template-columns: repeat(2, 1fr); max-width: 26rem; }
+      .phase-row { grid-template-columns: 3.5rem 1fr auto; padding: 1.25rem 0.5rem; }
+      .phase-num { font-size: 2.2rem; }
+      .phase-title { font-size: 1.35rem; }
+    }
   </style>
 </BaseLayout>

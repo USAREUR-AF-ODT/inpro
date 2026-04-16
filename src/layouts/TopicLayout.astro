@@ -21,27 +21,32 @@ const profileJson = JSON.stringify({
   has_pets: frontmatter.profile_tags?.has_pets,
 });
 ---
-<BaseLayout title={`${frontmatter.title} — inpro`} description={frontmatter.summary}>
+<BaseLayout title={`${frontmatter.title} — inpro`} description={frontmatter.summary} paper={true}>
   <article
-    class="topic"
+    class="topic paper"
     data-profile={profileJson}
     data-pagefind-body
     data-pagefind-filter={`topic:${frontmatter.topic}`}
   >
     <nav class="crumbs" aria-label="breadcrumb">
-      <a href={`${base}/`}>Home</a> ›
-      <a href={`${base}/${frontmatter.phase}`}>{PHASE_LABEL[frontmatter.phase as keyof typeof PHASE_LABEL]}</a> ›
+      <a href={`${base}/`}>Home</a>
+      <span aria-hidden="true"> / </span>
+      <a href={`${base}/${frontmatter.phase}`}>{PHASE_LABEL[frontmatter.phase as keyof typeof PHASE_LABEL]}</a>
+      <span aria-hidden="true"> / </span>
       <a href={`${base}/topics/${frontmatter.topic}`}>{TOPIC_LABEL[frontmatter.topic as keyof typeof TOPIC_LABEL]}</a>
     </nav>
 
     <header class="topic-head">
       <div class="topic-pills">
-        <TagPill variant="outline" label={TOPIC_LABEL[frontmatter.topic as keyof typeof TOPIC_LABEL]} />
-        <TagPill variant="outline" label={PHASE_LABEL[frontmatter.phase as keyof typeof PHASE_LABEL]} />
-        {frontmatter.poc_volatile && <TagPill variant="terracotta" label="Verify before acting" />}
+        <span class="pill pill--outline">{TOPIC_LABEL[frontmatter.topic as keyof typeof TOPIC_LABEL]}</span>
+        <span class="pill pill--outline">{PHASE_LABEL[frontmatter.phase as keyof typeof PHASE_LABEL]}</span>
+        {frontmatter.poc_volatile && <span class="pill pill--terracotta">Verify before acting</span>}
       </div>
-      <h1>{frontmatter.title}</h1>
+      <h1 class="display">{frontmatter.title}</h1>
       <p class="lead">{frontmatter.summary}</p>
+      <p class="verified-stamp">
+        <span>Last verified</span> <time datetime={frontmatter.last_verified}>{frontmatter.last_verified}</time>
+      </p>
     </header>
 
     <div class="topic-body prose">
@@ -62,35 +67,159 @@ const profileJson = JSON.stringify({
   </article>
 
   <style>
+    .topic {
+      background: var(--paper);
+      color: var(--ink);
+    }
+
     .crumbs {
       font-family: var(--font-sans);
-      font-size: .85rem;
+      font-size: 0.78rem;
       color: var(--muted);
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    .crumbs a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 1px;
+    }
+    .crumbs a:hover {
+      color: var(--plum);
+      border-bottom-color: var(--plum);
+    }
+
+    .topic-head {
+      margin: 0 0 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--rule-soft);
+    }
+    .topic-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
       margin-bottom: 1rem;
     }
-    .crumbs a { color: var(--muted); text-decoration: none; }
-    .crumbs a:hover { color: var(--burgundy); text-decoration: underline; }
-
-    .topic-head { margin-bottom: 2rem; }
-    .topic-pills { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: .75rem; }
-    .topic-head h1 { margin: 0 0 .5rem; }
+    .topic-head h1 {
+      margin: 0 0 0.75rem;
+      color: var(--ink);
+      max-width: 40rem;
+      font-variation-settings: "SOFT" 30, "WONK" 0, "opsz" 144;
+    }
     .lead {
-      font-size: 1.15rem;
-      color: var(--muted);
       font-family: var(--font-sans);
+      font-size: 1.2rem;
+      color: var(--ink-soft);
+      max-width: 38rem;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .verified-stamp {
+      margin-top: 1.25rem;
+      font-family: var(--font-sans);
+      font-size: 0.78rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    .verified-stamp span { color: var(--muted); }
+    .verified-stamp time {
+      color: var(--plum);
+      font-weight: 600;
+      font-feature-settings: "tnum" 1;
     }
 
-    .topic-body { max-width: 44rem; }
-    .topic-body :global(h2) { margin-top: 2.5rem; padding-top: .5rem; border-top: 1px solid var(--rule); }
-    .topic-body :global(ul), .topic-body :global(ol) { padding-left: 1.5rem; }
-    .topic-body :global(li) { margin: .4rem 0; }
+    .topic-body {
+      max-width: 44rem;
+      font-size: 1.06rem;
+      line-height: 1.65;
+    }
+    .topic-body :global(p:first-of-type) {
+      font-size: 1.15rem;
+    }
+    .topic-body :global(p:first-of-type::first-letter) {
+      font-size: 4rem;
+      font-weight: 400;
+      float: left;
+      line-height: 0.85;
+      margin-right: 0.4rem;
+      margin-top: 0.5rem;
+      color: var(--terracotta);
+      font-variation-settings: "SOFT" 20, "WONK" 1, "opsz" 144;
+    }
+    .topic-body :global(h2) {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      font-size: 1.8rem;
+      color: var(--plum);
+      border-top: 1px solid var(--rule-soft);
+    }
+    .topic-body :global(h3) {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      color: var(--ink);
+    }
+    .topic-body :global(ul), .topic-body :global(ol) { padding-left: 1.25rem; }
+    .topic-body :global(li) { margin: 0.5rem 0; }
+    .topic-body :global(strong) { color: var(--ink); font-weight: 700; }
+    .topic-body :global(a) {
+      color: var(--plum);
+      text-decoration-color: rgba(122, 42, 62, 0.3);
+    }
+    .topic-body :global(a:hover) {
+      color: var(--terracotta);
+      text-decoration-color: var(--terracotta);
+    }
+    .topic-body :global(code) {
+      background: var(--paper-warm);
+      color: var(--plum);
+      padding: 0.1em 0.35em;
+      border-radius: 2px;
+      font-size: 0.9em;
+    }
+    .topic-body :global(blockquote) {
+      margin: 2rem 0;
+      padding: 1rem 1.5rem;
+      border-left: 3px solid var(--terracotta);
+      background: var(--paper-warm);
+      font-style: italic;
+    }
+    .topic-body :global(table) {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-family: var(--font-sans);
+      font-size: 0.92rem;
+    }
+    .topic-body :global(th), .topic-body :global(td) {
+      padding: 0.6rem 0.8rem;
+      border: 1px solid var(--rule-soft);
+      text-align: left;
+    }
+    .topic-body :global(th) {
+      background: var(--paper-warm);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 0.8rem;
+    }
 
-    .pocs { margin-top: 2.5rem; }
+    .pocs {
+      margin-top: 3.5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule-soft);
+    }
+    .pocs h2 {
+      color: var(--plum);
+      font-size: 1.6rem;
+    }
     .poc-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
       gap: 1rem;
-      margin-top: 1rem;
+      margin-top: 1.5rem;
     }
   </style>
 </BaseLayout>
