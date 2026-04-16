@@ -135,12 +135,26 @@ const profileJson = JSON.stringify({
       line-height: 1.5;
     }
     .verified-stamp {
-      margin-top: 1.25rem;
+      margin-top: 1.5rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
       font-family: var(--font-sans);
-      font-size: 0.78rem;
+      font-size: 0.72rem;
       color: var(--muted);
       text-transform: uppercase;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.15em;
+      padding: 0.4rem 0.8rem;
+      border: 1px solid var(--rule-soft);
+      border-radius: 2px;
+      background: var(--paper-warm);
+    }
+    .verified-stamp::before {
+      content: "";
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--forest);
     }
     .verified-stamp span { color: var(--muted); }
     .verified-stamp time {

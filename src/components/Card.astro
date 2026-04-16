@@ -13,11 +13,11 @@ export interface Poc {
 export interface Props { poc: Poc }
 const { poc } = Astro.props;
 ---
-<div class="card poc-card">
+<div class="poc-card">
   <h3>{poc.name}</h3>
   <dl>
     {poc.phone && <><dt>Phone</dt><dd><a href={`tel:${poc.phone.replace(/\s/g, '')}`}>{poc.phone}</a></dd></>}
-    {poc.dsn && <><dt>DSN</dt><dd>{poc.dsn}</dd></>}
+    {poc.dsn && <><dt>DSN</dt><dd class="tnum">{poc.dsn}</dd></>}
     {poc.email && <><dt>Email</dt><dd><a href={`mailto:${poc.email}`}>{poc.email}</a></dd></>}
     {poc.address && <><dt>Address</dt><dd>{poc.address}</dd></>}
     {poc.hours && <><dt>Hours</dt><dd>{poc.hours}</dd></>}
@@ -26,15 +26,55 @@ const { poc } = Astro.props;
 </div>
 
 <style>
-  .poc-card h3 { margin-top: 0; font-size: 1.05rem; }
+  .poc-card {
+    background: #fff;
+    border: 1px solid var(--rule-soft);
+    border-top: 3px solid var(--plum);
+    padding: 1.25rem 1.5rem;
+    border-radius: 2px;
+    transition: border-color var(--transition), transform var(--transition);
+  }
+  .poc-card:hover {
+    border-top-color: var(--terracotta);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-card);
+  }
+  .poc-card h3 {
+    margin: 0 0 0.75rem;
+    font-size: 1.1rem;
+    color: var(--ink);
+    font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 72;
+  }
   .poc-card dl {
     display: grid;
     grid-template-columns: max-content 1fr;
-    gap: .35rem .75rem;
+    gap: .4rem .9rem;
     margin: 0;
     font-family: var(--font-sans);
-    font-size: .95rem;
+    font-size: .92rem;
+    line-height: 1.4;
   }
-  .poc-card dt { color: var(--muted); font-weight: 500; }
-  .poc-card dd { margin: 0; color: var(--ink); }
+  .poc-card dt {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    align-self: baseline;
+    margin-top: 0.1rem;
+  }
+  .poc-card dd {
+    margin: 0;
+    color: var(--ink);
+  }
+  .poc-card dd.tnum {
+    font-feature-settings: "tnum" 1;
+    font-weight: 500;
+  }
+  .poc-card a {
+    color: var(--plum);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  .poc-card a:hover { color: var(--terracotta); }
 </style>
