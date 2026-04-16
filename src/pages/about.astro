@@ -1,50 +1,118 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const all = await getCollection('published');
+const totalEntries = all.filter(e => !e.data.stub).length;
 ---
 <BaseLayout title="About — inpro" description="What inpro is, who runs it, and how content is verified.">
   <article class="about">
-    <h1>About inpro</h1>
-    <p class="lead">
-      inpro is an unofficial, community-maintained PCS info portal for Wiesbaden, Germany.
-      It exists because new arrivals waste days chasing answers spread across a dozen sources.
-    </p>
+    <header class="about-head">
+      <p class="eyebrow">About</p>
+      <h1 class="display">Not affiliated. <em>Just a guide.</em></h1>
+      <p class="lead">inpro is an unofficial, community-maintained PCS information portal for Wiesbaden, Germany. Run by people who've been through it, written for people about to.</p>
+    </header>
 
-    <h2>Not affiliated</h2>
-    <p>
-      inpro is not run by, endorsed by, or affiliated with the US Army, the Department of Defense, or USAG Wiesbaden.
-      All content is public, unclassified, and compiled from official sources and community knowledge.
-      For official policy, always confirm with your unit S1 or the relevant garrison office.
-    </p>
+    <div class="about-body">
+      <section>
+        <h2>What this is</h2>
+        <p>{totalEntries} hand-written entries covering what you need to know before, during, and after moving to Wiesbaden. Every page is synthesized from official sources, cross-checked against community experience, and cited.</p>
+      </section>
 
-    <h2>How content is verified</h2>
-    <p>
-      Every page cites its sources in tiers:
-    </p>
-    <ul>
-      <li><strong>T1 — Official</strong>: Army, DoD, TRICARE, DoDEA, USAG, MyArmyBenefits.</li>
-      <li><strong>T2 — Semi-official</strong>: MilitaryOneSource, AFN, Stars &amp; Stripes, Army G1.</li>
-      <li><strong>T3 — Community</strong>: Expat blogs, Reddit, public-facing FB pages. Paraphrased, never quoted.</li>
-      <li><strong>T4 — German-side</strong>: Stadt Wiesbaden, ADAC, Bürgeramt.</li>
-    </ul>
-    <p>
-      Every page shows a "Last verified" date. Entries older than 60 days get flagged automatically for re-verification.
-      POCs marked "Verify before acting" change frequently — always call ahead.
-    </p>
+      <section>
+        <h2>What this isn't</h2>
+        <p>Not affiliated with the US Army, the Department of War, DoD, USAG Wiesbaden, or any official organization. No ads. No account required. No tracking cookies. No PII collected. Works offline after first visit.</p>
+        <p>Not a policy document. For official policy, confirm with your unit S1, the relevant garrison office, or the cited source.</p>
+      </section>
 
-    <h2>Privacy</h2>
-    <p>
-      No tracking cookies. No accounts. The profile you set for filtering lives only in your browser's local storage — we never see it.
-      Aggregate pageview counts are collected via Cloudflare Web Analytics, with no cookies and no personal data.
-    </p>
+      <section>
+        <h2>How content gets written</h2>
+        <p>Every entry has a "Last verified" date and a Sources panel. We source-tier our references:</p>
+        <ul>
+          <li><strong>T1 Official</strong>: Army, DoD, TRICARE, DoDEA, USAG, MyArmyBenefits, specific PDFs hosted by garrison</li>
+          <li><strong>T2 Semi-official</strong>: MilitaryOneSource, AFN, Stars &amp; Stripes</li>
+          <li><strong>T3 Community</strong>: Expat blogs, Reddit, verified US-military community groups — paraphrased, never quoted</li>
+          <li><strong>T4 German-side</strong>: Stadt Wiesbaden, ADAC, Bürgeramt, German federal websites</li>
+        </ul>
+        <p>An entry marked "Verify before acting" has information (usually POCs and hours) that rotates quickly. Call the office before driving.</p>
+      </section>
 
-    <h2>Found something wrong?</h2>
-    <p>
-      Use the "Report outdated info" link at the bottom of any page. Corrections are welcome and fast.
-    </p>
+      <section>
+        <h2>Editorial approach</h2>
+        <p>We write with opinions where opinions help (restaurant picks, neighborhood trade-offs, travel recommendations). We stick to facts where facts matter (DSN numbers, policy, deadlines). Each entry tells you which is which.</p>
+        <p>We do not republish other people's content. We read their content as research, then write our own synthesis. Closed Facebook groups are research material only — we don't quote members.</p>
+      </section>
+
+      <section>
+        <h2>Found something wrong?</h2>
+        <p>Every entry has a "Report outdated info" link at the bottom. Corrections welcome. Fast turnaround. The email address is aliased — we don't publish real emails.</p>
+      </section>
+
+      <section>
+        <h2>How it's built</h2>
+        <p>Open-source. Static site, server-free, PWA-enabled. <a href="https://github.com/" target="_blank" rel="noopener">Repo on GitHub</a> (contributions welcome). Code is MIT-licensed; content is CC-BY-SA 4.0.</p>
+      </section>
+
+      <section>
+        <h2>Privacy</h2>
+        <p>No accounts. No tracking cookies. Your profile selection (Soldier / DACiv / Family etc.) lives only in your browser's localStorage — we never see it. Aggregate pageview counts are collected via Cloudflare Web Analytics, with no cookies and no personal data.</p>
+      </section>
+    </div>
+
+    <section class="about-cta">
+      <a href={`${base}/`} class="btn btn--ghost">← Back to the guide</a>
+      <a href={`${base}/search`} class="btn">Search all {totalEntries} entries</a>
+    </section>
   </article>
 
   <style>
     .about { max-width: 44rem; }
-    .about .lead { font-family: var(--font-sans); font-size: 1.15rem; color: var(--muted); }
+    .about-head {
+      margin: 0 0 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--rule-soft);
+    }
+    .about-head h1 {
+      margin: 0.5rem 0 0.75rem;
+    }
+    .about-head h1 em {
+      color: var(--terracotta);
+      font-style: italic;
+      font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144;
+    }
+    .about-head .lead {
+      font-family: var(--font-sans);
+      font-size: 1.15rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    .about-body section {
+      margin-bottom: 2rem;
+    }
+    .about-body h2 {
+      font-size: 1.4rem;
+      color: var(--plum);
+      margin: 0 0 0.5rem;
+      font-variation-settings: "SOFT" 40, "WONK" 0, "opsz" 72;
+    }
+    .about-body p, .about-body li {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      line-height: 1.55;
+    }
+    .about-body ul {
+      padding-left: 1.25rem;
+    }
+    .about-body li {
+      margin: 0.35rem 0;
+    }
+    .about-cta {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule-soft);
+      flex-wrap: wrap;
+    }
   </style>
 </BaseLayout>
