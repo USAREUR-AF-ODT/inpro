@@ -22,6 +22,7 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
     <meta name="theme-color" content="#F6EFE1" />
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+    <link rel="alternate" type="application/rss+xml" title="inpro updates" href={`${base}/feed.xml`} />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -81,8 +82,9 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
         <div class="ft-col">
           <p class="eyebrow">Links</p>
           <a href={`${base}/about`}>About</a>
-          <a href="https://github.com/" target="_blank" rel="noopener">Contribute on GitHub</a>
           <a href={`${base}/search`}>Search</a>
+          <a href={`${base}/feed.xml`}>RSS feed</a>
+          <a href="https://github.com/" target="_blank" rel="noopener">Contribute on GitHub</a>
         </div>
       </div>
       <div class="ft-rule"></div>
