@@ -4,7 +4,7 @@ import SourceList from '../components/SourceList.astro';
 import Card from '../components/Card.astro';
 import FeedbackLink from '../components/FeedbackLink.astro';
 import TagPill from '../components/TagPill.astro';
-import { TOPIC_LABEL, PHASE_LABEL } from '../lib/tags';
+import { TOPIC_LABEL, PHASE_LABEL, type Topic } from '../lib/tags';
 
 export interface Props {
   frontmatter: any;
@@ -72,7 +72,7 @@ const profileJson = JSON.stringify({
           {related.map((r: any) => (
             <li>
               <a href={`${base}/entries/${r.slug}`}>
-                <span class="r-topic">{r.data.topic}</span>
+                <span class="r-topic">{TOPIC_LABEL[r.data.topic as Topic]}</span>
                 <span class="r-title">{r.data.title}</span>
                 <span class="r-summary">{r.data.summary}</span>
               </a>
