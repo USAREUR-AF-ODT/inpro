@@ -1,0 +1,19 @@
+---
+export interface Props {
+  tier?: 'T1' | 'T2' | 'T3' | 'T4';
+  label: string;
+  variant?: 'gold' | 'terracotta' | 'muted' | 'outline';
+}
+const { tier, label, variant } = Astro.props;
+const cls = tier
+  ? `pill pill--tier-${tier.toLowerCase()}`
+  : variant ? `pill pill--${variant}` : 'pill';
+---
+<span class={cls}>{label}</span>
+
+<style>
+  .pill--tier-t1 { background: var(--forest); color: var(--cream); }
+  .pill--tier-t2 { background: var(--warm-gold); color: var(--ink); }
+  .pill--tier-t3 { background: var(--muted); color: var(--cream); }
+  .pill--tier-t4 { background: var(--terracotta); color: var(--cream); }
+</style>

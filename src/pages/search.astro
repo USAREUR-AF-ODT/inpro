@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBox from '../components/SearchBox.astro';
+---
+<BaseLayout title="Search — inpro" description="Search all inpro content for Wiesbaden PCS.">
+  <header class="search-head">
+    <h1>Search</h1>
+    <p class="lead">Every page, POC, and source — searchable offline after first visit.</p>
+  </header>
+  <SearchBox />
+
+  <style>
+    .search-head { margin-bottom: 2rem; max-width: 44rem; }
+    .search-head .lead { font-family: var(--font-sans); color: var(--muted); font-size: 1.05rem; }
+  </style>
+</BaseLayout>

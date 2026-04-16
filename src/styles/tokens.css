@@ -1,0 +1,43 @@
+/* Warm Wiesbaden palette — distinct from official USAREUR-AF navy/gold.
+   Inspired by Kurhaus cream stone, Rheingau terracotta rooftops, Taunus forest.
+   All pairings meet WCAG AA on normal text unless noted. */
+:root {
+  /* Surfaces */
+  --cream: #F7F1E3;
+  --parchment: #EFE4CF;
+  --rule: #D9C9A8;
+
+  /* Ink */
+  --ink: #2A2016;
+  --muted: #7A6A55;
+
+  /* Accents */
+  --terracotta: #C5573B;
+  --terracotta-600: #A9472F;
+  --burgundy: #6E1E2A;
+  --burgundy-700: #571621;
+  --forest: #2F4A3A;
+  --forest-700: #223729;
+  --warm-gold: #B8894A;
+
+  /* Semantics */
+  --danger: #8A2A1E;
+  --focus: #8C5A2B;
+
+  /* Shape + motion */
+  --radius: 10px;
+  --radius-sm: 6px;
+  --shadow-card: 0 1px 0 rgba(0, 0, 0, .04), 0 8px 24px rgba(110, 30, 42, .06);
+  --shadow-lift: 0 2px 0 rgba(0, 0, 0, .04), 0 14px 32px rgba(110, 30, 42, .10);
+  --transition: 160ms cubic-bezier(.2, .8, .2, 1);
+
+  /* Tier pill colors (sources) */
+  --tier-t1: var(--forest);
+  --tier-t2: var(--warm-gold);
+  --tier-t3: var(--muted);
+  --tier-t4: var(--terracotta);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --transition: 0ms; }
+}

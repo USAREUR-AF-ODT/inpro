@@ -1,0 +1,132 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+}
+const { title, description = 'Unofficial PCS info portal for Wiesbaden.', ogImage } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const canonical = new URL(Astro.url.pathname, Astro.site ?? 'http://localhost:4321').toString();
+const ogImg = ogImage ?? `${base}/og-default.png`;
+const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#6E1E2A" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImg} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>{title}</title>
+    {cfToken && (
+      <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={`{"token": "${cfToken}"}`}
+      />
+    )}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="hd-inner">
+        <a href={`${base}/`} class="brand" aria-label="inpro home">
+          <span class="brand-mark" aria-hidden="true">in</span>
+          <span class="brand-wordmark">inpro</span>
+          <span class="brand-sub">· Wiesbaden</span>
+        </a>
+        <nav class="primary-nav" aria-label="Primary">
+          <a href={`${base}/before`}>Before</a>
+          <a href={`${base}/arrive`}>Arrive</a>
+          <a href={`${base}/settle`}>Settle</a>
+          <a href={`${base}/life`}>Life</a>
+          <a href={`${base}/sponsors`}>Sponsors</a>
+          <a href={`${base}/search`} class="search-link">Search</a>
+        </nav>
+        <span data-pp-badge class="no-print"></span>
+      </div>
+    </header>
+
+    <div data-pp-banner class="banner-wrap no-print"></div>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer no-print">
+      <div class="ft-inner">
+        <p><strong>inpro</strong> — unofficial PCS guide for Wiesbaden. Not affiliated with the US Army, DoD, or USAG Wiesbaden.</p>
+        <p>Content is community-verified. <a href={`${base}/about`}>About</a> · <a href="https://github.com/" target="_blank" rel="noopener">Contribute on GitHub</a></p>
+      </div>
+    </footer>
+
+    <style>
+      .site-header {
+        position: sticky; top: 0; z-index: 50;
+        background: color-mix(in srgb, var(--cream) 92%, transparent);
+        backdrop-filter: saturate(140%) blur(8px);
+        border-bottom: 1px solid var(--rule);
+      }
+      .hd-inner {
+        max-width: 72rem; margin: 0 auto; padding: 0.75rem 1rem;
+        display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+      }
+      .brand {
+        display: inline-flex; align-items: center; gap: .5rem;
+        text-decoration: none; color: var(--ink); font-family: var(--font-sans); font-weight: 600;
+      }
+      .brand-mark {
+        display:inline-flex; align-items:center; justify-content:center;
+        width: 2rem; height: 2rem; border-radius: 8px;
+        background: var(--burgundy); color: var(--cream);
+        font-size: .85rem; letter-spacing: -.02em;
+      }
+      .brand-wordmark { font-size: 1.15rem; }
+      .brand-sub { color: var(--muted); font-size: .85rem; font-weight: 400; }
+      .primary-nav { display:flex; gap: 1rem; margin-left: auto; flex-wrap: wrap; font-family: var(--font-sans); }
+      .primary-nav a { color: var(--ink); text-decoration: none; font-size: .95rem; padding: .25rem 0; }
+      .primary-nav a:hover { color: var(--burgundy); }
+      .primary-nav .search-link::before {
+        content: '⌕'; margin-right: .25rem; color: var(--muted);
+      }
+      .banner-wrap {
+        max-width: 72rem; margin: 1rem auto 0; padding: 0 1rem;
+      }
+      main {
+        max-width: 72rem; margin: 0 auto; padding: 2rem 1rem 4rem;
+      }
+      .site-footer {
+        border-top: 1px solid var(--rule);
+        background: var(--parchment);
+        font-family: var(--font-sans);
+      }
+      .ft-inner {
+        max-width: 72rem; margin: 0 auto; padding: 2rem 1rem;
+        font-size: .9rem; color: var(--muted);
+      }
+      .ft-inner p { margin: .25rem 0; }
+      .ft-inner a { color: var(--burgundy); }
+
+      @media (max-width: 640px) {
+        .primary-nav { width: 100%; margin-left: 0; order: 3; justify-content: space-between; gap: .5rem; }
+        .primary-nav a { font-size: .9rem; }
+      }
+    </style>
+
+    <script>
+      import '../islands/profilePicker.client.ts';
+      import '../islands/profileFilter.client.ts';
+    </script>
+  </body>
+</html>

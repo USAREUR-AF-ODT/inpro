@@ -1,0 +1,43 @@
+---
+import TagPill from './TagPill.astro';
+import { TIER_LABEL } from '../lib/tags';
+
+export interface Source { tier: 'T1' | 'T2' | 'T3' | 'T4'; url: string; label: string; scraped?: string }
+export interface Props { sources: Source[]; lastVerified: string }
+
+const { sources, lastVerified } = Astro.props;
+---
+<aside class="sources">
+  <h2>Sources</h2>
+  <p class="verified">Last verified: <time datetime={lastVerified}>{lastVerified}</time></p>
+  {sources.length === 0 ? (
+    <p class="empty">No external sources cited. Verify with the POC before acting on this.</p>
+  ) : (
+    <ul>
+      {sources.map(s => (
+        <li>
+          <TagPill tier={s.tier} label={TIER_LABEL[s.tier]} />
+          <a href={s.url} target="_blank" rel="noopener noreferrer">{s.label}</a>
+          {s.scraped && <span class="scraped">· scraped {s.scraped}</span>}
+        </li>
+      ))}
+    </ul>
+  )}
+</aside>
+
+<style>
+  .sources {
+    margin-top: 2rem;
+    padding: 1.25rem;
+    background: var(--parchment);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    font-family: var(--font-sans);
+  }
+  .sources h2 { margin-top: 0; font-size: 1rem; }
+  .verified { color: var(--muted); font-size: .85rem; margin: .25rem 0 1rem; }
+  .sources ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .5rem; }
+  .sources li { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; font-size: .92rem; }
+  .scraped { color: var(--muted); font-size: .8rem; }
+  .empty { color: var(--muted); font-size: .9rem; }
+</style>

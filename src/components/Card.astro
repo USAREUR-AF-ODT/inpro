@@ -1,0 +1,40 @@
+---
+import MapEmbed from './MapEmbed.astro';
+
+export interface Poc {
+  name: string;
+  phone?: string;
+  dsn?: string;
+  email?: string;
+  address?: string;
+  maps_query?: string;
+  hours?: string;
+}
+export interface Props { poc: Poc }
+const { poc } = Astro.props;
+---
+<div class="card poc-card">
+  <h3>{poc.name}</h3>
+  <dl>
+    {poc.phone && <><dt>Phone</dt><dd><a href={`tel:${poc.phone.replace(/\s/g, '')}`}>{poc.phone}</a></dd></>}
+    {poc.dsn && <><dt>DSN</dt><dd>{poc.dsn}</dd></>}
+    {poc.email && <><dt>Email</dt><dd><a href={`mailto:${poc.email}`}>{poc.email}</a></dd></>}
+    {poc.address && <><dt>Address</dt><dd>{poc.address}</dd></>}
+    {poc.hours && <><dt>Hours</dt><dd>{poc.hours}</dd></>}
+  </dl>
+  {poc.maps_query && <MapEmbed query={poc.maps_query} label={poc.name} />}
+</div>
+
+<style>
+  .poc-card h3 { margin-top: 0; font-size: 1.05rem; }
+  .poc-card dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: .35rem .75rem;
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: .95rem;
+  }
+  .poc-card dt { color: var(--muted); font-weight: 500; }
+  .poc-card dd { margin: 0; color: var(--ink); }
+</style>

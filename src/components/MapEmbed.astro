@@ -1,0 +1,68 @@
+---
+export interface Props { query: string; label?: string }
+const { query, label } = Astro.props;
+const encoded = encodeURIComponent(query);
+// Google Maps "q" embed — no API key required for read-only iframe.
+const src = `https://www.google.com/maps?q=${encoded}&output=embed`;
+const openUrl = `https://www.google.com/maps/search/?api=1&query=${encoded}`;
+const mapsUri = `maps:?q=${encoded}`;
+---
+<div class="map-embed" data-map-query={query}>
+  <noscript>
+    <a href={openUrl} target="_blank" rel="noopener noreferrer">Open {label ?? query} in Maps</a>
+  </noscript>
+  <div class="map-online" hidden>
+    <iframe
+      title={`Map: ${label ?? query}`}
+      src={src}
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <div class="map-offline">
+    <p class="map-fallback-head">Offline — map unavailable</p>
+    <p>{label ?? query}</p>
+    <div class="map-actions">
+      <a class="btn btn--ghost" href={openUrl} target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+      <a class="btn btn--ghost" href={mapsUri}>Open in native Maps</a>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    function update() {
+      document.querySelectorAll('.map-embed').forEach(function (el) {
+        var on = el.querySelector('.map-online');
+        var off = el.querySelector('.map-offline');
+        if (!on || !off) return;
+        if (navigator.onLine) { on.hidden = false; off.hidden = true; }
+        else { on.hidden = true; off.hidden = false; }
+      });
+    }
+    update();
+    window.addEventListener('online', update);
+    window.addEventListener('offline', update);
+  })();
+</script>
+
+<style>
+  .map-embed { margin: 1rem 0; }
+  .map-online iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    background: var(--parchment);
+  }
+  .map-offline {
+    padding: 1rem;
+    border: 1px dashed var(--rule);
+    border-radius: var(--radius);
+    background: var(--parchment);
+    font-family: var(--font-sans);
+  }
+  .map-fallback-head { font-weight: 600; margin: 0 0 .25rem; color: var(--burgundy); }
+  .map-actions { display: flex; gap: .5rem; margin-top: .75rem; flex-wrap: wrap; }
+</style>

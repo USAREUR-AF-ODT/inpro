@@ -1,0 +1,82 @@
+name: content-audit
+on:
+  schedule:
+    - cron: "0 13 * * 1"   # Mondays 13:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Run content audit
+        id: audit
+        run: |
+          set +e
+          node scripts/audit-content.mjs --json > audit.json
+          echo "exit=$?" >> "$GITHUB_OUTPUT"
+          cat audit.json
+      - name: Verify source links
+        id: links
+        run: |
+          set +e
+          node scripts/verify-links.mjs || true
+          cat scripts/link-report.json || echo "no report"
+      - name: Open issue if stale entries found
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let audit = {};
+            try { audit = JSON.parse(fs.readFileSync('audit.json', 'utf8')); } catch {}
+            const stale = (audit.issues ?? []).filter(i => /stale/.test(i.msg));
+            let links = {};
+            try { links = JSON.parse(fs.readFileSync('scripts/link-report.json', 'utf8')); } catch {}
+            const broken = links.broken_list ?? [];
+
+            if (stale.length === 0 && broken.length === 0) {
+              core.notice(`No stale entries, no broken links.`);
+              return;
+            }
+
+            const lines = ['## Weekly content audit', ''];
+            if (stale.length) {
+              lines.push(`### ${stale.length} stale entries (last_verified > ${audit.stale_days}d)`);
+              for (const s of stale.slice(0, 50)) lines.push(`- \`${s.file}\` — ${s.msg}`);
+              if (stale.length > 50) lines.push(`- …${stale.length - 50} more`);
+              lines.push('');
+            }
+            if (broken.length) {
+              lines.push(`### ${broken.length} broken source links`);
+              for (const b of broken.slice(0, 50)) lines.push(`- \`${b.file}\` — ${b.url} (${b.status || b.error})`);
+              if (broken.length > 50) lines.push(`- …${broken.length - 50} more`);
+            }
+            const body = lines.join('\n');
+
+            const { owner, repo } = context.repo;
+            const existing = await github.rest.issues.listForRepo({
+              owner, repo, labels: 'content-audit', state: 'open', per_page: 5,
+            });
+            if (existing.data[0]) {
+              await github.rest.issues.update({
+                owner, repo, issue_number: existing.data[0].number, body,
+              });
+              core.notice(`Updated existing audit issue #${existing.data[0].number}`);
+            } else {
+              const created = await github.rest.issues.create({
+                owner, repo,
+                title: `Weekly content audit — ${new Date().toISOString().slice(0,10)}`,
+                body,
+                labels: ['content-audit'],
+              });
+              core.notice(`Opened audit issue #${created.data.number}`);
+            }

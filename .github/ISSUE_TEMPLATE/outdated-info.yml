@@ -1,0 +1,39 @@
+name: "Outdated or incorrect info"
+description: "Report stale content, bad POCs, or a fact that needs updating."
+title: "[outdated] "
+labels: ["content", "outdated"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: "Page path or URL"
+      placeholder: "/entries/housing/housing-services-office"
+    validations:
+      required: true
+  - type: textarea
+    id: whats-wrong
+    attributes:
+      label: "What's wrong"
+      description: "Be specific. Which paragraph, which POC, which number."
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: "What's correct (if you know)"
+      description: "Optional but helpful. Link to an official source if you have one."
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Severity"
+      options:
+        - "Typo / cosmetic"
+        - "Stale info / may mislead"
+        - "Wrong / actively causes problems"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: "Source URL (optional)"
+      placeholder: "https://home.army.mil/wiesbaden/..."

@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TagPill from '../../components/TagPill.astro';
+import { getCollection } from 'astro:content';
+import { PHASE_LABEL, TOPIC_LABEL, PHASES, type Phase } from '../../lib/tags';
+
+export async function getStaticPaths() {
+  return PHASES.map(phase => ({ params: { phase } }));
+}
+
+const { phase } = Astro.params as { phase: Phase };
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const all = await getCollection('published', e => e.data.phase === phase);
+const sorted = all.sort((a, b) => (a.data.order - b.data.order) || a.data.title.localeCompare(b.data.title));
+
+const phaseDescription: Record<Phase, string> = {
+  before: 'Everything that has to happen before you leave — orders, EFMP, sponsor contact, passports, pets, POV prep.',
+  arrive: 'Your first two weeks: lodging, ID enrollment, housing office, finance office, vehicle paperwork.',
+  settle: '30/60/90-day tasks: Anmeldung, SOFA stamp, schools, healthcare enrollment, neighborhood integration.',
+  life: 'Living in Wiesbaden: German rhythms, weekend travel, kids, pets, culture, day-to-day.',
+  sponsors: 'How to be a good sponsor: what newcomers actually need from you.',
+};
+---
+<BaseLayout title={`${PHASE_LABEL[phase]} — inpro`} description={phaseDescription[phase]}>
+  <header class="phase-head">
+    <p class="eyebrow">Phase</p>
+    <h1>{PHASE_LABEL[phase]}</h1>
+    <p class="lead">{phaseDescription[phase]}</p>
+  </header>
+
+  {sorted.length === 0 ? (
+    <p class="filter-empty">No entries yet for this phase. <a href={`${base}/`}>Return home</a>.</p>
+  ) : (
+    <ul class="entry-list">
+      {sorted.map(e => (
+        <li
+          class="entry-card"
+          data-profile={JSON.stringify(e.data.profile_tags ?? {})}
+        >
+          <div class="ec-head">
+            <TagPill variant="outline" label={TOPIC_LABEL[e.data.topic]} />
+            {e.data.stub && <TagPill variant="muted" label="Coming soon" />}
+            {e.data.poc_volatile && <TagPill variant="terracotta" label="Verify before acting" />}
+          </div>
+          <h2><a href={`${base}/entries/${e.slug}`}>{e.data.title}</a></h2>
+          <p>{e.data.summary}</p>
+          <p class="meta">Last verified: {e.data.last_verified}</p>
+        </li>
+      ))}
+    </ul>
+  )}
+
+  <style>
+    .phase-head { margin-bottom: 2rem; max-width: 44rem; }
+    .eyebrow { font-family: var(--font-sans); font-size: .85rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin: 0; }
+    .phase-head h1 { margin: .25rem 0 .5rem; }
+    .lead { font-family: var(--font-sans); font-size: 1.1rem; color: var(--muted); }
+    .entry-list { list-style: none; padding: 0; display: grid; gap: 1rem; }
+    .entry-card {
+      padding: 1.25rem;
+      background: var(--parchment);
+      border: 1px solid var(--rule);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-card);
+    }
+    .ec-head { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: .5rem; }
+    .entry-card h2 { margin: 0 0 .5rem; font-size: 1.15rem; }
+    .entry-card h2 a { color: var(--ink); text-decoration: none; }
+    .entry-card h2 a:hover { color: var(--burgundy); text-decoration: underline; }
+    .entry-card p { margin: .25rem 0; font-family: var(--font-sans); }
+    .meta { color: var(--muted); font-size: .85rem; margin-top: .5rem; }
+  </style>
+</BaseLayout>

@@ -1,0 +1,96 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import SourceList from '../components/SourceList.astro';
+import Card from '../components/Card.astro';
+import FeedbackLink from '../components/FeedbackLink.astro';
+import TagPill from '../components/TagPill.astro';
+import { TOPIC_LABEL, PHASE_LABEL } from '../lib/tags';
+
+export interface Props {
+  frontmatter: any;
+  slug: string;
+}
+const { frontmatter, slug } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const profileJson = JSON.stringify({
+  status: frontmatter.profile_tags?.status,
+  rank: frontmatter.profile_tags?.rank,
+  accompanied: frontmatter.profile_tags?.accompanied,
+  has_kids: frontmatter.profile_tags?.has_kids,
+  has_pov: frontmatter.profile_tags?.has_pov,
+  has_pets: frontmatter.profile_tags?.has_pets,
+});
+---
+<BaseLayout title={`${frontmatter.title} — inpro`} description={frontmatter.summary}>
+  <article
+    class="topic"
+    data-profile={profileJson}
+    data-pagefind-body
+    data-pagefind-filter={`topic:${frontmatter.topic}`}
+  >
+    <nav class="crumbs" aria-label="breadcrumb">
+      <a href={`${base}/`}>Home</a> ›
+      <a href={`${base}/${frontmatter.phase}`}>{PHASE_LABEL[frontmatter.phase as keyof typeof PHASE_LABEL]}</a> ›
+      <a href={`${base}/topics/${frontmatter.topic}`}>{TOPIC_LABEL[frontmatter.topic as keyof typeof TOPIC_LABEL]}</a>
+    </nav>
+
+    <header class="topic-head">
+      <div class="topic-pills">
+        <TagPill variant="outline" label={TOPIC_LABEL[frontmatter.topic as keyof typeof TOPIC_LABEL]} />
+        <TagPill variant="outline" label={PHASE_LABEL[frontmatter.phase as keyof typeof PHASE_LABEL]} />
+        {frontmatter.poc_volatile && <TagPill variant="terracotta" label="Verify before acting" />}
+      </div>
+      <h1>{frontmatter.title}</h1>
+      <p class="lead">{frontmatter.summary}</p>
+    </header>
+
+    <div class="topic-body prose">
+      <slot />
+    </div>
+
+    {frontmatter.poc?.length > 0 && (
+      <section class="pocs">
+        <h2>Points of contact</h2>
+        <div class="poc-grid">
+          {frontmatter.poc.map((p: any) => <Card poc={p} />)}
+        </div>
+      </section>
+    )}
+
+    <SourceList sources={frontmatter.sources ?? []} lastVerified={frontmatter.last_verified} />
+    <FeedbackLink slug={slug} title={frontmatter.title} lastVerified={frontmatter.last_verified} />
+  </article>
+
+  <style>
+    .crumbs {
+      font-family: var(--font-sans);
+      font-size: .85rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .crumbs a { color: var(--muted); text-decoration: none; }
+    .crumbs a:hover { color: var(--burgundy); text-decoration: underline; }
+
+    .topic-head { margin-bottom: 2rem; }
+    .topic-pills { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: .75rem; }
+    .topic-head h1 { margin: 0 0 .5rem; }
+    .lead {
+      font-size: 1.15rem;
+      color: var(--muted);
+      font-family: var(--font-sans);
+    }
+
+    .topic-body { max-width: 44rem; }
+    .topic-body :global(h2) { margin-top: 2.5rem; padding-top: .5rem; border-top: 1px solid var(--rule); }
+    .topic-body :global(ul), .topic-body :global(ol) { padding-left: 1.5rem; }
+    .topic-body :global(li) { margin: .4rem 0; }
+
+    .pocs { margin-top: 2.5rem; }
+    .poc-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+  </style>
+</BaseLayout>

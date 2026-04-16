@@ -1,0 +1,111 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { TOPIC_LABEL, PHASE_LABEL, TOPICS, PHASES } from '../lib/tags';
+import { getCollection } from 'astro:content';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const all = await getCollection('published');
+const countByTopic = new Map(TOPICS.map(t => [t, 0]));
+const countByPhase = new Map(PHASES.map(p => [p, 0]));
+for (const e of all) {
+  if (e.data.stub) continue;
+  countByTopic.set(e.data.topic, (countByTopic.get(e.data.topic) ?? 0) + 1);
+  countByPhase.set(e.data.phase, (countByPhase.get(e.data.phase) ?? 0) + 1);
+}
+---
+<BaseLayout title="inpro — Wiesbaden PCS guide" description="Unofficial, offline-capable information portal for anyone PCSing to Wiesbaden, Germany.">
+  <section class="hero">
+    <h1>PCSing to Wiesbaden?</h1>
+    <p class="lead">
+      An unofficial guide that answers the questions nobody put in your welcome packet.
+      Set your view to filter content to your situation. Works offline.
+    </p>
+  </section>
+
+  <section aria-labelledby="phase-h">
+    <h2 id="phase-h">Start where you are</h2>
+    <div class="phase-grid">
+      {PHASES.map(phase => (
+        <a href={`${base}/${phase}`} class="phase-card">
+          <div class="phase-n">{PHASE_LABEL[phase]}</div>
+          <div class="phase-sub">{countByPhase.get(phase) ?? 0} entries</div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section aria-labelledby="topics-h">
+    <h2 id="topics-h">Browse by topic</h2>
+    <div class="topic-grid">
+      {TOPICS.map(topic => {
+        const n = countByTopic.get(topic) ?? 0;
+        return (
+          <a href={`${base}/topics/${topic}`} class="topic-chip" data-empty={n === 0}>
+            <span>{TOPIC_LABEL[topic]}</span>
+            <span class="count">{n}</span>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+
+  <section class="cta-row">
+    <a href={`${base}/search`} class="btn">Search all content</a>
+    <a href={`${base}/sponsors`} class="btn btn--ghost">Help sponsor a newcomer</a>
+  </section>
+
+  <style>
+    .hero { margin: 1rem 0 2.5rem; max-width: 44rem; }
+    .hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: .75rem; }
+    .hero .lead { font-size: 1.2rem; color: var(--muted); font-family: var(--font-sans); }
+
+    .phase-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+      gap: .75rem;
+      margin: 1rem 0 2rem;
+    }
+    .phase-card {
+      display: flex;
+      flex-direction: column;
+      padding: 1.25rem;
+      background: var(--parchment);
+      border: 1px solid var(--rule);
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: var(--ink);
+      transition: border-color var(--transition), transform var(--transition);
+      box-shadow: var(--shadow-card);
+    }
+    .phase-card:hover { border-color: var(--burgundy); color: var(--burgundy); transform: translateY(-1px); }
+    .phase-n { font-family: var(--font-sans); font-weight: 600; font-size: 1.05rem; }
+    .phase-sub { color: var(--muted); font-size: .85rem; margin-top: .25rem; font-family: var(--font-sans); }
+
+    .topic-grid {
+      display: flex; flex-wrap: wrap; gap: .5rem;
+      margin: 1rem 0 2rem;
+    }
+    .topic-chip {
+      display: inline-flex; align-items: center; gap: .5rem;
+      padding: .5rem .9rem;
+      background: var(--cream);
+      border: 1px solid var(--rule);
+      border-radius: 999px;
+      text-decoration: none;
+      color: var(--ink);
+      font-family: var(--font-sans);
+      font-size: .9rem;
+      transition: all var(--transition);
+    }
+    .topic-chip:hover { border-color: var(--burgundy); color: var(--burgundy); }
+    .topic-chip[data-empty="true"] { color: var(--muted); background: transparent; }
+    .topic-chip .count {
+      display: inline-block; min-width: 1.2rem; text-align: center;
+      padding: 0 .4rem; font-size: .75rem;
+      background: var(--forest); color: var(--cream); border-radius: 999px;
+    }
+    .topic-chip[data-empty="true"] .count { background: var(--rule); color: var(--muted); }
+
+    .cta-row { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 2rem; }
+  </style>
+</BaseLayout>

@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="About — inpro" description="What inpro is, who runs it, and how content is verified.">
+  <article class="about">
+    <h1>About inpro</h1>
+    <p class="lead">
+      inpro is an unofficial, community-maintained PCS info portal for Wiesbaden, Germany.
+      It exists because new arrivals waste days chasing answers spread across a dozen sources.
+    </p>
+
+    <h2>Not affiliated</h2>
+    <p>
+      inpro is not run by, endorsed by, or affiliated with the US Army, the Department of Defense, or USAG Wiesbaden.
+      All content is public, unclassified, and compiled from official sources and community knowledge.
+      For official policy, always confirm with your unit S1 or the relevant garrison office.
+    </p>
+
+    <h2>How content is verified</h2>
+    <p>
+      Every page cites its sources in tiers:
+    </p>
+    <ul>
+      <li><strong>T1 — Official</strong>: Army, DoD, TRICARE, DoDEA, USAG, MyArmyBenefits.</li>
+      <li><strong>T2 — Semi-official</strong>: MilitaryOneSource, AFN, Stars &amp; Stripes, Army G1.</li>
+      <li><strong>T3 — Community</strong>: Expat blogs, Reddit, public-facing FB pages. Paraphrased, never quoted.</li>
+      <li><strong>T4 — German-side</strong>: Stadt Wiesbaden, ADAC, Bürgeramt.</li>
+    </ul>
+    <p>
+      Every page shows a "Last verified" date. Entries older than 60 days get flagged automatically for re-verification.
+      POCs marked "Verify before acting" change frequently — always call ahead.
+    </p>
+
+    <h2>Privacy</h2>
+    <p>
+      No tracking cookies. No accounts. The profile you set for filtering lives only in your browser's local storage — we never see it.
+      Aggregate pageview counts are collected via Cloudflare Web Analytics, with no cookies and no personal data.
+    </p>
+
+    <h2>Found something wrong?</h2>
+    <p>
+      Use the "Report outdated info" link at the bottom of any page. Corrections are welcome and fast.
+    </p>
+  </article>
+
+  <style>
+    .about { max-width: 44rem; }
+    .about .lead { font-family: var(--font-sans); font-size: 1.15rem; color: var(--muted); }
+  </style>
+</BaseLayout>

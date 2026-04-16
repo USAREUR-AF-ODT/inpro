@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<BaseLayout title="Not found — inpro">
+  <section class="nf">
+    <h1>Page not found</h1>
+    <p>That page does not exist or has been moved.</p>
+    <p>
+      <a class="btn" href={`${base}/`}>Home</a>
+      <a class="btn btn--ghost" href={`${base}/search`}>Search</a>
+    </p>
+  </section>
+
+  <style>
+    .nf { max-width: 30rem; padding-top: 2rem; }
+    .nf p { margin: .75rem 0; font-family: var(--font-sans); }
+    .nf .btn { margin-right: .5rem; }
+  </style>
+</BaseLayout>

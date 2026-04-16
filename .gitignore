@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.astro/
+.vite/
+.cache/
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/
+coverage/
+scripts/scrape-report.json
+scripts/link-report.json
+scripts/scrape-errors.json
+*.placeholder
+# NOTE: src/content/_raw/ IS tracked — scraped output is human-reviewable in PRs.

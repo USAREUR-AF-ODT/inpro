@@ -1,0 +1,29 @@
+---
+export interface Props {
+  slug: string;
+  title: string;
+  lastVerified: string;
+}
+const { slug, title, lastVerified } = Astro.props;
+const path = Astro.url.pathname;
+const subject = encodeURIComponent(`[inpro outdated] ${slug} — ${title}`);
+const body = encodeURIComponent(
+  `Page: ${path}\nLast verified: ${lastVerified}\n\nWhat's wrong or missing:\n\n\n---\nLeave the section above filled out so we can fix it fast.`
+);
+const href = `mailto:hater.andrewd+inpro@gmail.com?subject=${subject}&body=${body}`;
+---
+<p class="feedback-link no-print">
+  <a href={href}>Report outdated info on this page</a>
+</p>
+
+<style>
+  .feedback-link {
+    font-family: var(--font-sans);
+    font-size: .85rem;
+    color: var(--muted);
+    margin-top: 2rem;
+    text-align: right;
+  }
+  .feedback-link a { color: var(--muted); }
+  .feedback-link a:hover { color: var(--burgundy); }
+</style>

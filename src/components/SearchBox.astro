@@ -1,0 +1,33 @@
+---
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<div id="search" class="search-mount"></div>
+
+<link rel="stylesheet" href={`${base}/pagefind/pagefind-ui.css`} />
+<script type="module" define:vars={{ base }}>
+  import(`${base}/pagefind/pagefind-ui.js`).then(({ PagefindUI }) => {
+    new PagefindUI({
+      element: '#search',
+      showSubResults: true,
+      showImages: false,
+      excerptLength: 30,
+      resetStyles: false,
+    });
+  }).catch((e) => {
+    const el = document.getElementById('search');
+    if (el) el.innerHTML = '<p class="filter-empty">Search index unavailable. Run <code>npm run build</code> to generate it.</p>';
+    console.warn('Pagefind not built yet:', e);
+  });
+</script>
+
+<style>
+  .search-mount :global(.pagefind-ui__search-input) {
+    font-family: var(--font-sans);
+    background: var(--parchment);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+  }
+  .search-mount :global(.pagefind-ui__result-title a) {
+    color: var(--burgundy);
+  }
+</style>

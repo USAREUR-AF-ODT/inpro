@@ -1,0 +1,37 @@
+name: "Suggest new content"
+description: "Request coverage for a topic, POC, or scenario we don't have yet."
+title: "[new] "
+labels: ["content", "enhancement"]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: "Topic area"
+      options:
+        - housing
+        - finance
+        - medical
+        - legal
+        - vehicle
+        - id-cac
+        - family
+        - schools
+        - pets
+        - religious
+        - mwr
+        - unit
+        - other / unsure
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: "What should we cover?"
+      description: "One or two sentences. What does a newcomer need to know that isn't currently on the site?"
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: "Source URLs"
+      description: "Official (home.army.mil, TRICARE, DoDEA) sources strongly preferred."

@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<BaseLayout title="Offline — inpro">
+  <section class="offline">
+    <h1>You're offline</h1>
+    <p>The page you requested isn't cached yet. Pages you visited before are still available.</p>
+    <p>Already-visited content should keep working. Try:</p>
+    <ul>
+      <li><a href={`${base}/`}>Home</a></li>
+      <li><a href={`${base}/arrive`}>When You Arrive</a></li>
+      <li><a href={`${base}/search`}>Search</a></li>
+    </ul>
+  </section>
+
+  <style>
+    .offline { max-width: 30rem; padding-top: 2rem; }
+    .offline p, .offline li { font-family: var(--font-sans); }
+    .offline ul { padding-left: 1.5rem; }
+  </style>
+</BaseLayout>

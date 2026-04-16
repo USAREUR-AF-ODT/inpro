@@ -1,0 +1,9 @@
+site: dist
+output_path: dist/pagefind
+glob: "**/*.{html}"
+exclude_selectors:
+  - "header.site-header"
+  - "footer.site-footer"
+  - ".feedback-link"
+  - ".no-print"
+  - "[data-pagefind-ignore]"

@@ -1,0 +1,18 @@
+# CODEOWNERS for inpro.
+# Every PR gets reviewed by the owner(s) of affected paths.
+
+# Repo-wide default
+*                                       @hater
+
+# Content — factual corrections merge fast
+src/content/published/                  @hater
+src/content/raw/                        @hater
+
+# Scraping pipeline
+scripts/                                @hater
+scripts/targets.yml                     @hater
+
+# Build + deployment
+.github/workflows/                      @hater
+astro.config.mjs                        @hater
+package.json                            @hater

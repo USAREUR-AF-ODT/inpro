@@ -1,0 +1,41 @@
+{
+  "name": "inpro",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "Unofficial, offline-capable PCS info portal for Wiesbaden.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "astro": "astro",
+    "scrape": "node scripts/scrape.mjs",
+    "promote": "node scripts/promote.mjs",
+    "audit": "node scripts/audit-content.mjs",
+    "verify-links": "node scripts/verify-links.mjs",
+    "static-maps": "node scripts/static-maps.mjs"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/sitemap": "^3.2.1",
+    "@fontsource-variable/source-serif-4": "^5.1.0",
+    "@fontsource/inter": "^5.1.0",
+    "@fontsource/jetbrains-mono": "^5.1.0",
+    "astro": "^5.0.0",
+    "astro-icon": "^1.1.5",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.20",
+    "@tailwindcss/typography": "^0.5.15",
+    "@tailwindcss/vite": "^4.0.0",
+    "@vite-pwa/astro": "^0.5.0",
+    "js-yaml": "^4.1.0",
+    "pagefind": "^1.2.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
