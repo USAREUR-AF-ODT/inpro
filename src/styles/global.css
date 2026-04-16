@@ -8,7 +8,6 @@
 @import "@fontsource/jetbrains-mono/400.css";
 
 @theme {
-  --color-espresso: #1A1612;
   --color-paper: #F6EFE1;
   --color-paper-warm: #EAE0CC;
   --color-ink: #1A1612;
@@ -25,8 +24,8 @@
 }
 
 html {
-  background: var(--espresso);
-  color: var(--paper);
+  background: var(--paper);
+  color: var(--ink);
   font-family: var(--font-display);
   font-size: 17px;
   line-height: 1.55;
@@ -37,14 +36,14 @@ html {
 
 body {
   min-height: 100dvh;
-  background: var(--espresso);
+  background: var(--paper);
 }
 
 /* ───── Typography ───── */
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  color: var(--paper);
+  color: var(--ink);
   letter-spacing: -0.02em;
   line-height: 1.08;
   font-weight: 500;
@@ -77,11 +76,11 @@ p { margin: 0.9rem 0; }
 
 /* Links */
 a {
-  color: var(--ochre);
+  color: var(--plum);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
-  text-decoration-color: rgba(201, 138, 30, 0.45);
+  text-decoration-color: rgba(122, 42, 62, 0.4);
   transition: color var(--transition), text-decoration-color var(--transition);
 }
 a:hover {
@@ -97,14 +96,14 @@ a:hover {
 
 hr {
   border: 0;
-  border-top: 1px solid var(--espresso-500);
+  border-top: 1px solid var(--rule-soft);
   margin: 3rem 0;
 }
 
 code, pre { font-family: var(--font-mono); }
 code {
-  background: var(--espresso-700);
-  color: var(--ochre);
+  background: var(--paper-warm);
+  color: var(--plum);
   padding: 0.1em 0.4em;
   border-radius: 2px;
   font-size: 0.85em;
@@ -123,57 +122,27 @@ code {
   left: 1rem; top: 1rem;
   width: auto; height: auto;
   padding: 0.5rem 0.75rem;
-  background: var(--paper);
-  color: var(--espresso);
+  background: var(--ink);
+  color: var(--paper);
   border-radius: 2px;
   z-index: 9999;
 }
 
 /* ───── Surfaces ───── */
 
-/* Paper — cream content slab (used inside articles) */
-.paper {
-  background: var(--paper);
-  color: var(--ink);
-}
-.paper h1, .paper h2, .paper h3, .paper h4, .paper strong {
-  color: var(--ink);
-}
-.paper a {
-  color: var(--plum);
-  text-decoration-color: rgba(122, 42, 62, 0.4);
-}
-.paper a:hover {
-  color: var(--terracotta);
-  text-decoration-color: var(--terracotta);
-}
-.paper code {
-  background: var(--paper-warm);
-  color: var(--plum);
-}
-.paper .muted, .paper .lead { color: var(--muted); }
-
-/* Card (on espresso ground) */
 .card {
-  background: var(--espresso-700);
-  border: 1px solid var(--espresso-500);
+  background: #fff;
+  border: 1px solid var(--rule-soft);
+  color: var(--ink);
   border-radius: var(--radius-lg);
   padding: 1.5rem;
   box-shadow: var(--shadow-card);
   transition: transform var(--transition), border-color var(--transition);
 }
 .card:hover {
-  border-color: var(--ochre);
+  border-color: var(--plum);
   transform: translateY(-2px);
 }
-
-/* Card on paper */
-.paper .card {
-  background: #fff;
-  border: 1px solid var(--rule-soft);
-  color: var(--ink);
-}
-.paper .card:hover { border-color: var(--plum); }
 
 /* ───── Pills ───── */
 
@@ -188,18 +157,18 @@ code {
   letter-spacing: 0.08em;
   padding: 0.3rem 0.65rem;
   border-radius: 2px;
-  background: var(--espresso-600);
-  color: var(--paper);
+  background: var(--paper-warm);
+  color: var(--ink);
   line-height: 1;
-  border: 1px solid var(--espresso-500);
+  border: 1px solid var(--rule-soft);
 }
-.pill--gold, .pill--ochre { background: var(--ochre); color: var(--espresso); border-color: var(--ochre); }
+.pill--gold, .pill--ochre { background: var(--ochre); color: var(--paper); border-color: var(--ochre); }
 .pill--terracotta { background: var(--terracotta); color: var(--paper); border-color: var(--terracotta); }
 .pill--muted { background: transparent; color: var(--muted); }
 .pill--forest { background: var(--forest); color: var(--paper); border-color: var(--forest); }
 .pill--outline {
   background: transparent;
-  color: var(--paper);
+  color: var(--ink);
   border: 1px solid var(--rule);
 }
 
@@ -216,12 +185,12 @@ code {
   letter-spacing: 0.01em;
   padding: 0.7rem 1.2rem;
   border-radius: 2px;
-  background: var(--ochre);
-  color: var(--espresso);
-  border: 1px solid var(--ochre);
+  background: var(--plum);
+  color: var(--paper);
+  border: 1px solid var(--plum);
   cursor: pointer;
   text-decoration: none;
-  transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+  transition: background var(--transition), transform var(--transition);
 }
 .btn:hover {
   background: var(--terracotta);
@@ -231,19 +200,14 @@ code {
 .btn:active { transform: translateY(1px); }
 .btn--ghost {
   background: transparent;
-  color: var(--paper);
+  color: var(--ink);
   border: 1px solid var(--rule);
 }
 .btn--ghost:hover {
-  background: var(--espresso-700);
-  border-color: var(--ochre);
-  color: var(--ochre);
+  background: var(--paper-warm);
+  border-color: var(--plum);
+  color: var(--plum);
 }
-.paper .btn--ghost {
-  color: var(--ink);
-  border-color: var(--rule);
-}
-.paper .btn--ghost:hover { background: var(--paper-warm); }
 
 /* ───── Empty state filter ───── */
 
@@ -254,20 +218,16 @@ code {
   padding: 1rem 1.25rem;
   border: 1px dashed var(--rule);
   border-radius: var(--radius);
-  background: rgba(246, 239, 225, 0.04);
+  background: var(--paper-warm);
 }
 .filter-empty button {
   font: inherit;
   background: none;
   border: none;
-  color: var(--ochre);
+  color: var(--plum);
   text-decoration: underline;
   cursor: pointer;
   padding: 0;
-}
-.paper .filter-empty {
-  background: var(--paper-warm);
-  color: var(--muted);
 }
 
 /* ───── Editorial utility classes ───── */
@@ -278,7 +238,7 @@ code {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: var(--ochre);
+  color: var(--plum);
 }
 .display {
   font-variation-settings: "SOFT" 30, "WONK" 0, "opsz" 144;

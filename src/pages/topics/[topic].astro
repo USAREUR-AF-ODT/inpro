@@ -50,7 +50,7 @@ const sorted = all.sort((a, b) => (a.data.order - b.data.order) || a.data.title.
     .topic-index-head {
       margin: 0 0 4rem;
       padding-bottom: 2.5rem;
-      border-bottom: 1px solid var(--espresso-500);
+      border-bottom: 1px solid var(--rule-soft);
     }
     .topic-index-head .eyebrow {
       font-family: var(--font-display);
@@ -68,8 +68,8 @@ const sorted = all.sort((a, b) => (a.data.order - b.data.order) || a.data.title.
       color: var(--muted);
     }
     .topic-index-head code {
-      background: var(--espresso-700);
-      color: var(--ochre);
+      background: var(--paper-warm);
+      color: var(--plum);
       padding: 0.1em 0.4em;
       border-radius: 2px;
       font-size: 0.9em;
@@ -81,20 +81,20 @@ const sorted = all.sort((a, b) => (a.data.order - b.data.order) || a.data.title.
       margin: 0;
     }
     .entry-row {
-      border-top: 1px solid var(--espresso-500);
+      border-top: 1px solid var(--rule-soft);
     }
     .entry-row:last-child {
-      border-bottom: 1px solid var(--espresso-500);
+      border-bottom: 1px solid var(--rule-soft);
     }
     .entry-link {
       display: block;
       padding: 1.5rem 0.5rem;
       text-decoration: none;
-      color: var(--paper);
+      color: var(--ink);
       transition: background var(--transition), padding var(--transition);
     }
     .entry-link:hover {
-      background: var(--espresso-700);
+      background: var(--paper-warm);
       padding-left: 1.25rem;
     }
     .entry-meta-top {
@@ -106,10 +106,10 @@ const sorted = all.sort((a, b) => (a.data.order - b.data.order) || a.data.title.
     .entry-link h3 {
       margin: 0 0 0.5rem;
       font-size: 1.35rem;
-      color: var(--paper);
+      color: var(--ink);
       line-height: 1.25;
     }
-    .entry-link:hover h3 { color: var(--ochre); }
+    .entry-link:hover h3 { color: var(--plum); }
     .entry-link p {
       font-family: var(--font-sans);
       font-size: 0.95rem;

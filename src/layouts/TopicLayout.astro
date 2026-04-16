@@ -21,9 +21,9 @@ const profileJson = JSON.stringify({
   has_pets: frontmatter.profile_tags?.has_pets,
 });
 ---
-<BaseLayout title={`${frontmatter.title} — inpro`} description={frontmatter.summary} paper={true}>
+<BaseLayout title={`${frontmatter.title} — inpro`} description={frontmatter.summary}>
   <article
-    class="topic paper"
+    class="topic"
     data-profile={profileJson}
     data-pagefind-body
     data-pagefind-filter={`topic:${frontmatter.topic}`}
@@ -68,7 +68,6 @@ const profileJson = JSON.stringify({
 
   <style>
     .topic {
-      background: var(--paper);
       color: var(--ink);
     }
 
@@ -137,17 +136,7 @@ const profileJson = JSON.stringify({
       line-height: 1.65;
     }
     .topic-body :global(p:first-of-type) {
-      font-size: 1.15rem;
-    }
-    .topic-body :global(p:first-of-type::first-letter) {
-      font-size: 4rem;
-      font-weight: 400;
-      float: left;
-      line-height: 0.85;
-      margin-right: 0.4rem;
-      margin-top: 0.5rem;
-      color: var(--terracotta);
-      font-variation-settings: "SOFT" 20, "WONK" 1, "opsz" 144;
+      font-size: 1.1rem;
     }
     .topic-body :global(h2) {
       margin-top: 3rem;

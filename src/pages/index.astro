@@ -13,419 +13,277 @@ for (const e of all) {
   countByPhase.set(e.data.phase, (countByPhase.get(e.data.phase) ?? 0) + 1);
 }
 
-// Hand-pick a few featured entries to show on landing
-const featuredSlugs = [
-  'medical/emergency-numbers',
-  'housing/housing-services-office',
-  'id-cac/dsn-dialing-codes',
-  'vehicle/vehicle-registration',
-  'family/army-community-service',
-  'family/school-liaison-office',
-];
-const featured = featuredSlugs
-  .map(s => all.find(e => e.slug === s))
-  .filter(Boolean);
+const topicDescriptions: Record<typeof TOPICS[number], string> = {
+  housing: 'On-post quarters, off-post leases, TLA, temporary lodging, neighborhood profiles.',
+  finance: 'OHA, COLA, TLA, SOFA taxes, VAT forms, financial readiness.',
+  medical: 'Wiesbaden Army Health Clinic, TRICARE Overseas enrollment, off-post hospitals, emergency numbers.',
+  legal: 'Passports, SOFA cards, power of attorney, wills, lost-stolen checklists, German residency.',
+  vehicle: 'POV shipment, USAREUR registration, driver license conversion, inspections, buses, taxis.',
+  'id-cac': 'DBIDS, CAC replacement, SAAR, DSN dialing codes, ID cards for Family members.',
+  family: 'ACS, CYS, spouse sponsorship, EFMP, lending closet, financial readiness, family advocacy.',
+  schools: 'DoDEA Wiesbaden schools, School Liaison Office, registration, IEP transfer, off-post German schools.',
+  pets: 'Pet import requirements, USDA health certificate, on-post VTF, German pet laws.',
+  religious: 'Chapel services, Religious Support Office, worship schedule.',
+  mwr: 'Family and MWR — libraries, fitness centers, Army Lodge, Outdoor Recreation, Amelia Earhart Playhouse.',
+  unit: 'USAG Wiesbaden tenant units — V Corps, 2nd Theater Signal, 66th MI, 5th Signal, and more.',
+};
+
+const phaseDescriptions: Record<typeof PHASES[number], string> = {
+  before: 'Orders, EFMP, sponsorship, passports, pet shots, POV prep.',
+  arrive: 'Week one: HSO, finance, DES, ID enrollment, lodging.',
+  settle: '30/60/90-day tasks: Anmeldung, SOFA stamp, schools, health enrollment.',
+  life: 'Living here: German logistics, day trips, culture, day-to-day.',
+  sponsors: 'How to be a good sponsor.',
+};
 
 const totalEntries = all.filter(e => !e.data.stub).length;
 ---
-<BaseLayout title="inpro — The unofficial Wiesbaden PCS guide" description="Unofficial, offline-capable information portal for anyone PCSing to Wiesbaden, Germany.">
+<BaseLayout title="inpro — Wiesbaden PCS guide" description="Unofficial, offline-capable information portal for anyone PCSing to Wiesbaden, Germany.">
 
-  <!-- ░░░ Editorial hero ░░░ -->
-  <section class="hero">
-    <div class="hero-grid">
-      <div class="hero-text">
-        <p class="eyebrow">Issue 01 — {new Date().toLocaleString('en-US', { month: 'long', year: 'numeric' })}</p>
-        <h1 class="display">
-          PCSing to <em>Wiesbaden</em>?<br/>
-          <span class="kicker">Everything the welcome packet forgot.</span>
-        </h1>
-        <p class="lead">
-          Unofficial. Unclass. Offline-capable. Built by arrivals, for arrivals.
-          Set your view to filter content to <em>your</em> situation — or browse everything.
-        </p>
-        <div class="hero-cta">
-          <a class="btn" href={`${base}/arrive`}>Start with arrival day</a>
-          <a class="btn btn--ghost" href={`${base}/before`}>I haven't left yet</a>
-        </div>
-      </div>
+  <!-- Minimal title header -->
+  <header class="page-head">
+    <h1 class="display">The unofficial <em>Wiesbaden</em> PCS guide.</h1>
+    <p class="lead">{totalEntries} entries. No accounts, no tracking, works offline. Start where you are.</p>
+  </header>
 
-      <aside class="hero-stats">
-        <div class="stat">
-          <span class="stat-n">{totalEntries}</span>
-          <span class="stat-label">published entries</span>
-        </div>
-        <div class="stat">
-          <span class="stat-n">112</span>
-          <span class="stat-label">German emergency</span>
-        </div>
-        <div class="stat">
-          <span class="stat-n">065</span>
-          <span class="stat-label">wiesbaden area code</span>
-        </div>
-        <div class="stat">
-          <span class="stat-n">0<i>/</i>0</span>
-          <span class="stat-label">things we track</span>
-        </div>
-      </aside>
-    </div>
-  </section>
-
-  <!-- ░░░ Phase selector — editorial numbered list ░░░ -->
-  <section class="phase-selector">
-    <div class="section-head">
-      <p class="eyebrow">Where are you?</p>
-      <h2>Start the guide at the right point in your move.</h2>
-    </div>
-    <ol class="phase-list">
-      {PHASES.filter(p => p !== 'sponsors').map((phase, i) => (
+  <!-- Phase row (horizontal timeline) -->
+  <section class="phase-row-wrap">
+    <h2 class="section-label">By phase</h2>
+    <ol class="phase-row">
+      {PHASES.map((phase, i) => (
         <li>
-          <a href={`${base}/${phase}`} class="phase-row">
-            <span class="phase-num">{String(i + 1).padStart(2, '0')}</span>
-            <div class="phase-body">
-              <span class="phase-title">{PHASE_LABEL[phase]}</span>
-              <span class="phase-count">{countByPhase.get(phase) ?? 0} entries</span>
-            </div>
-            <span class="phase-arrow" aria-hidden="true">→</span>
+          <a href={`${base}/${phase}`}>
+            <span class="p-num">{String(i + 1).padStart(2, '0')}</span>
+            <span class="p-name">{PHASE_LABEL[phase]}</span>
+            <span class="p-desc">{phaseDescriptions[phase]}</span>
+            <span class="p-count">{countByPhase.get(phase) ?? 0}</span>
           </a>
         </li>
       ))}
     </ol>
   </section>
 
-  <!-- ░░░ Featured entries ░░░ -->
-  {featured.length > 0 && (
-    <section class="featured">
-      <div class="section-head">
-        <p class="eyebrow">Read first</p>
-        <h2>Six things everyone wishes they'd known on arrival day.</h2>
-      </div>
-      <div class="feature-grid">
-        {featured.map((e) => (
-          <a href={`${base}/entries/${e.slug}`} class="feature-card">
-            <p class="eyebrow">{TOPIC_LABEL[e.data.topic]}</p>
-            <h3>{e.data.title}</h3>
-            <p>{e.data.summary}</p>
-            <span class="read-more">Read →</span>
-          </a>
-        ))}
-      </div>
-    </section>
-  )}
-
-  <!-- ░░░ Topic grid ░░░ -->
-  <section class="topics">
-    <div class="section-head">
-      <p class="eyebrow">Or browse by topic</p>
-      <h2>Every category we cover.</h2>
-    </div>
-    <div class="topic-grid">
+  <!-- Categorical topic index -->
+  <section class="topic-index">
+    <h2 class="section-label">By topic</h2>
+    <ol class="topic-list">
       {TOPICS.map(topic => {
         const n = countByTopic.get(topic) ?? 0;
         return (
-          <a href={`${base}/topics/${topic}`} class="topic-chip" data-empty={n === 0}>
-            <span class="topic-label">{TOPIC_LABEL[topic]}</span>
-            <span class="topic-count">{n}</span>
-          </a>
+          <li>
+            <a href={`${base}/topics/${topic}`} class="topic-row" data-empty={n === 0}>
+              <span class="t-name">{TOPIC_LABEL[topic]}</span>
+              <span class="t-desc">{topicDescriptions[topic]}</span>
+              <span class="t-count">{n}</span>
+            </a>
+          </li>
         );
       })}
-    </div>
+    </ol>
   </section>
 
-  <!-- ░░░ Manifesto blurb ░░░ -->
-  <section class="manifesto">
-    <blockquote>
-      <p>
-        PCS packets tell you where buildings are. They don't tell you that Tuesday at Housing is appointments-only, that the 2024 Welcome Packet and the current crisis page use <em>different</em> emergency numbers, or that signing a lease before HSO reviews it kills your OHA claim.
-      </p>
-      <p class="sig">— The unofficial Wiesbaden PCS guide</p>
-    </blockquote>
+  <!-- Quick actions strip -->
+  <section class="strip">
+    <a class="strip-link" href={`${base}/search`}>
+      <span class="strip-icon" aria-hidden="true">⌕</span>
+      <span>Search all {totalEntries} entries</span>
+      <span class="strip-arrow" aria-hidden="true">→</span>
+    </a>
+    <a class="strip-link" href={`${base}/about`}>
+      <span class="strip-icon" aria-hidden="true">i</span>
+      <span>About inpro (not affiliated with anyone)</span>
+      <span class="strip-arrow" aria-hidden="true">→</span>
+    </a>
   </section>
 
   <style>
-    /* ───── HERO ───── */
-    .hero {
-      margin: 2rem 0 5rem;
-      padding-bottom: 3rem;
-      border-bottom: 1px solid var(--espresso-500);
+    /* Notion/Linear style — dense, clean, functional */
+
+    .page-head {
+      margin: 0 0 3rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--rule-soft);
+      max-width: 44rem;
     }
-    .hero-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 2.2fr) minmax(14rem, 1fr);
-      gap: 3rem;
-      align-items: start;
+    .page-head h1 {
+      margin: 0 0 0.5rem;
+      font-size: clamp(1.85rem, 3.4vw, 2.6rem);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      font-variation-settings: "SOFT" 30, "WONK" 0, "opsz" 144;
     }
-    .hero-text h1 {
-      margin: 0.75rem 0 1.5rem;
-    }
-    .hero-text h1 em {
+    .page-head h1 em {
       color: var(--terracotta);
       font-style: italic;
       font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144;
     }
-    .hero-text h1 .kicker {
-      font-size: 0.55em;
-      color: var(--muted);
-      font-weight: 400;
-      letter-spacing: -0.01em;
-      line-height: 1.2;
-      display: block;
-      margin-top: 0.5rem;
-    }
-    .hero-text .lead {
+    .page-head .lead {
       font-family: var(--font-sans);
-      font-size: 1.15rem;
-      color: var(--paper);
-      max-width: 36rem;
-      line-height: 1.55;
-    }
-    .hero-text .lead em {
-      font-style: italic;
-      color: var(--ochre);
-    }
-    .hero-cta {
-      margin-top: 2rem;
-      display: flex;
-      gap: 0.75rem;
-      flex-wrap: wrap;
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin: 0;
     }
 
-    .hero-stats {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 0.5rem;
-      padding: 1.5rem;
-      background: var(--espresso-700);
-      border: 1px solid var(--espresso-500);
-    }
-    .stat {
-      display: flex;
-      flex-direction: column;
-      padding: 0.75rem 0.5rem;
-    }
-    .stat-n {
-      font-family: var(--font-display);
-      font-size: 2.8rem;
-      font-weight: 400;
-      line-height: 1;
-      color: var(--ochre);
-      font-variation-settings: "SOFT" 30, "WONK" 0, "opsz" 144;
-      font-feature-settings: "tnum" 1;
-      letter-spacing: -0.03em;
-    }
-    .stat-n i { color: var(--terracotta); font-style: italic; }
-    .stat-label {
+    .section-label {
       font-family: var(--font-sans);
-      font-size: 0.7rem;
+      font-size: 0.72rem;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.15em;
       color: var(--muted);
-      margin-top: 0.4rem;
-      line-height: 1.2;
+      margin: 0 0 0.75rem;
     }
 
-    /* ───── SECTION HEADS ───── */
-    .section-head {
-      margin-bottom: 2rem;
-      max-width: 40rem;
-    }
-    .section-head h2 {
-      margin-top: 0.5rem;
-      font-size: clamp(1.5rem, 2.8vw, 2.2rem);
-    }
-
-    /* ───── PHASE SELECTOR (numbered editorial list) ───── */
-    .phase-selector { margin-bottom: 5rem; }
-    .phase-list {
+    /* Phase row — compact horizontal list */
+    .phase-row-wrap { margin-bottom: 2.5rem; }
+    .phase-row {
       list-style: none;
       padding: 0;
       margin: 0;
-      border-top: 1px solid var(--espresso-500);
-    }
-    .phase-list li { border-bottom: 1px solid var(--espresso-500); }
-    .phase-row {
       display: grid;
-      grid-template-columns: 5rem 1fr auto;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0;
+      border: 1px solid var(--rule-soft);
+    }
+    .phase-row li { border-right: 1px solid var(--rule-soft); }
+    .phase-row li:last-child { border-right: 0; }
+    .phase-row a {
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 0.2rem;
+      padding: 0.75rem 0.85rem;
+      text-decoration: none;
+      color: var(--ink);
+      height: 100%;
+      transition: background var(--transition);
+      min-height: 6rem;
+      position: relative;
+    }
+    .phase-row a:hover { background: var(--paper-warm); color: var(--plum); }
+    .p-num {
+      font-family: var(--font-display);
+      font-size: 0.9rem;
+      color: var(--terracotta);
+      font-feature-settings: "tnum" 1;
+      letter-spacing: -0.02em;
+      font-variation-settings: "SOFT" 50, "WONK" 1, "opsz" 72;
+    }
+    .p-name {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 500;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      font-variation-settings: "SOFT" 30, "WONK" 0, "opsz" 144;
+    }
+    .p-desc {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+    .p-count {
+      position: absolute;
+      top: 0.65rem;
+      right: 0.8rem;
+      font-family: var(--font-display);
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-feature-settings: "tnum" 1;
+    }
+
+    /* Topic list — Notion-style rows */
+    .topic-index { margin-bottom: 2.5rem; }
+    .topic-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .topic-list li { border-top: 1px solid var(--rule-soft); }
+    .topic-list li:last-child { border-bottom: 1px solid var(--rule-soft); }
+    .topic-row {
+      display: grid;
+      grid-template-columns: 11rem 1fr auto;
       gap: 1.5rem;
       align-items: baseline;
-      padding: 1.75rem 0.5rem;
+      padding: 0.75rem 0.25rem 0.75rem 0.5rem;
       text-decoration: none;
-      color: var(--paper);
+      color: var(--ink);
       transition: background var(--transition), padding var(--transition);
     }
-    .phase-row:hover {
-      background: var(--espresso-700);
-      padding-left: 1.5rem;
-      color: var(--ochre);
+    .topic-row:hover {
+      background: var(--paper-warm);
+      padding-left: 1rem;
+      color: var(--plum);
     }
-    .phase-num {
+    .topic-row[data-empty="true"] { color: var(--muted); }
+    .t-name {
       font-family: var(--font-display);
-      font-size: 3rem;
-      color: var(--terracotta);
-      font-variation-settings: "SOFT" 30, "WONK" 1, "opsz" 144;
-      font-feature-settings: "tnum" 1;
-      letter-spacing: -0.04em;
-    }
-    .phase-body {
-      display: flex;
-      flex-direction: column;
-      gap: 0.3rem;
-    }
-    .phase-title {
-      font-family: var(--font-display);
-      font-size: 1.75rem;
+      font-size: 1.1rem;
       font-weight: 500;
       letter-spacing: -0.01em;
-      font-variation-settings: "SOFT" 40, "WONK" 0, "opsz" 144;
+      font-variation-settings: "SOFT" 30, "WONK" 0, "opsz" 144;
     }
-    .phase-count {
+    .t-desc {
       font-family: var(--font-sans);
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
+      line-height: 1.45;
     }
-    .phase-arrow {
-      font-size: 1.5rem;
-      color: var(--muted);
-      transition: transform var(--transition), color var(--transition);
-    }
-    .phase-row:hover .phase-arrow {
-      color: var(--ochre);
-      transform: translateX(0.35rem);
-    }
-
-    /* ───── FEATURED ───── */
-    .featured { margin-bottom: 5rem; }
-    .feature-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-      gap: 1.25rem;
-    }
-    .feature-card {
-      padding: 1.5rem;
-      background: var(--espresso-700);
-      border: 1px solid var(--espresso-500);
-      text-decoration: none;
-      color: var(--paper);
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      transition: border-color var(--transition), transform var(--transition);
-    }
-    .feature-card:hover {
-      border-color: var(--ochre);
-      transform: translateY(-3px);
-      color: var(--paper);
-    }
-    .feature-card h3 {
-      margin: 0;
-      color: var(--paper);
-      font-size: 1.2rem;
-      line-height: 1.25;
-    }
-    .feature-card:hover h3 { color: var(--ochre); }
-    .feature-card p {
-      font-family: var(--font-sans);
-      font-size: 0.9rem;
-      color: var(--muted);
-      margin: 0;
-      line-height: 1.55;
-    }
-    .read-more {
-      margin-top: auto;
-      font-family: var(--font-sans);
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: var(--ochre);
-      font-weight: 600;
-    }
-
-    /* ───── TOPICS ───── */
-    .topics { margin-bottom: 5rem; }
-    .topic-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-    .topic-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.75rem;
-      padding: 0.7rem 1.1rem;
-      background: transparent;
-      border: 1px solid var(--espresso-500);
-      text-decoration: none;
-      color: var(--paper);
-      font-family: var(--font-sans);
-      font-size: 0.9rem;
-      font-weight: 500;
-      transition: all var(--transition);
-    }
-    .topic-chip:hover {
-      border-color: var(--ochre);
-      color: var(--ochre);
-      transform: translateY(-1px);
-    }
-    .topic-chip[data-empty="true"] {
-      color: var(--muted);
-      border-color: var(--espresso-500);
-    }
-    .topic-count {
-      display: inline-block;
-      min-width: 1.25rem;
-      text-align: center;
-      font-size: 0.72rem;
-      padding: 0.1rem 0.4rem;
-      background: var(--espresso-500);
-      color: var(--paper);
+    .t-count {
       font-family: var(--font-display);
+      font-size: 0.95rem;
+      color: var(--muted);
+      min-width: 2rem;
+      text-align: right;
       font-feature-settings: "tnum" 1;
     }
-    .topic-chip[data-empty="true"] .topic-count {
-      background: transparent;
-      color: var(--muted);
-      border: 1px solid var(--espresso-500);
-    }
+    .topic-row[data-empty="true"] .t-count { opacity: 0.4; }
 
-    /* ───── MANIFESTO ───── */
-    .manifesto {
-      border-top: 1px solid var(--espresso-500);
-      border-bottom: 1px solid var(--espresso-500);
-      padding: 3rem 0;
-      margin-top: 3rem;
+    /* Strip — secondary quick-action links */
+    .strip {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+      margin-top: 1.5rem;
     }
-    .manifesto blockquote {
-      max-width: 44rem;
-      margin: 0 auto;
-      padding: 0 1rem;
-      font-family: var(--font-display);
-      font-size: clamp(1.1rem, 2vw, 1.5rem);
-      line-height: 1.4;
-      color: var(--paper);
-      font-variation-settings: "SOFT" 60, "WONK" 0, "opsz" 72;
-    }
-    .manifesto blockquote em {
-      font-style: italic;
-      color: var(--terracotta);
-      font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 72;
-    }
-    .manifesto .sig {
+    .strip-link {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 0.75rem;
+      align-items: center;
+      padding: 0.9rem 1rem;
+      border: 1px solid var(--rule-soft);
+      text-decoration: none;
+      color: var(--ink);
       font-family: var(--font-sans);
       font-size: 0.9rem;
-      color: var(--muted);
-      margin-top: 1.5rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
+      transition: background var(--transition), border-color var(--transition);
     }
+    .strip-link:hover {
+      background: var(--paper-warm);
+      border-color: var(--plum);
+      color: var(--plum);
+    }
+    .strip-icon {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      color: var(--terracotta);
+      font-style: italic;
+      font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144;
+      width: 1.4rem;
+      text-align: center;
+    }
+    .strip-arrow { color: var(--muted); }
 
-    /* ───── RESPONSIVE ───── */
-    @media (max-width: 820px) {
-      .hero-grid { grid-template-columns: 1fr; gap: 2rem; }
-      .hero-stats { grid-template-columns: repeat(2, 1fr); max-width: 26rem; }
-      .phase-row { grid-template-columns: 3.5rem 1fr auto; padding: 1.25rem 0.5rem; }
-      .phase-num { font-size: 2.2rem; }
-      .phase-title { font-size: 1.35rem; }
+    @media (max-width: 800px) {
+      .phase-row { grid-template-columns: 1fr 1fr; }
+      .phase-row li { border-right: 1px solid var(--rule-soft); border-bottom: 1px solid var(--rule-soft); }
+      .phase-row li:nth-child(2n) { border-right: 0; }
+      .phase-row li:last-child { border-bottom: 0; }
+      .topic-row { grid-template-columns: 1fr auto; }
+      .t-desc { grid-column: 1 / -1; margin-top: 0.1rem; }
+      .strip { grid-template-columns: 1fr; }
     }
   </style>
 </BaseLayout>

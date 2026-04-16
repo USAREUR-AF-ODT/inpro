@@ -5,9 +5,8 @@ export interface Props {
   title: string;
   description?: string;
   ogImage?: string;
-  paper?: boolean;
 }
-const { title, description = 'Unofficial PCS guide for Wiesbaden, Germany.', ogImage, paper = false } = Astro.props;
+const { title, description = 'Unofficial PCS guide for Wiesbaden, Germany.', ogImage } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const canonical = new URL(Astro.url.pathname, Astro.site ?? 'http://localhost:4321').toString();
 const ogImg = ogImage ?? `${base}/og-default.png`;
@@ -19,8 +18,8 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="color-scheme" content="dark" />
-    <meta name="theme-color" content="#1A1612" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#F6EFE1" />
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
     <meta property="og:type" content="website" />
@@ -39,7 +38,7 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
       />
     )}
   </head>
-  <body class={paper ? 'paper' : ''}>
+  <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
@@ -95,12 +94,8 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
         position: sticky;
         top: 0;
         z-index: 50;
-        background: color-mix(in srgb, var(--espresso) 95%, transparent);
-        backdrop-filter: saturate(120%) blur(12px);
-        border-bottom: 1px solid var(--espresso-500);
-      }
-      .paper .site-header {
         background: color-mix(in srgb, var(--paper) 94%, transparent);
+        backdrop-filter: saturate(120%) blur(12px);
         border-bottom: 1px solid var(--rule-soft);
       }
       .masthead {
@@ -115,10 +110,9 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
         display: inline-flex;
         flex-direction: column;
         text-decoration: none;
-        color: var(--paper);
+        color: var(--ink);
       }
-      .paper .brand { color: var(--ink); }
-      .brand:hover { color: var(--ochre); }
+      .brand:hover { color: var(--plum); }
       .brand-mark {
         font-family: var(--font-display);
         font-size: 2.2rem;
@@ -143,10 +137,9 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
       .badge-slot { margin-left: auto; align-self: center; }
 
       .primary-nav {
-        border-top: 1px solid var(--espresso-500);
+        border-top: 1px solid var(--rule-soft);
         margin-top: 0.75rem;
       }
-      .paper .primary-nav { border-top-color: var(--rule-soft); }
       .nav-inner {
         max-width: 76rem;
         margin: 0 auto;
@@ -159,7 +152,7 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
       }
       .nav-inner::-webkit-scrollbar { display: none; }
       .nav-inner a {
-        color: var(--paper);
+        color: var(--ink);
         text-decoration: none;
         font-size: 0.9rem;
         font-weight: 500;
@@ -168,10 +161,9 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
         border-bottom: 2px solid transparent;
         transition: border-color var(--transition), color var(--transition);
       }
-      .paper .nav-inner a { color: var(--ink); }
       .nav-inner a:hover {
-        border-bottom-color: var(--ochre);
-        color: var(--ochre);
+        border-bottom-color: var(--plum);
+        color: var(--plum);
       }
       .nav-inner .num {
         font-family: var(--font-display);
@@ -181,7 +173,7 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
         font-feature-settings: "tnum" 1;
         font-variation-settings: "SOFT" 50, "WONK" 1, "opsz" 72;
       }
-      .nav-inner .search-link { margin-left: auto; color: var(--ochre); }
+      .nav-inner .search-link { margin-left: auto; color: var(--plum); }
 
       .banner-wrap {
         max-width: 76rem;
@@ -194,19 +186,13 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
         margin: 0 auto;
         padding: 2.5rem 1.5rem 5rem;
       }
-      .paper main { background: var(--paper); }
 
       .site-footer {
-        border-top: 1px solid var(--espresso-500);
-        background: var(--espresso-700);
+        border-top: 1px solid var(--rule-soft);
+        background: var(--paper-warm);
         font-family: var(--font-sans);
-        color: var(--paper);
+        color: var(--ink);
         margin-top: 4rem;
-      }
-      .paper .site-footer {
-        background: var(--espresso);
-        color: var(--paper);
-        border-top: none;
       }
       .ft-inner {
         max-width: 76rem;
@@ -217,22 +203,23 @@ const cfToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN;
         gap: 3rem;
       }
       .ft-col { display: flex; flex-direction: column; gap: 0.4rem; }
-      .ft-col a { color: var(--ochre); }
+      .ft-col a { color: var(--plum); }
       .ft-brand {
         font-family: var(--font-display);
         font-size: 1.6rem;
         letter-spacing: -0.03em;
         margin: 0;
         font-variation-settings: "SOFT" 20, "WONK" 1, "opsz" 144;
+        color: var(--ink);
       }
       .ft-brand i { color: var(--terracotta); font-style: italic; }
       .ft-tagline { font-size: 0.9rem; color: var(--muted); margin: 0; }
-      .ft-col p { margin: 0; font-size: 0.9rem; line-height: 1.5; }
-      .ft-col .eyebrow { color: var(--ochre); margin-bottom: 0.4rem; }
+      .ft-col p { margin: 0; font-size: 0.9rem; line-height: 1.5; color: var(--ink); }
+      .ft-col .eyebrow { color: var(--plum); margin-bottom: 0.4rem; }
       .ft-rule {
         max-width: 76rem;
         margin: 0 auto;
-        border-top: 1px solid var(--espresso-500);
+        border-top: 1px solid var(--rule-soft);
       }
       .ft-copy {
         max-width: 76rem;
