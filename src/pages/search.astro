@@ -1,16 +1,35 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SearchBox from '../components/SearchBox.astro';
+import { getCollection } from 'astro:content';
+const all = await getCollection('published');
+const totalEntries = all.filter(e => !e.data.stub).length;
 ---
 <BaseLayout title="Search — inpro" description="Search all inpro content for Wiesbaden PCS.">
   <header class="search-head">
-    <h1>Search</h1>
-    <p class="lead">Every page, POC, and source — searchable offline after first visit.</p>
+    <p class="eyebrow">Search</p>
+    <h1 class="display">Find <em>what you need</em>.</h1>
+    <p class="lead">{totalEntries} entries searchable. Try "housing", "OHA", "pets", "SOFA stamp", "DSN", or any POC's office.</p>
   </header>
   <SearchBox />
 
   <style>
-    .search-head { margin-bottom: 2rem; max-width: 44rem; }
-    .search-head .lead { font-family: var(--font-sans); color: var(--muted); font-size: 1.05rem; }
+    .search-head {
+      margin-bottom: 2.5rem;
+      max-width: 44rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--rule-soft);
+    }
+    .search-head h1 { margin: 0.5rem 0 0.75rem; }
+    .search-head h1 em {
+      color: var(--terracotta);
+      font-style: italic;
+      font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144;
+    }
+    .search-head .lead {
+      font-family: var(--font-sans);
+      color: var(--muted);
+      font-size: 1rem;
+    }
   </style>
 </BaseLayout>
