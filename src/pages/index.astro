@@ -46,6 +46,20 @@ const totalEntries = all.filter(e => !e.data.stub).length;
     <p class="lead">{totalEntries} entries. No accounts, no tracking, works offline. Start where you are.</p>
   </header>
 
+  <!-- Start here signpost -->
+  <section class="signpost">
+    <div class="signpost-row">
+      <div class="signpost-text">
+        <p class="eyebrow">Never PCSed overseas before?</p>
+        <p class="signpost-lead">Start with <a href={`${base}/entries/housing/first-72-hours`}>The first 72 hours</a> — a run sheet for the three days after you land.</p>
+      </div>
+      <div class="signpost-text">
+        <p class="eyebrow">Still in CONUS?</p>
+        <p class="signpost-lead">Read <a href={`${base}/entries/vehicle/pov-shipping`}>POV shipping</a> and <a href={`${base}/entries/finance/cost-of-living`}>cost of living</a> before orders drop.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Phase row (horizontal timeline) -->
   <section class="phase-row-wrap">
     <h2 class="section-label">By phase</h2>
@@ -122,6 +136,43 @@ const totalEntries = all.filter(e => !e.data.stub).length;
       font-size: 0.95rem;
       color: var(--muted);
       margin: 0;
+    }
+
+    /* Signpost — start-here block */
+    .signpost {
+      margin-bottom: 2.5rem;
+    }
+    .signpost-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      border: 1px solid var(--rule-soft);
+    }
+    .signpost-text {
+      padding: 1.25rem 1.5rem;
+      border-right: 1px solid var(--rule-soft);
+    }
+    .signpost-text:last-child { border-right: 0; }
+    .signpost-lead {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      line-height: 1.35;
+      margin: 0.35rem 0 0;
+      color: var(--ink);
+      font-variation-settings: "SOFT" 40, "WONK" 0, "opsz" 144;
+    }
+    .signpost-lead a {
+      color: var(--plum);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+    .signpost-lead a:hover {
+      color: var(--terracotta);
+    }
+    @media (max-width: 700px) {
+      .signpost-row { grid-template-columns: 1fr; }
+      .signpost-text { border-right: 0; border-bottom: 1px solid var(--rule-soft); }
+      .signpost-text:last-child { border-bottom: 0; }
     }
 
     .section-label {

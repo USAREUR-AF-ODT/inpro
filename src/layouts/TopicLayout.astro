@@ -9,8 +9,9 @@ import { TOPIC_LABEL, PHASE_LABEL } from '../lib/tags';
 export interface Props {
   frontmatter: any;
   slug: string;
+  related?: any[];
 }
-const { frontmatter, slug } = Astro.props;
+const { frontmatter, slug, related = [] } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const profileJson = JSON.stringify({
   status: frontmatter.profile_tags?.status,
@@ -63,6 +64,24 @@ const profileJson = JSON.stringify({
     )}
 
     <SourceList sources={frontmatter.sources ?? []} lastVerified={frontmatter.last_verified} />
+
+    {related.length > 0 && (
+      <section class="related">
+        <h2 class="related-head">Read next</h2>
+        <ul class="related-list">
+          {related.map((r: any) => (
+            <li>
+              <a href={`${base}/entries/${r.slug}`}>
+                <span class="r-topic">{r.data.topic}</span>
+                <span class="r-title">{r.data.title}</span>
+                <span class="r-summary">{r.data.summary}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
     <FeedbackLink slug={slug} title={frontmatter.title} lastVerified={frontmatter.last_verified} />
   </article>
 
@@ -209,6 +228,75 @@ const profileJson = JSON.stringify({
       grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
       gap: 1rem;
       margin-top: 1.5rem;
+    }
+
+    .related {
+      margin-top: 3.5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule-soft);
+    }
+    .related-head {
+      font-family: var(--font-sans);
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--muted);
+      margin: 0 0 1rem;
+    }
+    .related-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+      gap: 0;
+    }
+    .related-list li {
+      border-top: 1px solid var(--rule-soft);
+    }
+    .related-list li:last-child {
+      border-bottom: 1px solid var(--rule-soft);
+    }
+    .related-list a {
+      display: grid;
+      grid-template-rows: auto auto auto;
+      gap: 0.25rem;
+      padding: 0.9rem 0.5rem;
+      text-decoration: none;
+      color: var(--ink);
+      transition: background var(--transition), padding var(--transition);
+    }
+    .related-list a:hover {
+      background: var(--paper-warm);
+      padding-left: 1rem;
+      color: var(--plum);
+    }
+    .r-topic {
+      font-family: var(--font-sans);
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--plum);
+    }
+    .r-title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--ink);
+      letter-spacing: -0.01em;
+    }
+    .related-list a:hover .r-title { color: var(--plum); }
+    .r-summary {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    @media (min-width: 700px) {
+      .related-list { grid-template-columns: 1fr 1fr; }
+      .related-list li { border-right: 1px solid var(--rule-soft); }
+      .related-list li:nth-child(2n) { border-right: 0; }
     }
   </style>
 </BaseLayout>

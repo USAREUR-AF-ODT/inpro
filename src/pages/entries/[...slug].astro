@@ -6,13 +6,33 @@ export async function getStaticPaths() {
   const entries = await getCollection('published');
   return entries.map(e => ({
     params: { slug: e.slug },
-    props: { entry: e },
+    props: { entry: e, all: entries },
   }));
 }
 
-const { entry } = Astro.props;
+const { entry, all } = Astro.props;
 const { Content } = await entry.render();
+
+// Related entries: same topic, different entry, up to 4
+const related = all
+  .filter((e: any) => e.slug !== entry.slug && e.data.topic === entry.data.topic)
+  .sort((a: any, b: any) => (a.data.order - b.data.order))
+  .slice(0, 4);
+
+// Also include same-phase entries if related is thin
+const samePhase = related.length >= 3
+  ? []
+  : all
+      .filter((e: any) =>
+        e.slug !== entry.slug &&
+        e.data.phase === entry.data.phase &&
+        e.data.topic !== entry.data.topic &&
+        !related.find((r: any) => r.slug === e.slug))
+      .sort((a: any, b: any) => (a.data.order - b.data.order))
+      .slice(0, 4 - related.length);
+
+const relatedAll = [...related, ...samePhase];
 ---
-<TopicLayout frontmatter={entry.data} slug={entry.slug}>
+<TopicLayout frontmatter={entry.data} slug={entry.slug} related={relatedAll}>
   <Content />
 </TopicLayout>
