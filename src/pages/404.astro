@@ -1,20 +1,103 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { TOPIC_LABEL, TOPICS } from '../lib/tags';
+import { getCollection } from 'astro:content';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const all = await getCollection('published');
+
+// Most-useful entries to recommend from 404
+const featuredSlugs = [
+  'housing/first-72-hours',
+  'medical/emergency-numbers',
+  'housing/housing-services-office',
+  'finance/cost-of-living',
+];
+const featured = featuredSlugs
+  .map(s => all.find(e => e.slug === s))
+  .filter((x): x is NonNullable<typeof x> => Boolean(x));
 ---
-<BaseLayout title="Not found — inpro">
+<BaseLayout title="Not found — inpro" description="The page you requested doesn't exist.">
   <section class="nf">
-    <h1>Page not found</h1>
-    <p>That page does not exist or has been moved.</p>
-    <p>
+    <p class="eyebrow">404</p>
+    <h1 class="display">This page got <em>lost</em>.</h1>
+    <p class="lead">Either the URL is wrong or we haven't written this entry yet. Try one of these instead:</p>
+
+    <ul class="nf-list">
+      {featured.map(e => (
+        <li>
+          <a href={`${base}/entries/${e.slug}`}>
+            <span class="nf-topic">{TOPIC_LABEL[e.data.topic]}</span>
+            <span class="nf-title">{e.data.title}</span>
+            <span class="nf-summary">{e.data.summary}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <div class="nf-actions">
       <a class="btn" href={`${base}/`}>Home</a>
-      <a class="btn btn--ghost" href={`${base}/search`}>Search</a>
-    </p>
+      <a class="btn btn--ghost" href={`${base}/search`}>Search all entries</a>
+    </div>
   </section>
 
   <style>
-    .nf { max-width: 30rem; padding-top: 2rem; }
-    .nf p { margin: .75rem 0; font-family: var(--font-sans); }
-    .nf .btn { margin-right: .5rem; }
+    .nf { max-width: 42rem; margin: 0 auto; padding-top: 2rem; }
+    .nf h1 {
+      margin: 0.5rem 0 0.75rem;
+    }
+    .nf h1 em {
+      color: var(--terracotta);
+      font-style: italic;
+      font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144;
+    }
+    .nf .lead {
+      font-family: var(--font-sans);
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+    }
+    .nf-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 2rem;
+    }
+    .nf-list li {
+      border-top: 1px solid var(--rule-soft);
+    }
+    .nf-list li:last-child {
+      border-bottom: 1px solid var(--rule-soft);
+    }
+    .nf-list a {
+      display: grid;
+      gap: 0.25rem;
+      padding: 1rem 0.5rem;
+      text-decoration: none;
+      color: var(--ink);
+      transition: background var(--transition), padding var(--transition);
+    }
+    .nf-list a:hover {
+      background: var(--paper-warm);
+      padding-left: 1rem;
+      color: var(--plum);
+    }
+    .nf-topic {
+      font-family: var(--font-sans);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--plum);
+    }
+    .nf-title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+    .nf-summary {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .nf-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
   </style>
 </BaseLayout>
