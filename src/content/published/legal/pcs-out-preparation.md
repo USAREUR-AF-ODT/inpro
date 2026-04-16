@@ -8,7 +8,7 @@ profile_tags:
   status: [soldier, daciv, family]
 sources:
   - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing", label: "USAG Wiesbaden in/out-processing"}
-  - {tier: T4, url: "https://www.wiesbaden.de/en/living-in-wiesbaden/citizen-services/registration/", label: "Stadt Wiesbaden Registration (de-registration applies same office)"}
+  - {tier: T4, url: "https://www.wiesbaden.de/en/", label: "Stadt Wiesbaden Registration (de-registration applies same office)"}
 last_verified: "2026-04-16"
 poc_volatile: false
 order: 99

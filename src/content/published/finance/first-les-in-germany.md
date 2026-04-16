@@ -7,8 +7,8 @@ usag: wiesbaden
 profile_tags:
   status: [soldier, daciv]
 sources:
-  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Overseas-Housing-Allowance-(OHA)", label: "MyArmyBenefits — OHA"}
-  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Cost-of-Living-Allowance-(COLA)", label: "MyArmyBenefits — COLA"}
+  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library", label: "MyArmyBenefits — OHA"}
+  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library", label: "MyArmyBenefits — COLA"}
   - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/financial-assistance", label: "MOS — Wiesbaden Financial Assistance"}
 last_verified: "2026-04-16"
 poc_volatile: false

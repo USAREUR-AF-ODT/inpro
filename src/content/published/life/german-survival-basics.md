@@ -8,7 +8,7 @@ profile_tags:
   status: [soldier, daciv, family]
 sources:
   - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet — Host Nation Orientation"}
-  - {tier: T4, url: "https://www.wiesbaden.de/en/living-in-wiesbaden/", label: "Stadt Wiesbaden — Living in Wiesbaden"}
+  - {tier: T4, url: "https://www.wiesbaden.de/en/", label: "Stadt Wiesbaden — Living in Wiesbaden"}
 last_verified: "2026-04-16"
 poc_volatile: false
 order: 5

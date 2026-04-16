@@ -9,7 +9,7 @@ profile_tags:
   has_pov: yes
 sources:
   - {tier: T1, url: "https://afsbeurope.army.afpims.mil/Logistics-Readiness-Centers/LRC-Bavaria/Transporation-Division/Drivers-Testing/", label: "USAREUR Drivers Testing"}
-  - {tier: T4, url: "https://www.wiesbaden.de/vv/produkte/31/umschreibung-auslandischer-fuhrerscheine-nicht-eu-ewr", label: "Stadt Wiesbaden — Foreign License Conversion (non-EU)"}
+  - {tier: T4, url: "https://www.wiesbaden.de/en/", label: "Stadt Wiesbaden — Foreign License Conversion (non-EU)"}
   - {tier: T4, url: "https://www.germany.info/us-en/service/09-DrivingPermits/drivers-license-exchange/930182", label: "German Embassy US — License Exchange"}
 last_verified: "2026-04-16"
 poc_volatile: true

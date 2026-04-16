@@ -7,7 +7,7 @@ usag: wiesbaden
 profile_tags:
   status: [soldier, daciv, family]
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/Garrison/Legal", label: "USAG Wiesbaden Legal Office"}
+  - {tier: T1, url: "https://home.army.mil/wiesbaden", label: "USAG Wiesbaden Legal Office"}
   - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/legal/legal-assistance", label: "MOS — Wiesbaden Legal Assistance"}
   - {tier: T1, url: "https://home.army.mil/wiesbaden/2415/3838/8595/Legal_Home_of_Record.pdf", label: "Home of Record (PDF)"}
   - {tier: T1, url: "https://home.army.mil/wiesbaden/6415/3838/8596/Legal_Loss_in_Quarters.pdf", label: "Loss in Quarters (PDF)"}

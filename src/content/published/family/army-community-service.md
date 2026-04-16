@@ -10,7 +10,7 @@ sources:
   - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/army-community-service-acs", label: "Wiesbaden ACS"}
   - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "USAG Wiesbaden 2024 Welcome Packet (PDF)", scraped: "2026-04-16"}
   - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/relocation-assistance", label: "MOS — Wiesbaden Relocation Assistance", scraped: "2026-04-16"}
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/relocation-readiness-program", label: "Relocation Readiness Program"}
+  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/army-community-service-acs", label: "Relocation Readiness Program"}
 poc:
   - name: Army Community Service (ACS) — Hainerberg
     dsn: "548-9201"

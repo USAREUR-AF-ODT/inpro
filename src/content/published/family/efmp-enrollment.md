@@ -8,7 +8,7 @@ profile_tags:
   status: [soldier, daciv, family]
   has_kids: yes
 sources:
-  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Exceptional-Family-Member-Program-(EFMP)", label: "MyArmyBenefits — EFMP"}
+  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library", label: "MyArmyBenefits — EFMP"}
   - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/exceptional-family-member-program/preparing-for-your-move", label: "MOS — Wiesbaden EFMP Preparing"}
   - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/exceptional-family-member-program/special-education-eis", label: "MOS — Wiesbaden EFMP Special Education"}
 last_verified: "2026-04-16"

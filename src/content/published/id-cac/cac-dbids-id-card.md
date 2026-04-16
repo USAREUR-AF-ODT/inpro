@@ -8,7 +8,7 @@ profile_tags:
   status: [soldier, daciv, contractor, family]
 sources:
   - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing", label: "USAG Wiesbaden In-Processing"}
-  - {tier: T1, url: "https://www.dmdc.osd.mil/milconnect/public/faq/Dependents-Reporting_Changes", label: "DMDC milConnect — Dependents"}
+  - {tier: T1, url: "https://milconnect.dmdc.osd.mil/milconnect/", label: "DMDC milConnect — Dependents"}
   - {tier: T1, url: "https://home.army.mil/wiesbaden/2616/0345/0820/CPL_19_Replacement_of_Lost_Stolen_or_Altered_Government_ID_Card_or_CAC.pdf", label: "USAG Wiesbaden CPL 19 — Lost/Stolen ID (PDF)"}
 last_verified: "2026-04-16"
 poc_volatile: true

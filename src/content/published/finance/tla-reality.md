@@ -8,7 +8,7 @@ profile_tags:
   status: [soldier, daciv]
   accompanied: yes
 sources:
-  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Temporary-Lodging-Allowance-(TLA)", label: "MyArmyBenefits — TLA"}
+  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library", label: "MyArmyBenefits — TLA"}
   - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/temporary-housing", label: "MOS — Wiesbaden Temporary Housing"}
   - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/wiesbaden-army-lodge", label: "Wiesbaden Army Lodge"}
 last_verified: "2026-04-16"

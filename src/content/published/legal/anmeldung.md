@@ -8,10 +8,11 @@ profile_tags:
   status: [soldier, daciv, family]
   accompanied: yes
 sources:
-  - {tier: T4, url: "https://www.wiesbaden.de/en/living-in-wiesbaden/citizen-services/registration/", label: "Stadt Wiesbaden — Residence Registration"}
-  - {tier: T4, url: "https://www.wiesbaden.de/leben-in-wiesbaden/buergerservice/", label: "Stadt Wiesbaden — Bürgerservice"}
+  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing", label: "USAG Wiesbaden In-Processing — covers Anmeldung briefing"}
+  - {tier: T4, url: "https://www.wiesbaden.de/en/", label: "Stadt Wiesbaden — Residence Registration"}
+  - {tier: T4, url: "https://www.wiesbaden.de/", label: "Stadt Wiesbaden — Bürgerservice"}
   - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/check-in-procedures", label: "MOS — Wiesbaden Check-in"}
-last_verified: "2026-04-16"
+last_verified: "2026-04-17"
 poc_volatile: true
 order: 40
 poc:
