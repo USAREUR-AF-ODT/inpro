@@ -37,6 +37,13 @@ const phaseDescriptions: Record<typeof PHASES[number], string> = {
 };
 
 const totalEntries = all.filter(e => !e.data.stub).length;
+
+// Latest verified date across all entries
+const latestDate = all
+  .map(e => e.data.last_verified)
+  .filter(Boolean)
+  .sort()
+  .reverse()[0] || '';
 ---
 <BaseLayout title="inpro — Wiesbaden PCS guide" description="Unofficial, offline-capable information portal for anyone PCSing to Wiesbaden, Germany.">
 
@@ -44,6 +51,11 @@ const totalEntries = all.filter(e => !e.data.stub).length;
   <header class="page-head">
     <h1 class="display">The unofficial <em>Wiesbaden</em> PCS guide.</h1>
     <p class="lead">{totalEntries} entries. No accounts, no tracking, works offline. Start where you are.</p>
+    <p class="stamp">
+      <span class="stamp-dot" aria-hidden="true"></span>
+      <span>Latest verification</span>
+      <time datetime={latestDate}>{latestDate}</time>
+    </p>
   </header>
 
   <!-- Start here signpost -->
@@ -136,6 +148,32 @@ const totalEntries = all.filter(e => !e.data.stub).length;
       font-size: 0.95rem;
       color: var(--muted);
       margin: 0;
+    }
+    .stamp {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-family: var(--font-sans);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--muted);
+      margin: 0.9rem 0 0;
+      padding: 0.3rem 0.7rem;
+      border: 1px solid var(--rule-soft);
+      border-radius: 2px;
+      background: var(--paper-warm);
+    }
+    .stamp-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--forest);
+    }
+    .stamp time {
+      color: var(--plum);
+      font-weight: 600;
+      font-feature-settings: "tnum" 1;
     }
 
     /* Signpost — start-here block */
