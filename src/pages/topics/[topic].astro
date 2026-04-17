@@ -11,6 +11,21 @@ const { topic } = Astro.params as { topic: Topic };
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const all = await getCollection('published', e => e.data.topic === topic);
 const sorted = all.sort((a, b) => (a.data.order - b.data.order) || a.data.title.localeCompare(b.data.title));
+
+const topicIntro: Record<Topic, string> = {
+  housing: 'On-post quarters or off-post lease, TLA math, HHG, and which neighborhoods reward which priorities. Start with the Housing Services Office.',
+  finance: 'OHA, COLA, TLA, VAT forms, and reading your first German LES. Budget for the transition-month crunch; lean on Financial Readiness at ACS.',
+  medical: 'Wiesbaden Army Health Clinic, TRICARE Overseas referrals through ATLAS, English-speaking specialists, emergency numbers. Dental is separate.',
+  legal: 'Passports and SOFA stamp, Anmeldung for off-post residents, German bureaucracy. Wills and POAs through the on-post Legal Office.',
+  vehicle: 'POV shipping, USAREUR registration, driver-license conversion, Autobahn rules, and the public transit that lets you live here without a car.',
+  'id-cac': 'The administrative spine — CAC, DBIDS, DEERS, DSN codes, ID Card Center, APO mail, 110/220V electronics, and the essential pre- and post-arrival checklists.',
+  family: 'ACS programs, CYS childcare and youth, spouse sponsorship, EFMP continuity, family advocacy, and spouse employment — the family-side support stack.',
+  schools: 'DoDEA Wiesbaden schools, School Liaison Office, EFMP coordination, off-post German and international options.',
+  pets: 'Bringing pets to Germany, the on-post VTF, German pet laws, and returning pets to the US at tour end.',
+  religious: 'On-post chapel services through the Religious Support Office and off-post faith communities across traditions.',
+  mwr: 'Commissary, PX, Shoppette, Wiesbaden Army Lodge, recreation, and the seasonal calendar of things actually worth doing.',
+  unit: 'USAG Wiesbaden tenant units and what to expect your first week reporting for duty.',
+};
 ---
 <BaseLayout
   title={`${TOPIC_LABEL[topic]} — inpro`}
@@ -19,7 +34,8 @@ const sorted = all.sort((a, b) => (a.data.order - b.data.order) || a.data.title.
   <header class="topic-index-head">
     <p class="eyebrow">Topic</p>
     <h1 class="display">{TOPIC_LABEL[topic]}</h1>
-    <p class="lead">{sorted.length} entries · tagged <code>{topic}</code></p>
+    <p class="lead">{topicIntro[topic]}</p>
+    <p class="topic-meta">{sorted.length} {sorted.length === 1 ? 'entry' : 'entries'} · tagged <code>{topic}</code></p>
   </header>
 
   {sorted.length === 0 ? (
@@ -61,11 +77,22 @@ const sorted = all.sort((a, b) => (a.data.order - b.data.order) || a.data.title.
       font-weight: 400;
       font-variation-settings: "SOFT" 30, "WONK" 1, "opsz" 72;
     }
-    .topic-index-head h1 { margin: 0.5rem 0 0.75rem; }
+    .topic-index-head h1 { margin: 0.5rem 0 1rem; }
     .topic-index-head .lead {
       font-family: var(--font-sans);
       font-size: 1.05rem;
+      color: var(--ink);
+      max-width: 44rem;
+      line-height: 1.55;
+      margin: 0 0 1rem;
+    }
+    .topic-meta {
+      font-family: var(--font-sans);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
       color: var(--muted);
+      margin: 0;
     }
     .topic-index-head code {
       background: var(--paper-warm);
