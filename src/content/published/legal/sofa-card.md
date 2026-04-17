@@ -113,6 +113,6 @@ In Wiesbaden, what you get is the passport stamp. Carry it whenever you're off-p
 - **Lost passport**: immediate MP report, then visit the Passport/Visa Office for emergency processing. Replacement SOFA stamp comes with the new passport.
 - **Family member work authorization ≠ SOFA status.** Spouses trying to work on the German economy need separate paperwork from Stadt Wiesbaden. Having the SOFA stamp doesn't mean you can take a German job without permission.
 
-## Sources
+## Source notes
 
 Synthesized from the USAG Wiesbaden Passport/Visa Office page, the 2024 Welcome Packet's legal/admin section, and the NATO SOFA of 1951 (the underlying treaty). Specific office hours and scheduling change; confirm via the garrison DHR page before going.

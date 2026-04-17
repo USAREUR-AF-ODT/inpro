@@ -72,6 +72,6 @@ Bus zones and catchments tie to your housing address. Confirm before signing a l
 - **Some housing areas are zoned to Ramstein's district**, which isn't Wiesbaden SLO's territory — double-check if you're offered housing outside Wiesbaden proper.
 - **Homeschool is recognized under DoDEA policy**, but state reciprocity for standardized testing depends on your state of residence.
 
-## Sources
+## Source notes
 
 See the Sources panel below. Primary source is the Army Europe SLO PCS Guide, cross-referenced against DoDEA Wiesbaden Community Schools and MilitaryOneSource. Policies update yearly — confirm specifics with the SLO before acting.

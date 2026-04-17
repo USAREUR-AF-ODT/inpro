@@ -153,6 +153,6 @@ See the Pet Import entry for the full list and requirements. If you own one, Hes
 - **Pet travel on Patriot Express** — coordinate through your losing / gaining PCS coordinator; cargo vs. cabin rules differ by airline and aircraft.
 - **Exotic pets** (ferrets, reptiles, birds) — import rules and German possession rules differ. Research before committing.
 
-## Sources
+## Source notes
 
 Synthesized from the Wiesbaden VTF information in the 2024 Welcome Packet (with DSN and hours) and MilitaryOneSource's Wiesbaden pets page. Civilian vet network and German pet-law specifics are community knowledge and Stadt Wiesbaden municipal law — verify current breed-specific rules directly with Stadt Wiesbaden before committing.

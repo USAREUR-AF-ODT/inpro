@@ -64,6 +64,6 @@ See the POC panel below for the main line, appointment line, and dental line.
 - **No walk-in sick call for family members.** Route through the appointment line.
 - **Third-Thursday closure** catches people every month — check before you drive.
 
-## Sources
+## Source notes
 
 Numbers confirmed against 2024 Welcome Packet + MilitaryOneSource Wiesbaden page. Emergency numbers cross-checked in the Crisis Phone Numbers entry. Phone numbers rotate occasionally; call the clinic before making the drive.

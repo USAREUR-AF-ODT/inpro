@@ -68,6 +68,6 @@ Your first visit is typically a **counseling session**. Bring orders, dependent 
 - **Pets narrow your options fast.** Not every on-post unit is pet-friendly, and RPP landlords set their own rules. Mention pets at your first appointment.
 - **Tue/Thu means appointment only.** Showing up for a walk-in on Tuesday is a wasted trip.
 
-## Sources
+## Source notes
 
 See the Sources panel below for authoritative references. HSO policy is owned by the garrison; confirm current hours and documentation requirements by phone before your appointment.

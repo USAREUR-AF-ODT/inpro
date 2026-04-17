@@ -75,6 +75,6 @@ This page is a reference; no POC. If a number isn't working, call the operator a
 - **Skype / WhatsApp / iMessage** via Wi-Fi works on Clay Kaserne. Most family members keep their US number on a Wi-Fi calling plan as a backup during settle-in.
 - **US 800 numbers generally don't work from Germany.** Use the international alt lines (e.g. TRICARE Overseas: `+00-800-4444-8844`).
 
-## Sources
+## Source notes
 
 See the Sources panel below. Prefix tables confirmed against the garrison contact page and 2024 Welcome Packet. Prefix ranges rarely change; individual numbers shift more often.

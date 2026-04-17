@@ -71,6 +71,6 @@ The RSO keeps a current list of off-post contacts and can refer you.
 - **Religious garb / observance during duty** — chaplains advise on accommodations; request in writing through the chain.
 - **Holiday observances** — Good Friday, Easter Monday, Whit Monday, and Corpus Christi are federal holidays in Hessen (state where Wiesbaden sits). Post and much of the economy closes.
 
-## Sources
+## Source notes
 
 Synthesized from the USAG Wiesbaden RSO garrison page and the 2024 Welcome Packet's religious support section. Specific service times change with chaplain rotations — always call the RSO or check the current bulletin before your first visit.

@@ -135,6 +135,6 @@ Sponsorship is officially 30 days or until outprocessing — but the relationshi
 - **If things go wrong** (sponsored person can't make appointments, isn't responsive, or seems to be struggling with more than PCS stress) — escalate to the unit chain of command, not to your own private network
 - **Sponsor-to-sponsor** — after a good tour, close the loop with the S1. Your next assignment will benefit from you being on record as a reliable sponsor.
 
-## Sources
+## Source notes
 
 Synthesized from USAG Wiesbaden's sponsorship page and the Sponsor Checklist Template PDF. Your unit's specific sponsorship SOP takes precedence — this is a companion, not a replacement.

@@ -126,6 +126,6 @@ The Legal Office can refer to English-speaking German attorneys in Wiesbaden. Ex
 - **Custody order compliance across borders**: a US custody order doesn't automatically override a German family court ruling if both apply. Consult before any move affecting custody.
 - **Not all estates end in a simple will**: if you own property in multiple states / countries, consult early. German inheritance law (*Erbrecht*) differs substantively from US probate.
 
-## Sources
+## Source notes
 
 Synthesized from the USAG Wiesbaden Legal Office garrison page, MilitaryOneSource's Wiesbaden legal assistance overview, and the three specific Legal Office PDFs (Home of Record, Loss in Quarters, Divorce Overseas) hosted on the garrison site. Specific office hours and procedures change — confirm via DHR main line before scheduling.

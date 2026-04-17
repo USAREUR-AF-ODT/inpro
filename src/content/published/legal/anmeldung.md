@@ -90,6 +90,6 @@ Most Bürgeramt staff speak some English. Wiesbaden is the state capital of Hess
 - **SOFA status does not exempt you from Anmeldung** when you live off-post. Many Soldiers think it does. It doesn't.
 - **Wrong address on your registration creates downstream problems** with banks, schools, and Rundfunk. Double-check before you sign.
 
-## Sources
+## Source notes
 
 Process synthesized from Stadt Wiesbaden's English-language Bürgerservice pages, the German statutes on Meldegesetz, and MilitaryOneSource check-in procedures for Wiesbaden. Fees and appointment systems change; confirm current specifics at `wiesbaden.de` before you go.

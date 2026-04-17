@@ -92,6 +92,6 @@ If your home-of-record state has full reciprocity, conversion is paperwork only.
 
 Don't convert. Drive on your US license + USAREUR cert. Use the shuttle for on-post trips, Deutsche Bahn for anything significant off-post. Many Family members never drive in Germany at all — the train system makes it optional.
 
-## Sources
+## Source notes
 
 Reciprocity chart and conversion process synthesized from the German Embassy's US-facing guidance, Stadt Wiesbaden's specific Umschreibung process for non-EU licenses, and USAREUR Driver Testing policy. State reciprocity is negotiated bilaterally and changes occasionally — confirm your specific state with the Fahrerlaubnisbehörde before Anmeldung.

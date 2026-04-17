@@ -80,6 +80,6 @@ Army Lodge is usually the right choice. Off-post makes sense if:
 
 If you go off-post, call HSO first for an approved hotel list. Random booking.com picks may exceed the rate cap.
 
-## Sources
+## Source notes
 
 Math and policy synthesized from MyArmyBenefits TLA page, MilitaryOneSource Wiesbaden temporary-housing overview, and the Wiesbaden Army Lodge program. Per-diem rates and caps are published quarterly by DoD; always verify the current rate in Defense Travel's per diem calculator for the quarter you PCS.

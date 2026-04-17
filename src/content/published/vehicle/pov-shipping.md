@@ -57,6 +57,6 @@ Buying in Germany: AAFES Exchange has a US-spec car lot; local dealers around Wi
 - **Married accompanied**: 3 POVs
 - More than that requires a Commander-signed waiver. Yes, really.
 
-## Sources
+## Source notes
 
 See the Sources panel below. The 4–8 week window reflects actual transit times in 2024–2025; specific drop-off windows shift with port congestion. The army.mil LRC page is authoritative for paperwork; MilitaryOneSource has the most up-to-date user-experience content. Call your gaining LRC-Wiesbaden for questions specific to your orders.

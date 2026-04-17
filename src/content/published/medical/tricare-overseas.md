@@ -97,6 +97,6 @@ Expect to pay your dentist up front and file for reimbursement — a small numbe
 - **Prescription drug cost**: US brand-name meds may be unavailable; German generics are prescribed instead. The ARHC pharmacist can advise.
 - **US-specific drugs** (Adderall, some ADHD meds, certain sleep aids) are restricted or banned in Germany. If you're on one, coordinate substitution with your PCM before arrival.
 
-## Sources
+## Source notes
 
 Process synthesized from TRICARE's OCONUS eligibility page, the TRICARE Overseas Plans policy, International SOS's contractor site, and MilitaryOneSource's Wiesbaden health care deep page. Specific plan rules change annually; verify with International SOS before any major care decision.

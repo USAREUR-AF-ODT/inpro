@@ -144,6 +144,6 @@ Solution: Professional cleaning service + photo documentation of final state. Mo
 - **Don't bring US candy / liquid restrictions** — carry-on liquids at FRA apply. Checked bag weight restrictions apply.
 - **Ensure dependents' passports are valid** for 6+ months past travel — many countries require this.
 
-## Sources
+## Source notes
 
 Synthesized from the garrison in/out-processing pages and the Stadt Wiesbaden registration policies (which cover Abmeldung). PCS-out is a pattern every Soldier repeats; the specific provider schedules (utility cancellation timelines, mobile contract notice periods) change — verify with each provider before relying on a specific deadline.

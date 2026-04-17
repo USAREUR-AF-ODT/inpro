@@ -98,6 +98,6 @@ You'll walk out with an IBAN and a temporary card. The permanent EC-Karte arrive
 - **Financial Readiness Program (FRP) at ACS** offers free 1-on-1 budget counseling — use it in your first 30 days if you're new to European banking.
 - **Credit history doesn't transfer.** Your US FICO is invisible here. If you want a German credit card, expect a secured-card setup first.
 
-## Sources
+## Source notes
 
 Practical guidance synthesized from the Army MWR Financial Readiness Program page, the garrison in-processing links (which point newcomers to Andrews and Community), and community knowledge about German banking. Banking law and fee schedules change annually — confirm current fees with the specific bank before opening.

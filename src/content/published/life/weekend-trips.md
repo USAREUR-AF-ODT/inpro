@@ -112,6 +112,6 @@ Overnight buses to Berlin, Paris, Prague for €20–€50. Uncomfortable, but c
 - **Oktoberfest hotel prices in Munich** go from €100/night to €700/night during the event weeks. Book 8 months out or stay in Augsburg and commute.
 - **Christmas markets open late November, close December 23.** Nuremberg's is the most famous; Heidelberg's is more atmospheric; Wiesbaden's own *Sternschnuppenmarkt* runs in front of the Rathaus and is lovely.
 
-## Sources
+## Source notes
 
 Personal opinion and community knowledge, cross-referenced with Wiesbaden MWR travel guidance and garrison Getting Around page. Rick Steves' Europe is the de facto guidebook for Americans in Europe — better for depth than I can offer in one page.

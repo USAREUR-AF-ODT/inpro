@@ -94,6 +94,6 @@ You need an **AAFES Ration Card** to purchase fuel. Issued once per tour at the 
 - **Food court cash**: some kiosks don't take cards. Keep a few dollars / euros.
 - **Commissary has better meat than most German grocery chains** for US cuts (brisket, specific ribs). German butcher shops (*Metzgerei*) are better for German cuts.
 
-## Sources
+## Source notes
 
 Synthesized from the Wiesbaden MWR directory, the 2024 Welcome Packet's shopping section, and MilitaryOneSource's MWR overview. Hours and policies change seasonally — verify on the Wiesbaden MWR website before committing to a specific store run.

@@ -119,6 +119,6 @@ Some contractors on post offer "German-package-to-CAC-holder" relay services —
 - **Lost packages from APO** — file claims with USPS at `usps.com/help`. Can take 30 days.
 - **Customs inspections** — about 1 in 50 APO packages get opened by customs. If yours does, you'll see a re-taped box. Nothing to worry about.
 
-## Sources
+## Source notes
 
 Synthesized from the USAG Wiesbaden Postal Services garrison page, the 2024 Welcome Packet's mail section, and USPS APO shipping policy (publicly documented at usps.com). Box assignment processes and specific hours change; confirm at the Postal Services counter or via ACS.

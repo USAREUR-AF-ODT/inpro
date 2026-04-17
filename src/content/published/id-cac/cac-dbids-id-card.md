@@ -103,6 +103,6 @@ Per USAG Wiesbaden CPL 19 (lost/stolen ID policy):
 - **CAC PINs get forgotten.** PIN reset requires in-person visit to the ID Card Center. Budget an appointment just for this if it happens.
 - **Dual-citizen dependents** have extra paperwork — bring the US passport, not just the EU one.
 
-## Sources
+## Source notes
 
 Process synthesized from the USAG Wiesbaden in-processing page, DMDC's milConnect dependents FAQ, and the USAG Wiesbaden CPL 19 policy for lost/stolen IDs. Hours and appointment systems change; confirm via `idco.dmdc.osd.mil` before showing up.

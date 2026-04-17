@@ -124,6 +124,6 @@ Plan for **$10,000 USD liquid available** before you sign a lease, or arrange an
 - **Vehicle tax (Kfz-Steuer)** for non-USAREUR-plated cars — you probably don't have this if you're on USAREUR plates, but a German-plated car costs €100–€500/year.
 - **Moving costs at PCS-out** are partially covered by DTS, but transporting anything bought in Germany to CONUS may exceed your shipping weight allowance. Plan downsizing.
 
-## Sources
+## Source notes
 
 Synthesized from MyArmyBenefits OHA and COLA overviews, MilitaryOneSource Wiesbaden financial assistance guidance, and current 2024–2025 German pricing from public sources. Specific allowance caps update quarterly — verify in the Defense Travel per diem calculator or via Finance before budgeting.

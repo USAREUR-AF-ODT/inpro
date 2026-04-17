@@ -85,6 +85,6 @@ If your child's condition is borderline, ask HRC EFMP branch for a case-by-case 
 - **Not every specialty exists in Wiesbaden.** Some families travel to Landstuhl (Army regional medical center, 90 min south) or Frankfurt for complex care.
 - **EFMP enrollment does not negatively affect career.** The myth that it tanks assignments is outdated — it tanks *unsuitable* assignments, which is the point.
 
-## Sources
+## Source notes
 
 Process synthesized from MyArmyBenefits EFMP page, MilitaryOneSource Wiesbaden EFMP deep pages (4 separate sub-pages on preparing, health care, education directory, and EIS), and the Army Europe policy on EFMP continuity. Local specialist lists change frequently; confirm current providers with the Wiesbaden EFMP liaison at ACS.

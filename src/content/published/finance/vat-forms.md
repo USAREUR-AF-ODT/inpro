@@ -71,6 +71,6 @@ Phone: **DSN 548-9107 / +49-611-143-548-9107**.
 
 Same office runs UTAP — avoids VAT on **home utilities** (gas, electric, water, internet). You pay the pre-tax rate directly. Set this up when you move in. Separate briefing, separate paperwork, but big savings over a 3-year tour.
 
-## Sources
+## Source notes
 
 Rules synthesized from the 2024 Welcome Packet (which quotes VAT program manager Clifford Wix directly on enforcement) and the Wiesbaden MWR VAT program page. Policy is Army-wide USAREUR; enforcement is local. When in doubt, call the VAT office before shopping.

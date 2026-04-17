@@ -122,6 +122,6 @@ Most service staff in Wiesbaden speak some English. Leading with a German phrase
 - **Don't jaywalk in front of a child.** Parents get actively upset. It's a cultural norm enforced via social pressure.
 - **German birthdays**: birthday person brings cake / treats to work, not the other way around. Congratulating someone before their actual birthday is considered bad luck.
 
-## Sources
+## Source notes
 
 Host Nation Orientation section of the 2024 Welcome Packet is the official brief; this page's voice and specifics come from community knowledge validated against Stadt Wiesbaden's English-language living pages. Rules around Ruhezeit and recycling are enforced by law; cultural rules are enforced by social norm.

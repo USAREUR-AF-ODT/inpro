@@ -52,6 +52,6 @@ This is the "if you only read one thing before you land" page. The run sheet bel
 - **You will be jetlagged and dumb.** Write things down. Bring a paper checklist. Use the phone note app.
 - **Don't try to do all three days back-to-back on Day 1.** You'll forget something.
 
-## Sources
+## Source notes
 
 The run sheet above is synthesized from the garrison in-processing page, the 2024 Welcome Packet, and MilitaryOneSource's Wiesbaden check-in procedures. Timings reflect the typical command-sponsored accompanied arrival pattern; unaccompanied Soldiers and civilians have a slightly compressed schedule (barracks assignment replaces Army Lodge).

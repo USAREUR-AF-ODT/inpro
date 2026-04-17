@@ -98,6 +98,6 @@ See the POC panel. Call before driving — the satellite office schedule can shi
 - **Closed last working day of the month** catches people every month.
 - **License conversion is separate** from registration — see the Drivers License page; DES doesn't issue German licenses.
 
-## Sources
+## Source notes
 
 See the Sources panel below. Forms and fees confirmed against 2024 Welcome Packet; call DES for any form or fee update before your appointment.

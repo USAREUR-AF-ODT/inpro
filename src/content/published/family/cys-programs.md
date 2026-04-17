@@ -147,6 +147,6 @@ Inclusive program design; specific accommodations vary by child's needs. Talk to
 - **Summer camp theme changes yearly** — the sports camp you loved last year may not run this year. Re-check the seasonal catalog.
 - **Two parents working — no auto-priority.** You don't get bumped to the top of the waitlist just because both spouses work. Family Child Care may be your bridge.
 
-## Sources
+## Source notes
 
 Synthesized from the Wiesbaden CYS services directory on the MWR site, the 2024 Welcome Packet's CYS section, and MilitaryOneSource's Wiesbaden CYS deep page. Registration requirements, fees, and WebTrac system change — verify with Parent Central Services at arrival.

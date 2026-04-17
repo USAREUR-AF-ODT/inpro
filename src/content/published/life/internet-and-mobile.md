@@ -108,6 +108,6 @@ If you'll work remotely or take video calls from home:
 - **Airport Wi-Fi at FRA** is free but slow. Your German SIM with EU roaming works everywhere.
 - **Phone number portability** — bringing your old German number to a new carrier takes 3–7 days. Plan around it if you switch mid-tour.
 
-## Sources
+## Source notes
 
 Carrier landscape and contract norms are general community knowledge for Germany; cross-referenced with the 2024 Welcome Packet's phone-setup section. Prices and contract terms change frequently — confirm current rates at the specific carrier's website or a retail store before signing.

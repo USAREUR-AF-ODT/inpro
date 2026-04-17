@@ -100,6 +100,6 @@ Other "dangerous breed" designations (e.g., Rottweiler, Doberman) vary by munici
 - **Rx refills from the VTF require 72-hour lead time.** Don't run your pet out of meds.
 - **Pet import from countries OTHER than the US** (if you adopt mid-tour from Germany or another EU country) is a different process — EU Pet Passport.
 
-## Sources
+## Source notes
 
 Process synthesized from USDA APHIS's official US-to-Germany pet travel page, Wiesbaden MilOneSource shipping-pets guidance, and the garrison Welcome Packet's veterinary section. Hessen breed law is the state's own statute — confirm current designations with Stadt Wiesbaden before arrival.

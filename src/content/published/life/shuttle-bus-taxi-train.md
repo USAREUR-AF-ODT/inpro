@@ -127,6 +127,6 @@ Tier, Bolt, and Voi all operate electric scooters / e-bikes in Wiesbaden. Downlo
 - **The "Deutschlandticket on a child"** — kids under 6 ride free; 6–14 needs their own (subsidized €29/month option exists). Confirm current rules.
 - **Airport shuttle from Wiesbaden to FRA**: Flibco and Hessen Express run regularly; ~€15 one-way, 40 min. Cheaper than a taxi if you're alone.
 
-## Sources
+## Source notes
 
 Schedules and routes synthesized from the USAG Wiesbaden Getting Around garrison page and the 2024 Welcome Packet's shuttle/taxi sections, plus current ESWE/DB tariff structures. Exact bus schedules and fares change; check the operator's app for real-time info before each trip.

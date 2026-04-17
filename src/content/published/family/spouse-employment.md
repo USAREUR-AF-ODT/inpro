@@ -136,6 +136,6 @@ Call ACS at **DSN 548-9201** and ask for the Employment Readiness Program manage
 - **Remote US work from Germany** — some US states (California, New York) have aggressive state-tax rules that continue to apply if you "work from home" in Germany. Consult state tax guidance.
 - **Freelancing in Germany** requires a *Freiberufler* tax ID and additional paperwork; not the lightest lift.
 
-## Sources
+## Source notes
 
 Synthesized from Wiesbaden MWR's employment page, MilitaryOneSource's Wiesbaden employment overview, and the MSEP program structure. Specific federal/MSEP programs and eligibility change; verify with ACS ERP before committing to a specific path.

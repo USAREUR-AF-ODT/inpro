@@ -73,6 +73,6 @@ See the numbers above. Put them in your phone's emergency contacts **before** yo
 - **When calling German emergency services from a German mobile, a location usually pops on their screen automatically.** State your language ("English, please") first — dispatchers in Hessen generally handle English.
 - **Off-post hospital ERs require ID and may ask for payment up front.** Keep your TRICARE Overseas card handy; you'll be reimbursed for covered emergency care.
 
-## Sources
+## Source notes
 
 See the Sources panel below. Numbers verified against both the current crisis page and 2024 Welcome Packet; when they disagreed, the current crisis page wins.

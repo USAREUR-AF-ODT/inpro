@@ -63,6 +63,6 @@ The Rental Partnership Program (RPP) has a vetted list of German landlords who l
 
 See the [Housing Services Office entry](/entries/housing/housing-services-office) for the POC. The specific housing counselor you're assigned to depends on the area you end up placed in; the main HSO number routes you.
 
-## Sources
+## Source notes
 
 The housing-area profiles draw from the garrison's individual area PDFs (Crestview and Newman Village have formal welcome PDFs; Hainerberg and Aukamm have less-current material) plus MilitaryOneSource's government-housing overview. Off-post neighborhood observations are community knowledge, not policy — verify with HSO for current RPP inventory.

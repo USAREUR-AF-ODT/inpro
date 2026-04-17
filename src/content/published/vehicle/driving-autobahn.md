@@ -132,6 +132,6 @@ Your US-spec car takes Super or Super Plus, NOT diesel. **Putting diesel in a ga
 - **DUI under SOFA status**: reported to your command AND to German authorities. Career-ending.
 - **German parking tickets** must be paid within 14 days via bank transfer to the Polizei. If you leave one unpaid, it follows you through Anmeldung records.
 
-## Sources
+## Source notes
 
 Rules synthesized from the 2024 USAREUR Drivers Testing study guide (baseline rules), ADAC's public-facing guidance, and German StVO (traffic regulation) summaries. Fines and license-point totals are updated by ADAC annually; verify current figures before citing a specific amount.

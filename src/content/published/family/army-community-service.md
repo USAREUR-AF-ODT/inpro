@@ -77,6 +77,6 @@ See the POC panel for phone, email, DSN, and address. The main number handles al
 - **EFMP enrollment is done through your gaining unit and DoDEA**, not ACS. ACS is the local liaison and advocate only.
 - **AER emergency loans** require command-sponsorship approval; plan for 24-hour minimum processing.
 
-## Sources
+## Source notes
 
 See the Sources panel below. Cross-referenced against MilitaryOneSource Wiesbaden page and the ACS program pages on wiesbaden.armymwr.com. Call ACS before a first visit to confirm which program manager handles your specific need.

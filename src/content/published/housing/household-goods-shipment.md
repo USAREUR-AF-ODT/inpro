@@ -102,6 +102,6 @@ Check with HSO about your specific housing assignment before the pack-out — kn
 - **Couch-size furniture may not fit into German apartments** — narrow doorways, tiny elevators. Measure doorways + stairwells of your likely German apartment before shipping a 10-foot sectional.
 - **Ship things that plug into 110V** — German outlets are 220V. Your US toaster won't work here. Transformers help for a few appliances but not high-draw items.
 
-## Sources
+## Source notes
 
 Synthesized from MilitaryOneSource Wiesbaden's moving/household-goods page and LRC-Wiesbaden's logistics overview. The specific weight allowances and TLA extensions are DoD policy (Joint Travel Regulations); confirm current values with the losing PCS office before packing.
