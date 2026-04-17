@@ -11,6 +11,7 @@ sources:
   - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers", label: "USAG Wiesbaden Newcomers"}
 last_verified: "2026-04-16"
 poc_volatile: false
+checklist: true
 order: 4
 ---
 

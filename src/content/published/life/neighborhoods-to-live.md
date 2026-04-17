@@ -12,6 +12,7 @@ sources:
   - {tier: T4, url: "https://www.wiesbaden.de/", label: "Stadt Wiesbaden"}
 last_verified: "2026-04-16"
 poc_volatile: false
+opinion: true
 order: 35
 ---
 

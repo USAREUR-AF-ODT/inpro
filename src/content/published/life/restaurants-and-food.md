@@ -10,6 +10,7 @@ sources:
   - {tier: T1, url: "https://wiesbaden.armymwr.com/", label: "Wiesbaden MWR (for AAFES food)"}
 last_verified: "2026-04-16"
 poc_volatile: false
+opinion: true
 order: 95
 ---
 

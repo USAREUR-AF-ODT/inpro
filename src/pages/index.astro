@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import RecentlyViewed from '../components/RecentlyViewed.astro';
 import { TOPIC_LABEL, PHASE_LABEL, TOPICS, PHASES } from '../lib/tags';
 import { getCollection } from 'astro:content';
 
@@ -57,6 +58,36 @@ const latestDate = all
       <time datetime={latestDate}>{latestDate}</time>
     </p>
   </header>
+
+  <RecentlyViewed />
+
+  <!-- Quick wins — 3 canonical fast-path entries -->
+  <section class="quick-wins" aria-labelledby="quick-wins-title">
+    <h2 class="section-label" id="quick-wins-title">Start here</h2>
+    <ol class="qw-grid">
+      <li>
+        <a href={`${base}/entries/id-cac/pre-pcs-checklist`} class="qw-card">
+          <span class="qw-num">01</span>
+          <span class="qw-title">Pre-PCS 90-day Checklist</span>
+          <span class="qw-desc">Task list for the weeks before you leave CONUS.</span>
+        </a>
+      </li>
+      <li>
+        <a href={`${base}/entries/housing/first-72-hours`} class="qw-card">
+          <span class="qw-num">02</span>
+          <span class="qw-title">The first 72 hours</span>
+          <span class="qw-desc">What to do the moment you land in Wiesbaden.</span>
+        </a>
+      </li>
+      <li>
+        <a href={`${base}/entries/medical/emergency-numbers`} class="qw-card">
+          <span class="qw-num">03</span>
+          <span class="qw-title">Emergency numbers</span>
+          <span class="qw-desc">Save these in your phone before you fly.</span>
+        </a>
+      </li>
+    </ol>
+  </section>
 
   <!-- Start here signpost -->
   <section class="signpost">
@@ -174,6 +205,58 @@ const latestDate = all
       color: var(--plum);
       font-weight: 600;
       font-feature-settings: "tnum" 1;
+    }
+
+    /* Quick wins — 3 direct fast-path cards */
+    .quick-wins { margin-bottom: 2.5rem; }
+    .qw-grid {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      border: 1px solid var(--rule-soft);
+    }
+    .qw-grid li { border-right: 1px solid var(--rule-soft); }
+    .qw-grid li:last-child { border-right: 0; }
+    .qw-card {
+      display: grid;
+      grid-template-rows: auto auto 1fr;
+      gap: 0.3rem;
+      padding: 1rem 1.15rem;
+      min-height: 5.5rem;
+      text-decoration: none;
+      color: var(--ink);
+      transition: background var(--transition);
+    }
+    .qw-card:hover {
+      background: var(--paper-warm);
+      color: var(--plum);
+    }
+    .qw-num {
+      font-family: var(--font-display);
+      font-size: 0.8rem;
+      color: var(--terracotta);
+      font-feature-settings: "tnum" 1;
+      letter-spacing: -0.02em;
+      font-variation-settings: "SOFT" 50, "WONK" 1, "opsz" 72;
+    }
+    .qw-title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      font-variation-settings: "SOFT" 30, "WONK" 0, "opsz" 144;
+    }
+    .qw-card:hover .qw-title { color: var(--plum); }
+    .qw-desc {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.35;
     }
 
     /* Signpost — start-here block */
@@ -295,7 +378,8 @@ const latestDate = all
       grid-template-columns: 11rem 1fr auto;
       gap: 1.5rem;
       align-items: baseline;
-      padding: 0.75rem 0.25rem 0.75rem 0.5rem;
+      padding: 0.9rem 0.25rem 0.9rem 0.5rem;
+      min-height: 44px;
       text-decoration: none;
       color: var(--ink);
       transition: background var(--transition), padding var(--transition);
@@ -366,6 +450,9 @@ const latestDate = all
     .strip-arrow { color: var(--muted); }
 
     @media (max-width: 800px) {
+      .qw-grid { grid-template-columns: 1fr; }
+      .qw-grid li { border-right: 0; border-bottom: 1px solid var(--rule-soft); }
+      .qw-grid li:last-child { border-bottom: 0; }
       .phase-row { grid-template-columns: 1fr 1fr; }
       .phase-row li { border-right: 1px solid var(--rule-soft); border-bottom: 1px solid var(--rule-soft); }
       .phase-row li:nth-child(2n) { border-right: 0; }

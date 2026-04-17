@@ -1,4 +1,4 @@
-import { load, save, summary, hasSeenBanner, markBannerSeen } from './profileStore';
+import { load, save, summary, hasSeenBanner, markBannerSeen, setSessionShowAll } from './profileStore';
 import type { Profile } from '../lib/matchProfile';
 
 const STATUS_OPTIONS = [
@@ -134,6 +134,7 @@ function openPicker(): void {
       has_pets: (data.get('has_pets') as Profile['has_pets']) || undefined,
       showAll: false,
     };
+    setSessionShowAll(false);
     save(next);
     markBannerSeen();
     close();
@@ -184,3 +185,13 @@ function mountBanner(el: HTMLElement): void {
 // Mount any badge/banner instances present in DOM
 document.querySelectorAll<PickerEl>('[data-pp-badge]').forEach(mountBadge);
 document.querySelectorAll<PickerEl>('[data-pp-banner]').forEach(mountBanner);
+
+// Global fallback: any [data-pp-open] trigger outside a mounted badge/banner
+// (e.g. inside the profile-filter status caption) opens the picker.
+document.addEventListener('click', (e) => {
+  const t = e.target as HTMLElement;
+  const trigger = t.closest('[data-pp-open]');
+  if (!trigger) return;
+  if (trigger.closest('[data-pp-badge]') || trigger.closest('[data-pp-banner]')) return;
+  openPicker();
+});

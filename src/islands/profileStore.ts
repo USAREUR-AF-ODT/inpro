@@ -2,6 +2,7 @@ import type { Profile } from '../lib/matchProfile';
 
 const KEY = 'inpro.profile.v1';
 const BANNER_KEY = 'inpro.seenBanner.v1';
+const SESSION_SHOW_ALL_KEY = 'inpro.sessionShowAll.v1';
 
 type Listener = (p: Profile | null) => void;
 const listeners = new Set<Listener>();
@@ -33,6 +34,18 @@ export function hasSeenBanner(): boolean {
 
 export function markBannerSeen(): void {
   try { localStorage.setItem(BANNER_KEY, '1'); } catch { /* ignore */ }
+}
+
+export function getSessionShowAll(): boolean {
+  try { return sessionStorage.getItem(SESSION_SHOW_ALL_KEY) === '1'; } catch { return false; }
+}
+
+export function setSessionShowAll(v: boolean): void {
+  try {
+    if (v) sessionStorage.setItem(SESSION_SHOW_ALL_KEY, '1');
+    else sessionStorage.removeItem(SESSION_SHOW_ALL_KEY);
+  } catch { /* ignore */ }
+  window.dispatchEvent(new CustomEvent('inpro:profile-change', { detail: load() }));
 }
 
 export function summary(p: Profile | null): string {

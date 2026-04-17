@@ -12,6 +12,7 @@ sources:
   - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/financial-assistance", label: "MOS — Wiesbaden Financial Assistance"}
 last_verified: "2026-04-16"
 poc_volatile: false
+checklist: true
 order: 30
 ---
 

@@ -49,6 +49,8 @@ export const collections = {
       sources: z.array(source).default([]),
       last_verified: z.string(),
       poc_volatile: z.boolean().default(false),
+      opinion: z.boolean().default(false),
+      checklist: z.boolean().default(false),
       order: z.number().default(100),
       stub: z.boolean().default(false),
     }),

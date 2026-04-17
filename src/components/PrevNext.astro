@@ -1,0 +1,107 @@
+---
+import { TOPIC_LABEL, type Topic } from '../lib/tags';
+
+interface EntryRef {
+  slug: string;
+  title: string;
+  topic: Topic;
+}
+
+interface Props {
+  prev: EntryRef | null;
+  next: EntryRef | null;
+  topicLabel: string;
+}
+
+const { prev, next, topicLabel } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const show = Boolean(prev || next);
+---
+{show && (
+  <nav class="prev-next" aria-label="Sequential entries">
+    <div class={prev ? 'pn pn-prev' : 'pn pn-prev empty'}>
+      {prev ? (
+        <a href={`${base}/entries/${prev.slug}`}>
+          <span class="pn-direction">← Previous in {topicLabel}</span>
+          <span class="pn-title">{prev.title}</span>
+        </a>
+      ) : (
+        <span class="pn-empty">Start of {topicLabel}</span>
+      )}
+    </div>
+    <div class={next ? 'pn pn-next' : 'pn pn-next empty'}>
+      {next ? (
+        <a href={`${base}/entries/${next.slug}`}>
+          <span class="pn-direction">Next in {topicLabel} →</span>
+          <span class="pn-title">{next.title}</span>
+        </a>
+      ) : (
+        <span class="pn-empty">End of {topicLabel}</span>
+      )}
+    </div>
+  </nav>
+)}
+
+<style>
+  .prev-next {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--rule-soft);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    font-family: var(--font-sans);
+  }
+  .pn a,
+  .pn .pn-empty {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--rule-soft);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: var(--ink);
+    background: var(--paper-warm);
+    transition: border-color var(--transition), background var(--transition), transform var(--transition);
+    height: 100%;
+  }
+  .pn a:hover {
+    border-color: var(--plum);
+    background: var(--paper);
+    transform: translateY(-1px);
+  }
+  .pn-next a,
+  .pn-next .pn-empty { text-align: right; align-items: flex-end; }
+  .pn-direction {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--plum);
+  }
+  .pn-title {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+  .pn a:hover .pn-title { color: var(--plum); }
+  .pn-empty {
+    color: var(--muted);
+    font-size: 0.88rem;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+  }
+  .pn.empty .pn-empty {
+    background: transparent;
+    border-style: dashed;
+  }
+
+  @media (max-width: 640px) {
+    .prev-next { grid-template-columns: 1fr; }
+    .pn-next a,
+    .pn-next .pn-empty { text-align: left; align-items: flex-start; }
+  }
+</style>

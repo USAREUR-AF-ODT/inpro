@@ -11,6 +11,7 @@ sources:
   - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/getting-around", label: "USAG Wiesbaden — Getting Around"}
 last_verified: "2026-04-16"
 poc_volatile: false
+opinion: true
 order: 10
 ---
 

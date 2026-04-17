@@ -3,15 +3,21 @@ import BaseLayout from './BaseLayout.astro';
 import SourceList from '../components/SourceList.astro';
 import Card from '../components/Card.astro';
 import FeedbackLink from '../components/FeedbackLink.astro';
-import TagPill from '../components/TagPill.astro';
+import EntryTOC from '../components/EntryTOC.astro';
+import PrevNext from '../components/PrevNext.astro';
+import TopicSwitcher from '../components/TopicSwitcher.astro';
 import { TOPIC_LABEL, PHASE_LABEL, type Topic } from '../lib/tags';
 
 export interface Props {
   frontmatter: any;
   slug: string;
   related?: any[];
+  headings?: Array<{ depth: number; slug: string; text: string }>;
+  prev?: { slug: string; title: string; topic: Topic } | null;
+  next?: { slug: string; title: string; topic: Topic } | null;
+  readMinutes?: number;
 }
-const { frontmatter, slug, related = [] } = Astro.props;
+const { frontmatter, slug, related = [], headings = [], prev = null, next = null, readMinutes } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const profileJson = JSON.stringify({
   status: frontmatter.profile_tags?.status,
@@ -21,37 +27,51 @@ const profileJson = JSON.stringify({
   has_pov: frontmatter.profile_tags?.has_pov,
   has_pets: frontmatter.profile_tags?.has_pets,
 });
+const topicLabel = TOPIC_LABEL[frontmatter.topic as Topic];
 ---
-<BaseLayout title={`${frontmatter.title} — inpro`} description={frontmatter.summary}>
+<BaseLayout title={`${frontmatter.title} — inpro`} description={frontmatter.summary} activePhase={frontmatter.phase} entryMeta={{ slug, title: frontmatter.title, topic: frontmatter.topic }}>
   <article
     class="topic"
     data-profile={profileJson}
     data-pagefind-body
     data-pagefind-filter={`topic:${frontmatter.topic}`}
   >
-    <nav class="crumbs" aria-label="breadcrumb">
-      <a href={`${base}/`}>Home</a>
-      <span aria-hidden="true"> / </span>
-      <a href={`${base}/${frontmatter.phase}`}>{PHASE_LABEL[frontmatter.phase as keyof typeof PHASE_LABEL]}</a>
-      <span aria-hidden="true"> / </span>
-      <a href={`${base}/topics/${frontmatter.topic}`}>{TOPIC_LABEL[frontmatter.topic as keyof typeof TOPIC_LABEL]}</a>
-    </nav>
+    <span data-pagefind-filter={`phase:${frontmatter.phase}`} hidden></span>
+    <div class="crumbs-strip">
+      <nav class="crumbs" aria-label="breadcrumb">
+        <a href={`${base}/`}>Home</a>
+        <span class="crumb-sep" aria-hidden="true">/</span>
+        <a href={`${base}/${frontmatter.phase}`}>{PHASE_LABEL[frontmatter.phase as keyof typeof PHASE_LABEL]}</a>
+        <span class="crumb-sep" aria-hidden="true">/</span>
+        <TopicSwitcher current={frontmatter.topic as Topic} />
+        <span class="crumb-sep" aria-hidden="true">/</span>
+        <span class="crumb-current" aria-current="page">{frontmatter.title}</span>
+      </nav>
+    </div>
 
     <header class="topic-head">
       <div class="topic-pills">
-        <span class="pill pill--outline">{TOPIC_LABEL[frontmatter.topic as keyof typeof TOPIC_LABEL]}</span>
+        <span class="pill pill--outline">{topicLabel}</span>
         <span class="pill pill--outline">{PHASE_LABEL[frontmatter.phase as keyof typeof PHASE_LABEL]}</span>
+        {frontmatter.opinion && <span class="pill pill--ochre">Opinion</span>}
         {frontmatter.poc_volatile && <span class="pill pill--terracotta">Verify before acting</span>}
       </div>
+      {frontmatter.checklist && <p class="briefing-eyebrow">Briefing</p>}
       <h1 class="display">{frontmatter.title}</h1>
       <p class="lead">{frontmatter.summary}</p>
-      <p class="verified-stamp">
-        <span>Last verified</span> <time datetime={frontmatter.last_verified}>{frontmatter.last_verified}</time>
+      <p class="entry-meta-strip">
+        <span class="verified-stamp">
+          <span>Last verified</span> <time datetime={frontmatter.last_verified}>{frontmatter.last_verified}</time>
+        </span>
+        {readMinutes && <span class="read-time">{readMinutes} min read</span>}
       </p>
     </header>
 
-    <div class="topic-body prose">
-      <slot />
+    <div class="topic-grid">
+      <EntryTOC headings={headings} />
+      <div class="topic-body prose">
+        <slot />
+      </div>
     </div>
 
     {frontmatter.poc?.length > 0 && (
@@ -64,6 +84,8 @@ const profileJson = JSON.stringify({
     )}
 
     <SourceList sources={frontmatter.sources ?? []} lastVerified={frontmatter.last_verified} />
+
+    <PrevNext prev={prev} next={next} topicLabel={topicLabel} />
 
     {related.length > 0 && (
       <section class="related">
@@ -90,23 +112,50 @@ const profileJson = JSON.stringify({
       color: var(--ink);
     }
 
+    .crumbs-strip {
+      position: sticky;
+      top: var(--header-h, 0px);
+      z-index: 30;
+      background: color-mix(in srgb, var(--paper) 94%, transparent);
+      backdrop-filter: saturate(120%) blur(10px);
+      margin: -2.5rem -1.5rem 2rem;
+      padding: 0.55rem 1.5rem;
+      border-bottom: 1px solid var(--rule-soft);
+    }
     .crumbs {
       font-family: var(--font-sans);
       font-size: 0.78rem;
       color: var(--muted);
-      margin-bottom: 2rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      flex-wrap: wrap;
+      max-width: 76rem;
+      margin: 0 auto;
     }
-    .crumbs a {
+    .crumbs > a {
       color: var(--muted);
       text-decoration: none;
       border-bottom: 1px solid transparent;
       padding-bottom: 1px;
     }
-    .crumbs a:hover {
+    .crumbs > a:hover {
       color: var(--plum);
       border-bottom-color: var(--plum);
+    }
+    .crumb-sep { color: var(--rule); }
+    .crumb-current {
+      color: var(--plum);
+      font-weight: 600;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 22rem;
+    }
+    @media (max-width: 720px) {
+      .crumb-current { max-width: 12rem; }
     }
 
     .topic-head {
@@ -134,8 +183,23 @@ const profileJson = JSON.stringify({
       margin: 0;
       line-height: 1.5;
     }
-    .verified-stamp {
+    .briefing-eyebrow {
+      font-family: var(--font-sans);
+      font-size: 0.68rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--ochre);
+      margin: 0 0 0.3rem;
+    }
+    .entry-meta-strip {
       margin-top: 1.5rem;
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .verified-stamp {
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
@@ -148,6 +212,16 @@ const profileJson = JSON.stringify({
       border: 1px solid var(--rule-soft);
       border-radius: 2px;
       background: var(--paper-warm);
+    }
+    .read-time {
+      font-family: var(--font-sans);
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      padding: 0.4rem 0.8rem;
+      border: 1px dashed var(--rule-soft);
+      border-radius: 2px;
     }
     .verified-stamp::before {
       content: "";
@@ -163,10 +237,24 @@ const profileJson = JSON.stringify({
       font-feature-settings: "tnum" 1;
     }
 
+    .topic-grid {
+      display: block;
+    }
     .topic-body {
       max-width: 44rem;
       font-size: 1.06rem;
       line-height: 1.65;
+    }
+    @media (min-width: 1100px) {
+      .topic-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 44rem) 16rem;
+        grid-template-areas: "body toc";
+        gap: 3rem;
+        align-items: start;
+      }
+      .topic-body { max-width: none; grid-area: body; }
+      .topic-grid > :global(aside.entry-toc) { grid-area: toc; }
     }
     .topic-body :global(p:first-of-type) {
       font-size: 1.1rem;

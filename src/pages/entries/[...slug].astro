@@ -11,16 +11,49 @@ export async function getStaticPaths() {
 }
 
 const { entry, all } = Astro.props;
-const { Content } = await entry.render();
+const { Content, headings } = await entry.render();
+
+// Reading time from raw markdown body, ~220 wpm. Strip code blocks + frontmatter artifacts
+// so the estimate reflects prose reading, not list scan.
+const wordCount = (entry.body ?? '').replace(/```[\s\S]*?```/g, '').trim().split(/\s+/).filter(Boolean).length;
+const readMinutes = Math.max(1, Math.ceil(wordCount / 220));
+
+const byOrder = (a: any, b: any) => {
+  const ao = a.data.opinion ? 1 : 0;
+  const bo = b.data.opinion ? 1 : 0;
+  if (ao !== bo) return ao - bo;
+  return (a.data.order ?? 100) - (b.data.order ?? 100) || a.data.title.localeCompare(b.data.title);
+};
+
+const sameTopic = all
+  .filter((e: any) => e.data.topic === entry.data.topic)
+  .sort(byOrder);
+const idx = sameTopic.findIndex((e: any) => e.slug === entry.slug);
+let prev = idx > 0 ? sameTopic[idx - 1] : null;
+let next = idx >= 0 && idx < sameTopic.length - 1 ? sameTopic[idx + 1] : null;
+
+// Fallback to same-phase neighbors if topic only has one entry
+if (!prev && !next && sameTopic.length === 1) {
+  const samePhase = all
+    .filter((e: any) => e.data.phase === entry.data.phase && e.slug !== entry.slug)
+    .sort(byOrder);
+  const pIdx = samePhase.findIndex((e: any) => e.data.topic === entry.data.topic);
+  if (samePhase.length > 0) {
+    prev = samePhase[Math.max(0, pIdx === 0 ? -1 : pIdx - 1)] ?? null;
+    next = samePhase.find((e: any) => e.slug !== prev?.slug) ?? null;
+  }
+}
+
+const prevRef = prev ? { slug: prev.slug, title: prev.data.title, topic: prev.data.topic } : null;
+const nextRef = next ? { slug: next.slug, title: next.data.title, topic: next.data.topic } : null;
 
 // Related entries: same topic, different entry, up to 4
 const related = all
   .filter((e: any) => e.slug !== entry.slug && e.data.topic === entry.data.topic)
-  .sort((a: any, b: any) => (a.data.order - b.data.order))
+  .sort(byOrder)
   .slice(0, 4);
 
-// Also include same-phase entries if related is thin
-const samePhase = related.length >= 3
+const samePhaseExtras = related.length >= 3
   ? []
   : all
       .filter((e: any) =>
@@ -28,11 +61,19 @@ const samePhase = related.length >= 3
         e.data.phase === entry.data.phase &&
         e.data.topic !== entry.data.topic &&
         !related.find((r: any) => r.slug === e.slug))
-      .sort((a: any, b: any) => (a.data.order - b.data.order))
+      .sort(byOrder)
       .slice(0, 4 - related.length);
 
-const relatedAll = [...related, ...samePhase];
+const relatedAll = [...related, ...samePhaseExtras];
 ---
-<TopicLayout frontmatter={entry.data} slug={entry.slug} related={relatedAll}>
+<TopicLayout
+  frontmatter={entry.data}
+  slug={entry.slug}
+  related={relatedAll}
+  headings={headings}
+  prev={prevRef}
+  next={nextRef}
+  readMinutes={readMinutes}
+>
   <Content />
 </TopicLayout>

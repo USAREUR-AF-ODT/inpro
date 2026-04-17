@@ -10,7 +10,12 @@ export async function getStaticPaths() {
 const { phase } = Astro.params as { phase: Phase };
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const all = await getCollection('published', e => e.data.phase === phase);
-const sorted = all.sort((a, b) => (a.data.order - b.data.order) || a.data.title.localeCompare(b.data.title));
+const sorted = all.sort((a, b) => {
+  const ao = a.data.opinion ? 1 : 0;
+  const bo = b.data.opinion ? 1 : 0;
+  if (ao !== bo) return ao - bo;
+  return (a.data.order - b.data.order) || a.data.title.localeCompare(b.data.title);
+});
 
 const phaseDescription: Record<Phase, string> = {
   before: 'Everything that has to happen before you leave CONUS — orders, EFMP, sponsor contact, passports, pets, POV prep.',
@@ -24,9 +29,13 @@ const phaseNum: Record<Phase, string> = {
   before: '01', arrive: '02', settle: '03', life: '04', sponsors: '05',
 };
 
-// Group entries by topic for visual segmentation
-const byTopic = new Map<string, typeof sorted>();
-for (const e of sorted) {
+// Split opinion entries — they render in their own block at the bottom.
+const factSorted = sorted.filter(e => !e.data.opinion);
+const opinionSorted = sorted.filter(e => e.data.opinion);
+
+// Group non-opinion entries by topic for visual segmentation
+const byTopic = new Map<string, typeof factSorted>();
+for (const e of factSorted) {
   const list = byTopic.get(e.data.topic) ?? [];
   list.push(e);
   byTopic.set(e.data.topic, list);
@@ -45,10 +54,10 @@ for (const e of sorted) {
     <div class="entry-stream">
       {Array.from(byTopic.entries()).map(([topic, entries]) => (
         <section class="topic-block">
-          <h2 class="topic-marker">
-            <span class="topic-name">{TOPIC_LABEL[topic as keyof typeof TOPIC_LABEL]}</span>
-            <span class="topic-rule"></span>
-            <span class="topic-count">{entries.length}</span>
+          <h2 class="section-marker">
+            <a href={`${base}/topics/${topic}`} class="section-name">{TOPIC_LABEL[topic as keyof typeof TOPIC_LABEL]}</a>
+            <span class="section-rule"></span>
+            <span class="section-count">{entries.length}</span>
           </h2>
           <ul class="entry-list">
             {entries.map((e: any) => (
@@ -70,6 +79,34 @@ for (const e of sorted) {
           </ul>
         </section>
       ))}
+
+      {opinionSorted.length > 0 && (
+        <section class="topic-block opinion-block">
+          <h2 class="section-marker">
+            <span class="section-name">Opinion</span>
+            <span class="section-rule"></span>
+            <span class="section-count">{opinionSorted.length}</span>
+          </h2>
+          <p class="opinion-lead">Taste and judgement, not garrison policy.</p>
+          <ul class="entry-list">
+            {opinionSorted.map((e: any) => (
+              <li
+                class="entry-row"
+                data-profile={JSON.stringify(e.data.profile_tags ?? {})}
+              >
+                <a href={`${base}/entries/${e.slug}`} class="entry-link">
+                  <h3>{e.data.title}</h3>
+                  <p>{e.data.summary}</p>
+                  <div class="entry-meta">
+                    <span class="pill pill--ochre">Opinion</span>
+                    <span class="verified">Verified {e.data.last_verified}</span>
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </div>
   )}
 
@@ -103,31 +140,14 @@ for (const e of sorted) {
       gap: 3rem;
     }
     .topic-block { padding-top: 1rem; }
-
-    .topic-marker {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      margin: 0 0 1.25rem;
-      font-size: 0.95rem;
+    .opinion-block .section-name { color: var(--ochre); }
+    .opinion-lead {
       font-family: var(--font-sans);
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--plum);
-    }
-    .topic-name { white-space: nowrap; }
-    .topic-rule {
-      flex: 1;
-      height: 1px;
-      background: var(--rule-soft);
-    }
-    .topic-count {
-      font-family: var(--font-display);
-      font-size: 1.2rem;
-      color: var(--terracotta);
-      font-feature-settings: "tnum" 1;
-      letter-spacing: -0.02em;
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin: 0 0 1rem;
+      max-width: 44rem;
+      font-style: italic;
     }
 
     .entry-list {

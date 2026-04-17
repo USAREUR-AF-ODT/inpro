@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { TOPICS, TOPIC_LABEL, PHASE_LABEL, type Topic } from '../../lib/tags';
+import { TOPICS, TOPIC_LABEL, PHASES, PHASE_LABEL, type Topic, type Phase } from '../../lib/tags';
 
 export async function getStaticPaths() {
   return TOPICS.map(topic => ({ params: { topic } }));
@@ -10,7 +10,26 @@ export async function getStaticPaths() {
 const { topic } = Astro.params as { topic: Topic };
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const all = await getCollection('published', e => e.data.topic === topic);
-const sorted = all.sort((a, b) => (a.data.order - b.data.order) || a.data.title.localeCompare(b.data.title));
+const sorted = all.sort((a, b) => {
+  const ao = a.data.opinion ? 1 : 0;
+  const bo = b.data.opinion ? 1 : 0;
+  if (ao !== bo) return ao - bo;
+  return (a.data.order - b.data.order) || a.data.title.localeCompare(b.data.title);
+});
+
+// Split opinion entries out — they render in their own section at the bottom.
+const factSorted = sorted.filter(e => !e.data.opinion);
+const opinionSorted = sorted.filter(e => e.data.opinion);
+
+// Group non-opinion entries by phase, in canonical phase order
+const byPhase = new Map<Phase, typeof factSorted>();
+for (const e of factSorted) {
+  const phase = e.data.phase as Phase;
+  const list = byPhase.get(phase) ?? [];
+  list.push(e);
+  byPhase.set(phase, list);
+}
+const orderedPhases = PHASES.filter(p => (byPhase.get(p)?.length ?? 0) > 0);
 
 const topicIntro: Record<Topic, string> = {
   housing: 'On-post quarters or off-post lease, TLA math, HHG, and which neighborhoods reward which priorities. Start with the Housing Services Office.',
@@ -35,31 +54,72 @@ const topicIntro: Record<Topic, string> = {
     <p class="eyebrow">Topic</p>
     <h1 class="display">{TOPIC_LABEL[topic]}</h1>
     <p class="lead">{topicIntro[topic]}</p>
-    <p class="topic-meta">{sorted.length} {sorted.length === 1 ? 'entry' : 'entries'} · tagged <code>{topic}</code></p>
+    <p class="topic-meta">{sorted.length} {sorted.length === 1 ? 'entry' : 'entries'} · across {orderedPhases.length} {orderedPhases.length === 1 ? 'phase' : 'phases'}</p>
   </header>
 
   {sorted.length === 0 ? (
     <p class="filter-empty">Nothing published under this topic yet. <a href={`${base}/`}>Return home</a>.</p>
   ) : (
-    <ul class="entry-list">
-      {sorted.map(e => (
-        <li
-          class="entry-row"
-          data-profile={JSON.stringify(e.data.profile_tags ?? {})}
-        >
-          <a href={`${base}/entries/${e.slug}`} class="entry-link">
-            <div class="entry-meta-top">
-              <span class="pill pill--outline">{PHASE_LABEL[e.data.phase]}</span>
-              {e.data.poc_volatile && <span class="pill pill--terracotta">Verify first</span>}
-              {e.data.stub && <span class="pill pill--muted">Stub</span>}
-            </div>
-            <h3>{e.data.title}</h3>
-            <p>{e.data.summary}</p>
-            <p class="verified">Last verified {e.data.last_verified}</p>
-          </a>
-        </li>
-      ))}
-    </ul>
+    <div class="entry-stream">
+      {orderedPhases.map(phase => {
+        const entries = byPhase.get(phase) ?? [];
+        return (
+          <section class="phase-block">
+            <h2 class="section-marker">
+              <a href={`${base}/${phase}`} class="section-name">{PHASE_LABEL[phase]}</a>
+              <span class="section-rule"></span>
+              <span class="section-count">{entries.length}</span>
+            </h2>
+            <ul class="entry-list">
+              {entries.map((e: any) => (
+                <li
+                  class="entry-row"
+                  data-profile={JSON.stringify(e.data.profile_tags ?? {})}
+                >
+                  <a href={`${base}/entries/${e.slug}`} class="entry-link">
+                    <h3>{e.data.title}</h3>
+                    <p>{e.data.summary}</p>
+                    <div class="entry-meta">
+                      {e.data.poc_volatile && <span class="pill pill--terracotta">Verify first</span>}
+                      {e.data.stub && <span class="pill pill--muted">Stub</span>}
+                      <span class="verified">Verified {e.data.last_verified}</span>
+                    </div>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })}
+
+      {opinionSorted.length > 0 && (
+        <section class="phase-block opinion-block">
+          <h2 class="section-marker">
+            <span class="section-name">Opinion</span>
+            <span class="section-rule"></span>
+            <span class="section-count">{opinionSorted.length}</span>
+          </h2>
+          <p class="opinion-lead">Taste and judgement, not garrison policy. Useful after the facts land.</p>
+          <ul class="entry-list">
+            {opinionSorted.map((e: any) => (
+              <li
+                class="entry-row"
+                data-profile={JSON.stringify(e.data.profile_tags ?? {})}
+              >
+                <a href={`${base}/entries/${e.slug}`} class="entry-link">
+                  <h3>{e.data.title}</h3>
+                  <p>{e.data.summary}</p>
+                  <div class="entry-meta">
+                    <span class="pill pill--ochre">Opinion</span>
+                    <span class="verified">Verified {e.data.last_verified}</span>
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </div>
   )}
 
   <style>
@@ -94,18 +154,30 @@ const topicIntro: Record<Topic, string> = {
       color: var(--muted);
       margin: 0;
     }
-    .topic-index-head code {
-      background: var(--paper-warm);
-      color: var(--plum);
-      padding: 0.1em 0.4em;
-      border-radius: 2px;
-      font-size: 0.9em;
+
+    .entry-stream {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+    .phase-block { padding-top: 1rem; }
+    .opinion-block .section-name { color: var(--ochre); }
+    .opinion-lead {
+      font-family: var(--font-sans);
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin: 0 0 1rem;
+      max-width: 44rem;
+      font-style: italic;
     }
 
     .entry-list {
       list-style: none;
       padding: 0;
       margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
     }
     .entry-row {
       border-top: 1px solid var(--rule-soft);
@@ -124,12 +196,6 @@ const topicIntro: Record<Topic, string> = {
       background: var(--paper-warm);
       padding-left: 1.25rem;
     }
-    .entry-meta-top {
-      display: flex;
-      gap: 0.4rem;
-      flex-wrap: wrap;
-      margin-bottom: 0.5rem;
-    }
     .entry-link h3 {
       margin: 0 0 0.5rem;
       font-size: 1.35rem;
@@ -142,13 +208,23 @@ const topicIntro: Record<Topic, string> = {
       font-size: 0.95rem;
       color: var(--muted);
       margin: 0;
-      max-width: 48rem;
+      max-width: 50rem;
+    }
+
+    .entry-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-top: 0.75rem;
+      flex-wrap: wrap;
     }
     .verified {
-      font-size: 0.75rem;
+      font-family: var(--font-sans);
+      font-size: 0.72rem;
+      color: var(--muted);
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      margin-top: 0.5rem;
+      font-feature-settings: "tnum" 1;
     }
   </style>
 </BaseLayout>

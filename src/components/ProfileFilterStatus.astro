@@ -1,0 +1,79 @@
+---
+---
+<div
+  class="filter-status-outer no-print"
+  data-filter-status
+  hidden
+  aria-live="polite"
+>
+  <div class="filter-status-inner">
+    <p class="fs-text">
+      Showing <span data-fs-visible>0</span> of <span data-fs-total>0</span> entries for your view.
+    </p>
+    <div class="fs-actions">
+      <button type="button" class="fs-link" data-fs-change data-pp-open>Change view</button>
+      <span aria-hidden="true" class="fs-sep">·</span>
+      <button type="button" class="fs-link" data-fs-show-all>Show all</button>
+      <button type="button" class="fs-dismiss" data-fs-dismiss aria-label="Dismiss">×</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .filter-status-outer {
+    background: var(--paper-warm);
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .filter-status-inner {
+    max-width: 76rem;
+    margin: 0 auto;
+    padding: 0.6rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--ink);
+  }
+  .fs-text { margin: 0; color: var(--ink); }
+  .fs-text [data-fs-visible],
+  .fs-text [data-fs-total] {
+    font-feature-settings: "tnum" 1;
+    font-weight: 600;
+    color: var(--plum);
+  }
+  .fs-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-left: auto;
+  }
+  .fs-link {
+    background: none;
+    border: none;
+    color: var(--plum);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+  }
+  .fs-link:hover { color: var(--terracotta); }
+  .fs-sep { color: var(--muted); }
+  .fs-dismiss {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    line-height: 1;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 0 0.25rem;
+    margin-left: 0.4rem;
+  }
+  .fs-dismiss:hover { color: var(--plum); }
+
+  @media (max-width: 720px) {
+    .fs-actions { margin-left: 0; width: 100%; }
+  }
+</style>

@@ -13,15 +13,26 @@ const { sources, lastVerified } = Astro.props;
   {sources.length === 0 ? (
     <p class="empty">No external sources cited. Verify with the POC before acting on this.</p>
   ) : (
-    <ul>
-      {sources.map(s => (
-        <li>
-          <TagPill tier={s.tier} label={TIER_LABEL[s.tier]} />
-          <a href={s.url} target="_blank" rel="noopener noreferrer">{s.label}</a>
-          {s.scraped && <span class="scraped">· scraped {s.scraped}</span>}
-        </li>
-      ))}
-    </ul>
+    <>
+      <p class="tier-legend" aria-label="Source tier legend">
+        <span><strong>T1</strong> {TIER_LABEL.T1}</span>
+        <span class="tier-sep" aria-hidden="true">·</span>
+        <span><strong>T2</strong> {TIER_LABEL.T2}</span>
+        <span class="tier-sep" aria-hidden="true">·</span>
+        <span><strong>T3</strong> {TIER_LABEL.T3}</span>
+        <span class="tier-sep" aria-hidden="true">·</span>
+        <span><strong>T4</strong> {TIER_LABEL.T4}</span>
+      </p>
+      <ul>
+        {sources.map(s => (
+          <li>
+            <TagPill tier={s.tier} label={TIER_LABEL[s.tier]} />
+            <a href={s.url} target="_blank" rel="noopener noreferrer">{s.label}</a>
+            {s.scraped && <span class="scraped">· scraped {s.scraped}</span>}
+          </li>
+        ))}
+      </ul>
+    </>
   )}
 </aside>
 
@@ -35,7 +46,27 @@ const { sources, lastVerified } = Astro.props;
     font-family: var(--font-sans);
   }
   .sources h2 { margin-top: 0; font-size: 1rem; }
-  .verified { color: var(--muted); font-size: .85rem; margin: .25rem 0 1rem; }
+  .verified { color: var(--muted); font-size: .85rem; margin: .25rem 0 .75rem; }
+  .tier-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem .5rem;
+    align-items: center;
+    margin: 0 0 1rem;
+    padding: .5rem .7rem;
+    background: var(--paper);
+    border: 1px solid var(--rule-soft);
+    border-radius: var(--radius-sm);
+    font-size: .75rem;
+    color: var(--muted);
+  }
+  .tier-legend strong {
+    font-family: var(--font-mono);
+    font-size: .72rem;
+    color: var(--plum);
+    margin-right: .2rem;
+  }
+  .tier-sep { color: var(--rule); }
   .sources ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .5rem; }
   .sources li { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; font-size: .92rem; }
   .scraped { color: var(--muted); font-size: .8rem; }

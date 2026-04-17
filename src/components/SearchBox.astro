@@ -10,8 +10,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       element: '#search',
       showSubResults: true,
       showImages: false,
-      excerptLength: 30,
+      excerptLength: 100,
       resetStyles: false,
+      showEmptyFilters: true,
+      translations: {
+        filters_label: 'Narrow by topic or phase',
+      },
     });
   }).catch((e) => {
     const el = document.getElementById('search');
@@ -65,5 +69,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     color: var(--paper);
     font-family: var(--font-sans);
     border-radius: 2px;
+  }
+  .search-mount :global(.pagefind-ui__filter-panel) {
+    font-family: var(--font-sans);
+  }
+  .search-mount :global(.pagefind-ui__filter-name) {
+    color: var(--plum);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75rem;
+  }
+  .search-mount :global(.pagefind-ui__filter-value) {
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    color: var(--ink);
   }
 </style>

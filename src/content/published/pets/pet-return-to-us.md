@@ -11,6 +11,7 @@ sources:
   - {tier: T1, url: "https://www.cdc.gov/importation/dogs/index.html", label: "CDC Dog Import Rules"}
 last_verified: "2026-04-16"
 poc_volatile: false
+checklist: true
 order: 30
 ---
 

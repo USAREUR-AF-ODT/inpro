@@ -1,0 +1,43 @@
+---
+---
+<button
+  type="button"
+  class="back-to-top no-print"
+  data-back-to-top
+  aria-label="Back to top"
+  hidden
+>
+  <span aria-hidden="true">↑</span>
+</button>
+
+<style>
+  .back-to-top {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--plum);
+    color: var(--paper);
+    border: none;
+    font-size: 1.2rem;
+    font-family: var(--font-sans);
+    cursor: pointer;
+    box-shadow: var(--shadow-card);
+    z-index: 60;
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity var(--transition), transform var(--transition), background var(--transition);
+  }
+  .back-to-top[data-visible] {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .back-to-top:hover {
+    background: var(--terracotta);
+  }
+  @media (max-width: 720px) {
+    .back-to-top { bottom: 1rem; right: 1rem; }
+  }
+</style>

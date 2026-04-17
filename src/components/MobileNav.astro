@@ -1,0 +1,185 @@
+---
+import { TOPIC_LABEL, PHASE_LABEL, TOPICS, PHASES } from '../lib/tags';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<button type="button" class="mobile-nav-toggle no-print" data-mobile-nav-open aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav-panel">
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+</button>
+
+<div class="mobile-nav-backdrop" data-mobile-nav-backdrop hidden></div>
+
+<aside
+  id="mobile-nav-panel"
+  class="mobile-nav-panel"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="mobile-nav-title"
+  hidden
+>
+  <div class="mn-head">
+    <span class="mn-title" id="mobile-nav-title">Navigate</span>
+    <button type="button" class="mn-close" data-mobile-nav-close aria-label="Close menu">×</button>
+  </div>
+
+  <nav class="mn-section" aria-labelledby="mn-phases-h">
+    <p class="mn-eyebrow" id="mn-phases-h">Phases</p>
+    <ul>
+      {PHASES.map((phase, i) => (
+        <li>
+          <a href={`${base}/${phase}`} data-mn-link>
+            <span class="mn-num">{String(i + 1).padStart(2, '0')}</span>
+            {PHASE_LABEL[phase]}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+
+  <nav class="mn-section" aria-labelledby="mn-topics-h">
+    <p class="mn-eyebrow" id="mn-topics-h">Topics</p>
+    <ul>
+      {TOPICS.map(topic => (
+        <li><a href={`${base}/topics/${topic}`} data-mn-link>{TOPIC_LABEL[topic]}</a></li>
+      ))}
+    </ul>
+  </nav>
+
+  <nav class="mn-section">
+    <ul class="mn-utility">
+      <li><a href={`${base}/search`} data-mn-link>⌕ Search</a></li>
+      <li><a href={`${base}/about`} data-mn-link>About</a></li>
+    </ul>
+  </nav>
+</aside>
+
+<style>
+  .mobile-nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    background: transparent;
+    border: 1px solid var(--rule-soft);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto;
+    align-self: center;
+  }
+  .mobile-nav-toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--ink);
+    margin: 0 auto;
+    transition: transform var(--transition), opacity var(--transition);
+  }
+  .mobile-nav-toggle[aria-expanded="true"] span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .mobile-nav-toggle[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+  }
+  .mobile-nav-toggle[aria-expanded="true"] span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .mobile-nav-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(26, 22, 18, 0.45);
+    z-index: 90;
+    opacity: 0;
+    transition: opacity var(--transition);
+  }
+  .mobile-nav-backdrop[data-visible] { opacity: 1; }
+
+  .mobile-nav-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(22rem, 86vw);
+    background: var(--paper);
+    border-left: 1px solid var(--rule-soft);
+    box-shadow: var(--shadow-lift);
+    z-index: 100;
+    padding: 1.25rem 1.5rem 2rem;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform var(--transition);
+    font-family: var(--font-sans);
+  }
+  .mobile-nav-panel[data-visible] { transform: translateX(0); }
+
+  .mn-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--rule-soft);
+    margin-bottom: 1rem;
+  }
+  .mn-title {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--ink);
+  }
+  .mn-close {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+  }
+  .mn-close:hover { color: var(--plum); }
+
+  .mn-section { margin-bottom: 1.25rem; }
+  .mn-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .mn-eyebrow {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--muted);
+    margin: 0 0 0.5rem;
+  }
+  .mn-section a {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.55rem 0;
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 0.95rem;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .mn-section a:hover,
+  .mn-section a[aria-current="page"] {
+    color: var(--plum);
+  }
+  .mn-section a[aria-current="page"] { font-weight: 600; }
+  .mn-num {
+    font-family: var(--font-display);
+    color: var(--terracotta);
+    font-size: 0.75rem;
+    font-feature-settings: "tnum" 1;
+    font-variation-settings: "SOFT" 50, "WONK" 1, "opsz" 72;
+    min-width: 1.5rem;
+  }
+  .mn-utility a { border-bottom: none; color: var(--plum); font-weight: 500; }
+
+  @media (max-width: 720px) {
+    .mobile-nav-toggle { display: flex; }
+  }
+</style>

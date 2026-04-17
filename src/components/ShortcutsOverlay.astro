@@ -1,0 +1,95 @@
+---
+---
+<div class="shortcuts-overlay no-print" data-shortcuts-overlay hidden role="dialog" aria-labelledby="shortcuts-title" aria-modal="false">
+  <div class="so-card">
+    <div class="so-head">
+      <p class="so-title" id="shortcuts-title">Keyboard shortcuts</p>
+      <button type="button" class="so-close" data-shortcuts-close aria-label="Close">×</button>
+    </div>
+    <dl class="so-list">
+      <dt><kbd>/</kbd> or <kbd>⌘</kbd><kbd>K</kbd></dt><dd>Quick search (command palette)</dd>
+      <dt><kbd>g</kbd> <kbd>h</kbd></dt><dd>Go home</dd>
+      <dt><kbd>g</kbd> <kbd>s</kbd></dt><dd>Full search page (with facets)</dd>
+      <dt><kbd>Esc</kbd></dt><dd>Close this overlay</dd>
+      <dt><kbd>?</kbd></dt><dd>Toggle this overlay</dd>
+    </dl>
+    <p class="so-foot">Shortcuts are ignored while typing in a text field.</p>
+  </div>
+</div>
+
+<style>
+  .shortcuts-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(26, 22, 18, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    z-index: 120;
+  }
+  .so-card {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    padding: 1.25rem 1.5rem 1.5rem;
+    width: 100%;
+    max-width: 26rem;
+    box-shadow: var(--shadow-lift);
+    font-family: var(--font-sans);
+  }
+  .so-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+  }
+  .so-title {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    margin: 0;
+    color: var(--ink);
+  }
+  .so-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+  }
+  .so-close:hover { color: var(--plum); }
+  .so-list {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.5rem 1rem;
+    margin: 0;
+    font-size: 0.92rem;
+  }
+  .so-list dt {
+    display: flex;
+    gap: 0.25rem;
+  }
+  .so-list dd {
+    margin: 0;
+    color: var(--ink);
+  }
+  kbd {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    background: var(--paper-warm);
+    border: 1px solid var(--rule);
+    border-bottom-width: 2px;
+    border-radius: 3px;
+    padding: 0.1rem 0.4rem;
+    color: var(--ink);
+  }
+  .so-foot {
+    margin: 1rem 0 0;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--rule-soft);
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+</style>

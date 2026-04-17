@@ -1,0 +1,114 @@
+---
+import { TOPICS, TOPIC_LABEL, type Topic } from '../lib/tags';
+
+interface Props {
+  current: Topic;
+}
+const { current } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<details class="topic-switcher" data-topic-switcher>
+  <summary>
+    <span>{TOPIC_LABEL[current]}</span>
+    <span class="ts-chev" aria-hidden="true">▾</span>
+  </summary>
+  <div class="ts-panel">
+    <p class="ts-label">Switch topic</p>
+    <ul>
+      {TOPICS.map(t => (
+        <li>
+          <a
+            href={`${base}/topics/${t}`}
+            aria-current={t === current ? 'page' : undefined}
+            class:list={[{ active: t === current }]}
+          >
+            {TOPIC_LABEL[t]}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</details>
+
+<style>
+  .topic-switcher {
+    display: inline-block;
+    position: relative;
+  }
+  .topic-switcher > summary {
+    list-style: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    color: var(--muted);
+    border-bottom: 1px solid transparent;
+    padding-bottom: 1px;
+    transition: color var(--transition), border-color var(--transition);
+  }
+  .topic-switcher > summary::-webkit-details-marker { display: none; }
+  .topic-switcher > summary::marker { content: ''; }
+  .topic-switcher > summary:hover {
+    color: var(--plum);
+    border-bottom-color: var(--plum);
+  }
+  .ts-chev {
+    font-size: 0.7em;
+    color: var(--muted);
+    transition: transform var(--transition);
+  }
+  .topic-switcher[open] > summary {
+    color: var(--plum);
+    border-bottom-color: var(--plum);
+  }
+  .topic-switcher[open] .ts-chev { transform: rotate(180deg); }
+
+  .ts-panel {
+    position: absolute;
+    top: calc(100% + 0.4rem);
+    left: 0;
+    min-width: 14rem;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lift);
+    padding: 0.5rem 0;
+    z-index: 40;
+    font-family: var(--font-sans);
+  }
+  .ts-label {
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--muted);
+    margin: 0.25rem 0 0.25rem;
+    padding: 0 0.75rem;
+  }
+  .ts-panel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .ts-panel a {
+    display: flex;
+    align-items: center;
+    padding: 0.55rem 0.85rem;
+    min-height: 32px;
+    font-size: 0.88rem;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: normal;
+    text-transform: none;
+    border-left: 2px solid transparent;
+  }
+  .ts-panel a:hover {
+    background: var(--paper-warm);
+    color: var(--plum);
+    border-left-color: var(--plum);
+  }
+  .ts-panel a.active {
+    color: var(--plum);
+    font-weight: 600;
+  }
+</style>
