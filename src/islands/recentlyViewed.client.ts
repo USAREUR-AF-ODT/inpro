@@ -56,21 +56,19 @@ function render(): void {
   const clearBtn = document.querySelector<HTMLElement>('[data-rv-clear]');
   if (!container || !list || !hint || !title) return;
 
+  // SSR default state: container visible, list hidden, hint visible, clear hidden,
+  // title="Recently viewed". This matches the no-entries, no-dismissed case and
+  // avoids the first-paint layout shift for new visitors.
   const entries = load();
   if (entries.length === 0) {
     if (hintDismissed()) {
       container.hidden = true;
       return;
     }
-    container.hidden = false;
-    title.textContent = 'Recently viewed';
-    list.hidden = true;
-    hint.hidden = false;
-    if (clearBtn) clearBtn.hidden = true;
+    // default SSR state is correct; nothing to do
     return;
   }
 
-  container.hidden = false;
   title.textContent = 'Pick up where you left off';
   list.hidden = false;
   hint.hidden = true;

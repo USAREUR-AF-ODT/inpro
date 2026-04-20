@@ -1,12 +1,12 @@
 ---
 ---
-<section class="recently-viewed no-print" data-recently-viewed hidden aria-labelledby="recently-viewed-title">
+<section class="recently-viewed no-print" data-recently-viewed aria-labelledby="recently-viewed-title">
   <div class="rv-head">
-    <h2 class="section-label" id="recently-viewed-title" data-rv-title>Pick up where you left off</h2>
-    <button type="button" class="rv-clear" data-rv-clear aria-label="Clear recent entries">Clear</button>
+    <h2 class="section-label" id="recently-viewed-title" data-rv-title>Recently viewed</h2>
+    <button type="button" class="rv-clear" data-rv-clear aria-label="Clear recent entries" hidden>Clear</button>
   </div>
-  <ol class="rv-list" data-rv-list></ol>
-  <p class="rv-empty-hint" data-rv-empty-hint hidden>
+  <ol class="rv-list" data-rv-list hidden></ol>
+  <p class="rv-empty-hint" data-rv-empty-hint>
     Entries you open will appear here so you can resume where you left off.
     <button type="button" class="rv-dismiss" data-rv-dismiss aria-label="Dismiss hint">×</button>
   </p>
@@ -90,7 +90,7 @@
     margin: 0;
     font-family: var(--font-sans);
     font-size: 0.82rem;
-    color: var(--muted);
+    color: var(--muted-readable);
     display: flex;
     align-items: center;
     gap: 0.5rem;

@@ -14,6 +14,8 @@
   --ink: #1A1612;
   --ink-soft: #3F3831;
   --muted: #8A7F6E;
+  /* WCAG-AA safe muted on light backgrounds (4.5:1 on both --paper and --paper-warm). */
+  --muted-readable: #685E4E;
   --rule: #BBAE97;
   --rule-soft: #D8CBB4;
 

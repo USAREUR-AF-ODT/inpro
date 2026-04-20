@@ -1,0 +1,126 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { TOPICS, TOPIC_LABEL, type Topic } from '../../lib/tags';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const all = await getCollection('published');
+
+const countByTopic = new Map<Topic, number>(TOPICS.map(t => [t, 0]));
+for (const e of all) {
+  if (e.data.stub) continue;
+  countByTopic.set(e.data.topic as Topic, (countByTopic.get(e.data.topic as Topic) ?? 0) + 1);
+}
+
+const topicLead: Record<Topic, string> = {
+  housing: 'Quarters, leases, TLA, neighborhoods.',
+  finance: 'OHA, COLA, VAT, German banking.',
+  medical: 'ARHC, TRICARE Overseas, referrals, pharmacy.',
+  legal: 'Passports, SOFA, Anmeldung, wills.',
+  vehicle: 'POV, registration, licenses, public transport.',
+  'id-cac': 'CAC/DBIDS, DSN, APO, 110/220V, checklists.',
+  family: 'ACS, CYS, EFMP, spouse employment, sponsorship.',
+  schools: 'DoDEA, SLO, Kita, German schools.',
+  pets: 'Import/export, VTF, Tierarzt, Hundesteuer.',
+  religious: 'Chapel, RSO, off-post faith communities.',
+  mwr: 'Commissary, PX, Lodge, recreation.',
+  unit: 'Tenant units, garrison directorates, sponsorship.',
+};
+
+const totalEntries = all.filter(e => !e.data.stub).length;
+const sortedTopics = [...TOPICS].sort((a, b) => (countByTopic.get(b) ?? 0) - (countByTopic.get(a) ?? 0));
+---
+<BaseLayout
+  title="Topics — inpro"
+  description="All inpro topics for Wiesbaden PCS, with entry counts."
+>
+  <header class="topics-head">
+    <p class="eyebrow">Topics</p>
+    <h1 class="display">Browse by topic.</h1>
+    <p class="lead">{totalEntries} entries across {TOPICS.length} topics. Pick an area; each topic page groups entries by phase.</p>
+  </header>
+
+  <ul class="topic-grid">
+    {sortedTopics.map(topic => {
+      const count = countByTopic.get(topic) ?? 0;
+      return (
+        <li class="topic-card">
+          <a href={`${base}/topics/${topic}`}>
+            <h2>{TOPIC_LABEL[topic]}</h2>
+            <p class="topic-lead">{topicLead[topic]}</p>
+            <p class="topic-count">{count} {count === 1 ? 'entry' : 'entries'}</p>
+          </a>
+        </li>
+      );
+    })}
+  </ul>
+
+  <style>
+    .topics-head {
+      margin: 0 0 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--rule-soft);
+    }
+    .topics-head .eyebrow {
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      color: var(--terracotta);
+      font-variation-settings: "SOFT" 30, "WONK" 1, "opsz" 72;
+    }
+    .topics-head h1 { margin: 0.5rem 0 1rem; }
+    .topics-head .lead {
+      font-family: var(--font-sans);
+      font-size: 1.05rem;
+      color: var(--ink);
+      max-width: 44rem;
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    .topic-grid {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+      gap: 1rem;
+    }
+    .topic-card {
+      border: 1px solid var(--rule-soft);
+      border-radius: 0.25rem;
+      transition: background var(--transition), border-color var(--transition);
+    }
+    .topic-card:hover {
+      background: var(--paper-warm);
+      border-color: var(--rule);
+    }
+    .topic-card a {
+      display: block;
+      padding: 1.25rem 1.5rem;
+      text-decoration: none;
+      color: var(--ink);
+    }
+    .topic-card h2 {
+      margin: 0 0 0.4rem;
+      font-size: 1.3rem;
+      color: var(--ink);
+    }
+    .topic-card:hover h2 { color: var(--plum); }
+    .topic-lead {
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin: 0 0 0.75rem;
+      line-height: 1.45;
+    }
+    .topic-count {
+      font-family: var(--font-sans);
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin: 0;
+      font-feature-settings: "tnum" 1;
+    }
+  </style>
+</BaseLayout>
