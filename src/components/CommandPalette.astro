@@ -77,7 +77,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     color: var(--ink);
     outline: none;
   }
-  .cmdk-input::placeholder { color: var(--muted); }
+  .cmdk-input::placeholder { color: var(--muted-readable); }
   .cmdk-esc {
     font-family: var(--font-mono);
     font-size: 0.72rem;
@@ -86,7 +86,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     border-bottom-width: 2px;
     border-radius: 3px;
     padding: 0.1rem 0.4rem;
-    color: var(--muted);
+    color: var(--muted-readable);
   }
   .cmdk-results {
     flex: 1;
@@ -97,7 +97,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     padding: 0.9rem 1.15rem;
     margin: 0;
     font-size: 0.85rem;
-    color: var(--muted);
+    color: var(--muted-readable);
   }
   .cmdk-hint kbd {
     font-family: var(--font-mono);
@@ -148,7 +148,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .cmdk-row-excerpt {
     grid-column: 1 / -1;
     font-size: 0.82rem;
-    color: var(--muted);
+    color: var(--muted-readable);
     line-height: 1.4;
     margin: 0.15rem 0 0;
   }
@@ -175,7 +175,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     border-left-color: var(--plum);
   }
   .cmdk-subrow-arrow {
-    color: var(--muted);
+    color: var(--muted-readable);
     font-size: 0.85rem;
   }
   .cmdk-subrow[data-active] .cmdk-subrow-arrow { color: var(--plum); }
@@ -189,7 +189,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .cmdk-subrow-excerpt {
     grid-column: 2;
     font-size: 0.78rem;
-    color: var(--muted);
+    color: var(--muted-readable);
     line-height: 1.4;
     margin: 0.1rem 0 0;
   }
@@ -201,14 +201,14 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   .cmdk-empty {
     padding: 1.25rem 1.15rem;
-    color: var(--muted);
+    color: var(--muted-readable);
     font-size: 0.9rem;
   }
   .cmdk-foot {
     padding: 0.7rem 1.15rem;
     border-top: 1px solid var(--rule-soft);
     font-size: 0.8rem;
-    color: var(--muted);
+    color: var(--muted-readable);
     background: var(--paper-warm);
   }
   .cmdk-foot a { color: var(--plum); }

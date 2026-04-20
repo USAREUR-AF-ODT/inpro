@@ -46,7 +46,7 @@ const { sources, lastVerified } = Astro.props;
     font-family: var(--font-sans);
   }
   .sources h2 { margin-top: 0; font-size: 1rem; }
-  .verified { color: var(--muted); font-size: .85rem; margin: .25rem 0 .75rem; }
+  .verified { color: var(--muted-readable); font-size: .85rem; margin: .25rem 0 .75rem; }
   .tier-legend {
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +58,7 @@ const { sources, lastVerified } = Astro.props;
     border: 1px solid var(--rule-soft);
     border-radius: var(--radius-sm);
     font-size: .75rem;
-    color: var(--muted);
+    color: var(--muted-readable);
   }
   .tier-legend strong {
     font-family: var(--font-mono);
@@ -69,6 +69,6 @@ const { sources, lastVerified } = Astro.props;
   .tier-sep { color: var(--rule); }
   .sources ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .5rem; }
   .sources li { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; font-size: .92rem; }
-  .scraped { color: var(--muted); font-size: .8rem; }
-  .empty { color: var(--muted); font-size: .9rem; }
+  .scraped { color: var(--muted-readable); font-size: .8rem; }
+  .empty { color: var(--muted-readable); font-size: .9rem; }
 </style>
