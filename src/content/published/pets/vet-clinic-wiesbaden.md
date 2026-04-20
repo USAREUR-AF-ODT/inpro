@@ -103,7 +103,7 @@ Typical cost: €40–€80 for an exam; €15–€30 per vaccine.
 
 ## Pet insurance
 
-Germany has robust pet insurance options:
+Germany has an established pet insurance market:
 - **Allianz Tierkrankenversicherung** — major German insurer
 - **Agila** — specialty pet insurer, comprehensive coverage
 - **Uelzener** — regional, well-regarded

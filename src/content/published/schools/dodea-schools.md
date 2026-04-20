@@ -22,6 +22,8 @@ DoDEA Wiesbaden operates four schools serving command-sponsored Family members i
 
 Tuition is free for ADFMs. DA Civilian dependents may need Tuition-Paying Civilian (TPC) status depending on the parent's employment category. Contractor dependents typically don't get DoDEA access.
 
+For the pre-school immersion equivalent, see [German Kita](/entries/schools/german-kita). For middle and high school sports, clubs, and JROTC, see [DoDEA sports and extracurriculars](/entries/schools/dodea-sports-extracurriculars). For homeschool legality and German public-school alternatives, see [Homeschool and German school](/entries/schools/homeschool-and-german-school).
+
 ## The four schools
 
 ### Wiesbaden High School (WHS)

@@ -27,7 +27,7 @@ Print this. Check things off. Come back to the linked entries for detail.
 ### Day 1 (arrival day)
 - [ ] Fly in, land at FRA or Ramstein
 - [ ] Rental car pickup OR sponsor ride
-- [ ] Check in to **Wiesbaden Army Lodge** on Clay Kaserne → start TLA clock
+- [ ] Check in to **Wiesbaden Army Lodge** on Hainerberg → start TLA clock (see [Wiesbaden Lodge](/entries/housing/wiesbaden-lodge))
 - [ ] Get groceries at Hainerberg commissary OR emergency groceries from a local store
 - [ ] Sleep
 

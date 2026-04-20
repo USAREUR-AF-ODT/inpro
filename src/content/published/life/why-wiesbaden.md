@@ -107,7 +107,7 @@ Wiesbaden wins on the **balance** — no single thing is #1, but nothing is also
 
 ## The advice I wish I'd had
 
-- **Travel every weekend you can in the first 6 months.** The honeymoon energy is real; leverage it.
+- **Travel every weekend you can in the first 6 months.** The honeymoon energy is real; use it while it lasts.
 - **Make German friends early.** Your neighbor, your kid's school parent, the Winzer (wine-maker). You'll never be fully integrated via on-post ACS events alone.
 - **Learn basic German.** Doesn't have to be fluent. 100 words + the phrases in the German Survival entry gets you 80% of daily life.
 - **Buy the Deutschlandticket.** €58/month for all regional transit. Pays for itself in a week.

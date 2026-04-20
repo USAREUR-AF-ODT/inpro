@@ -69,7 +69,7 @@ You need a referral from your ARHC PCM for any specialist. The referral routes t
 6. At the appointment, you present the referral letter — no upfront payment if the provider is ATLAS-direct
 7. Non-ATLAS providers: you pay, then file for reimbursement
 
-**Local ATLAS network is strong** in Wiesbaden — Asklepios, HSK, St. Josefs, Mainz UniKlinik all have ATLAS-enrolled specialists. English-speaking options are abundant.
+**Local ATLAS network is strong** in Wiesbaden — Asklepios, HSK, St. Josefs, Mainz UniKlinik all have ATLAS-enrolled specialists. English-speaking options are abundant. For the step-by-step referral playbook, see [Specialty referrals deep dive](/entries/medical/specialty-referrals-deep-dive); for prescription mechanics, see [Pharmacy workflow](/entries/medical/pharmacy-workflow).
 
 ## Emergencies
 

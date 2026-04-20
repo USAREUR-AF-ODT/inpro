@@ -22,6 +22,8 @@ Two tracks to drive legally in Germany long-term. Most SOFA-status personnel use
 
 Both start with a valid US license. The paperwork diverges.
 
+For DIY car maintenance and MWR-rate service labor once your license is sorted, see [Auto Skills Center](/entries/vehicle/auto-skills-center). For life without a car, see [Public transport](/entries/vehicle/public-transport).
+
 ## Track 1 — USAREUR Certificate of License (on-post)
 
 The standard option. Required for POV registration through DES Wiesbaden. Valid only on US installations and for SOFA-status driving in Germany.

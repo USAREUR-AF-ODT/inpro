@@ -84,7 +84,7 @@ Most Bürgeramt staff speak some English. Wiesbaden is the state capital of Hess
 - **No Wohnungsgeberbestätigung = no registration.** If your landlord doesn't know what it is (some don't, especially small private landlords), send them the Stadt Wiesbaden template link.
 - **Every household member registers at the same address, same session.** Save a second trip by bringing everyone.
 - **Minor kids don't need to appear in person** usually — bring their documents. Teenagers over 16 sometimes must be present; ask when you book.
-- **Rundfunkbeitrag (€18.36/month TV tax) starts billing automatically** once you Anmelden. You can't opt out. Budget for it.
+- **Rundfunkbeitrag (€18.36/month TV tax) starts billing automatically** once you Anmelden. SOFA-status families can apply for exemption; see [Rundfunkbeitrag](/entries/legal/rundfunkbeitrag). Don't ignore the first letter.
 - **Moving within Germany** requires an Ummeldung (change of address) within 14 days of each move — same process, new Wohnungsgeberbestätigung.
 - **Leaving Germany**: Abmeldung (de-registration) is mandatory when you PCS out. Do it in your last 2 weeks; the Bürgeramt stamps your final documents.
 - **SOFA status does not exempt you from Anmeldung** when you live off-post. Many Soldiers think it does. It doesn't.
