@@ -163,7 +163,10 @@ function mountBadge(el: HTMLElement): void {
 function mountBanner(el: HTMLElement): void {
   injectStyles();
   if (hasSeenBanner() || load()) { el.hidden = true; return; }
-  el.innerHTML = `
+  // Banner HTML is SSR-rendered in BaseLayout so first paint already shows it
+  // (prevents CLS from late injection). Only inject when SSR content is missing.
+  if (!el.querySelector('.pp-banner')) {
+    el.innerHTML = `
 <div class="pp-banner">
   <p><strong>New here?</strong> Set your view so we can highlight what's relevant to your situation. No signup, stays on your device.</p>
   <div class="pp-actions">
@@ -171,6 +174,7 @@ function mountBanner(el: HTMLElement): void {
     <button type="button" class="btn btn--ghost" data-pp-skip>Skip — show everything</button>
   </div>
 </div>`;
+  }
   el.addEventListener('click', (e) => {
     const t = e.target as HTMLElement;
     if (t.closest('[data-pp-open]')) { openPicker(); markBannerSeen(); el.hidden = true; }

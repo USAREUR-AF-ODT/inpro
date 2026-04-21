@@ -104,7 +104,15 @@ const searchActive = path === `${basePath}/search`;
       </nav>
     </header>
 
-    <div data-pp-banner class="banner-wrap no-print"></div>
+    <div data-pp-banner class="banner-wrap no-print">
+      <div class="pp-banner">
+        <p><strong>New here?</strong> Set your view so we can highlight what's relevant to your situation. No signup, stays on your device.</p>
+        <div class="pp-actions">
+          <button type="button" class="btn" data-pp-open>Set my view</button>
+          <button type="button" class="btn btn--ghost" data-pp-skip>Skip — show everything</button>
+        </div>
+      </div>
+    </div>
     <ProfileFilterStatus />
 
     <main id="main">
@@ -221,7 +229,7 @@ const searchActive = path === `${basePath}/search`;
       }
       .nav-inner .num {
         font-family: var(--font-display);
-        color: var(--terracotta);
+        color: var(--terracotta-600);
         font-size: 0.75rem;
         margin-right: 0.35rem;
         font-feature-settings: "tnum" 1;
@@ -233,6 +241,37 @@ const searchActive = path === `${basePath}/search`;
         max-width: 76rem;
         margin: 1.5rem auto 0;
         padding: 0 1.5rem;
+      }
+      /* SSR copy of .pp-banner styles from profilePicker.client.ts.
+         Inlined so first paint matches the hydrated layout and CLS stays at 0. */
+      .pp-banner {
+        background: var(--paper-warm);
+        border: 1px solid var(--rule);
+        border-radius: var(--radius);
+        padding: 0.9rem 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        align-items: center;
+        justify-content: space-between;
+        font-family: var(--font-sans);
+        font-size: 0.95rem;
+      }
+      .pp-banner p { margin: 0; flex: 1 1 20rem; }
+      .pp-banner .pp-actions { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+      .pp-banner .btn {
+        font-family: var(--font-sans);
+        font-size: 0.85rem;
+        padding: 0.4rem 0.85rem;
+        border-radius: var(--radius);
+        border: 1px solid var(--rule);
+        background: var(--ink);
+        color: var(--paper);
+        cursor: pointer;
+      }
+      .pp-banner .btn--ghost {
+        background: transparent;
+        color: var(--ink);
       }
 
       main {
