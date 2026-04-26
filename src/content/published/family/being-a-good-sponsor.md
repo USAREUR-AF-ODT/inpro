@@ -16,11 +16,11 @@ order: 1
 
 ## What
 
-You've been assigned as a sponsor for a Soldier or Family coming to Wiesbaden. This is your short guide. Your unit's S1 has the formal checklist — this is the "what actually matters" version.
+You've been assigned as a sponsor for a Soldier or Family coming to Wiesbaden. This is your short guide. Your unit's S1 has the formal checklist; this is the "what actually matters" version.
 
 ## The honest rule of sponsorship
 
-The incoming Soldier's handler at the unit will handle military stuff. Your job is the **human stuff** — the million small things a new arrival doesn't know to ask.
+The incoming Soldier's handler at the unit will handle military stuff. Your job is the **human stuff**; the million small things a new arrival doesn't know to ask.
 
 - Where do they pick up groceries in the first 48 hours without a car?
 - Is the Lodge infested with bedbugs this month (ask around)?
@@ -31,7 +31,7 @@ The incoming Soldier's handler at the unit will handle military stuff. Your job 
 
 That's what they need from you. Military paperwork is solved; life logistics aren't.
 
-## 60 days out — first contact
+## 60 days out; first contact
 
 ### Reach out before they land
 Email or call with:
@@ -45,7 +45,7 @@ Email or call with:
 - They probably assume Anmeldung is optional (it's not, for off-post residents)
 - They assume TLA is a flat 60 days (it's 10 days initial, extendable)
 
-## 30 days out — logistics
+## 30 days out; logistics
 
 ### Sponsor checklist basics
 - **Army Lodge reservation**: confirm they have one, check-in date, number of nights
@@ -56,7 +56,7 @@ Email or call with:
 
 ### What you shouldn't do
 - Don't pre-commit to housing without them seeing it
-- Don't give opinionated advice on private matters (EFMP, marital stuff) — refer to ACS
+- Don't give opinionated advice on private matters (EFMP, marital stuff); refer to ACS
 - Don't pretend to know stuff you don't
 
 ## Arrival day
@@ -65,7 +65,7 @@ Email or call with:
 - **If you can meet them at FRA**: be there. Picking them up at baggage is one of the most meaningful things a sponsor does. They arrive disoriented; a familiar face matters.
 - **If you can't meet them**: at minimum, confirm the shuttle or rental car plan is solid and be reachable by phone
 - **Buy them groceries**: a €30 emergency grocery run (bread, milk, eggs, coffee, snacks for kids) at the commissary before they arrive saves them a 20-min shuttle on Day 1
-- **Be at the Army Lodge check-in with them** — answer any gotcha questions about the room, the Wi-Fi, the TV
+- **Be at the Army Lodge check-in with them**; answer any gotcha questions about the room, the Wi-Fi, the TV
 
 ### Day-1 essentials to hand off
 - Your phone number (call/text anytime for week 1)
@@ -92,19 +92,19 @@ Email or call with:
 - Don't disappear. If you said you'd be reachable, be reachable.
 - Don't resolve their marital issues or parenting challenges. That's outside scope.
 
-## Weeks 2–4
+## Weeks 2-4
 
 ### The newcomer's briefing at ACS (3rd Tuesday)
-- Make sure they attend; 0900–1600, Bldg 7790 Hainerberg
+- Make sure they attend; 0900-1600, Bldg 7790 Hainerberg
 - Offer to watch their kids if they can't bring them
-- Check in after — what did they learn, what questions did they develop?
+- Check in after; what did they learn, what questions did they develop?
 
 ### Their first "normal" weekend
 - Take them into Wiesbaden (downtown, Kurhaus, the market)
-- Introduce them to your own network — other spouses, families, colleagues
+- Introduce them to your own network; other spouses, families, colleagues
 
 ### When your job ends
-Sponsorship is officially 30 days or until outprocessing — but the relationship often continues. At minimum, close the loop: let them know you're stepping out of the formal sponsor role but remain a friend / colleague.
+Sponsorship is officially 30 days or until outprocessing; but the relationship often continues. At minimum, close the loop: let them know you're stepping out of the formal sponsor role but remain a friend / colleague.
 
 ## Common traps
 
@@ -124,7 +124,7 @@ Sponsorship is officially 30 days or until outprocessing — but the relationshi
 - Their life circumstances may be harder than they can share
 
 ### They become dependent
-- Some newcomers lean hard. That's fine week 1. By week 3, they need to be calling ACS, HSO, their unit — not you for everything
+- Some newcomers lean hard. That's fine week 1. By week 3, they need to be calling ACS, HSO, their unit; not you for everything
 - Refer them to specific offices as they build their own network
 
 ## Gotchas
@@ -132,9 +132,9 @@ Sponsorship is officially 30 days or until outprocessing — but the relationshi
 - **Spouse sponsorship is separate from unit sponsorship.** The ACS Spouse Sponsor Coordinator pairs incoming spouses with local spouses. If your sponsored newcomer is Family-heavy, nominate yourself or a family member for spouse sponsorship via ACS (DSN 548-9201).
 - **Confidentiality**: sponsorship doesn't give you access to anyone's medical, EFMP, or financial info. Don't ask.
 - **Don't arrive at the Army Lodge uninvited** at 6 AM. Ask first.
-- **If things go wrong** (sponsored person can't make appointments, isn't responsive, or seems to be struggling with more than PCS stress) — escalate to the unit chain of command, not to your own private network
-- **Sponsor-to-sponsor** — after a good tour, close the loop with the S1. Your next assignment will benefit from you being on record as a reliable sponsor.
+- **If things go wrong** (sponsored person can't make appointments, isn't responsive, or seems to be struggling with more than PCS stress); escalate to the unit chain of command, not to your own private network
+- **Sponsor-to-sponsor**; after a good tour, close the loop with the S1. Your next assignment will benefit from you being on record as a reliable sponsor.
 
 ## Source notes
 
-Synthesized from USAG Wiesbaden's sponsorship page and the Sponsor Checklist Template PDF. Your unit's specific sponsorship SOP takes precedence — this is a companion, not a replacement.
+Synthesized from USAG Wiesbaden's sponsorship page and the Sponsor Checklist Template PDF. Your unit's specific sponsorship SOP takes precedence; this is a companion, not a replacement.

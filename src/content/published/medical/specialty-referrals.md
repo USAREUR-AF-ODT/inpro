@@ -24,14 +24,14 @@ The process looks scarier than it is. Here's how to make it work.
 
 1. **Book appointment with your ARHC PCM** (Primary Care Manager)
 2. **Describe the problem.** The PCM decides if referral is needed.
-3. **PCM enters referral in ATLAS** — the TRICARE Overseas provider directory and referral system
+3. **PCM enters referral in ATLAS**; the TRICARE Overseas provider directory and referral system
 4. **TRICARE Overseas approves** (2-5 business days for routine, same-day for urgent)
 5. **You receive a referral letter** or email with approved provider names
 6. **You call the specialist** to book the appointment
-7. **At the appointment**, present the referral letter — no upfront payment if the provider is ATLAS-enrolled
+7. **At the appointment**, present the referral letter; no upfront payment if the provider is ATLAS-enrolled
 8. **Results flow back** to your ARHC PCM for coordination
 
-## ATLAS — what it is
+## ATLAS; what it is
 
 ATLAS is TRICARE Overseas' catalog of approved host-nation specialists. Providers in ATLAS:
 - Bill TRICARE Overseas directly
@@ -41,25 +41,25 @@ ATLAS is TRICARE Overseas' catalog of approved host-nation specialists. Provider
 
 Providers NOT in ATLAS:
 - You pay out-of-pocket, file claim for reimbursement
-- Expect 4–6 week reimbursement cycle
+- Expect 4-6 week reimbursement cycle
 - Some won't file with TRICARE at all; you pay then claim via the regional center
 
 ## What's typically referred
 
-- **Dermatology** — plenty of English-speaking derms in Wiesbaden
-- **OB/GYN** — HSK has an excellent department; many private OBs in Wiesbaden
-- **Orthopedics** — Asklepios and HSK both strong
-- **Physical therapy** (*Krankengymnastik*) — after referral, great PT available
-- **Behavioral health / psychiatry / therapy** — sometimes routes to civilian, sometimes to regional military BH clinics
-- **Pediatric specialties** — HSK and Frankfurt UniKlinik
-- **Dental specialties** — outside TRICARE medical; use TRICARE Dental Program separately
-- **Ophthalmology** — eye exams and specialty eye care
+- **Dermatology**; plenty of English-speaking derms in Wiesbaden
+- **OB/GYN**; HSK has an excellent department; many private OBs in Wiesbaden
+- **Orthopedics**; Asklepios and HSK both strong
+- **Physical therapy** (*Krankengymnastik*); after referral, great PT available
+- **Behavioral health / psychiatry / therapy**; sometimes routes to civilian, sometimes to regional military BH clinics
+- **Pediatric specialties**; HSK and Frankfurt UniKlinik
+- **Dental specialties**; outside TRICARE medical; use TRICARE Dental Program separately
+- **Ophthalmology**; eye exams and specialty eye care
 - **ENT / Audiology**
-- **Gastro / Endo** — for colonoscopies, endoscopy
-- **Women's health** — breast imaging, mammography, OB referrals
-- **Fertility** — available but rules differ from stateside TRICARE
+- **Gastro / Endo**; for colonoscopies, endoscopy
+- **Women's health**; breast imaging, mammography, OB referrals
+- **Fertility**; available but rules differ from stateside TRICARE
 
-## Making specialist appointments — tactics
+## Making specialist appointments; tactics
 
 ### Call, don't email (for first appointment)
 Most German specialist offices respond faster to phone calls than emails. Have your sponsor's name, dependent ID, diagnosis code from referral, and ATLAS reference ready.
@@ -68,10 +68,10 @@ Most German specialist offices respond faster to phone calls than emails. Have y
 Many receptionists do. Lead with German politeness (Guten Morgen, Hallo) then English works fine in most of Wiesbaden.
 
 ### Weekday morning is best
-German offices open 08:00–10:00 for new appointments. Call during this window.
+German offices open 08:00-10:00 for new appointments. Call during this window.
 
 ### For urgent: use the 116 117 hotline
-The German "Ärztliche Bereitschaftsdienst" (116 117) is the general practitioner on-call line — evenings and weekends. English support varies.
+The German "Ärztliche Bereitschaftsdienst" (116 117) is the general practitioner on-call line; evenings and weekends. English support varies.
 
 ### Specialty waits vary widely
 - Dermatology: 2-4 weeks for routine
@@ -94,7 +94,7 @@ Dial 112 or go to the nearest hospital ER. No referral needed. Notify TRICARE Ov
 Call International SOS 24/7 line (+00-800-4444-8844) for direction. They'll tell you where to go and ensure claim processing.
 
 ### Routine but ARHC has no capacity
-Routine appointments ≥4 weeks out at ARHC — your PCM may offer direct-to-specialist referrals without the full ATLAS process. Ask.
+Routine appointments ≥4 weeks out at ARHC; your PCM may offer direct-to-specialist referrals without the full ATLAS process. Ask.
 
 ## Specialist directory and search
 
@@ -102,10 +102,10 @@ Routine appointments ≥4 weeks out at ARHC — your PCM may offer direct-to-spe
 - Web: tricare-overseas.com search
 - Mobile app: TRICARE Overseas (iOS/Android)
 - Filter by: specialty, distance, language (English yes/no)
-- Phone the listed number to confirm current status — the directory has lag
+- Phone the listed number to confirm current status; the directory has lag
 
 ### Community-crowdsourced recommendations
-USAG Wiesbaden Facebook groups for specific specialties (pediatric, OB, behavioral health) exist and are useful — read them, but verify with ARHC or ATLAS before committing.
+USAG Wiesbaden Facebook groups for specific specialties (pediatric, OB, behavioral health) exist and are useful; read them, but verify with ARHC or ATLAS before committing.
 
 ## Mental health specifically
 
@@ -116,14 +116,14 @@ Wiesbaden Army Health Clinic has some behavioral health capacity, limited waitli
 Some units have embedded BH personnel. Ask your unit's S1 or Chaplain.
 
 ### Off-post via ATLAS
-Private therapists (psychologists + psychiatrists) in Wiesbaden accept TRICARE Overseas. Many are English-speaking. Wait times: 2–8 weeks depending on specialty.
+Private therapists (psychologists + psychiatrists) in Wiesbaden accept TRICARE Overseas. Many are English-speaking. Wait times: 2-8 weeks depending on specialty.
 
 ### Telehealth
 US-licensed TRICARE providers can deliver telehealth to overseas patients in some cases. Check current policy.
 
 ### Crisis
 - **Veterans/Military Crisis Line**: 988 or 001-844-702-5495
-- **German: Telefonseelsorge** (crisis line in German): 0800-111-0-111 or 0800-111-0-222 — 24/7, anonymous
+- **German: Telefonseelsorge** (crisis line in German): 0800-111-0-111 or 0800-111-0-222; 24/7, anonymous
 
 ## Pediatric specialist tips
 
@@ -132,7 +132,7 @@ ARHC's pediatrics team refers to:
 - **Frankfurt UniKlinik** (for complex cases)
 - **Wiesbaden private pediatricians** for routine well-checks if ARHC is booked
 
-For developmental / autism screening and therapy, EIS (Early Intervention Services, DoDEA-run for birth–3) and School Psychology (DoDEA, school-age) handle evaluations.
+For developmental / autism screening and therapy, EIS (Early Intervention Services, DoDEA-run for birth-3) and School Psychology (DoDEA, school-age) handle evaluations.
 
 ## Maternity care specifically
 
@@ -160,8 +160,8 @@ Many families PCS to Wiesbaden *intending* to have a child here. It's a positive
 - **Hospital admission** is handled directly by admitting hospital + TRICARE Overseas, not through ARHC. Emergency = hospital; scheduled = pre-authorization.
 - **Out-of-network costs** can bankrupt you if you go off-ATLAS without referral. Always check ATLAS first.
 - **Pediatric immunizations** in Germany follow a slightly different schedule; ARHC honors US schedule but some German providers push the German schedule. Clarify with the specific provider.
-- **Language at emergency** — if you're in distress in an ER, say "English" firmly; most Wiesbaden hospitals have English-capable staff on-call.
-- **ATLAS has app issues sometimes** — if the app isn't loading, call the 24/7 line.
+- **Language at emergency**; if you're in distress in an ER, say "English" firmly; most Wiesbaden hospitals have English-capable staff on-call.
+- **ATLAS has app issues sometimes**; if the app isn't loading, call the 24/7 line.
 
 ## Source notes
 

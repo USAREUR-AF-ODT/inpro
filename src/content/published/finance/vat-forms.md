@@ -27,8 +27,8 @@ German value-added tax (VAT / *Mehrwertsteuer*) is 19% on most goods and 7% on f
 
 There are two forms:
 
-- **NF-1 ($5)** — good for any purchase up to **€2,499.99**. Can be used for groceries, clothes, train tickets, hotels, restaurant meals, furniture, appliances — anything. You can hold up to 10 NF-1 forms at a time.
-- **NF-2 ($65)** — for single purchases of **€2,500 or more**. Most commonly used for cars, major appliances, and furniture sets. Only one NF-2 at a time.
+- **NF-1 ($5)**; good for any purchase up to **€2,499.99**. Can be used for groceries, clothes, train tickets, hotels, restaurant meals, furniture, appliances; anything. You can hold up to 10 NF-1 forms at a time.
+- **NF-2 ($65)**; for single purchases of **€2,500 or more**. Most commonly used for cars, major appliances, and furniture sets. Only one NF-2 at a time.
 
 ## Where
 
@@ -38,8 +38,8 @@ Phone: **DSN 548-9107 / +49-611-143-548-9107**.
 
 ## How it actually works
 
-1. Attend the VAT briefing. You'll learn the rules (they matter — violating them can cost you the benefit).
-2. Buy NF-1 forms in advance — typically 3–5 at a time. Pay cash, credit, or money order.
+1. Attend the VAT briefing. You'll learn the rules (they matter; violating them can cost you the benefit).
+2. Buy NF-1 forms in advance; typically 3-5 at a time. Pay cash, credit, or money order.
 3. When you shop, **hand the cashier the blank VAT form before they ring up your purchase**. Let them fill in the merchant info.
 4. You pay the tax-free total.
 5. Keep the pink copy of the form for your records. Drop the white copy in the drop box at the VAT office when you return to post.
@@ -47,7 +47,7 @@ Phone: **DSN 548-9107 / +49-611-143-548-9107**.
 ## Gotchas
 
 - **The form must be issued before the transaction.** If you bought something yesterday and didn't have a form, you cannot retroactively "VAT" it. No exceptions.
-- **No splitting purchases.** If you buy a bed for €1,500 and a couch for €2,000 at the same store on the same day, that's €3,500 total — one transaction requiring one NF-2. You cannot use two NF-1s. Vendors may offer to help you cheat; the customer is liable.
+- **No splitting purchases.** If you buy a bed for €1,500 and a couch for €2,000 at the same store on the same day, that's €3,500 total; one transaction requiring one NF-2. You cannot use two NF-1s. Vendors may offer to help you cheat; the customer is liable.
 - **Stacking on one form**: you can combine multiple purchases from the same vendor onto a single NF-1 *within the same calendar month*, as long as you return the form before the month ends and you purchased the form before the first transaction.
 - **Vendors are not required to accept VAT forms.** Acceptance is voluntary on the German side. Ask before you shop. Supermarkets, most electronics stores, most furniture stores, most hotels, Deutsche Bahn, and many restaurants accept.
 - **No prepayment before the form is issued.** You cannot put down a deposit and then bring a form later. If you pay one euro, you can't get the form.
@@ -56,11 +56,11 @@ Phone: **DSN 548-9107 / +49-611-143-548-9107**.
 
 ## When the VAT benefit is biggest
 
-- **Buying a car** (NF-2): saves ~19% of ~€20K–40K. Worth the $65 fee by three orders of magnitude.
+- **Buying a car** (NF-2): saves ~19% of ~€20K-40K. Worth the $65 fee by three orders of magnitude.
 - **Furnishing an apartment**: if your HHG hasn't arrived and you're buying furniture to hold you over, use NF-1s aggressively.
 - **Big grocery hauls**: yes, it adds friction at checkout, but it saves 7% on food. Over a year of groceries for a family of four, that's real money.
 - **Hotel stays and train tickets for leisure travel**: these add up if you travel a lot.
-- **Restaurants**: 7%–19% off dinner bills. Some restaurants accept, some don't — ask at seating.
+- **Restaurants**: 7%-19% off dinner bills. Some restaurants accept, some don't; ask at seating.
 
 ## When VAT is not worth it
 
@@ -69,7 +69,7 @@ Phone: **DSN 548-9107 / +49-611-143-548-9107**.
 
 ## UTAP (Utility Tax Avoidance Program)
 
-Same office runs UTAP — avoids VAT on **home utilities** (gas, electric, water, internet). You pay the pre-tax rate directly. Set this up when you move in. Separate briefing, separate paperwork, but big savings over a 3-year tour.
+Same office runs UTAP; avoids VAT on **home utilities** (gas, electric, water, internet). You pay the pre-tax rate directly. Set this up when you move in. Separate briefing, separate paperwork, but big savings over a 3-year tour.
 
 ## Source notes
 

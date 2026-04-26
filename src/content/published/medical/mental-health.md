@@ -36,9 +36,9 @@ poc:
 Mental health care in Wiesbaden spans four paths depending on need and urgency:
 
 1. **Urgent / Crisis**: Military Crisis Line (988), SHARP, Domestic Violence, on-post ER (for immediate danger)
-2. **Routine Army Behavioral Health**: ARHC's behavioral health team — Active Duty primary, Family with capacity
+2. **Routine Army Behavioral Health**: ARHC's behavioral health team; Active Duty primary, Family with capacity
 3. **Longer-term therapy / psychiatry**: ATLAS-referred German civilian providers
-4. **Pastoral counseling (100% confidential)**: Chaplains — confidentiality privileged
+4. **Pastoral counseling (100% confidential)**: Chaplains; confidentiality privileged
 
 Each path has different access, different hours, and different confidentiality.
 
@@ -113,7 +113,7 @@ TRICARE Overseas covers most of the visit; small co-pays depending on plan.
 ## Chaplain (100% confidential pastoral care)
 
 ### What makes chaplains different
-Chaplains have **absolute privileged confidentiality** in conversations — cannot be compelled by command, court, or medical boards to disclose what you tell them. Behavioral health providers have limits on confidentiality (duty to warn, duty to report abuse, fitness-for-duty). Chaplains don't.
+Chaplains have **absolute privileged confidentiality** in conversations; cannot be compelled by command, court, or medical boards to disclose what you tell them. Behavioral health providers have limits on confidentiality (duty to warn, duty to report abuse, fitness-for-duty). Chaplains don't.
 
 ### When to use a chaplain
 - You want to talk without command or medical record involvement
@@ -127,42 +127,42 @@ Chaplains have **absolute privileged confidentiality** in conversations — cann
 - No appointment required for initial conversation; ongoing meetings scheduled
 
 ### What chaplains aren't
-- Not clinical therapists — no meds, no diagnoses, no DSM-V
+- Not clinical therapists; no meds, no diagnoses, no DSM-V
 - Not substitutes for deep trauma therapy
-- Not unlimited — they refer out for clinical needs
+- Not unlimited; they refer out for clinical needs
 
 ## Family-specific
 
 ### Kids + teens
-- **School-based counselor** (DoDEA) — first stop for school-age kids
-- **ARHC pediatric behavioral health** — for diagnoses and medication
-- **Civilian child psychologist** via ATLAS — for therapy-heavy cases
+- **School-based counselor** (DoDEA); first stop for school-age kids
+- **ARHC pediatric behavioral health**; for diagnoses and medication
+- **Civilian child psychologist** via ATLAS; for therapy-heavy cases
 
 ### Couples / relationship
-- **Chaplain** (pastoral counseling) — free, confidential, ideal first step
-- **ATLAS couples therapy** (English-speaking) — available; wait 4-8 weeks
-- **Marriage-enrichment retreats** — organized through ACS periodically
+- **Chaplain** (pastoral counseling); free, confidential, ideal first step
+- **ATLAS couples therapy** (English-speaking); available; wait 4-8 weeks
+- **Marriage-enrichment retreats**; organized through ACS periodically
 
 ### Spouse stress / spouse employment stress
 - **ACS Employment Readiness Program** (for career-related stress)
-- **ACS spouse support groups** — Family Readiness, FRG events
-- **Military Family Life Consultant (MFLC)** — free, confidential, short-term
+- **ACS spouse support groups**; Family Readiness, FRG events
+- **Military Family Life Consultant (MFLC)**; free, confidential, short-term
 
 ### Deployment / separation
-- **ACS Deployment Support** — practical resources + emotional
-- **FRG (Family Readiness Group)** — peer support
-- **SYSSM (Spouse of Service Member)** — online community
+- **ACS Deployment Support**; practical resources + emotional
+- **FRG (Family Readiness Group)**; peer support
+- **SYSSM (Spouse of Service Member)**; online community
 
 ## Substance abuse
 
 ### On-post
-- **Army Substance Abuse Program (ASAP)** — assessments, treatment planning
+- **Army Substance Abuse Program (ASAP)**; assessments, treatment planning
 - **Active Duty referral** via command + behavioral health
 - **Family referral** via ARHC
 
 ### Civilian
 - German treatment options available through ATLAS
-- **AA / NA meetings** — English-speaking meetings in Wiesbaden; check CAA.de or military Facebook groups
+- **AA / NA meetings**; English-speaking meetings in Wiesbaden; check CAA.de or military Facebook groups
 
 ## Specific populations
 
@@ -172,9 +172,9 @@ Chaplains have **absolute privileged confidentiality** in conversations — cann
 - ATLAS includes LGBTQ-affirming providers; ask explicitly
 
 ### PTSD / combat stress
-- **Vet Center Europe** (Kaiserslautern) — Veterans Affairs; 90-min drive but worth it
-- **ARHC combat stress services** — short-term
-- **ATLAS specialty PTSD therapists** — include EMDR, CPT, Prolonged Exposure practitioners
+- **Vet Center Europe** (Kaiserslautern); Veterans Affairs; 90-min drive but worth it
+- **ARHC combat stress services**; short-term
+- **ATLAS specialty PTSD therapists**; include EMDR, CPT, Prolonged Exposure practitioners
 
 ### Post-partum
 - **Hebamme (midwife)** often catches post-partum depression signs
@@ -183,14 +183,14 @@ Chaplains have **absolute privileged confidentiality** in conversations — cann
 
 ## Hotlines + resources (save these in your phone)
 
-- **988** — Veterans / Military Crisis Line
-- **+49-162-297-5625** — Domestic Violence Response
-- **53-SHARP (74277)** or **+49-162-296-6741** — SHARP Victim Advocate
-- **+49-162-296-6741** — SHARP (24/7)
-- **+49-911-398-2451** — English-speaking Poison Control
-- **112** — German emergency medical
-- **ARHC appointment line** — DSN 590-5762 / `+49-6371-9464-5762`
-- **ACS main** — DSN 548-9201 / `+49-611-143-548-9201`
+- **988**; Veterans / Military Crisis Line
+- **+49-162-297-5625**; Domestic Violence Response
+- **53-SHARP (74277)** or **+49-162-296-6741**; SHARP Victim Advocate
+- **+49-162-296-6741**; SHARP (24/7)
+- **+49-911-398-2451**; English-speaking Poison Control
+- **112**; German emergency medical
+- **ARHC appointment line**; DSN 590-5762 / `+49-6371-9464-5762`
+- **ACS main**; DSN 548-9201 / `+49-611-143-548-9201`
 
 ## Stigma considerations
 
@@ -217,7 +217,7 @@ Chaplains have **absolute privileged confidentiality** in conversations — cann
 - **Telehealth from US-based TRICARE providers**: sometimes allowed, rules varying
 - **Deployment-related BH**: goes through unit BH first, not ARHC civilian-style referrals
 - **Don't assume chaplain ≠ mental health support.** Many Soldiers get what they need from pastoral conversation.
-- **Check the MFLC (Military Family Life Consultant)** — 12 free short-term sessions per issue, no medical record
+- **Check the MFLC (Military Family Life Consultant)**; 12 free short-term sessions per issue, no medical record
 
 ## Crisis signals in yourself or others
 

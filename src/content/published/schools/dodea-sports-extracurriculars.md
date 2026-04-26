@@ -24,29 +24,29 @@ For many teenagers, extracurriculars are the thing that turns a Wiesbaden tour f
 
 ## Where
 
-- **Home games and practices** — WHS on Clay Kaserne; WMS on Hainerberg
-- **Away games** — Ramstein, Stuttgart, Kaiserslautern (Germany), Vicenza, Aviano (Italy), Lakenheath, Alconbury (UK), Brussels/SHAPE (Belgium), Rota (Spain)
-- **Tournaments** — DoDEA-Europe championships rotate hosts; usually 1–2 flights per season for teams that advance
+- **Home games and practices**; WHS on Clay Kaserne; WMS on Hainerberg
+- **Away games**; Ramstein, Stuttgart, Kaiserslautern (Germany), Vicenza, Aviano (Italy), Lakenheath, Alconbury (UK), Brussels/SHAPE (Belgium), Rota (Spain)
+- **Tournaments**; DoDEA-Europe championships rotate hosts; usually 1-2 flights per season for teams that advance
 
 ## When
 
 Season windows (DoDEA-Europe calendar; confirm each year):
 
-- **Fall** (Aug–Oct): football, volleyball, cross-country, cheer, tennis
-- **Winter** (Nov–Feb): basketball, wrestling, swim, marksmanship (precision shooting)
-- **Spring** (Mar–May): soccer, baseball, softball, track and field, golf
+- **Fall** (Aug-Oct): football, volleyball, cross-country, cheer, tennis
+- **Winter** (Nov-Feb): basketball, wrestling, swim, marksmanship (precision shooting)
+- **Spring** (Mar-May): soccer, baseball, softball, track and field, golf
 
 European championship weekends fall in late October (fall sports), mid-February (winter), and late May (spring).
 
-**Tryouts start the first week of school for fall sports** — if you arrive after the Monday of Week 1, you may miss the cut. Summer PCS families should plan to arrive at least a week before school start for a fall-sport kid.
+**Tryouts start the first week of school for fall sports**; if you arrive after the Monday of Week 1, you may miss the cut. Summer PCS families should plan to arrive at least a week before school start for a fall-sport kid.
 
 ## Contact
 
 Primary contacts rotate annually. For current names and numbers, call:
 
-- **Wiesbaden High School main office** — contact via the WHS website
-- **Athletics Director (WHS)** — listed on the Athletics page
-- **Activities/clubs coordinator** — listed on the student-life or main page
+- **Wiesbaden High School main office**; contact via the WHS website
+- **Athletics Director (WHS)**; listed on the Athletics page
+- **Activities/clubs coordinator**; listed on the student-life or main page
 
 Coaches for each sport are emailed out in summer newsletters from the school.
 
@@ -55,16 +55,16 @@ Coaches for each sport are emailed out in summer newsletters from the school.
 ### 1. Physical
 DoDEA-Europe requires a current **sports physical** on the DoDEA pre-participation form. Dated within the last 12 months at the start of the season. Options:
 
-- **On-post** — well-child or sports physical at ARHC Wiesbaden (appointments fill fast pre-season); primary care can do these
-- **DoDEA school nurse** — sometimes organizes a physical-day at the school
-- **Off-post** — a German pediatrician can complete the form; you may need a translator
+- **On-post**; well-child or sports physical at ARHC Wiesbaden (appointments fill fast pre-season); primary care can do these
+- **DoDEA school nurse**; sometimes organizes a physical-day at the school
+- **Off-post**; a German pediatrician can complete the form; you may need a translator
 
 Start physicals **4 weeks before tryouts**. Missing the physical = missing tryouts.
 
 ### 2. Eligibility paperwork
-- **GPA requirement** — DoDEA-Europe uses a minimum GPA (typically 2.0) for interscholastic sports
-- **Attendance** — chronic absence disqualifies
-- **Residency in DoDEA district** — typically automatic for command-sponsored DoDEA students
+- **GPA requirement**; DoDEA-Europe uses a minimum GPA (typically 2.0) for interscholastic sports
+- **Attendance**; chronic absence disqualifies
+- **Residency in DoDEA district**; typically automatic for command-sponsored DoDEA students
 
 ### 3. Parental paperwork
 - **Concussion acknowledgment** (DoDEA policy)
@@ -81,44 +81,44 @@ DoDEA absorbs most travel costs for varsity athletes; Families may be asked to c
 - **Non-conference tournament fees**
 - **Meals on the road** (stipend provided but rarely covers everything)
 
-Expect €100–500 per season depending on sport. Booster clubs fundraise for supplemental costs.
+Expect €100-500 per season depending on sport. Booster clubs fundraise for supplemental costs.
 
 ## Extracurricular clubs (WHS)
 
 Typical active clubs (offerings shift year to year):
 
-- **JROTC Warrior Battalion** — well-regarded, competes in drill, orienteering, raider (physical-fitness team), marksmanship
-- **Band, Jazz Band, Chorus** — concert and festival circuit, European honor bands
-- **Drama / Theatre** — fall play, spring musical
-- **Robotics (FTC)** — competes in DoDEA and European opens
-- **Academic teams** — Math Counts, Mu Alpha Theta, JSHS (Junior Science and Humanities), Model UN, Scholastic Bowl
+- **JROTC Warrior Battalion**; well-regarded, competes in drill, orienteering, raider (physical-fitness team), marksmanship
+- **Band, Jazz Band, Chorus**; concert and festival circuit, European honor bands
+- **Drama / Theatre**; fall play, spring musical
+- **Robotics (FTC)**; competes in DoDEA and European opens
+- **Academic teams**; Math Counts, Mu Alpha Theta, JSHS (Junior Science and Humanities), Model UN, Scholastic Bowl
 - **National Honor Society**, NJHS, specific subject honor societies
 - **Student Government, Key Club, yearbook**
-- **eSports** — growing presence, varsity recognition in some years
-- **Language clubs** — German, French, Spanish conversation groups
-- **Affinity groups** — African-American Club, Asian-Pacific Club, etc.
+- **eSports**; growing presence, varsity recognition in some years
+- **Language clubs**; German, French, Spanish conversation groups
+- **Affinity groups**; African-American Club, Asian-Pacific Club, etc.
 
 ## Middle school sports and activities (WMS)
 
-Grades 6–8 at WMS runs a mix of **intramurals** (open to all) and **interscholastic** (tryout-based, travels to other DoDEA middle schools). Sports offered typically include:
+Grades 6-8 at WMS runs a mix of **intramurals** (open to all) and **interscholastic** (tryout-based, travels to other DoDEA middle schools). Sports offered typically include:
 
 - Fall: cross-country, soccer
 - Winter: basketball, wrestling
 - Spring: track
 
-Clubs: Student Government, National Junior Honor Society, drama, Math Counts, yearbook, music ensembles. Less travel than high school — usually regional only.
+Clubs: Student Government, National Junior Honor Society, drama, Math Counts, yearbook, music ensembles. Less travel than high school; usually regional only.
 
 ## Travel logistics
 
 - **Bus or chartered flight** to games. Teams overnight at host schools or nearby lodging.
-- **Host families** — away teams often billet with host families from the visiting school. Your kid may host; get ready for another team's player in your guest room on a weekend.
-- **Travel days are school days** — kids miss class. Teachers expect make-up work on return. Good-standing students manage; borderline students struggle.
+- **Host families**; away teams often billet with host families from the visiting school. Your kid may host; get ready for another team's player in your guest room on a weekend.
+- **Travel days are school days**; kids miss class. Teachers expect make-up work on return. Good-standing students manage; borderline students struggle.
 
 ## Gotchas
 
 - **Fall sport tryouts during PCS season**: August arrivals scramble. Email the coach from CONUS in June if your kid hopes to try out.
 - **Missing a physical** = missing the week. Book physicals early; a German pediatrician can fill the DoDEA form if ARHC appointments are booked out.
-- **AAA/spirit tournaments** can require weekend flights; coaches communicate travel manifests 2–3 weeks out. Nothing confirmed until the manifest is published.
+- **AAA/spirit tournaments** can require weekend flights; coaches communicate travel manifests 2-3 weeks out. Nothing confirmed until the manifest is published.
 - **Athletic fees are not waived for low income** at DoDEA, unlike some US districts. Booster clubs occasionally help individual Families quietly; ask the AD.
 - **Playing time**: DoDEA rosters are smaller than US districts but still competitive. Freshmen don't automatically start; coaches value upperclassmen.
 - **Transitioning home**: DoDEA-Europe varsity experience is recognized by US recruiters and college admissions; save transcripts, stat sheets, and team photos.

@@ -18,16 +18,16 @@ order: 20
 
 Garrison in-processing (HSO, Finance, ID Card, DES) is one track. Unit in-processing is a separate track, run by your gaining unit's S1 / HR shop. Both happen the same week. This is the unit side.
 
-## Day 1 at the unit — what actually happens
+## Day 1 at the unit; what actually happens
 
 1. **Sign-in.** Report to the unit CQ (Charge of Quarters) or S1 reception. They put your name in a book and email your sponsor + the unit leadership.
-2. **Initial counseling** with your sponsor (if available) or a designated liaison — walk-through of the unit's footprint, gate procedures, where to put your gear.
-3. **Sergeant Major / First Sergeant brief** (for enlisted) — usually 15 min, sets expectations, confirms your reporting status, flags any issues.
-4. **S1 in-processing packet** — roster, ERB updates, emergency data, weapons/equipment assignment initial form.
+2. **Initial counseling** with your sponsor (if available) or a designated liaison; walk-through of the unit's footprint, gate procedures, where to put your gear.
+3. **Sergeant Major / First Sergeant brief** (for enlisted); usually 15 min, sets expectations, confirms your reporting status, flags any issues.
+4. **S1 in-processing packet**; roster, ERB updates, emergency data, weapons/equipment assignment initial form.
 
 Most units handle this as a morning event. Afternoon is typically free for garrison in-processing (HSO, Finance).
 
-## Day 2–3 — S1 admin
+## Day 2-3; S1 admin
 
 ### ERB / SRP update
 Your Enlisted Record Brief (or equivalent) needs updating:
@@ -41,16 +41,16 @@ Your Enlisted Record Brief (or equivalent) needs updating:
 S1 coordinates with garrison Finance on your behalf for allowance changes. You still go to Finance yourself for travel voucher, TLA extension, etc.
 
 ### Personal file setup
-Unit personnel file established. Physical folder + digital. Expect to sign 10–20 forms in a single sitting.
+Unit personnel file established. Physical folder + digital. Expect to sign 10-20 forms in a single sitting.
 
-## Day 3–5 — gear and training readiness
+## Day 3-5; gear and training readiness
 
 ### Supply
-Issue weapon (if required by MTOE), NVGs (if required), field equipment. Some units issue all on Day 3; others roll you through over 2–4 weeks.
+Issue weapon (if required by MTOE), NVGs (if required), field equipment. Some units issue all on Day 3; others roll you through over 2-4 weeks.
 
 ### Medical readiness check
 - **ARHC** schedules you for PHA (Periodic Health Assessment) if yours expired during PCS
-- **Dental** readiness (Class I/II/III) — see Dental Care entry
+- **Dental** readiness (Class I/II/III); see Dental Care entry
 - **Immunizations** updated as needed for theater / assignment
 
 ### Vehicle registration
@@ -62,7 +62,7 @@ If your POV has arrived, schedule DES registration. If not, register when it lan
 - Orders (paper copy + digital)
 - Previous unit's outprocessing paperwork
 - SRC (Service Record Card) or equivalent
-- DA photo (in uniform) — some units want this on Day 1
+- DA photo (in uniform); some units want this on Day 1
 - Height/weight measurement from losing installation (if APFT recent)
 - ERB / SRP current
 - Immunization records
@@ -72,12 +72,12 @@ If your POV has arrived, schedule DES registration. If not, register when it lan
 Check with your sponsor day-before. Standard Army first day: OCPs with appropriate patches + unit patch (if known).
 
 ### What to know in advance
-- **Your unit's command climate** — some are relaxed, some are uptight. Ask your sponsor.
-- **PT schedule** — 0630 formation is typical but varies
-- **Battle buddy / sponsor continuity** — use your sponsor until they PCS; then your team
-- **Command photo protocol** — some units want full DA photo in first 30 days
+- **Your unit's command climate**; some are relaxed, some are uptight. Ask your sponsor.
+- **PT schedule**; 0630 formation is typical but varies
+- **Battle buddy / sponsor continuity**; use your sponsor until they PCS; then your team
+- **Command photo protocol**; some units want full DA photo in first 30 days
 
-## The S1 shop — your admin home
+## The S1 shop; your admin home
 
 For Active Duty Soldiers, the S1 handles:
 - **Personnel**: ERB, DEERS updates, promotions, pay actions
@@ -88,7 +88,7 @@ For Active Duty Soldiers, the S1 handles:
 - **Orders**: copies, retirements, separations
 - **Dependent changes**: births, divorces, deaths
 
-Build a relationship with the S1 NCOIC (NCO in charge) and the Personnel Clerk (usually E-4/E-5). They will make or break your life for the next 2–3 years.
+Build a relationship with the S1 NCOIC (NCO in charge) and the Personnel Clerk (usually E-4/E-5). They will make or break your life for the next 2-3 years.
 
 ## Unit Family Readiness Group (FRG)
 
@@ -102,7 +102,7 @@ If you have family:
 
 If you're a DA Civilian, your "unit in-processing" is with your gaining office + CPAC (Civilian Personnel Advisory Center). Different track, different timeline:
 - **Day 1**: Supervisor introduction, office tour
-- **Day 2–5**: CPAC in-processing — HR paperwork, TSP, health insurance, leave accrual setup
+- **Day 2-5**: CPAC in-processing; HR paperwork, TSP, health insurance, leave accrual setup
 - **Security**: clearance verification if you hold one; initial if cleared position
 - **Network/IT**: CAC-enabled computer access through DHR or local IT
 - **Training**: mandatory annual training (IA, EEO, SHARP Equivalent for civilians) within 30 days
@@ -116,16 +116,16 @@ Contractor in-processing is unit-specific and depends on:
 
 ## Common first-week mistakes
 
-- **Missing your DA photo appointment** — backloads ERB updates
-- **Not meeting your sponsor** — you arrive cold and it slows everything
-- **Forgetting to notify previous unit of outprocessing completion** — stuck finance
-- **Skipping family newcomer briefing at ACS** — your spouse gets zero support network
-- **Not attending the unit organization day / formal event** — signals disengagement
-- **Being seen in unauthorized uniform** on Day 1 — looks unprofessional
+- **Missing your DA photo appointment**; backloads ERB updates
+- **Not meeting your sponsor**; you arrive cold and it slows everything
+- **Forgetting to notify previous unit of outprocessing completion**; stuck finance
+- **Skipping family newcomer briefing at ACS**; your spouse gets zero support network
+- **Not attending the unit organization day / formal event**; signals disengagement
+- **Being seen in unauthorized uniform** on Day 1; looks unprofessional
 
 ## Promotion / schools / awards timeline
 
-Early moves (weeks 1–4):
+Early moves (weeks 1-4):
 - **Promotion packet**: update through S1 if you're close to pin-on
 - **School requests**: submit for next fiscal year's PME (professional military education)
 - **Awards**: submit any pending CONUS awards (medals, certs) that didn't close out
@@ -136,7 +136,7 @@ Every unit handles in-processing slightly differently:
 
 - **Small unit (battalion + below)**: fewer people involved, faster, more personal
 - **Brigade / HQ element**: more layers, more admin, longer timeline
-- **Specialty units (MI, Signal, Cyber)**: clearance verification + read-on briefings add 1–2 weeks
+- **Specialty units (MI, Signal, Cyber)**: clearance verification + read-on briefings add 1-2 weeks
 - **Aviation units**: flight records + NCO readiness reviews add specific requirements
 - **Joint units (V Corps Forward)**: inter-service coordination slower
 
@@ -158,10 +158,10 @@ Ask your sponsor 48 hours before arrival what your specific unit expects. Each i
 ## Gotchas
 
 - **S1 is Monday-through-Friday 0800-1700**; closed for federal holidays + some German holidays
-- **Get your phone number and email early** — unit groupthink forms fast; join the unit chat group
+- **Get your phone number and email early**; unit groupthink forms fast; join the unit chat group
 - **Your sponsor relationship** has an expiration (usually 30-90 days). Build other relationships quickly.
-- **Commander's intent for newcomers** often communicated in a welcome letter or first formation — read/listen carefully
-- **The first-week rush dies down by Day 10** — if you feel overwhelmed, that's normal; it passes
+- **Commander's intent for newcomers** often communicated in a welcome letter or first formation; read/listen carefully
+- **The first-week rush dies down by Day 10**; if you feel overwhelmed, that's normal; it passes
 - **Jet lag is real**. Your PT score first month may be off. Don't panic; it normalizes.
 
 ## Source notes

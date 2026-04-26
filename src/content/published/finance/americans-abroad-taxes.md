@@ -38,7 +38,7 @@ SOFA shields you from **German income tax** on your DoD-source salary. It does N
 - **Residence-abroad automatic extension**: June 15 instead of April 15
 - **Foreign Earned Income Exclusion (FEIE)**: $120,000+/year of earned income excluded from federal tax IF you qualify. Active Duty Soldiers usually don't qualify (they're US government employees on US wages). Spouses with German or remote US jobs might.
 - **Foreign Tax Credit (FTC)**: if you pay German income tax (unusual as SOFA-shielded), you claim credit
-- **German housing allowance** (OHA): not taxable at US federal level either — it's a housing allowance, not wages
+- **German housing allowance** (OHA): not taxable at US federal level either; it's a housing allowance, not wages
 
 ### Active Duty Soldier specifically
 - Your wages: taxable federally as normal
@@ -87,7 +87,7 @@ You can change SLR by establishing intent + residency ties in the new state:
 ### State tax credits if you paid another state
 If you moved mid-year, both states may claim tax. Dual-residency credit typically reconciles.
 
-## FBAR — the surprise most people miss
+## FBAR; the surprise most people miss
 
 **FBAR**: Report of Foreign Bank and Financial Accounts. Filed with FinCEN (not IRS), annually, by April 15 (auto-extended to Oct 15 in most cases).
 
@@ -106,18 +106,18 @@ Anyone with **foreign financial accounts aggregating over $10,000 at ANY point d
 ### How to file
 - Online at **FinCEN's BSA E-Filing system** (bsaefiling.fincen.treas.gov)
 - Free to file
-- Takes 15–30 minutes
+- Takes 15-30 minutes
 - Report highest balance for each account during the year
 - Separate from your 1040
 
 ### Penalties for not filing
 - Civil: up to $14,000 per account per year
 - Criminal (willful): up to $250,000 + 5 years prison
-- **Non-willful failure**: $500–$1,000 per account (still significant)
+- **Non-willful failure**: $500-$1,000 per account (still significant)
 
 **Don't skip this.** Many PCS Soldiers don't know about FBAR. Plan on filing it every year you have a German bank account.
 
-### Form 8938 (FATCA) — another foreign asset report
+### Form 8938 (FATCA); another foreign asset report
 If your foreign assets exceed certain thresholds ($200K unmarried OCONUS, $400K married), you ALSO file Form 8938 with your 1040. Separate from FBAR; covers broader assets.
 
 ## German tax obligations
@@ -134,9 +134,9 @@ SOFA-status US military and DA Civilians are exempt from German income tax on Do
 ### German tax return (Steuererklärung)
 Most SOFA personnel don't file one. Spouses with German income do. Deadline: May 31 of following year (or October with a tax advisor).
 
-## VITA — the free military tax prep
+## VITA; the free military tax prep
 
-**Volunteer Income Tax Assistance (VITA)** runs at the Wiesbaden Legal Office every tax season (January–April). Trained volunteers prepare federal + state returns for free.
+**Volunteer Income Tax Assistance (VITA)** runs at the Wiesbaden Legal Office every tax season (January-April). Trained volunteers prepare federal + state returns for free.
 
 ### What they cover
 - 1040 + schedules
@@ -159,12 +159,12 @@ Appointments fill January through April. Book in January if possible.
 - **MilTax** (free for Active Duty + Family members)
 
 ### Paid
-- **TurboTax** — standard choice; handles overseas addresses fine
-- **H&R Block Online** — also works
-- **H&R Block retail** — rare in Wiesbaden; US visits only
+- **TurboTax**; standard choice; handles overseas addresses fine
+- **H&R Block Online**; also works
+- **H&R Block retail**; rare in Wiesbaden; US visits only
 
 ### Tax pro
-If you have complex situations (spouse's German income, rental property, investment income), a CPA specializing in expat military is worth it — $300–$800 per return.
+If you have complex situations (spouse's German income, rental property, investment income), a CPA specializing in expat military is worth it; $300-$800 per return.
 
 ## PCS year specifically
 
@@ -196,15 +196,15 @@ Keep 7 years; audit window is 3 but extended for significant understatements.
 
 ## Gotchas
 
-- **FBAR is easy to forget** — set a calendar reminder for April each year
+- **FBAR is easy to forget**; set a calendar reminder for April each year
 - **State tax blind spot**: if you didn't change SLR before PCS, you may still owe Virginia / California / NY tax (whichever was your SLR)
-- **Spouse's US remote-work state tax**: some states aggressively pursue spouses who "work remotely from abroad" — research your state's rule
+- **Spouse's US remote-work state tax**: some states aggressively pursue spouses who "work remotely from abroad"; research your state's rule
 - **Cryptocurrency on foreign exchanges**: FBAR-reportable if aggregate >$10K
 - **Joint filing** with non-US spouse: election required on first joint return after arrival
 - **Children born in Germany**: US citizens if sponsor is; file Form 8812 and claim dependent credit normally
 - **State residency while deployed**: the Servicemembers Civil Relief Act protects Active Duty from state tax complications in their non-resident state. Don't let "but you live in Germany" fool a state into taxing you as a non-resident.
 - **Amending prior returns**: Form 1040-X (US) + similar state forms. Three-year window.
-- **Don't wait until April 14** — some foreign-asset rules are complex; start in February.
+- **Don't wait until April 14**; some foreign-asset rules are complex; start in February.
 
 ## Source notes
 

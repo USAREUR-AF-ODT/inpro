@@ -19,11 +19,11 @@ You're moving to Wiesbaden and want the 30-second version of what this place is.
 
 ## The US military community
 
-**USAG Wiesbaden** is a US Army Garrison — the infrastructure that supports ~25,000 Soldiers, civilians, and Family members living and working in Wiesbaden, Germany. Centered on **Clay Kaserne** (on the western side of the city, colocated with Wiesbaden Army Airfield), with Family housing at **Hainerberg**, **Newman Village**, **Aukamm**, and **Crestview**.
+**USAG Wiesbaden** is a US Army Garrison; the infrastructure that supports ~25,000 Soldiers, civilians, and Family members living and working in Wiesbaden, Germany. Centered on **Clay Kaserne** (on the western side of the city, colocated with Wiesbaden Army Airfield), with Family housing at **Hainerberg**, **Newman Village**, **Aukamm**, and **Crestview**.
 
 Main tenant commands:
 - **US Army Europe and Africa (USAREUR-AF)** HQ
-- **V Corps (Forward)** — forward element of V Corps
+- **V Corps (Forward)**; forward element of V Corps
 - **66th Military Intelligence Brigade** (INSCOM theater brigade for Europe)
 - **2nd Theater Signal Brigade** and **5th Signal Command (Theater)**
 - **56th Theater Multi Domain Command**
@@ -34,17 +34,17 @@ Main tenant commands:
 Wiesbaden is the capital of the German state of **Hessen**. Population ~280,000. One of Germany's wealthier cities, spared significant damage in WWII, so 19th-century architecture is largely preserved.
 
 Known for:
-- **Thermal spas** — the name "Wiesbaden" means "meadow baths"; the hot springs are why the city exists
-- **Rheingau wine region** — Riesling country, immediately west
-- **Kurhaus** — the center of town, a Belle Époque casino and event hall
-- **Frankfurt proximity** — 35 minutes by train; FRA airport is nearby
+- **Thermal spas**; the name "Wiesbaden" means "meadow baths"; the hot springs are why the city exists
+- **Rheingau wine region**; Riesling country, immediately west
+- **Kurhaus**; the center of town, a Belle Époque casino and event hall
+- **Frankfurt proximity**; 35 minutes by train; FRA airport is nearby
 
-Language: German (obviously), but Wiesbaden is international — English is widely spoken in retail, restaurants, and services.
+Language: German (obviously), but Wiesbaden is international; English is widely spoken in retail, restaurants, and services.
 
 ## The location
 
 Geographic context:
-- **Rhein-Main region** — one of Germany's wealthiest areas, centered on the Frankfurt metro
+- **Rhein-Main region**; one of Germany's wealthiest areas, centered on the Frankfurt metro
 - **1 hour from France** (Strasbourg)
 - **2 hours from Luxembourg and Brussels**
 - **4 hours from Paris** by train, **5 hours** by car
@@ -53,28 +53,28 @@ Geographic context:
 
 ## Administrative basics you'll hear
 
-- **SOFA** — Status of Forces Agreement; the treaty that makes you a legal US military resident
-- **USAREUR** — US Army Europe (technically now USAREUR-AF); the 4-star command
-- **IMCOM** — Installation Management Command; runs the garrison
-- **ACS** — Army Community Service (family support)
-- **CYS** — Child and Youth Services
-- **DES / DHR / DPW / DFMWR** — Directorates of Emergency Services / Human Resources / Public Works / Family, MWR & Recreation
-- **HSO** — Housing Services Office
-- **LRC** — Logistics Readiness Center
+- **SOFA**; Status of Forces Agreement; the treaty that makes you a legal US military resident
+- **USAREUR**; US Army Europe (technically now USAREUR-AF); the 4-star command
+- **IMCOM**; Installation Management Command; runs the garrison
+- **ACS**; Army Community Service (family support)
+- **CYS**; Child and Youth Services
+- **DES / DHR / DPW / DFMWR**; Directorates of Emergency Services / Human Resources / Public Works / Family, MWR & Recreation
+- **HSO**; Housing Services Office
+- **LRC**; Logistics Readiness Center
 
 ## Where to start reading
 
-1. [First 72 Hours](/entries/housing/first-72-hours) — arrival day run sheet
-2. [Emergency Numbers](/entries/medical/emergency-numbers) — save these before you land
-3. [Housing Services Office](/entries/housing/housing-services-office) — your gate to on-post or off-post housing
-4. [DSN Dialing Codes](/entries/id-cac/dsn-dialing-codes) — how to call anyone on post from your German cell
+1. [First 72 Hours](/entries/housing/first-72-hours); arrival day run sheet
+2. [Emergency Numbers](/entries/medical/emergency-numbers); save these before you land
+3. [Housing Services Office](/entries/housing/housing-services-office); your gate to on-post or off-post housing
+4. [DSN Dialing Codes](/entries/id-cac/dsn-dialing-codes); how to call anyone on post from your German cell
 
 ## Who makes a good arrival
 
-- **Command-sponsored Families** — 95% of the audience for this guide; spouse + kids can move with you, OHA entitlement applies, dependents get TRICARE
-- **Geographic bachelors** — Soldiers who come without Family; on-post barracks or off-post with sponsorship
-- **DA Civilians** — federal civilian employees; usually AF (General Schedule) pay, federal benefits
-- **Contractors** — private-sector on-post; SOFA-status via employer; different rules for work authorization
+- **Command-sponsored Families**; 95% of the audience for this guide; spouse + kids can move with you, OHA entitlement applies, dependents get TRICARE
+- **Geographic bachelors**; Soldiers who come without Family; on-post barracks or off-post with sponsorship
+- **DA Civilians**; federal civilian employees; usually AF (General Schedule) pay, federal benefits
+- **Contractors**; private-sector on-post; SOFA-status via employer; different rules for work authorization
 
 ## Climate and life
 
@@ -92,10 +92,10 @@ Geographic context:
 
 ## Pro tips before reading deeper
 
-1. Get the **Deutschlandticket** (€58/mo unlimited regional rail) — covers half your transit
-2. Use **VAT forms** — 19% off most purchases; $5 per form
-3. Register with the **ACS Spouse Sponsor program** even if you're not the one PCSing — peer support matters
-4. **Don't sign any lease** before HSO reviews it — voids your OHA
+1. Get the **Deutschlandticket** (€58/mo unlimited regional rail); covers half your transit
+2. Use **VAT forms**; 19% off most purchases; $5 per form
+3. Register with the **ACS Spouse Sponsor program** even if you're not the one PCSing; peer support matters
+4. **Don't sign any lease** before HSO reviews it; voids your OHA
 5. **Emergency = 112 (German)** or **110 (Polizei)**; memorize both
 
 Welcome.

@@ -17,7 +17,7 @@ order: 20
 
 ## What
 
-The **Savings Deposit Program (SDP)** is a DoD-operated savings account that pays **10% annual interest** on deposits of up to **$10,000**, available to soldiers deployed to qualified hazardous-duty zones. The interest compounds semiannually (effectively 5% each 6 months). For most deployments under 12 months, the math works out to ~$500–1,000 in guaranteed interest on a maxed $10,000 deposit.
+The **Savings Deposit Program (SDP)** is a DoD-operated savings account that pays **10% annual interest** on deposits of up to **$10,000**, available to soldiers deployed to qualified hazardous-duty zones. The interest compounds semiannually (effectively 5% each 6 months). For most deployments under 12 months, the math works out to ~$500-1,000 in guaranteed interest on a maxed $10,000 deposit.
 
 Nothing else in the consumer financial system beats this return. If you deploy, you enroll in SDP. If you deploy a second time with existing SDP funds, you keep the old earnings separate and start a new window for the new deployment.
 
@@ -39,10 +39,10 @@ Nothing else in the consumer financial system beats this return. If you deploy, 
 
 ## Contact
 
-- **Unit S1 / Finance liaison** — first stop for enrollment
-- **Wiesbaden DHR Finance Office** — for pre-deployment briefings
-- **DFAS Customer Service** — via mypay.dfas.mil secure message or phone (numbers on the DFAS portal)
-- **Military OneSource Financial Counseling** — free 1-on-1 advice on stacking SDP with other deployment savings tools
+- **Unit S1 / Finance liaison**; first stop for enrollment
+- **Wiesbaden DHR Finance Office**; for pre-deployment briefings
+- **DFAS Customer Service**; via mypay.dfas.mil secure message or phone (numbers on the DFAS portal)
+- **Military OneSource Financial Counseling**; free 1-on-1 advice on stacking SDP with other deployment savings tools
 
 ## How SDP works mechanically
 
@@ -65,7 +65,7 @@ Done via your unit. Paperwork routes to DFAS. Account creates in the SDP system;
 ### 4. Interest calculation
 - Interest rate: **10% annual**, compounded **semiannually** (i.e., 5% at 6 months, then 5% on the new balance at 12 months)
 - Interest accrues monthly but compounds semiannually
-- Interest is **taxable** — reported on a 1099-INT at year-end
+- Interest is **taxable**; reported on a 1099-INT at year-end
 - Some interest **may qualify for Combat Zone Tax Exclusion** (CZTE) if earned while you're in the zone; check with tax preparer
 
 ### 5. Withdrawal
@@ -79,19 +79,19 @@ Done via your unit. Paperwork routes to DFAS. Account creates in the SDP system;
 ### Good for:
 - **Building a PCS emergency fund** during deployment
 - **House down payment** when you get home
-- **Debt paydown** — if you have higher-rate debt, SDP isn't a replacement, but earning 10% while clearing debt in parallel is sensible
+- **Debt paydown**; if you have higher-rate debt, SDP isn't a replacement, but earning 10% while clearing debt in parallel is sensible
 - **Car purchase** post-deployment when dealer rates may not be favorable
 
 ### Not good for:
-- **Retirement savings** — capped at $10k; TSP is the better long-term vehicle
-- **Emergency fund for family at home** — the family at home can't withdraw during deployment without specific Power of Attorney
-- **Pre-deployment savings** — SDP doesn't exist until you're in the zone
+- **Retirement savings**; capped at $10k; TSP is the better long-term vehicle
+- **Emergency fund for family at home**; the family at home can't withdraw during deployment without specific Power of Attorney
+- **Pre-deployment savings**; SDP doesn't exist until you're in the zone
 
 ### Stacking with TSP and other programs
-- **TSP** — contribute to TSP during deployment; Roth TSP contributions count toward the Combat Zone exclusion limit but grow tax-free
-- **Family separation savings** — soldiers often bank family separation allowance ($250/month) for home renovations or emergency fund
-- **Combat Zone Tax Exclusion** — pay earned in the zone is excluded from federal income tax (bonuses, reenlistment, etc., up to enlisted exclusion cap)
-- **Deployment earnings** for soldiers often include hardship duty pay, imminent danger pay, family separation allowance, hostile fire pay — all adds up
+- **TSP**; contribute to TSP during deployment; Roth TSP contributions count toward the Combat Zone exclusion limit but grow tax-free
+- **Family separation savings**; soldiers often bank family separation allowance ($250/month) for home renovations or emergency fund
+- **Combat Zone Tax Exclusion**; pay earned in the zone is excluded from federal income tax (bonuses, reenlistment, etc., up to enlisted exclusion cap)
+- **Deployment earnings** for soldiers often include hardship duty pay, imminent danger pay, family separation allowance, hostile fire pay; all adds up
 
 Plan the stack with a Military OneSource financial counselor before deploying. Free, confidential, and they know the rules.
 
@@ -117,26 +117,26 @@ Plan the stack with a Military OneSource financial counselor before deploying. F
 
 ## Spouse and family considerations
 
-- **SDP is single-soldier** — only the deployed soldier can enroll; the family cannot withdraw independently
-- **Joint US bank accounts** — the spouse retains access to regular US bank funds
-- **Power of Attorney** — a general or special POA allows the spouse to manage SDP on behalf of the soldier in emergency; arrange pre-deployment through the USAG Legal Office
-- **Communication about SDP** during deployment — set expectations; the deployed soldier has MyPay access but limited time/focus
+- **SDP is single-soldier**; only the deployed soldier can enroll; the family cannot withdraw independently
+- **Joint US bank accounts**; the spouse retains access to regular US bank funds
+- **Power of Attorney**; a general or special POA allows the spouse to manage SDP on behalf of the soldier in emergency; arrange pre-deployment through the USAG Legal Office
+- **Communication about SDP** during deployment; set expectations; the deployed soldier has MyPay access but limited time/focus
 
 ## Gotchas
 
 - **Wiesbaden assignments that don't forward-deploy** mean no SDP eligibility. Being stationed in Germany doesn't qualify; the deployment forward does.
-- **Less than 30 consecutive days** in the zone — no SDP. The clock pauses if you leave the zone.
-- **Short deployments** (30–90 days) — the return is real but smaller; still worth enrolling.
+- **Less than 30 consecutive days** in the zone; no SDP. The clock pauses if you leave the zone.
+- **Short deployments** (30-90 days); the return is real but smaller; still worth enrolling.
 - **Maxing the $10k cap** as soon as possible is optimal; the longer money sits at 10%, the more it earns.
-- **Don't confuse SDP interest with TSP returns** — TSP is market-variable; SDP is guaranteed 10%. Different tools for different purposes.
+- **Don't confuse SDP interest with TSP returns**; TSP is market-variable; SDP is guaranteed 10%. Different tools for different purposes.
 - **Interest is taxable** unless CZTE applies; plan for the tax bill.
-- **Withdrawing before the 90-day deadline** — fine; you stop earning from that point forward on withdrawn amounts.
-- **Leaving SDP money after the 90-day grace** — no penalty, but no further interest; funds remain accessible but idle.
-- **SDP doesn't replace normal pay** — your regular base pay continues during deployment (plus deployment-specific additions).
-- **MyPay access overseas** — SDP shows there; needs CAC or password; keep access credentials updated.
-- **Back-to-back deployments** — each deployment gets its own $10k cap; if you redeploy within months of returning, you can enroll again with the new clock.
+- **Withdrawing before the 90-day deadline**; fine; you stop earning from that point forward on withdrawn amounts.
+- **Leaving SDP money after the 90-day grace**; no penalty, but no further interest; funds remain accessible but idle.
+- **SDP doesn't replace normal pay**; your regular base pay continues during deployment (plus deployment-specific additions).
+- **MyPay access overseas**; SDP shows there; needs CAC or password; keep access credentials updated.
+- **Back-to-back deployments**; each deployment gets its own $10k cap; if you redeploy within months of returning, you can enroll again with the new clock.
 - **Spouse money at home** is NOT in SDP; don't try to deposit through SDP after deployment ends. That's just regular bank savings.
 
 ## Source notes
 
-Rules, interest rate, and enrollment mechanics from DFAS and the DoD Military Pay portal (verified 2026-04-20). Tax treatment of SDP interest (taxable vs. CZTE-excluded) depends on which months generated the interest and current tax law — consult a military-focused tax preparer each year you have SDP earnings to report.
+Rules, interest rate, and enrollment mechanics from DFAS and the DoD Military Pay portal (verified 2026-04-20). Tax treatment of SDP interest (taxable vs. CZTE-excluded) depends on which months generated the interest and current tax law; consult a military-focused tax preparer each year you have SDP earnings to report.

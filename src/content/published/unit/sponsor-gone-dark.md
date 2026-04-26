@@ -17,7 +17,7 @@ order: 15
 
 ## What
 
-Your assigned sponsor has stopped responding. You emailed, you called, nothing. It's 3 weeks before arrival and you still can't get a basic answer about the Lodge or housing. This is a common failure mode — don't take it personally, don't panic, and don't wait for the system to self-correct. You have fallback paths that actually work.
+Your assigned sponsor has stopped responding. You emailed, you called, nothing. It's 3 weeks before arrival and you still can't get a basic answer about the Lodge or housing. This is a common failure mode; don't take it personally, don't panic, and don't wait for the system to self-correct. You have fallback paths that actually work.
 
 This entry is the "your sponsor failed you" playbook. For preventive steps, see [Requesting a sponsor](/entries/unit/requesting-a-sponsor) and [Working with your sponsor](/entries/family/working-with-your-sponsor).
 
@@ -25,28 +25,28 @@ This entry is the "your sponsor failed you" playbook. For preventive steps, see 
 
 The people who solve this problem:
 
-- **Gaining-unit S1** — can reassign a sponsor
-- **USAG Wiesbaden ACS Relocation Readiness** — volunteer-sponsor backup, Newcomer's Orientation, welcome-packet logistics
-- **Lodge front desk** — tactical help the day you arrive
-- **ICE (Interactive Customer Evaluation)** — documents the failure for the system
+- **Gaining-unit S1**; can reassign a sponsor
+- **USAG Wiesbaden ACS Relocation Readiness**; volunteer-sponsor backup, Newcomer's Orientation, welcome-packet logistics
+- **Lodge front desk**; tactical help the day you arrive
+- **ICE (Interactive Customer Evaluation)**; documents the failure for the system
 
 ## When
 
 Timing for each step:
 
-- **Silent sponsor at T-45 days** — S1 follow-up + ACS early outreach
-- **Silent at T-30 days** — request reassignment + ACS volunteer backup
-- **Silent at T-14 days** — accept that you're arriving without a sponsor; lean on ACS and Lodge
-- **Silent on arrival day** — fully self-service; use Lodge, Newcomer's Orientation, commissary, and ICE to get grounded
+- **Silent sponsor at T-45 days**; S1 follow-up + ACS early outreach
+- **Silent at T-30 days**; request reassignment + ACS volunteer backup
+- **Silent at T-14 days**; accept that you're arriving without a sponsor; lean on ACS and Lodge
+- **Silent on arrival day**; fully self-service; use Lodge, Newcomer's Orientation, commissary, and ICE to get grounded
 
 ## Contact
 
 For a silent-sponsor situation, route to:
 
-- **Gaining unit S1** — phone and email via the unit's page on home.army.mil/wiesbaden
-- **USAG Wiesbaden ACS** — front-desk number from the ACS page; walk-ins to the ACS building on Clay Kaserne accepted during business hours
-- **Lodge front desk** — 24/7; DSN or commercial number on the Wiesbaden Lodge page
-- **USAG Wiesbaden Commander's Hotline** — last-resort escalation, through the garrison ICE portal
+- **Gaining unit S1**; phone and email via the unit's page on home.army.mil/wiesbaden
+- **USAG Wiesbaden ACS**; front-desk number from the ACS page; walk-ins to the ACS building on Clay Kaserne accepted during business hours
+- **Lodge front desk**; 24/7; DSN or commercial number on the Wiesbaden Lodge page
+- **USAG Wiesbaden Commander's Hotline**; last-resort escalation, through the garrison ICE portal
 
 ## Step-by-step
 
@@ -76,7 +76,7 @@ In parallel, email or call **USAG Wiesbaden ACS Relocation Readiness**. Summary:
 - What's broken (silent sponsor)
 - What you need (volunteer sponsor, Newcomer packet, specific questions answered)
 
-ACS volunteer sponsors are often better than assigned ones because they opted in. Don't feel bad about using this path — it's exactly what ACS is staffed to do.
+ACS volunteer sponsors are often better than assigned ones because they opted in. Don't feel bad about using this path; it's exactly what ACS is staffed to do.
 
 ### 5. Document with ICE if the S1 ignores you
 If the S1 also goes silent and you're now 3+ weeks in with no response from anyone, submit an **ICE** entry describing the failure. ICE is tracked at the Garrison Commander's level; persistent gaps get noticed.
@@ -89,17 +89,17 @@ Regardless of sponsor status, you can complete a functional arrival:
 - **Lodge reservation** booked directly via the Wiesbaden Lodge website or DSN
 - **Rental car** arranged directly through on-post AAFES Car Care or off-post rental
 - **Grocery run** to the Commissary or PX the first day (see [Commissary, PX, and Shoppette](/entries/mwr/commissary-and-px))
-- **Newcomer's Orientation** through ACS — attend the first one after arrival; it compresses most "sponsor talk" into a single morning
-- **In-processing appointments** — route through your unit S1 on arrival, not through the sponsor
-- **Housing appointment** — book at USAG Wiesbaden Housing Services Office on arrival day if possible
+- **Newcomer's Orientation** through ACS; attend the first one after arrival; it compresses most "sponsor talk" into a single morning
+- **In-processing appointments**; route through your unit S1 on arrival, not through the sponsor
+- **Housing appointment**; book at USAG Wiesbaden Housing Services Office on arrival day if possible
 
 ## Tactical week-one without a sponsor
 
 Even a silent-sponsor arrival works if you hit three things week one:
 
-1. **Lodge the first night** — Clay or Hainerberg; reservation confirmed before you leave CONUS
-2. **In-processing Day 1** — sign in at your unit, get your welcome packet, schedule ID/DEERS/finance appointments
-3. **ACS Newcomer's Orientation** — within your first 2 weeks; covers housing, banking, schools, medical
+1. **Lodge the first night**; Clay or Hainerberg; reservation confirmed before you leave CONUS
+2. **In-processing Day 1**; sign in at your unit, get your welcome packet, schedule ID/DEERS/finance appointments
+3. **ACS Newcomer's Orientation**; within your first 2 weeks; covers housing, banking, schools, medical
 
 Add a **commissary/PX run** and a **driver's license (USAREUR)** appointment within the first 10 days, and you're mostly functional.
 
@@ -124,11 +124,11 @@ These offices won't be warm and fuzzy like a good sponsor, but they all work.
 - **ICE is not for revenge**. Describe facts, not feelings. One paragraph, factual.
 - **Don't skip the Newcomer's Orientation** even if you think you know the drill. The ACS briefing covers Wiesbaden-specific gotchas you won't find elsewhere.
 - **Your losing-unit chain can help**. A losing S1 can call the gaining S1 peer-to-peer; that call often does more than three of your emails.
-- **Assigned sponsors sometimes reappear after ACS volunteer kicks in** — fine. Accept both, thank both, don't play them off each other.
+- **Assigned sponsors sometimes reappear after ACS volunteer kicks in**; fine. Accept both, thank both, don't play them off each other.
 - **Family side**: if the spouse is the one reaching out and getting ignored, loop **ACS Spouse Sponsorship** separately. Spouse sponsorship is a distinct program, often more responsive than unit-side sponsorship.
 - **Don't vent on Facebook** before you've asked the S1 to fix it. Public venting shortens your credibility with the unit you're about to join.
 - **Silence from a sponsor doesn't always mean negligence.** Deployments, leave, field exercises, and personal emergencies all happen. Factor that in while still asking for help elsewhere.
 
 ## Source notes
 
-Fallback paths drawn from the USAG Wiesbaden Newcomers portal, the ACS page, and the ICE feedback channel (verified 2026-04-20). Personal sponsor experience varies widely — treat this entry as a decision tree, not a script.
+Fallback paths drawn from the USAG Wiesbaden Newcomers portal, the ACS page, and the ICE feedback channel (verified 2026-04-20). Personal sponsor experience varies widely; treat this entry as a decision tree, not a script.

@@ -18,16 +18,16 @@ order: 15
 
 ## What
 
-Temporary Lodging Allowance (TLA) covers lodging and per-diem meals while you're between the Army Lodge and a permanent residence. It's **not** a fixed flat payment — it's a daily reimbursement based on actual lodging cost (up to a rate cap) plus a per-diem meals component.
+Temporary Lodging Allowance (TLA) covers lodging and per-diem meals while you're between the Army Lodge and a permanent residence. It's **not** a fixed flat payment; it's a daily reimbursement based on actual lodging cost (up to a rate cap) plus a per-diem meals component.
 
 **Initial authorization**: **10 days** for accompanied arrivals. Extendable in 10-day blocks up to a cumulative **60 days** with documented housing search.
 
-Unaccompanied Soldiers typically get TLA for initial arrival, but it's a shorter default — check with your unit's S1 or Finance.
+Unaccompanied Soldiers typically get TLA for initial arrival, but it's a shorter default; check with your unit's S1 or Finance.
 
 ## The math
 
 ### Lodging component
-You're reimbursed the actual lodging cost per night, capped at the Wiesbaden per-diem lodging rate (published in the DoD per diem tables; typical Wiesbaden cap ~$195/night as of 2024 — varies).
+You're reimbursed the actual lodging cost per night, capped at the Wiesbaden per-diem lodging rate (published in the DoD per diem tables; typical Wiesbaden cap ~$195/night as of 2024; varies).
 
 The **Wiesbaden Army Lodge** on Clay Kaserne charges below the cap, so your out-of-pocket is zero if you stay there.
 
@@ -47,7 +47,7 @@ A family of four in Wiesbaden on full TLA runs about **$250-$320/day** combined 
 
 1. **Day 1**: You sign into your unit. The TLA clock starts.
 2. **Daily**: you stay at Army Lodge (default) or approved off-post hotel.
-3. **Every 10 days**: you need an **extension** — file through Finance + HSO. Required documentation:
+3. **Every 10 days**: you need an **extension**; file through Finance + HSO. Required documentation:
    - Evidence of active housing search (HSO-dated lease reviews, viewing appointments, RPP activity log)
    - If no progress shown, extension denied → TLA stops → you pay your own way
 4. **Ending**: day you physically move into permanent quarters (on-post or off-post with final lease)
@@ -56,19 +56,19 @@ A family of four in Wiesbaden on full TLA runs about **$250-$320/day** combined 
 
 Myths that trip people up:
 
-- Signing a lease that's pending HSO review — clock still runs
-- Taking a furnished short-term rental — still TLA-eligible if Finance agrees it's interim
-- Shipping your HHG but they haven't arrived — TLA continues at reduced rate for up to 30 days post-move to cover eating out while you wait for kitchen contents
+- Signing a lease that's pending HSO review; clock still runs
+- Taking a furnished short-term rental; still TLA-eligible if Finance agrees it's interim
+- Shipping your HHG but they haven't arrived; TLA continues at reduced rate for up to 30 days post-move to cover eating out while you wait for kitchen contents
 
 ## Gotchas
 
 - **Document your search weekly, not daily.** Over-documenting creates noise; under-documenting kills extensions. Keep a dated log: HSO appointment X, viewed Y on Z, emailed landlord A.
 - **Weekends count.** If you land Friday and can't start HSO until Monday, those 2 weekend days tick against your 10-day authorization. Plan your flight to land early in the week.
-- **Army Lodge fills up May–August.** Book the Lodge through AAFES Lodging the moment your orders are cut. If the Lodge is full, Finance approves an off-post hotel voucher, but the rate cap still applies.
-- **Short-term furnished Airbnbs** through the approved Rental Partnership Program sometimes qualify as interim housing without stopping TLA — ask HSO.
+- **Army Lodge fills up May-August.** Book the Lodge through AAFES Lodging the moment your orders are cut. If the Lodge is full, Finance approves an off-post hotel voucher, but the rate cap still applies.
+- **Short-term furnished Airbnbs** through the approved Rental Partnership Program sometimes qualify as interim housing without stopping TLA; ask HSO.
 - **Per diem rates update quarterly.** Don't quote a rate from 2023.
-- **Unaccompanied TLA is tighter** — barracks-eligible Soldiers are moved into barracks fast, which stops TLA even if the barracks isn't great.
-- **Moving mid-month creates a partial-TLA situation.** Your reimbursement spans two LES periods — don't panic at the first LES showing only half.
+- **Unaccompanied TLA is tighter**; barracks-eligible Soldiers are moved into barracks fast, which stops TLA even if the barracks isn't great.
+- **Moving mid-month creates a partial-TLA situation.** Your reimbursement spans two LES periods; don't panic at the first LES showing only half.
 
 ## When to go off-post temp lodging
 

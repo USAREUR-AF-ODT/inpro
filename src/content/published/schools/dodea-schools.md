@@ -27,18 +27,18 @@ For the pre-school immersion equivalent, see [German Kita](/entries/schools/germ
 ## The four schools
 
 ### Wiesbaden High School (WHS)
-**Grades 9–12.** On **Clay Kaserne**. Housing catchment covers on-post and surrounding Wiesbaden-area housing for all high school students.
+**Grades 9-12.** On **Clay Kaserne**. Housing catchment covers on-post and surrounding Wiesbaden-area housing for all high school students.
 
 - **JROTC**: active; Warrior Battalion, well-regarded
 - **AP offerings**: ~15 AP courses typical
-- **Athletics**: football, basketball, soccer, track, wrestling, etc. — travels across USAREUR
+- **Athletics**: football, basketball, soccer, track, wrestling, etc.; travels across USAREUR
 - **DoD graduation requirements**: similar to US states; DoDEA diploma is accepted by US colleges
 - **School colors**: Burgundy/Gold
 
 Address + map: on Clay Kaserne; entrance via a base pass.
 
 ### Wiesbaden Middle School (WMS)
-**Grades 6–8.** On **Hainerberg Housing.** Catchment: Hainerberg, Aukamm-area middle schoolers.
+**Grades 6-8.** On **Hainerberg Housing.** Catchment: Hainerberg, Aukamm-area middle schoolers.
 
 - Transition year programming
 - Solid STEM and humanities
@@ -74,7 +74,7 @@ DoDEA runs buses to Wiesbaden-area housing. Routes posted at school start. Bus s
 
 ## Registration process
 
-### 30–60 days before arrival
+### 30-60 days before arrival
 1. **Contact SLO**: introduce yourself at **DSN 548-9201** and request a pre-enrollment packet
 2. **Gather documents**:
    - Child's birth certificate
@@ -92,7 +92,7 @@ DoDEA runs buses to Wiesbaden-area housing. Routes posted at school start. Bus s
 4. **For high school**: counselor meeting to set course sequence
 
 ### Enrollment windows
-- **Late spring for next-year enrollment** (April–May for August start)
+- **Late spring for next-year enrollment** (April-May for August start)
 - **Mid-year PCS**: register within 5 school days of arrival
 - **Summer arrival**: office hours limited in late July; contact SLO first
 
@@ -100,7 +100,7 @@ DoDEA runs buses to Wiesbaden-area housing. Routes posted at school start. Bus s
 
 - **First day**: around late August (follows DoDEA system calendar)
 - **Fall break**: 1 week in October
-- **Winter break**: 2 weeks, roughly Dec 22 – Jan 6
+- **Winter break**: 2 weeks, roughly Dec 22; Jan 6
 - **Spring break**: 1 week in March/April (varies with Easter)
 - **Last day**: mid-June
 - **Summer break**: 10 weeks
@@ -119,7 +119,7 @@ See the [EFMP Enrollment](/entries/family/efmp-enrollment) and [School Liaison O
 
 ## Language instruction
 
-DoDEA teaches **German** as a second language in most elementary schools (exposure) and middle school. WHS offers German I–IV plus AP German. Other languages (Spanish, French) available at WHS.
+DoDEA teaches **German** as a second language in most elementary schools (exposure) and middle school. WHS offers German I-IV plus AP German. Other languages (Spanish, French) available at WHS.
 
 ## Co-curricular and extracurricular
 
@@ -132,8 +132,8 @@ DoDEA teaches **German** as a second language in most elementary schools (exposu
 Some families choose off-post German or international schools instead of DoDEA:
 
 ### German public schools
-- **Grundschule** (elementary 1–4)
-- **Gymnasium** (high school, 5–12/13, university-prep)
+- **Grundschule** (elementary 1-4)
+- **Gymnasium** (high school, 5-12/13, university-prep)
 - **Realschule** / **Hauptschule** (alternative paths)
 - **Gesamtschule** (comprehensive)
 - **Kosten (cost)**: free for residents; open enrollment based on Anmeldung

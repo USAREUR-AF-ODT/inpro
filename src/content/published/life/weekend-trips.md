@@ -24,30 +24,30 @@ This page is opinionated. Use it as a "here's what to actually do" list, not a R
 ## Day trips (under 2 hours each way)
 
 ### Rüdesheim am Rhein (40 min drive, 1 hour train)
-The most touristed Rhine wine village — and worth it. Ride the cable car up the vineyards to the Niederwald monument, eat Rheingau Riesling and flammkuchen, take the Drosselgasse evening if you want the kitsch (or avoid it if you don't). Best in September during harvest.
+The most touristed Rhine wine village; and worth it. Ride the cable car up the vineyards to the Niederwald monument, eat Rheingau Riesling and flammkuchen, take the Drosselgasse evening if you want the kitsch (or avoid it if you don't). Best in September during harvest.
 
 ### Mainz (15 min train)
 Wiesbaden's larger neighbor across the Rhine. Gutenberg Museum (the first printed Bible lives here), the Romanesque cathedral, and a real Altstadt with cafés. A better day-trip city than most of Wiesbaden itself for architecture.
 
 ### Frankfurt (40 min train)
-Skyline, museums (Städel for art, Senckenberg for dinosaurs), food courts in Kleinmarkthalle, the Zeil shopping street. Underrated city that Germans themselves call ugly — they're wrong.
+Skyline, museums (Städel for art, Senckenberg for dinosaurs), food courts in Kleinmarkthalle, the Zeil shopping street. Underrated city that Germans themselves call ugly; they're wrong.
 
 ### Heidelberg (1 hour drive, 1.5 hour train)
 The picture-postcard German city. Castle ruins, old bridge, student pubs. Crowded in summer, quiet in November. The castle is actually worth the admission.
 
 ### Luxembourg City (2 hours drive)
-Tiny country, dramatic ravines running through the capital. Half-day visit is fine; full day is better. Most signs are in French — bring translation if your German is your only European language.
+Tiny country, dramatic ravines running through the capital. Half-day visit is fine; full day is better. Most signs are in French; bring translation if your German is your only European language.
 
 ### Strasbourg, France (2 hours drive)
 France's most German-feeling city. Cathedral is one of the great Gothic statements in Europe. Petite France neighborhood is the rom-com backdrop. Good for a Friday-night arrival, all-day Saturday, Sunday return.
 
-## Weekend trips (2–5 hours each way)
+## Weekend trips (2-5 hours each way)
 
 ### Paris (4 hours ICE train, 5 hours drive)
 Direct ICE train from Frankfurt Hbf (45 min from Wiesbaden) to Paris Gare de l'Est. Books 3 months out for best prices; last-minute ICE tickets can cost €150 one-way, advance can be €35. Worth the premium once.
 
 ### Amsterdam (4 hours ICE train)
-Direct ICE to Amsterdam Centraal. Same pricing logic as Paris. Go in spring for tulips, fall for quiet. Skip August — it's mobbed.
+Direct ICE to Amsterdam Centraal. Same pricing logic as Paris. Go in spring for tulips, fall for quiet. Skip August; it's mobbed.
 
 ### Zurich (4 hours ICE)
 Expensive. Gorgeous. The Rigi mountain cable-car day trip justifies the cost.
@@ -76,17 +76,17 @@ Garmisch-Partenkirchen is the closest Army-affiliated Alps spot; AFRC Edelweiss 
 - **Scotland** (2 hours to Edinburgh)
 - **Scandinavia** (2-3 hours to Copenhagen, Stockholm, or Oslo)
 
-Europe's low-cost carriers (Ryanair, EasyJet, Wizz Air) fly from FRA and FRA-Hahn (90 min drive) to basically every European capital for €30–€150 round-trip if booked 6+ weeks out.
+Europe's low-cost carriers (Ryanair, EasyJet, Wizz Air) fly from FRA and FRA-Hahn (90 min drive) to basically every European capital for €30-€150 round-trip if booked 6+ weeks out.
 
 ## How to travel cheap
 
 ### Deutsche Bahn
 - **Deutschlandticket** (€58/month): unlimited regional + bus + U-Bahn trains, not ICE/IC (long-distance fast trains). Game-changer for day trips and slow cross-country.
-- **ICE advance booking**: 3 months out for Sparpreis fares; 15–20% of retail for full-flex tickets.
-- **BahnCard 25 / 50**: annual subscription saves 25% or 50% on standard fares. Worth it if you'll take more than 4–5 ICE trips per year.
+- **ICE advance booking**: 3 months out for Sparpreis fares; 15-20% of retail for full-flex tickets.
+- **BahnCard 25 / 50**: annual subscription saves 25% or 50% on standard fares. Worth it if you'll take more than 4-5 ICE trips per year.
 
 ### FlixBus / FlixTrain
-Overnight buses to Berlin, Paris, Prague for €20–€50. Uncomfortable, but cheap.
+Overnight buses to Berlin, Paris, Prague for €20-€50. Uncomfortable, but cheap.
 
 ### Ryanair / EasyJet
 - **FRA-Hahn** (not Frankfurt International) is the Ryanair hub for Wiesbaden. Shuttle bus from Frankfurt Hbf ~2 hours; cheap-flight economics still work if you buy early.
@@ -106,13 +106,13 @@ Overnight buses to Berlin, Paris, Prague for €20–€50. Uncomfortable, but c
 ## Gotchas
 
 - **Don't book the last train home.** Miss it = hotel + regroup. Always have one reserve later than needed.
-- **Non-EU passport for stamp collectors**: your US passport + SOFA card gets you through most EU checkpoints, but the SOFA card is not an EU travel document — carry the passport too.
+- **Non-EU passport for stamp collectors**: your US passport + SOFA card gets you through most EU checkpoints, but the SOFA card is not an EU travel document; carry the passport too.
 - **Rental cars in Italy / Spain / France** often require the IDP (International Driving Permit) if they enforce; USAREUR cert is not universally recognized.
 - **Germany closes Sunday.** Plan Saturday grocery shopping; Sunday is for museums, parks, restaurants only.
-- **Euro vs. local currency** — Czech Republic, UK, Hungary, Switzerland all use their own. Bring a multi-currency card (N26, Revolut, Wise) or hit an ATM at the train station.
+- **Euro vs. local currency**; Czech Republic, UK, Hungary, Switzerland all use their own. Bring a multi-currency card (N26, Revolut, Wise) or hit an ATM at the train station.
 - **Oktoberfest hotel prices in Munich** go from €100/night to €700/night during the event weeks. Book 8 months out or stay in Augsburg and commute.
 - **Christmas markets open late November, close December 23.** Nuremberg's is the most famous; Heidelberg's is more atmospheric; Wiesbaden's own *Sternschnuppenmarkt* runs in front of the Rathaus and is lovely.
 
 ## Source notes
 
-Personal opinion and community knowledge, cross-referenced with Wiesbaden MWR travel guidance and garrison Getting Around page. Rick Steves' Europe is the de facto guidebook for Americans in Europe — better for depth than I can offer in one page.
+Personal opinion and community knowledge, cross-referenced with Wiesbaden MWR travel guidance and garrison Getting Around page. Rick Steves' Europe is the de facto guidebook for Americans in Europe; better for depth than I can offer in one page.

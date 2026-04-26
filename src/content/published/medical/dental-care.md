@@ -25,12 +25,12 @@ poc:
 
 Dental in Germany under TRICARE splits two ways:
 
-- **Active Duty** Soldiers use the **Wiesbaden Dental Clinic** on Clay Kaserne — free, routine + some complex, co-located with Army Health Clinic.
+- **Active Duty** Soldiers use the **Wiesbaden Dental Clinic** on Clay Kaserne; free, routine + some complex, co-located with Army Health Clinic.
 - **Dependents and DA Civilians** use **off-post German dentists**, paying via TRICARE Dental Program (TDP) or out-of-pocket.
 
-TDP is NOT automatic — dependents must **enroll** separately from TRICARE medical. Do this in your first 30 days.
+TDP is NOT automatic; dependents must **enroll** separately from TRICARE medical. Do this in your first 30 days.
 
-## Active Duty — Wiesbaden Dental Clinic
+## Active Duty; Wiesbaden Dental Clinic
 
 ### Where
 **Clay Kaserne**, within the Army Health Clinic complex (Bldg 1040 area).
@@ -51,7 +51,7 @@ Active Duty Soldiers are evaluated annually for deployment readiness. Class I = 
 - Cosmetic (veneers, etc.)
 - Complex implants
 
-## Dependents — TRICARE Dental Program (TDP)
+## Dependents; TRICARE Dental Program (TDP)
 
 ### Enrollment
 TDP is **Delta Dental** overseas. Enrollment happens:
@@ -89,7 +89,7 @@ TDP is **Delta Dental** overseas. Enrollment happens:
 ### What to expect
 - **High quality**: German dental training is rigorous; modern practices, excellent tech
 - **English-speaking**: Many Wiesbaden dentists have English-speaking staff
-- **Zuzahlung** (patient co-pay): 10–30% typical for things TDP partially covers
+- **Zuzahlung** (patient co-pay): 10-30% typical for things TDP partially covers
 - **Long appointments**: German dentists spend more time than US norm
 - **Gentle approach**: German dentistry trends gentler than US; less aggressive drilling
 
@@ -99,11 +99,11 @@ TDP is **Delta Dental** overseas. Enrollment happens:
 3. Ask your sponsor or the ARHC Dental clinic for referrals
 
 ### Typical visit costs (Wiesbaden area)
-- **Routine exam + cleaning**: €60–€120 (TDP covers most)
-- **Filling**: €60–€200 depending on complexity (TDP covers 80-100%)
-- **Root canal**: €400–€900 (TDP partial, you pay difference)
-- **Crown**: €800–€1,500 (TDP partial after waiting period)
-- **Orthodontics (child, full treatment)**: €3,000–€6,000 (TDP max $2,000 lifetime)
+- **Routine exam + cleaning**: €60-€120 (TDP covers most)
+- **Filling**: €60-€200 depending on complexity (TDP covers 80-100%)
+- **Root canal**: €400-€900 (TDP partial, you pay difference)
+- **Crown**: €800-€1,500 (TDP partial after waiting period)
+- **Orthodontics (child, full treatment)**: €3,000-€6,000 (TDP max $2,000 lifetime)
 
 ### Paying direct vs. claim
 Some dentists invoice Delta Dental directly; others want you to pay and claim. Ask at booking.
@@ -134,7 +134,7 @@ German dentists often begin seeing kids at age 1-2, compared to US norm of age 3
 - Standard German pediatric dentistry
 - TDP covers
 
-## Active Duty — specific readiness notes
+## Active Duty; specific readiness notes
 
 ### Before PCS
 - Complete readiness exam + any major work
@@ -152,22 +152,22 @@ German dentists often begin seeing kids at age 1-2, compared to US norm of age 3
 - **TDP enrollment ≠ automatic.** You must actively enroll within 30 days of PCS.
 - **TDP has waiting periods.** Major work (crowns, orthodontics) subject to 12-month waiting period for new enrollees.
 - **Not all Wiesbaden dentists take TDP.** Confirm before booking.
-- **Dental emergencies** aren't covered by TRICARE medical — they're TDP.
+- **Dental emergencies** aren't covered by TRICARE medical; they're TDP.
 - **German dental translations**: procedure names differ. Ask dentist for English-language breakdown of the quote.
 - **DA Civilian dental**: covered by FEDVIP (separate federal dental program), not TDP. Different enrollment path.
-- **Retirees** use TRICARE Dental Retiree option — also separate from active-duty TDP.
+- **Retirees** use TRICARE Dental Retiree option; also separate from active-duty TDP.
 - **US-based orthodontic in-progress** treatments can continue with German orthodontist, but sometimes you pay out-of-pocket during the transfer.
 - **Dental X-rays**: German dentists use them less than US. TDP covers less frequent X-rays. This is per German dental guidelines.
 - **Veneers + cosmetic** work: rarely covered by TDP. Germans less into cosmetic dentistry than US; fewer practices offer it.
 
 ## Pro tips
 
-- **Book your first cleaning** 30-60 days after arrival — don't wait until you need dental work
+- **Book your first cleaning** 30-60 days after arrival; don't wait until you need dental work
 - **Build a relationship** with one local dentist for ongoing care
 - **Keep all receipts** for reimbursement; German dental invoices are detailed
 - **If TDP is denied** for something: appeal; often reversed with proper documentation
-- **Compare quotes** from 2-3 dentists for major work (root canals, crowns) — prices vary
-- **Consider OCONUS dental tourism**: some families go to Hungary/Poland for extensive work — often 30-50% cheaper and high quality. Your TDP may or may not reimburse.
+- **Compare quotes** from 2-3 dentists for major work (root canals, crowns); prices vary
+- **Consider OCONUS dental tourism**: some families go to Hungary/Poland for extensive work; often 30-50% cheaper and high quality. Your TDP may or may not reimburse.
 
 ## Source notes
 

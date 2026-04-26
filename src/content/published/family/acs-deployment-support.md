@@ -21,7 +21,7 @@ order: 25
 
 ## What
 
-**Army Community Service (ACS)** runs most of the non-medical family support programs at USAG Wiesbaden, including the full deployment-cycle support suite. Deployment is not unusual in Wiesbaden — 66th MI, 2nd Signal Brigade, V Corps Forward, and aviation units all rotate forces forward on a regular drumbeat. ACS structures its deployment programs around three phases: **pre-deployment**, **during deployment**, and **reintegration**.
+**Army Community Service (ACS)** runs most of the non-medical family support programs at USAG Wiesbaden, including the full deployment-cycle support suite. Deployment is not unusual in Wiesbaden; 66th MI, 2nd Signal Brigade, V Corps Forward, and aviation units all rotate forces forward on a regular drumbeat. ACS structures its deployment programs around three phases: **pre-deployment**, **during deployment**, and **reintegration**.
 
 Use ACS before the deployment, not after it. The most common failure mode is a spouse arriving at Wiesbaden during a deployment and not engaging with ACS until a crisis hits. The resources work better when the relationship is built early.
 
@@ -29,32 +29,32 @@ See [Army Community Service](/entries/family/army-community-service) for the bro
 
 ## Where
 
-**USAG Wiesbaden ACS — Clay Kaserne.** Central ACS building houses the deployment-support team, Military Family Life Counselors (MFLCs), financial readiness, EFMP coordination, and relocation readiness.
+**USAG Wiesbaden ACS; Clay Kaserne.** Central ACS building houses the deployment-support team, Military Family Life Counselors (MFLCs), financial readiness, EFMP coordination, and relocation readiness.
 
 Some events (Hearts Apart for kids, FRG training, Strong Bonds retreats) run at venues across the installation: the Wiesbaden Entertainment Center, the Hainerberg chapel, and occasionally off-post retreat facilities.
 
 ## When
 
-- **Walk-in consultation** — Mon–Fri duty hours
-- **Scheduled programs** — the ACS calendar is published monthly; check in person, via the garrison's social media, or through your unit's FRG
-- **Pre-deployment briefings** — typically 30–60 days before the unit's LAD (Latest Arrival Date in theater)
-- **During deployment** — ongoing monthly programs (support groups, kids' events, financial check-ins)
-- **Reintegration** — starts before the soldier returns, continues 60–90 days after
+- **Walk-in consultation**; Mon-Fri duty hours
+- **Scheduled programs**; the ACS calendar is published monthly; check in person, via the garrison's social media, or through your unit's FRG
+- **Pre-deployment briefings**; typically 30-60 days before the unit's LAD (Latest Arrival Date in theater)
+- **During deployment**; ongoing monthly programs (support groups, kids' events, financial check-ins)
+- **Reintegration**; starts before the soldier returns, continues 60-90 days after
 
 ## Contact
 
 Contact details in the frontmatter. For urgent concerns during a deployment:
 
-- **MFLC** (Military Family Life Counselor) — confidential, no written record, available through ACS
-- **Military OneSource** — 24/7 phone and chat, 1-800-342-9647 stateside (or through their app overseas)
-- **Chaplain** — Religious Support Office; confidentiality privilege
-- **ARHC Wiesbaden Behavioral Health** — for medical-record mental-health care
-- **Emergency** — on-post 911, off-post German 110 (police) / 112 (medical/fire)
+- **MFLC** (Military Family Life Counselor); confidential, no written record, available through ACS
+- **Military OneSource**; 24/7 phone and chat, 1-800-342-9647 stateside (or through their app overseas)
+- **Chaplain**; Religious Support Office; confidentiality privilege
+- **ARHC Wiesbaden Behavioral Health**; for medical-record mental-health care
+- **Emergency**; on-post 911, off-post German 110 (police) / 112 (medical/fire)
 
 ## Pre-deployment programs
 
 ### SRP (Soldier Readiness Processing)
-The soldier's medical, dental, legal, and admin pre-deployment screening. Runs 30–90 days before deployment. Family members aren't in SRP itself, but ACS runs parallel briefings for family at key points.
+The soldier's medical, dental, legal, and admin pre-deployment screening. Runs 30-90 days before deployment. Family members aren't in SRP itself, but ACS runs parallel briefings for family at key points.
 
 ### Pre-Deployment Readiness briefing (family-side)
 **Required-ish** for the primary family member of a deploying soldier. Covers:
@@ -65,7 +65,7 @@ The soldier's medical, dental, legal, and admin pre-deployment screening. Runs 3
 - What to expect emotionally across the deployment
 
 ### Family Readiness Group (FRG) activation
-Each unit runs an **FRG** — a volunteer family network led by a Family Readiness Liaison (FRL). ACS trains new FRL leaders and coordinates with the unit rear-detachment commander. FRG meetings pick up pace 60 days before deployment.
+Each unit runs an **FRG**; a volunteer family network led by a Family Readiness Liaison (FRL). ACS trains new FRL leaders and coordinates with the unit rear-detachment commander. FRG meetings pick up pace 60 days before deployment.
 
 ### Strong Bonds
 Chaplain-led marriage and family retreat for units preparing to deploy. Off-site, usually a weekend, focused on communication and connection before a long separation. Applications through the unit chaplain, coordinated with RSO.
@@ -88,8 +88,8 @@ ACS Financial Readiness runs 1-on-1 sessions: deployment pay differences, combat
 If you arrive at Wiesbaden *during* a deployment, ACS will pair you with a volunteer sponsor and walk you through installation life without your soldier. This is a common scenario and ACS handles it without making it weird.
 
 ### Emergency support
-- **American Red Cross messaging** — emergency communications to the deployed soldier (family illness, death, birth, etc.). Free; Red Cross has a 24/7 line.
-- **Army Emergency Relief (AER)** — zero-interest loans and grants for emergency expenses (medical, funerals, travel, essential housing). Applications through ACS.
+- **American Red Cross messaging**; emergency communications to the deployed soldier (family illness, death, birth, etc.). Free; Red Cross has a 24/7 line.
+- **Army Emergency Relief (AER)**; zero-interest loans and grants for emergency expenses (medical, funerals, travel, essential housing). Applications through ACS.
 
 ### MFLC sessions
 **Military Family Life Counselors** offer free, confidential, non-record short-term counseling (up to 12 sessions). No chain-of-command visibility, no medical record. Good for stress, grief, communication issues, parenting challenges during separation.
@@ -97,10 +97,10 @@ If you arrive at Wiesbaden *during* a deployment, ACS will pair you with a volun
 ## Reintegration programs
 
 ### Homecoming preparation
-ACS runs briefings for families 30–60 days before the soldier's return. Topics:
+ACS runs briefings for families 30-60 days before the soldier's return. Topics:
 - Reentry expectations (soldier, spouse, kids)
-- Financial "reentry budget" — end of deployment pay, new debt avoidance
-- Marriage reconnection — what "back to normal" actually looks like
+- Financial "reentry budget"; end of deployment pay, new debt avoidance
+- Marriage reconnection; what "back to normal" actually looks like
 - Behavioral health: when to seek help
 
 ### Yellow Ribbon Reintegration Program
@@ -113,20 +113,20 @@ First 90 days after return are the highest-risk window. ACS actively follows up 
 Marriage and family retreats specifically for post-reintegration. Same chaplain coordination as pre-deployment.
 
 ### Child reintegration
-Kids adjust at different paces. ACS and CYS have joint programs for ages 3–17 that help kids process the return. School Liaison Office (SLO) can coordinate with DoDEA teachers if a child is struggling academically during reintegration.
+Kids adjust at different paces. ACS and CYS have joint programs for ages 3-17 that help kids process the return. School Liaison Office (SLO) can coordinate with DoDEA teachers if a child is struggling academically during reintegration.
 
 ## Gotchas
 
 - **Don't wait for a crisis.** ACS works better as a preventive resource. First visit before you need one.
 - **MFLC sessions are short-term.** If you need long-term care, MFLC will hand you off to Behavioral Health with your consent. The handoff is smooth when done early.
-- **FRG quality varies by unit.** If your unit's FRG is disorganized, don't give up on FRGs generally — ACS has cross-unit family groups and can loop you in.
+- **FRG quality varies by unit.** If your unit's FRG is disorganized, don't give up on FRGs generally; ACS has cross-unit family groups and can loop you in.
 - **Don't skip the Pre-Deployment Readiness briefing** even if you've done it before. Every deployment has slightly different rules, pay structures, and communication protocols.
 - **AER is a loan, not charity.** It's zero-interest and works when you need it, but you repay. Plan repayment into your budget.
 - **Red Cross messages don't teleport soldiers home.** They deliver information; leave or emergency return is a command decision, not Red Cross's call.
 - **Financial surprises**: deployment pays generate surprising year-end tax situations. File through **Military VITA** at the Legal Office (free) or use MilTax through Military OneSource.
-- **Reintegration "honeymoon" is short.** Most couples report the first week is great, weeks 2–6 are bumpy. ACS says this is normal. If it's worse, get help.
-- **Kids regress temporarily after reunion** — return to bedwetting, separation anxiety, clinginess. Usually resolves within 6–12 weeks. Persistent regression past 3 months warrants a behavioral health consult.
-- **OPSEC applies to family too** — no posting deployment dates, locations, or unit movements on social media. ACS covers this in pre-deployment briefings.
+- **Reintegration "honeymoon" is short.** Most couples report the first week is great, weeks 2-6 are bumpy. ACS says this is normal. If it's worse, get help.
+- **Kids regress temporarily after reunion**; return to bedwetting, separation anxiety, clinginess. Usually resolves within 6-12 weeks. Persistent regression past 3 months warrants a behavioral health consult.
+- **OPSEC applies to family too**; no posting deployment dates, locations, or unit movements on social media. ACS covers this in pre-deployment briefings.
 
 ## Source notes
 

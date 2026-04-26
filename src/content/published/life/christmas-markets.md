@@ -19,37 +19,37 @@ German Christmas markets (*Weihnachtsmärkte*) are the winter experience to not 
 
 This is the tour highlight for most US military families. Do it at least 5 times per season.
 
-## The Wiesbaden market — Sternschnuppenmarkt
+## The Wiesbaden market; Sternschnuppenmarkt
 
 **Late November to December 23rd**, every day. The **Rathaus plaza** is the stage. Booths around a giant Christmas tree. Children's carousel. Light shows on the Rathaus façade at dusk.
 
 ### When to go
-- **Weekday evenings** (17:00-20:00) — quieter, locals-heavy
-- **Weekend daytime** — families, festive
-- **Friday night 19:00-22:00** — maximum scene, maximum crowd
+- **Weekday evenings** (17:00-20:00); quieter, locals-heavy
+- **Weekend daytime**; families, festive
+- **Friday night 19:00-22:00**; maximum scene, maximum crowd
 
 ### What to buy / do
-- **Glühwein** — €4-5 plus ~€3 cup Pfand (returnable for refund, or keep as souvenir — each year's is different)
-- **Bratwurst im Brötchen** — sausage in a bun, €4-5
-- **Lebkuchen** — ornate gingerbread
-- **Stollen** — German Christmas fruit bread
-- **Schokofrüchte** — chocolate-dipped fruit
-- **Flammkuchen** — thin pizza-alternative, savory
-- **Handmade gifts** — Christmas tree ornaments, carved wood, knit items
+- **Glühwein**; €4-5 plus ~€3 cup Pfand (returnable for refund, or keep as souvenir; each year's is different)
+- **Bratwurst im Brötchen**; sausage in a bun, €4-5
+- **Lebkuchen**; ornate gingerbread
+- **Stollen**; German Christmas fruit bread
+- **Schokofrüchte**; chocolate-dipped fruit
+- **Flammkuchen**; thin pizza-alternative, savory
+- **Handmade gifts**; Christmas tree ornaments, carved wood, knit items
 
 ### The kids' section
-Carousel, small rides, craft booths (kids paint ornaments on some weekends). **Not** overly Disney-fied — it's authentic but kid-friendly.
+Carousel, small rides, craft booths (kids paint ornaments on some weekends). **Not** overly Disney-fied; it's authentic but kid-friendly.
 
 ## Regional Christmas markets worth the train trip
 
 ### Frankfurt (40 min train)
-**Römerberg** is the main market — large, touristy, Gothic backdrop. Extends to Paulsplatz and the river. One of Germany's biggest. Go once on a weekday to avoid crowds.
+**Römerberg** is the main market; large, touristy, Gothic backdrop. Extends to Paulsplatz and the river. One of Germany's biggest. Go once on a weekday to avoid crowds.
 
 ### Nuremberg (3.5 hr train)
 **Christkindlesmarkt** is Germany's most famous Christmas market. Huge Lebkuchen scene. Worth the full day trip from Wiesbaden if you love markets. November-December weekends book out.
 
 ### Heidelberg (1.5 hr train)
-**Heidelberger Weihnachtsmarkt** in the Altstadt — smaller, more atmospheric than Frankfurt. Castle backdrop. Excellent hot chocolate.
+**Heidelberger Weihnachtsmarkt** in the Altstadt; smaller, more atmospheric than Frankfurt. Castle backdrop. Excellent hot chocolate.
 
 ### Cologne (2 hr train)
 Four different Christmas markets spread across the city. Each has a theme. **Cathedral market** (Am Dom) is the flagship. Cologne's the "pick one per season" easy winner.
@@ -77,7 +77,7 @@ Your Glühwein comes in a ceramic cup with the market's logo. You pay a cup depo
 **Cash is easier.** Some markets now accept cards but many don't. Have €20-50 per person.
 
 ### Food
-**Try one of everything.** Not a sit-down dining experience — graze. Typical spend: €15-25 per person for a full evening's snacking.
+**Try one of everything.** Not a sit-down dining experience; graze. Typical spend: €15-25 per person for a full evening's snacking.
 
 ### Lights and music
 Market opens at ~16:00-17:00 and lights come on at dusk. Music is often live (brass bands, choirs, folk music). Ebbs and flows.
@@ -85,7 +85,7 @@ Market opens at ~16:00-17:00 and lights come on at dusk. Music is often live (br
 ## What to wear
 
 - **Layers**: temperatures below freezing common; bundle up
-- **Warm hat, scarf, gloves** — especially gloves (you'll hold warm cups)
+- **Warm hat, scarf, gloves**; especially gloves (you'll hold warm cups)
 - **Waterproof shoes**: cobblestones + wet snow are common
 - **Hand warmer** in pocket if you're cold-sensitive
 - **Kids**: extra layer; they get cold faster than they say
@@ -105,47 +105,47 @@ Official dates shift by 1-3 days annually. Approximate:
 ## Food scorecard
 
 ### Must try
-- **Glühwein** (mulled wine) — spiced red wine, hot
-- **Feuerzangenbowle** — Glühwein with caramelized rum; fancier
-- **Kinderpunsch** — non-alcoholic spiced fruit punch for kids (and designated drivers)
-- **Bratwurst** — sausage in bun; different regional styles
-- **Kartoffelpuffer** — potato pancake with applesauce or sour cream
-- **Lebkuchen** — gingerbread cookies, sometimes in gift tins
-- **Schokofrüchte** — chocolate-dipped fruit on a stick
-- **Reibekuchen / Kartoffelpuffer** — potato griddle cakes
-- **Raclette** — melted cheese dishes
-- **Mandeln** — cinnamon-sugar roasted almonds
+- **Glühwein** (mulled wine); spiced red wine, hot
+- **Feuerzangenbowle**; Glühwein with caramelized rum; fancier
+- **Kinderpunsch**; non-alcoholic spiced fruit punch for kids (and designated drivers)
+- **Bratwurst**; sausage in bun; different regional styles
+- **Kartoffelpuffer**; potato pancake with applesauce or sour cream
+- **Lebkuchen**; gingerbread cookies, sometimes in gift tins
+- **Schokofrüchte**; chocolate-dipped fruit on a stick
+- **Reibekuchen / Kartoffelpuffer**; potato griddle cakes
+- **Raclette**; melted cheese dishes
+- **Mandeln**; cinnamon-sugar roasted almonds
 
 ### Skip unless curious
-- **Crêpes** — French market food; fine but not Christmas-specific
-- **Tourist-heavy generic food** — find the German-specific stuff
+- **Crêpes**; French market food; fine but not Christmas-specific
+- **Tourist-heavy generic food**; find the German-specific stuff
 
 ## Souvenirs to buy
 
 - **Wooden Erzgebirge ornaments** (nutcrackers, pyramids, smoking men)
 - **Hand-blown glass ornaments** from Bavaria / Thuringia
-- **Knit items** — hats, mittens, scarves (Bavarian/Alpine style)
-- **Lebkuchenherz** — heart-shaped Lebkuchen with messages, hang on wall
-- **Rauchermännchen** — smoking man incense burners
-- **Christmas pyramids** — layered wooden candle pyramids that rotate
+- **Knit items**; hats, mittens, scarves (Bavarian/Alpine style)
+- **Lebkuchenherz**; heart-shaped Lebkuchen with messages, hang on wall
+- **Rauchermännchen**; smoking man incense burners
+- **Christmas pyramids**; layered wooden candle pyramids that rotate
 
 **Pack these for PCS home.** They'll be souvenirs of your tour.
 
 ## Kid-specific tips
 
-- Give kids €5-10 of "Christmas market money" — they buy their own ornament or treat
+- Give kids €5-10 of "Christmas market money"; they buy their own ornament or treat
 - **Kinderpunsch** (non-alcoholic spiced drink) is the kids' version of Glühwein
 - Market carousels usually €2-3 per ride
-- **Bring a comfort layer** — kids get cold; they won't say so
-- **Bathroom access** — public WCs at or near markets; €0.50 coin required
+- **Bring a comfort layer**; kids get cold; they won't say so
+- **Bathroom access**; public WCs at or near markets; €0.50 coin required
 
 ## Gotchas
 
-- **Pickpockets at Frankfurt Römerberg** — keep wallets in front pockets, not back
-- **Glühwein cup deposit** — don't throw away the cup; you lose €3 per accident
-- **Markets close Dec 24 early** — don't assume "through Christmas"
-- **Frankfurt is jammed** on weekends — go weekday evening if possible
-- **Pro tip**: buy Lebkuchen in December, they keep for weeks — ship to CONUS family as gifts
+- **Pickpockets at Frankfurt Römerberg**; keep wallets in front pockets, not back
+- **Glühwein cup deposit**; don't throw away the cup; you lose €3 per accident
+- **Markets close Dec 24 early**; don't assume "through Christmas"
+- **Frankfurt is jammed** on weekends; go weekday evening if possible
+- **Pro tip**: buy Lebkuchen in December, they keep for weeks; ship to CONUS family as gifts
 
 ## Source notes
 

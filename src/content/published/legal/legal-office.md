@@ -19,7 +19,7 @@ order: 30
 
 ## What
 
-The Wiesbaden Legal Assistance Office provides free legal services to Active Duty personnel, DA Civilians, and dependents. Scope is limited — they handle **personal** civil matters, not everything.
+The Wiesbaden Legal Assistance Office provides free legal services to Active Duty personnel, DA Civilians, and dependents. Scope is limited; they handle **personal** civil matters, not everything.
 
 **Included**:
 - Wills (simple and updates)
@@ -27,7 +27,7 @@ The Wiesbaden Legal Assistance Office provides free legal services to Active Dut
 - Notarial services (documents for stateside legal filings, marriage paperwork, etc.)
 - Family-law counseling (divorce, custody, adoption)
 - Consumer law counseling (disputes with landlords, contracts)
-- Tax filing assistance (free seasonal tax prep via VITA, typically Jan–Apr)
+- Tax filing assistance (free seasonal tax prep via VITA, typically Jan-Apr)
 - Home of Record and legal residency questions
 - Loss-in-Quarters claims (damaged/stolen items in government housing)
 - Overseas divorce proceedings counseling
@@ -46,7 +46,7 @@ The Wiesbaden Legal Assistance Office provides free legal services to Active Dut
 
 ## When
 
-- **Walk-in hours**: typically Mondays and Thursdays 0800–1200; times shift
+- **Walk-in hours**: typically Mondays and Thursdays 0800-1200; times shift
 - **Appointments**: always preferred for complex matters (wills, divorce, estate)
 - **Notarial services**: walk-in, quick
 - **Tax filing (VITA)**: January through mid-April, separate scheduling
@@ -90,7 +90,7 @@ Process typically:
 1. Counsel from Wiesbaden Legal Office
 2. Hire a stateside divorce attorney in your state of residence
 3. Proceed via stateside court (you may fly back for hearings)
-4. **Custody across borders** is complex — the Hague Convention and the specific state-custody court interact
+4. **Custody across borders** is complex; the Hague Convention and the specific state-custody court interact
 
 Divorce in Germany is legal but requires moving the parties' tax / residency structure in ways that may complicate SOFA status. Most USAREUR personnel divorce through their US state.
 
@@ -107,25 +107,25 @@ If government housing (on-post quarters) or your off-post RPP lease suffers dama
 - Employment law issues with a German employer (if your spouse works on the economy)
 - Immigration / residence-permit issues beyond SOFA scope
 
-The Legal Office can refer to English-speaking German attorneys in Wiesbaden. Expect €200–€400/hour for a German lawyer; complex cases may require retainer.
+The Legal Office can refer to English-speaking German attorneys in Wiesbaden. Expect €200-€400/hour for a German lawyer; complex cases may require retainer.
 
 ## German-side legal tips
 
 - **Nothing is negotiable** in German law. The law is what it is.
 - **Courts rely on written evidence**. Keep every document (lease, contract, payment).
-- **Free legal consultation** (*Erstberatung*) is typically available from German attorneys for ~€50–€100, then you decide to retain.
-- **Rechtsschutzversicherung** (legal insurance) is common in Germany. Covers most civil disputes. Worth considering if you're off-post and dealing with German bureaucracy a lot (~€200–€400/year).
+- **Free legal consultation** (*Erstberatung*) is typically available from German attorneys for ~€50-€100, then you decide to retain.
+- **Rechtsschutzversicherung** (legal insurance) is common in Germany. Covers most civil disputes. Worth considering if you're off-post and dealing with German bureaucracy a lot (~€200-€400/year).
 
 ## Gotchas
 
 - **Walk-in hours shift.** Call before showing up.
-- **Tax filing season crowded** — book VITA appointments in January, not March.
+- **Tax filing season crowded**; book VITA appointments in January, not March.
 - **POAs don't cover everything.** Some US states don't recognize military POAs for land transactions; check state-specific rules before relying on one.
-- **Spouses are covered as dependents** — which means they can use the office too, but conflicts of interest arise if the matter involves both spouses (divorce, for example). The office will refer one spouse out.
+- **Spouses are covered as dependents**; which means they can use the office too, but conflicts of interest arise if the matter involves both spouses (divorce, for example). The office will refer one spouse out.
 - **German court tolerances for English filings**: low. Translations are needed for anything filed at Amtsgericht or Landgericht.
 - **Custody order compliance across borders**: a US custody order doesn't automatically override a German family court ruling if both apply. Consult before any move affecting custody.
 - **Not all estates end in a simple will**: if you own property in multiple states / countries, consult early. German inheritance law (*Erbrecht*) differs substantively from US probate.
 
 ## Source notes
 
-Synthesized from the USAG Wiesbaden Legal Office garrison page, MilitaryOneSource's Wiesbaden legal assistance overview, and the three specific Legal Office PDFs (Home of Record, Loss in Quarters, Divorce Overseas) hosted on the garrison site. Specific office hours and procedures change — confirm via DHR main line before scheduling.
+Synthesized from the USAG Wiesbaden Legal Office garrison page, MilitaryOneSource's Wiesbaden legal assistance overview, and the three specific Legal Office PDFs (Home of Record, Loss in Quarters, Divorce Overseas) hosted on the garrison site. Specific office hours and procedures change; confirm via DHR main line before scheduling.

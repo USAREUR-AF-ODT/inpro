@@ -16,7 +16,7 @@ order: 5
 
 ## What
 
-A DSN (Defense Switched Network) number is what appears in most garrison directories. Civilians — including you, once you're on a German SIM — can't dial DSN directly. Every USAG Wiesbaden DSN converts to a civilian German number using a fixed prefix.
+A DSN (Defense Switched Network) number is what appears in most garrison directories. Civilians; including you, once you're on a German SIM; can't dial DSN directly. Every USAG Wiesbaden DSN converts to a civilian German number using a fixed prefix.
 
 Save these conversions on your phone before you arrive.
 
@@ -38,7 +38,7 @@ Save these conversions on your phone before you arrive.
 | `570-XXXX` | `(0611) 9744-XXXX` |
 | `590-XXXX` (ARHC / medical) | `(06371) 9464-XXXX` |
 
-The `548-` prefix is the most common — it covers ACS, HSO, DES, IOC, Vehicle Registration, and many other garrison offices. If you see `DSN 548-XXXX`, the civilian equivalent is `(0611) 143-548-XXXX`.
+The `548-` prefix is the most common; it covers ACS, HSO, DES, IOC, Vehicle Registration, and many other garrison offices. If you see `DSN 548-XXXX`, the civilian equivalent is `(0611) 143-548-XXXX`.
 
 ## Dialing Germany from the US
 
@@ -69,7 +69,7 @@ This page is a reference; no POC. If a number isn't working, call the operator a
 
 ## Gotchas
 
-- **German SIM, calling a DSN number directly — won't work.** Use the civilian conversion.
+- **German SIM, calling a DSN number directly; won't work.** Use the civilian conversion.
 - **Landline `0611` is the Wiesbaden city code.** Some sub-garrisons (Mainz-Kastel, Flugplatz Erbenheim) use the same code; others (Wiesbaden Army Airfield, some training sites) use different codes like `06134` or `06155`.
 - **Always drop the leading `0`** when dialing Germany from outside (both US `011 49` and EU `00 49`).
 - **Skype / WhatsApp / iMessage** via Wi-Fi works on Clay Kaserne. Most family members keep their US number on a Wi-Fi calling plan as a backup during settle-in.
