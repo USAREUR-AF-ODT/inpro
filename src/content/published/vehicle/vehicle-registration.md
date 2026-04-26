@@ -28,7 +28,7 @@ order: 10
 
 ## What
 
-The Directorate of Emergency Services (DES) runs the Registration of Motor Vehicles (RMV) office, which issues USAREUR plates and registration for every POV operated by SOFA status holders in Germany. You must register every POV you own — whether shipped from CONUS or purchased in Germany.
+The Directorate of Emergency Services (DES) runs the Registration of Motor Vehicles (RMV) office, which issues USAREUR plates and registration for every POV operated by SOFA status holders in Germany. You must register every POV you own; whether shipped from CONUS or purchased in Germany.
 
 ## Where
 
@@ -39,13 +39,13 @@ Schedule appointments: see the DES page linked above.
 
 ## When
 
-- **Mon–Fri**: 0730–1500
+- **Mon-Fri**: 0730-1500
 - **Closed**: last working day of the month (monthly inventory), U.S. federal holidays, German holidays
 - **Annual renewals**: POV must pass safety inspection *first*, then bring AE Form 190-1O with inspection stamp
 
 ## Contact
 
-See the POC panel. Call before driving — the satellite office schedule can shift.
+See the POC panel. Call before driving; the satellite office schedule can shift.
 
 ## Bring with you
 
@@ -69,7 +69,7 @@ See the POC panel. Call before driving — the satellite office schedule can shi
 
 ### Lost/stolen plates or registration
 - Immediate MP/SP report for stolen items
-- AE Form 190-1AA, new insurance card, fee ($45 replacement registration; $90 for plates — $45 lost + $45 new)
+- AE Form 190-1AA, new insurance card, fee ($45 replacement registration; $90 for plates; $45 lost + $45 new)
 - Return any remaining plate
 
 ### De-registering a POV (sold, junked, traded)
@@ -92,11 +92,11 @@ See the POC panel. Call before driving — the satellite office schedule can shi
 
 ## Gotchas
 
-- **Safety inspection before renewal** — not optional. Many on-post shops and off-post TÜV-certified garages perform it; DES keeps a list.
+- **Safety inspection before renewal**; not optional. Many on-post shops and off-post TÜV-certified garages perform it; DES keeps a list.
 - **German customs stamp** (AE Form 550-175B) from MP Customs is required to de-register before sale. Don't skip it.
-- **Orders required for first-time registration** — have a paper copy. First trip is the one most people forget it.
+- **Orders required for first-time registration**; have a paper copy. First trip is the one most people forget it.
 - **Closed last working day of the month** catches people every month.
-- **License conversion is separate** from registration — see the Drivers License page; DES doesn't issue German licenses.
+- **License conversion is separate** from registration; see the Drivers License page; DES doesn't issue German licenses.
 
 ## Source notes
 

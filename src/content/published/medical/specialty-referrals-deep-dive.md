@@ -26,7 +26,7 @@ order: 15
 
 ## What
 
-A **specialty referral** in the TRICARE Overseas system is the gate between primary care at ARHC and specialty medical care you can't get on-post. Orthopedics, dermatology, cardiology, OB-GYN beyond uncomplicated, oncology, rheumatology, ENT, ophthalmology — all of these get referred out, either to a **German civilian specialist** in the TRICARE Overseas network, or to **Landstuhl Regional Medical Center (LRMC)** for higher-acuity or military-specific care.
+A **specialty referral** in the TRICARE Overseas system is the gate between primary care at ARHC and specialty medical care you can't get on-post. Orthopedics, dermatology, cardiology, OB-GYN beyond uncomplicated, oncology, rheumatology, ENT, ophthalmology; all of these get referred out, either to a **German civilian specialist** in the TRICARE Overseas network, or to **Landstuhl Regional Medical Center (LRMC)** for higher-acuity or military-specific care.
 
 The referral process has three moving parts, and understanding each one avoids the weeks of delay that newcomers rack up:
 
@@ -39,24 +39,24 @@ This is different from stateside TRICARE where the network is pre-built. Here, t
 ## Where
 
 ### On-post originating
-- **ARHC Wiesbaden** — your PCM and the referral management team
-- **Referral Management Office (RMO)** at ARHC — handles the paperwork on the military side
+- **ARHC Wiesbaden**; your PCM and the referral management team
+- **Referral Management Office (RMO)** at ARHC; handles the paperwork on the military side
 
 ### Authorization and scheduling
-- **TRICARE Overseas / International SOS Germany** — phone, email, portal; 24/7 availability with duty-hours scheduling
-- **Provider lookup at tricare-overseas.com** — search network by specialty and region
+- **TRICARE Overseas / International SOS Germany**; phone, email, portal; 24/7 availability with duty-hours scheduling
+- **Provider lookup at tricare-overseas.com**; search network by specialty and region
 
 ### Care destinations
-- **German civilian specialists in Wiesbaden, Mainz, Frankfurt** — most common for outpatient care
-- **LRMC Landstuhl** — 2 hours by car; military facility with most specialties; used for complex cases or specialties not in network locally
-- **Ramstein Air Base clinic and LRMC** — alternative military destinations for some specialties
+- **German civilian specialists in Wiesbaden, Mainz, Frankfurt**; most common for outpatient care
+- **LRMC Landstuhl**; 2 hours by car; military facility with most specialties; used for complex cases or specialties not in network locally
+- **Ramstein Air Base clinic and LRMC**; alternative military destinations for some specialties
 
 ## When
 
 - **Referral writing at ARHC**: same visit, if your PCM identifies the need
-- **TRICARE Overseas authorization**: 3–10 business days typical; urgent cases faster with PCM documentation
-- **Scheduling with the specialist**: you call; German specialist wait times are 2–8 weeks for non-urgent, same-week for urgent
-- **Total time from ARHC visit to specialist visit**: 3 to 12 weeks typical; 1–2 weeks for urgent flagged referrals
+- **TRICARE Overseas authorization**: 3-10 business days typical; urgent cases faster with PCM documentation
+- **Scheduling with the specialist**: you call; German specialist wait times are 2-8 weeks for non-urgent, same-week for urgent
+- **Total time from ARHC visit to specialist visit**: 3 to 12 weeks typical; 1-2 weeks for urgent flagged referrals
 
 **Urgent vs. routine** matters. If your PCM documents "urgent" and the clinical picture supports it, the whole chain compresses by weeks.
 
@@ -64,10 +64,10 @@ This is different from stateside TRICARE where the network is pre-built. Here, t
 
 Contact details in the frontmatter. In-sequence:
 
-1. **ARHC PCM** (primary care) — for the original referral
-2. **ARHC Referral Management Office (RMO)** — status of the referral in the system
-3. **TRICARE Overseas (International SOS)** — authorization status, network options, escalation
-4. **German specialist office** — you call to book the appointment
+1. **ARHC PCM** (primary care); for the original referral
+2. **ARHC Referral Management Office (RMO)**; status of the referral in the system
+3. **TRICARE Overseas (International SOS)**; authorization status, network options, escalation
+4. **German specialist office**; you call to book the appointment
 
 ## Step-by-step referral flow
 
@@ -77,7 +77,7 @@ Your primary care manager identifies that you need specialty care. They write th
 **Make this easy for them**: describe your symptoms concisely, bring prior records if relevant, and ask specifically for what you need (e.g., "I'd like a referral to a dermatologist for this growing mole"). PCMs are more efficient when patients help them scope.
 
 ### 2. Referral review at ARHC RMO
-The RMO queues your referral for transmission to TRICARE Overseas. This can take 24–72 hours. If stuck longer, call the RMO — sometimes a case number needs a tickle.
+The RMO queues your referral for transmission to TRICARE Overseas. This can take 24-72 hours. If stuck longer, call the RMO; sometimes a case number needs a tickle.
 
 ### 3. TRICARE Overseas authorization
 International SOS (the TRICARE Overseas contractor for Europe) reviews the referral and authorizes it. They check:
@@ -86,7 +86,7 @@ International SOS (the TRICARE Overseas contractor for Europe) reviews the refer
 - If not, can LRMC or another military facility handle it?
 - Does it require a Network Directory update?
 
-Authorization typically lands in 3–10 business days. You'll get an email (or phone call) from International SOS with:
+Authorization typically lands in 3-10 business days. You'll get an email (or phone call) from International SOS with:
 - Authorization number
 - List of in-network German specialists in Wiesbaden/Frankfurt/Mainz area
 - Alternative: LRMC routing if local network is thin
@@ -96,15 +96,15 @@ Call the specialist's office directly. **Most specialist offices in Wiesbaden ha
 
 At scheduling:
 - Quote your TRICARE authorization number
-- Specify you're a TRICARE beneficiary — some offices bill directly, others expect you to pay and file for reimbursement
+- Specify you're a TRICARE beneficiary; some offices bill directly, others expect you to pay and file for reimbursement
 - Bring your TRICARE ID card and a copy of the authorization letter
-- Ask about the payment workflow before the appointment — practices vary
+- Ask about the payment workflow before the appointment; practices vary
 
 ### 5. The appointment
 - **German medical practice** differs in style from US. Less small talk, more directness, focused on the specific clinical question
-- **Paper records** — bring what you have; electronic transfer between US and German systems is limited
-- **Follow-up** — German specialists often write a short letter (*Arztbrief*) back to your PCM; the loop closes via ARHC
-- **Billing** — many TRICARE-network specialists bill International SOS directly; some expect you to pay up front and file for reimbursement
+- **Paper records**; bring what you have; electronic transfer between US and German systems is limited
+- **Follow-up**; German specialists often write a short letter (*Arztbrief*) back to your PCM; the loop closes via ARHC
+- **Billing**; many TRICARE-network specialists bill International SOS directly; some expect you to pay up front and file for reimbursement
 
 ### 6. Reimbursement if you paid up front
 File through the TRICARE Overseas claims portal. Include:
@@ -113,7 +113,7 @@ File through the TRICARE Overseas claims portal. Include:
 - Proof of payment
 - Clinical notes if available
 
-Reimbursement typically lands in 3–6 weeks.
+Reimbursement typically lands in 3-6 weeks.
 
 ## When it gets stuck
 
@@ -140,7 +140,7 @@ If a specialist billed you when they should have billed International SOS, TRICA
 Uncomplicated prenatal care often happens at ARHC. German OB referrals for complicated pregnancies route to Wiesbaden's **St. Josefs-Hospital** or **HELIOS Dr. Horst Schmidt Kliniken** (HSK); deliveries can happen at HSK for routine cases with TRICARE coverage. High-risk cases may route to LRMC or Heidelberg university hospital. See [Having a baby](/entries/medical/having-a-baby) for the OB-specific workflow.
 
 ### Mental health
-TRICARE covers outpatient mental-health care. ARHC has behavioral health for initial assessment; ongoing therapy routes through TRICARE Overseas network (German psychotherapists, some English-speaking). Wait times for non-urgent mental health can be 4–8 weeks; crisis is same-day. See [Mental health](/entries/medical/mental-health).
+TRICARE covers outpatient mental-health care. ARHC has behavioral health for initial assessment; ongoing therapy routes through TRICARE Overseas network (German psychotherapists, some English-speaking). Wait times for non-urgent mental health can be 4-8 weeks; crisis is same-day. See [Mental health](/entries/medical/mental-health).
 
 ### Emergency care
 Skip the referral process. On-post: go to ARHC (during hours) or LRMC ER; off-post: German emergency room (*Notaufnahme*). Post-emergency follow-up coordinates through your PCM and TRICARE Overseas for the non-emergent portion.
@@ -151,18 +151,18 @@ EFMP-enrolled children have smoother subspecialty routing. EFMP coordinator at A
 ## Gotchas
 
 - **Don't skip ARHC** and go directly to a German specialist expecting TRICARE to pay. Without a referral, it's self-pay with no reimbursement path.
-- **Emergencies are the exception** — emergency care doesn't need pre-authorization; TRICARE Overseas covers it after the fact.
+- **Emergencies are the exception**; emergency care doesn't need pre-authorization; TRICARE Overseas covers it after the fact.
 - **"Network" matters.** If you see an out-of-network specialist, reimbursement is lower or zero depending on plan.
 - **Translation isn't automatic.** Ask International SOS for a phone interpreter if your specialist's office is German-only.
 - **Urgent vs. routine** is written by your PCM; if your case is urgent, make sure your PCM documents it clearly so TRICARE Overseas doesn't treat it as routine.
-- **Follow-up visits** — some referrals auto-approve 3–5 follow-up visits; some require a new authorization for each. Confirm at the first appointment.
+- **Follow-up visits**; some referrals auto-approve 3-5 follow-up visits; some require a new authorization for each. Confirm at the first appointment.
 - **Pediatric specialty care** has longer waits than adult. Start early, especially for orthodontics, developmental pediatrics, and ENT.
 - **Paper records transfer poorly.** Bring your own copies of prior records in English (PDFs on your phone count).
 - **German specialists may recommend care differently than US specialists** (e.g., conservative treatment before surgery, longer observation periods). Ask specifically about the evidence base and US standard-of-care if it feels different.
 - **Don't lose the authorization letter.** You need it for the specialist, and again for reimbursement if you paid up front.
 - **International SOS phone line works but email is faster for non-urgent**. Screenshot everything.
-- **Expiration**: authorizations typically expire after 60–90 days. If your appointment is outside that window, re-authorize before going.
-- **TRICARE Select vs. Prime** affects reimbursement share — know which plan you're on before budgeting for out-of-pocket.
+- **Expiration**: authorizations typically expire after 60-90 days. If your appointment is outside that window, re-authorize before going.
+- **TRICARE Select vs. Prime** affects reimbursement share; know which plan you're on before budgeting for out-of-pocket.
 
 ## Source notes
 

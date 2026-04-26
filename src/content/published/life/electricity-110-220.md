@@ -15,7 +15,7 @@ order: 40
 
 ## What
 
-US outlets are **110–120V / 60Hz**. German outlets are **220–240V / 50Hz**. Plug your US hair dryer into a German outlet (even via a simple plug adapter) and it will either burn out, catch fire, or pop the circuit breaker. Understanding the difference before you pack saves money and pain.
+US outlets are **110-120V / 60Hz**. German outlets are **220-240V / 50Hz**. Plug your US hair dryer into a German outlet (even via a simple plug adapter) and it will either burn out, catch fire, or pop the circuit breaker. Understanding the difference before you pack saves money and pain.
 
 Three categories of appliance:
 1. **Dual-voltage** (110-220V): just need a plug adapter. Most of your stuff.
@@ -24,7 +24,7 @@ Three categories of appliance:
 
 ## Check your device's rating
 
-Look at the device's label (under the laptop, on the charger brick, on the back of the appliance). Find "INPUT" — if it says **100–240V**, the device is dual-voltage. You need only a plug adapter.
+Look at the device's label (under the laptop, on the charger brick, on the back of the appliance). Find "INPUT"; if it says **100-240V**, the device is dual-voltage. You need only a plug adapter.
 
 If it says only "120V" or "110V," you need either a transformer or a replacement.
 
@@ -44,7 +44,7 @@ If it says only "120V" or "110V," you need either a transformer or a replacement
 
 ## Things that DO NOT work (110V-only, high draw)
 
-- **Hair dryer** (unless marked "dual voltage — 110/220V")
+- **Hair dryer** (unless marked "dual voltage; 110/220V")
 - **Straightener / curling iron**
 - **Coffee maker**
 - **Toaster**
@@ -69,25 +69,25 @@ For these: **replace with 220V German versions.** Step-down transformers for hig
 
 Buy this after arrival, not before:
 
-- **Hair dryer** (€15–€40 at any Rossmann or dm)
-- **Straightener / curling iron** (€20–€50)
-- **Coffee maker** (€30–€200 depending on quality)
-- **Kettle** (€15–€40) — German kettles are fast and efficient; upgrade vs. US-style drip
-- **Toaster** (€20–€50)
-- **Microwave** (€80–€200)
-- **Blender / food processor** (€30–€300)
-- **Electric iron** (€30–€80)
-- **Vacuum cleaner** (€80–€500)
+- **Hair dryer** (€15-€40 at any Rossmann or dm)
+- **Straightener / curling iron** (€20-€50)
+- **Coffee maker** (€30-€200 depending on quality)
+- **Kettle** (€15-€40); German kettles are fast and efficient; upgrade vs. US-style drip
+- **Toaster** (€20-€50)
+- **Microwave** (€80-€200)
+- **Blender / food processor** (€30-€300)
+- **Electric iron** (€30-€80)
+- **Vacuum cleaner** (€80-€500)
 
 VAT forms (see [VAT Forms entry](/entries/finance/vat-forms)) save 19% on these purchases.
 
-## Transformers — why most people don't bother
+## Transformers; why most people don't bother
 
 Step-down transformers convert 220V to 110V. In theory, plug your US coffee maker in the transformer, plug the transformer in the German outlet, run US appliance.
 
 In practice:
 - **Voltage ≠ frequency.** Most 110V US appliances expect 60Hz. Transformers don't convert frequency. Your US clock-radio will run slow. Your US blender will run slow. Your US coffee maker might or might not heat correctly.
-- **Expensive.** Good 1500W transformer: $100–$200. Cheap ones are unsafe.
+- **Expensive.** Good 1500W transformer: $100-$200. Cheap ones are unsafe.
 - **Bulky.** Each is the size of a car battery.
 - **Heat.** Transformers get hot. Don't leave plugged in unattended.
 
@@ -108,31 +108,31 @@ Most modern electronics don't care. Problems arise in:
 
 If in doubt about a specific appliance, search "[brand + model] 50Hz Europe" before shipping.
 
-## Adapters — what to buy
+## Adapters; what to buy
 
 ### Type F / Schuko (main German plug)
 Most common. Two round pins + two grounding clips. Accept US flat-prong plugs via a Type F adapter.
 
 **Brands**:
-- **Dm** (drugstore chain): €5–€10 adapters
-- **Amazon.de**: 3-packs for €10–€15
+- **Dm** (drugstore chain): €5-€10 adapters
+- **Amazon.de**: 3-packs for €10-€15
 - Bring a pack of **Ceptics** or **OREI adapters** from CONUS (~$15 for 4-pack)
 
 ### Universal strip
 A 4-6-socket US power strip plugged into a Type F adapter works. Hot-spot for US chargers in a German room.
 
 ### USB-only charging strips
-Some German power strips have built-in USB ports. €20–€40 at media markt or electronics stores. Great for charging 4+ phones/tablets without individual chargers.
+Some German power strips have built-in USB ports. €20-€40 at media markt or electronics stores. Great for charging 4+ phones/tablets without individual chargers.
 
 ## Phone charging specifically
 
-Your US phone charger is dual-voltage — just use a Type F plug adapter. The phone's USB-C or Lightning cable is standard worldwide.
+Your US phone charger is dual-voltage; just use a Type F plug adapter. The phone's USB-C or Lightning cable is standard worldwide.
 
 Airport plug adapters (€5 at FRA airport shops) work in a pinch. Better quality available at dm or Amazon.de after arrival.
 
 ## TVs specifically
 
-Modern HDR/4K TVs are usually dual-voltage (check the label). The broadcast standard differs (US uses ATSC, Germany uses DVB-T2) — but streaming (Netflix, Disney+, Prime) works fine on any dual-voltage TV. You might miss US cable broadcast TV.
+Modern HDR/4K TVs are usually dual-voltage (check the label). The broadcast standard differs (US uses ATSC, Germany uses DVB-T2); but streaming (Netflix, Disney+, Prime) works fine on any dual-voltage TV. You might miss US cable broadcast TV.
 
 If you use antenna TV, a German TV tuner is a separate purchase.
 
@@ -140,14 +140,14 @@ If you use antenna TV, a German TV tuner is a separate purchase.
 
 - **Ship-list review**: look at every item on your packing list. Dual-voltage rated? Pack. 110V-only? Sell/give/don't pack.
 - **Your kids' night-lights** (plug-in) won't work. Bring battery-powered or buy German.
-- **Electric heating blanket** — doesn't work. Buy German or use regular blanket.
-- **Large appliances left in US storage** — you can't retrieve them mid-tour easily. Sell before PCS.
-- **Stand mixers (KitchenAid)** — popular US item that doesn't translate. Bosch or Kenwood are the German equivalents.
+- **Electric heating blanket**; doesn't work. Buy German or use regular blanket.
+- **Large appliances left in US storage**; you can't retrieve them mid-tour easily. Sell before PCS.
+- **Stand mixers (KitchenAid)**; popular US item that doesn't translate. Bosch or Kenwood are the German equivalents.
 - **Outlet strips with American outlets**: some people bring a whole power strip + use a single transformer for the strip. Works for low-draw items but not for kitchen equipment.
-- **Don't buy cheap transformer on Amazon** — fires happen. If you must, buy industrial-grade (Voltconverters.com or similar).
-- **Pack 4–6 Type F plug adapters.** You always need more than you think.
-- **GFCI protection** — German outlets in wet areas (bathrooms, kitchens) may have FI (fault-current interrupter); older apartments may not. Test before use.
+- **Don't buy cheap transformer on Amazon**; fires happen. If you must, buy industrial-grade (Voltconverters.com or similar).
+- **Pack 4-6 Type F plug adapters.** You always need more than you think.
+- **GFCI protection**; German outlets in wet areas (bathrooms, kitchens) may have FI (fault-current interrupter); older apartments may not. Test before use.
 
 ## Source notes
 
-Synthesized from the 2024 Welcome Packet's electricity section and community knowledge. Specific brand recommendations are subjective; verify voltage ratings on any appliance before assuming compatibility. When in doubt, buy in Germany — it's cheaper than shipping + replacement + frustration.
+Synthesized from the 2024 Welcome Packet's electricity section and community knowledge. Specific brand recommendations are subjective; verify voltage ratings on any appliance before assuming compatibility. When in doubt, buy in Germany; it's cheaper than shipping + replacement + frustration.

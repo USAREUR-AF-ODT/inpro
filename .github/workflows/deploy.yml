@@ -2,7 +2,13 @@ name: deploy
 on:
   push:
     branches: [main]
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      skip_audit:
+        description: "Skip the content-audit gate (use only for emergency deploys)"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -29,8 +35,11 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL || 'https://example.github.io' }}
           SITE_BASE: ${{ vars.SITE_BASE || '/inpro' }}
           PUBLIC_CF_ANALYTICS_TOKEN: ${{ secrets.CF_ANALYTICS_TOKEN }}
-      - name: Audit content (non-blocking)
-        run: npm run audit || true
+      - name: Audit content (blocks deploy on schema or staleness violations)
+        # M-ip-02 fix (2026-04-25): removed `|| true` so audit failures block production deploys.
+        # Override only via explicit workflow_dispatch input `skip_audit=true`.
+        if: ${{ inputs.skip_audit != true }}
+        run: npm run audit
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

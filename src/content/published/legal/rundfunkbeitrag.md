@@ -19,37 +19,37 @@ order: 25
 
 **Rundfunkbeitrag** is Germany's **mandatory public-broadcasting fee**, also called the *GEZ* (its old acronym). Every residential dwelling in Germany pays one fee per address regardless of how many people live there, whether you own a TV, whether you ever watch German TV. Current rate is **€18.36/month** (€220.32/year).
 
-Registration is automatic — once you complete **Anmeldung** at the Bürgeramt, the Bürgeramt reports the address to the Beitragsservice, and a letter arrives within 4–8 weeks asking for money. If you do nothing, they bill, then threaten, then refer to collections.
+Registration is automatic; once you complete **Anmeldung** at the Bürgeramt, the Bürgeramt reports the address to the Beitragsservice, and a letter arrives within 4-8 weeks asking for money. If you do nothing, they bill, then threaten, then refer to collections.
 
-**SOFA-status personnel (Active Duty, command-sponsored DA Civilians, and their command-sponsored Family members) are exempt** by treaty. The exemption is not automatic — you must apply with the Beitragsservice.
+**SOFA-status personnel (Active Duty, command-sponsored DA Civilians, and their command-sponsored Family members) are exempt** by treaty. The exemption is not automatic; you must apply with the Beitragsservice.
 
 ## Where
 
-- **Beitragsservice ARD ZDF Deutschlandradio** — the central German agency that collects Rundfunkbeitrag
-- **Forms and online filing** — [rundfunkbeitrag.de](https://www.rundfunkbeitrag.de/)
-- **USAG Wiesbaden Legal Office** — can review the exemption letter and advise on pushback if Beitragsservice denies
+- **Beitragsservice ARD ZDF Deutschlandradio**; the central German agency that collects Rundfunkbeitrag
+- **Forms and online filing**; [rundfunkbeitrag.de](https://www.rundfunkbeitrag.de/)
+- **USAG Wiesbaden Legal Office**; can review the exemption letter and advise on pushback if Beitragsservice denies
 
 ## When
 
 ### On arrival
-- **Anmelden first** (Bürgeramt) — triggers Rundfunkbeitrag registration
-- **Apply for SOFA exemption immediately after Anmeldung** — don't wait for the first bill
+- **Anmelden first** (Bürgeramt); triggers Rundfunkbeitrag registration
+- **Apply for SOFA exemption immediately after Anmeldung**; don't wait for the first bill
 
 ### Typical timeline
-- **T+4–8 weeks** after Anmeldung: first Beitragsservice letter asks for payment
+- **T+4-8 weeks** after Anmeldung: first Beitragsservice letter asks for payment
 - **Respond with exemption request within 30 days** to avoid automatic billing
-- **Approval letter** (*Bescheid*) arrives within 4–12 weeks; keep it with your German paperwork
+- **Approval letter** (*Bescheid*) arrives within 4-12 weeks; keep it with your German paperwork
 
 ### On departure (PCS out)
-- **Abmelden at the Bürgeramt** — this should close the Rundfunkbeitrag account
+- **Abmelden at the Bürgeramt**; this should close the Rundfunkbeitrag account
 - **File an** ***Abmeldung***-**form with Beitragsservice** as a belt-and-suspenders step
-- **Keep your Abmeldung Bestätigung** for 3+ years — Beitragsservice sometimes chases old addresses after you've gone home
+- **Keep your Abmeldung Bestätigung** for 3+ years; Beitragsservice sometimes chases old addresses after you've gone home
 
 ## Contact
 
-- **Beitragsservice mailing address** — printed on any letter they send you; write back with **Beitragsnummer** (account number) always quoted
-- **USAG Wiesbaden Legal Office** — walk-in during business hours for exemption letter review or disputes
-- **Stadt Wiesbaden Bürgeramt** — primary Anmeldung/Abmeldung point that triggers the Beitragsservice flow
+- **Beitragsservice mailing address**; printed on any letter they send you; write back with **Beitragsnummer** (account number) always quoted
+- **USAG Wiesbaden Legal Office**; walk-in during business hours for exemption letter review or disputes
+- **Stadt Wiesbaden Bürgeramt**; primary Anmeldung/Abmeldung point that triggers the Beitragsservice flow
 
 ## How the SOFA exemption works
 
@@ -57,34 +57,34 @@ Registration is automatic — once you complete **Anmeldung** at the Bürgeramt,
 - **Active Duty** military
 - **DA Civilians** assigned to Germany under SOFA status
 - **Command-sponsored Family members** of the above, residing with sponsor
-- **Tenant** stipulation — the person whose name is on the lease (or the on-post housing agreement) is the party exempt; if your German landlord's name is on the Rundfunkbeitrag account (not yours), exemption paperwork still needs your SOFA card
+- **Tenant** stipulation; the person whose name is on the lease (or the on-post housing agreement) is the party exempt; if your German landlord's name is on the Rundfunkbeitrag account (not yours), exemption paperwork still needs your SOFA card
 
 ### What you send
-1. **Exemption request letter** (*Antrag auf Befreiung*) — fillable form on rundfunkbeitrag.de under the "Befreiung/Ermäßigung" section
-2. **Copy of SOFA card** (both sides) — green DoD-issued ID
-3. **Copy of PCS orders** (redact SSN) — optional but strengthens the case
-4. **Copy of Anmeldung confirmation** — proves you're the registered resident
+1. **Exemption request letter** (*Antrag auf Befreiung*); fillable form on rundfunkbeitrag.de under the "Befreiung/Ermäßigung" section
+2. **Copy of SOFA card** (both sides); green DoD-issued ID
+3. **Copy of PCS orders** (redact SSN); optional but strengthens the case
+4. **Copy of Anmeldung confirmation**; proves you're the registered resident
 
 Mail to the Beitragsservice address on any letter they sent you. Keep copies.
 
 ### What comes back
-A **Bescheid** (decision letter) either granting exemption (*Befreiung*) for a stated period (often tied to your orders' duration) or denying with reasons. Denials are usually procedural — missing SOFA card copy, wrong form — and resubmitting with corrections works.
+A **Bescheid** (decision letter) either granting exemption (*Befreiung*) for a stated period (often tied to your orders' duration) or denying with reasons. Denials are usually procedural; missing SOFA card copy, wrong form; and resubmitting with corrections works.
 
 ### When exemption doesn't apply
 - **Contractors** under SOFA are not Active Duty or DA Civilian; usually owe the fee
 - **Unaccompanied Family members** living elsewhere in Germany without the sponsor's sponsorship
-- **DA Civilians not under SOFA** — local hires, dual nationals under different status
+- **DA Civilians not under SOFA**; local hires, dual nationals under different status
 - **Your German spouse** if they're already registered for Rundfunkbeitrag and you moved in with them
 
 If you're uncertain about status, the USAG Legal Office will review. Don't guess.
 
 ## What if you already paid
 
-You can file a **retroactive refund request** for Beiträge you paid during periods you were exempt. Supporting documentation goes with the request: SOFA card, dates of exemption claimed, Anmeldung/Abmeldung receipts, proof of orders during that period. Refunds are not automatic and can take 3–6 months.
+You can file a **retroactive refund request** for Beiträge you paid during periods you were exempt. Supporting documentation goes with the request: SOFA card, dates of exemption claimed, Anmeldung/Abmeldung receipts, proof of orders during that period. Refunds are not automatic and can take 3-6 months.
 
 ## On-post quarters
 
-Rundfunkbeitrag applies to **civilian addresses in Germany**. On-post quarters (Hainerberg, Aukamm, Newman Village, Crestview) are technically the U.S. Government's property; most residents receive no Beitragsservice letters. **If you do get a letter at an on-post address**, respond with SOFA exemption paperwork — don't ignore it.
+Rundfunkbeitrag applies to **civilian addresses in Germany**. On-post quarters (Hainerberg, Aukamm, Newman Village, Crestview) are technically the U.S. Government's property; most residents receive no Beitragsservice letters. **If you do get a letter at an on-post address**, respond with SOFA exemption paperwork; don't ignore it.
 
 ## Gotchas
 

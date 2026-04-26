@@ -82,6 +82,15 @@ async function main() {
     if (fm.summary && fm.summary.length > 280) {
       issues.push({ file: rel, level: 'warn', msg: `summary ${fm.summary.length} chars (>280)` });
     }
+
+    // M-prose-03 (2026-04-25): block em/en dashes per CONTENT_STYLE.md.
+    // Skip frontmatter (we already extracted it via parseFm) and only scan body.
+    const fmEnd = text.indexOf('\n---', 4);
+    const body = fmEnd === -1 ? text : text.slice(fmEnd + '\n---'.length);
+    const dashHits = body.match(/[—–]/g);
+    if (dashHits && dashHits.length) {
+      issues.push({ file: rel, level: 'error', msg: `${dashHits.length} em/en-dash(es) — replace per CONTENT_STYLE.md` });
+    }
   }
 
   if (process.argv.includes('--json')) {

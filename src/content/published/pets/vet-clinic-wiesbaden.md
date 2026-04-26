@@ -33,9 +33,9 @@ All pets living on-post **must register** with the VTF within 30 days of arrival
 
 ## When
 
-- **Tuesday**: 0800–1600
-- **Wednesday**: 0800–1200 (half day)
-- **Thursday**: 0800–1600
+- **Tuesday**: 0800-1600
+- **Wednesday**: 0800-1200 (half day)
+- **Thursday**: 0800-1600
 - **Friday, Monday**: closed
 - **Last Thursday of each month**: inventory closure 1200 onward
 - **Closed**: U.S. federal holidays
@@ -46,18 +46,18 @@ Make appointments; walk-ins accepted if time permits, but appointments preferred
 
 ### Preventive care
 - **Annual wellness exams** for dogs and cats
-- **Vaccinations** — rabies, DHPP (dogs), FVRCP (cats), Bordetella, Lyme, etc. on US schedule
-- **Microchip implantation** — ISO-compliant 15-digit chips required for EU travel
-- **Heartworm / flea / tick prevention** — prescriptions filled on-site
+- **Vaccinations**; rabies, DHPP (dogs), FVRCP (cats), Bordetella, Lyme, etc. on US schedule
+- **Microchip implantation**; ISO-compliant 15-digit chips required for EU travel
+- **Heartworm / flea / tick prevention**; prescriptions filled on-site
 
 ### Diagnostic
-- **Blood work** (CBC, chemistry panel) — same-day results
+- **Blood work** (CBC, chemistry panel); same-day results
 - **Fecal / urinalysis**
 - **Basic radiology**
 
 ### Minor procedures
-- **Dental cleanings** — under sedation
-- **Spay / neuter** — scheduled; waitlist
+- **Dental cleanings**; under sedation
+- **Spay / neuter**; scheduled; waitlist
 - **Wound care** (non-emergency)
 - **Mass removal** (pre-scheduled)
 
@@ -73,22 +73,22 @@ This is mandatory. Bring:
 
 ## What the VTF DOES NOT do
 
-- **Emergencies** — cardiac, trauma, poisoning, urgent surgery
+- **Emergencies**; cardiac, trauma, poisoning, urgent surgery
 - **Complex surgery** (cruciate repair, tumor excision requiring biopsy)
 - **Advanced imaging** (CT, MRI, ultrasound beyond basic)
 - **Specialty care** (oncology, dermatology, cardiology specialists)
-- **After-hours care** — they close at 1600. Period.
-- **Pet boarding** — see below for off-post options
+- **After-hours care**; they close at 1600. Period.
+- **Pet boarding**; see below for off-post options
 
 For anything above, you go civilian.
 
-## German civilian vets — English-speaking options
+## German civilian vets; English-speaking options
 
 ### For emergencies (24/7)
 
-- **Tierklinik Trappenkamp Wiesbaden** (check current hours — some Wiesbaden clinics offer 24/7)
-- **Tierklinik Hofheim** (20 min drive) — regional emergency vet hospital, English-speaking staff, 24/7
-- **Klinikum VETZ Frankfurt** (40 min) — larger specialty / emergency vet hospital; English-speaking
+- **Tierklinik Trappenkamp Wiesbaden** (check current hours; some Wiesbaden clinics offer 24/7)
+- **Tierklinik Hofheim** (20 min drive); regional emergency vet hospital, English-speaking staff, 24/7
+- **Klinikum VETZ Frankfurt** (40 min); larger specialty / emergency vet hospital; English-speaking
 
 **Keep the Tierklinik Hofheim number in your phone.** After-hours pet emergencies come up.
 
@@ -99,14 +99,14 @@ Many Wiesbaden vets welcome US military. Tips for finding one:
 - **Look for "Kleintierpraxis"** (small-animal practice) near your address
 - **Look for English-speaking signage** ("We speak English") or call first
 
-Typical cost: €40–€80 for an exam; €15–€30 per vaccine.
+Typical cost: €40-€80 for an exam; €15-€30 per vaccine.
 
 ## Pet insurance
 
 Germany has an established pet insurance market:
-- **Allianz Tierkrankenversicherung** — major German insurer
-- **Agila** — specialty pet insurer, comprehensive coverage
-- **Uelzener** — regional, well-regarded
+- **Allianz Tierkrankenversicherung**; major German insurer
+- **Agila**; specialty pet insurer, comprehensive coverage
+- **Uelzener**; regional, well-regarded
 
 Worth considering for:
 - Dogs with potential hip/joint issues
@@ -120,18 +120,18 @@ Worth considering for:
 For travel or PCS-out coverage:
 
 - **On-post option**: limited, typically only via private individuals; ACS sometimes connects families
-- **Off-post kennels** in Wiesbaden / Mainz area — numerous, charge €20–€40/day
-- **Pet sitters / dog walkers** — German apps (e.g., Tiersitter.de, Pawshake) operate locally; German language proficiency helpful
-- **AAFES Kennel at Ramstein (1 hour drive)** — Army-approved; often booked during PCS season
+- **Off-post kennels** in Wiesbaden / Mainz area; numerous, charge €20-€40/day
+- **Pet sitters / dog walkers**; German apps (e.g., Tiersitter.de, Pawshake) operate locally; German language proficiency helpful
+- **AAFES Kennel at Ramstein (1 hour drive)**; Army-approved; often booked during PCS season
 
-Book 6–8 weeks out for summer / holiday travel; boarding fills fast.
+Book 6-8 weeks out for summer / holiday travel; boarding fills fast.
 
 ## German pet law refresher
 
 ### Dog registration + tax
 - **Dog tax (Hundesteuer)**: Wiesbaden ~€180/year for the first dog, €240 for the second, higher for fighting breeds
 - **Registration**: within 2 weeks of moving in (concurrent with Anmeldung)
-- **Liability insurance**: recommended by Stadt Wiesbaden; mandatory for fighting breeds; ~€50–€80/year
+- **Liability insurance**: recommended by Stadt Wiesbaden; mandatory for fighting breeds; ~€50-€80/year
 
 ### Leash + muzzle
 - **Leash required** in parks, residential streets, and pedestrian zones
@@ -145,14 +145,14 @@ See the Pet Import entry for the full list and requirements. If you own one, Hes
 
 ## Gotchas
 
-- **VTF 72-hour Rx lead time** — plan around it. Don't let your pet run out.
+- **VTF 72-hour Rx lead time**; plan around it. Don't let your pet run out.
 - **Last Thursday of the month closure 1200+** catches people every month.
 - **VTF doesn't do emergencies.** Save the Tierklinik Hofheim number before you need it.
-- **Some German vets require cash or card directly** — TRICARE doesn't apply. Get receipts for insurance if you have pet insurance.
-- **PCS-out vaccinations for US re-entry** — USDA requirements for re-entry differ from German. Start the re-entry health certificate 2–3 weeks before PCS-out date.
-- **Pet travel on Patriot Express** — coordinate through your losing / gaining PCS coordinator; cargo vs. cabin rules differ by airline and aircraft.
-- **Exotic pets** (ferrets, reptiles, birds) — import rules and German possession rules differ. Research before committing.
+- **Some German vets require cash or card directly**; TRICARE doesn't apply. Get receipts for insurance if you have pet insurance.
+- **PCS-out vaccinations for US re-entry**; USDA requirements for re-entry differ from German. Start the re-entry health certificate 2-3 weeks before PCS-out date.
+- **Pet travel on Patriot Express**; coordinate through your losing / gaining PCS coordinator; cargo vs. cabin rules differ by airline and aircraft.
+- **Exotic pets** (ferrets, reptiles, birds); import rules and German possession rules differ. Research before committing.
 
 ## Source notes
 
-Synthesized from the Wiesbaden VTF information in the 2024 Welcome Packet (with DSN and hours) and MilitaryOneSource's Wiesbaden pets page. Civilian vet network and German pet-law specifics are community knowledge and Stadt Wiesbaden municipal law — verify current breed-specific rules directly with Stadt Wiesbaden before committing.
+Synthesized from the Wiesbaden VTF information in the 2024 Welcome Packet (with DSN and hours) and MilitaryOneSource's Wiesbaden pets page. Civilian vet network and German pet-law specifics are community knowledge and Stadt Wiesbaden municipal law; verify current breed-specific rules directly with Stadt Wiesbaden before committing.

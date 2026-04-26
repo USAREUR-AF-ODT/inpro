@@ -18,7 +18,7 @@ order: 30
 
 ## What
 
-Your Leave and Earnings Statement (LES) changes substantially when you PCS to Wiesbaden. New lines appear (OHA, COLA, TLA), old ones may disappear (US BAH, state tax withholding), and the whole thing takes 1–3 LES cycles to stabilize.
+Your Leave and Earnings Statement (LES) changes substantially when you PCS to Wiesbaden. New lines appear (OHA, COLA, TLA), old ones may disappear (US BAH, state tax withholding), and the whole thing takes 1-3 LES cycles to stabilize.
 
 Here's what you'll see and what it means.
 
@@ -26,37 +26,37 @@ Here's what you'll see and what it means.
 
 ### Entitlements (money you earn)
 
-**OHA — Overseas Housing Allowance**
+**OHA; Overseas Housing Allowance**
 - Replaces BAH
 - Shown as "OVSHSG ALLOW" or "OHA" on LES
 - Paid monthly at your rank's Wiesbaden rate, capped at your actual rent
 - **Not taxable**
 - Appears once your first HSO-approved lease is entered into DMDC
 
-**COLA — Cost of Living Allowance**
+**COLA; Cost of Living Allowance**
 - Daily stipend reflecting local cost-of-living vs. CONUS
 - Shown as "OS COLA" or "CONUS COLA" (different)
 - Paid with every LES, fluctuates with EUR/USD exchange rate
 - **Not taxable**
 
-**TLA — Temporary Lodging Allowance**
+**TLA; Temporary Lodging Allowance**
 - Paid for the gap between arrival and permanent quarters
 - Appears in the "entitlements" section during the TLA window
 - Lodging portion (up to per-diem cap) + meals per-diem
 - **Not taxable**
 - Stops when you move into permanent quarters
 
-**MIHA — Moving-In Housing Allowance**
+**MIHA; Moving-In Housing Allowance**
 - One-time payment when you set up a first German off-post residence
 - Covers setup costs (security deposit, first-time utility hookups, etc.)
 - Paid once per OHA cycle (per tour, typically)
-- Shown as "MIHA" — filed via Finance
+- Shown as "MIHA"; filed via Finance
 
 **PCS travel voucher**
 - Separate from LES, but deposits into your pay account
 - Covers mileage, per-diem, lodging during PCS travel
 - File within **5 business days of arrival** via DTS online
-- Reimbursement typically 10–15 business days after filing
+- Reimbursement typically 10-15 business days after filing
 
 ### Deductions (money removed)
 
@@ -123,7 +123,7 @@ If your first-month take-home is dramatically off from expected, visit Finance o
 
 ### Over-payment (more than expected)
 - Happens. DFAS catches it eventually and recoups via future LES.
-- **Don't spend** a windfall from over-payment — save until the LES stabilizes.
+- **Don't spend** a windfall from over-payment; save until the LES stabilizes.
 
 ### Travel voucher issues
 - DTS often flags errors; respond within the prompt window
@@ -132,10 +132,10 @@ If your first-month take-home is dramatically off from expected, visit Finance o
 
 ## Wiesbaden-specific gotchas
 
-- **Your first OHA won't cover the first month's rent + deposit** — OHA is a monthly reimbursement, not a lump sum. You out-of-pocket the deposit initially.
-- **COLA lags the market** — if EUR strengthens suddenly, your COLA won't catch up for 1–2 months
-- **MIHA is claim-based** — you file receipts with Finance for reimbursement; it's not automatic
-- **Rundfunkbeitrag is not reimbursed** — €18.36/month German TV tax is on you for the duration
+- **Your first OHA won't cover the first month's rent + deposit**; OHA is a monthly reimbursement, not a lump sum. You out-of-pocket the deposit initially.
+- **COLA lags the market**; if EUR strengthens suddenly, your COLA won't catch up for 1-2 months
+- **MIHA is claim-based**; you file receipts with Finance for reimbursement; it's not automatic
+- **Rundfunkbeitrag is not reimbursed**; €18.36/month German TV tax is on you for the duration
 
 ## Financial checklist
 
@@ -149,7 +149,7 @@ If your first-month take-home is dramatically off from expected, visit Finance o
 - [ ] Start saving Army Lodge receipts for TLA claim
 - [ ] Start German bank account setup
 
-### Week 3–4
+### Week 3-4
 - [ ] Submit HSO-approved lease for OHA initiation
 - [ ] Reconcile first LES
 - [ ] Set up auto-transfer to German bank for rent
@@ -169,24 +169,24 @@ The **Financial Readiness Program** at ACS is free 1:1 budget counseling. If any
 
 - **DSN 548-9201** → ask for FRP
 - Multi-session engagement available
-- No-judgment environment — they're used to PCS complications
+- No-judgment environment; they're used to PCS complications
 
 ## Deductions and voluntary contributions to revisit
 
 - **W-4**: update for SOFA-exempt German tax status (check box for foreign residency if asked)
-- **TSP**: consider increasing contribution — lower cost-of-living in Wiesbaden relative to DC/NYC often allows higher saving
+- **TSP**: consider increasing contribution; lower cost-of-living in Wiesbaden relative to DC/NYC often allows higher saving
 - **Leave policy**: track leave accrual + use-or-lose thresholds
 - **Retirement**: PCS-out LES will zero out OHA/COLA; plan return-to-CONUS budget accordingly
 
 ## Gotchas
 
 - **Don't compare Wiesbaden LES to Fort X LES line-by-line.** The entitlement structure is different; total take-home may be more or less depending on rank + family + specific rates that month.
-- **Foreign-currency fluctuations affect COLA** — a cheap-Euro month may mean COLA drops
-- **Finance office walk-ins take time** — book via the unit S1 or email ahead
-- **Commercial landlords expect €0 OHA involvement** — you pay them in EUR; OHA comes to you in USD separately
+- **Foreign-currency fluctuations affect COLA**; a cheap-Euro month may mean COLA drops
+- **Finance office walk-ins take time**; book via the unit S1 or email ahead
+- **Commercial landlords expect €0 OHA involvement**; you pay them in EUR; OHA comes to you in USD separately
 - **Keep all Army Lodge receipts** for TLA and travel voucher
-- **TurboTax / H&R Block** work for Active Duty overseas — your LES data is the same
-- **VITA tax prep** at Legal Office (free, Jan–Apr) — can help with SOFA-status implications
+- **TurboTax / H&R Block** work for Active Duty overseas; your LES data is the same
+- **VITA tax prep** at Legal Office (free, Jan-Apr); can help with SOFA-status implications
 
 ## Source notes
 

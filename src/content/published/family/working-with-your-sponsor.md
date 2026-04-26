@@ -18,16 +18,16 @@ order: 5
 
 Your unit assigns a **sponsor** when your orders are cut. A sponsor is another soldier, civilian, or family member already at Wiesbaden whose job is to help you land. They are not your travel agent, your realtor, or your replacement S1. They're a peer contact who can answer "how does this actually work" questions that in-processing briefings never address.
 
-Most sponsor relationships disappoint because nobody sets expectations. Your sponsor is stretched between their own job and an assigned task that nobody rewards them for. The newcomers who get the most value are the ones who **run the relationship actively** — you lead, they respond. Waiting for the sponsor to drive is a common failure pattern.
+Most sponsor relationships disappoint because nobody sets expectations. Your sponsor is stretched between their own job and an assigned task that nobody rewards them for. The newcomers who get the most value are the ones who **run the relationship actively**; you lead, they respond. Waiting for the sponsor to drive is a common failure pattern.
 
 See [How to be a good sponsor](/entries/family/being-a-good-sponsor) for the flip side of this conversation.
 
-## Timeline — what to do when
+## Timeline; what to do when
 
 ### T-60 days (orders in hand)
 - **Check if you've been assigned a sponsor.** Ask your losing-unit S1 for confirmation. If no sponsor is assigned 30 days out, see [Requesting a sponsor](/entries/unit/requesting-a-sponsor).
 - **Email your sponsor first.** Introduce yourself, your family (names, ages), pets, POV. Say when you'll arrive. Ask what they need from you.
-- **Share your expected arrival details** once firm — flight info, rental car plan, Lodge reservation. Sponsors hate being surprised with "I land tomorrow, can you meet me?"
+- **Share your expected arrival details** once firm; flight info, rental car plan, Lodge reservation. Sponsors hate being surprised with "I land tomorrow, can you meet me?"
 
 ### T-30 days
 - **Ask targeted questions.** Broad questions get broad answers. Specific questions get useful answers:
@@ -39,12 +39,12 @@ See [How to be a good sponsor](/entries/family/being-a-good-sponsor) for the fli
 
 ### T-7 days
 - **Confirm meet-up plan.** If the sponsor offered to pick you up at the airport, confirm 48 hours out. Don't leave it as "we talked about it a month ago."
-- **Share your cell number** with WhatsApp or Signal enabled — call-only US numbers won't work on German networks.
+- **Share your cell number** with WhatsApp or Signal enabled; call-only US numbers won't work on German networks.
 
 ### Arrival day and week 1
 - **Don't ask your sponsor to drive you to every appointment.** They have a day job. Use the Lodge front desk, the ACS Newcomer's Orientation, and the shuttle.
 - **Do ask them the "stupid" questions** you're afraid to ask the unit.
-- **Grocery run together** is the single most valuable sponsor activity — they show you how the commissary works, where the German stuff is worth driving for, and how tipping/bagging works.
+- **Grocery run together** is the single most valuable sponsor activity; they show you how the commissary works, where the German stuff is worth driving for, and how tipping/bagging works.
 
 ### After week 1
 Sponsors taper off naturally. Stay in touch, introduce your family to theirs, invite to a dinner. Most sponsor relationships become real friendships or quietly fade depending on fit.
@@ -64,7 +64,7 @@ Copy this into your first email:
 
 Small gesture, big impact. When you arrive:
 
-- **Something from where you're PCS'ing from** — local coffee, a bottle from a regional distillery, a team cap. Costs nothing; means something.
+- **Something from where you're PCS'ing from**; local coffee, a bottle from a regional distillery, a team cap. Costs nothing; means something.
 - **Don't show up empty-handed** to a dinner at their house. Flowers, wine, or a dessert you bought at the commissary is enough.
 
 This is a military community. Reciprocity matters.
@@ -81,7 +81,7 @@ This is a military community. Reciprocity matters.
 Your sponsor is usually assigned to the soldier. As the spouse, reach out separately:
 
 - Ask the soldier's sponsor if their spouse or a unit spouse is available
-- ACS runs a **Spouse Sponsorship** component — ask at the ACS Newcomer's Orientation
+- ACS runs a **Spouse Sponsorship** component; ask at the ACS Newcomer's Orientation
 - **Family Readiness Groups** (FRGs) or unit spouse groups often have volunteer sponsors for families independent of soldier chain
 - **Facebook groups** (Wiesbaden Military Spouses, specific unit FRG pages) fill gaps
 
@@ -89,7 +89,7 @@ Don't wait for the soldier's sponsor to relay things to you. Build your own cont
 
 ## Gotchas
 
-- **Sponsor turnover happens.** If your sponsor PCS'd out before you arrive, the unit reassigns — but sometimes the reassignment doesn't reach you. Confirm at T-30 days.
+- **Sponsor turnover happens.** If your sponsor PCS'd out before you arrive, the unit reassigns; but sometimes the reassignment doesn't reach you. Confirm at T-30 days.
 - **Sponsors are not always good at their job.** Some assignments are paper only. Don't take a weak sponsor personally; use the S1 and ACS as backups.
 - **Sponsors can't help with everything.** Legal questions go to Legal. Medical go to ARHC referrals. EFMP decisions go to ACS EFMP coordinator. Your sponsor's job ends at "I know a person who knows."
 - **Your sponsor is not your landlord.** On-post quarters decisions go through Housing. Don't expect the sponsor to swing keys or pre-inspect your quarters.
@@ -98,4 +98,4 @@ Don't wait for the soldier's sponsor to relay things to you. Build your own cont
 
 ## Source notes
 
-Sponsor-process expectations drawn from USAG Wiesbaden's sponsorship page and the Army's Family Sponsorship Program (verified 2026-04-20). Sponsor quality varies widely — assume your experience differs from the next soldier's and adjust accordingly.
+Sponsor-process expectations drawn from USAG Wiesbaden's sponsorship page and the Army's Family Sponsorship Program (verified 2026-04-20). Sponsor quality varies widely; assume your experience differs from the next soldier's and adjust accordingly.

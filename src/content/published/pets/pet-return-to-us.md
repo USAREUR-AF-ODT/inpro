@@ -24,19 +24,19 @@ Plan on **4-6 weeks of prep** even though the paperwork window is 10 days.
 ## The return pipeline
 
 ### 4-6 weeks out
-- [ ] **Confirm pet's ISO microchip still works** — take pet to VTF or German vet for a scan
-- [ ] **Rabies vaccine current** (verify expiration — must be valid at time of arrival)
+- [ ] **Confirm pet's ISO microchip still works**; take pet to VTF or German vet for a scan
+- [ ] **Rabies vaccine current** (verify expiration; must be valid at time of arrival)
 - [ ] **Choose return method**: commercial cargo, Patriot Express, in-cabin, or pet relocation service
-- [ ] **Flight booking with pet** — book 4+ weeks out for cargo/PetSafe
+- [ ] **Flight booking with pet**; book 4+ weeks out for cargo/PetSafe
 
 ### 2 weeks out
 - [ ] **Identify USDA-accredited vet** for final health certificate
-- [ ] **Pet crate ready** — IATA-compliant, acclimated
-- [ ] **Pet food plan for transition** — last few weeks of German food + start of US food
+- [ ] **Pet crate ready**; IATA-compliant, acclimated
+- [ ] **Pet food plan for transition**; last few weeks of German food + start of US food
 
 ### 10 days out (the window)
 - [ ] **German vet issues a new health certificate**
-- [ ] **Check CDC current requirements** — rules changed in 2024 for dogs; confirm what applies to your pet's return port
+- [ ] **Check CDC current requirements**; rules changed in 2024 for dogs; confirm what applies to your pet's return port
 
 ### Flight day
 - [ ] **Feed 4-6 hours before** (not immediately before)
@@ -44,18 +44,18 @@ Plan on **4-6 weeks of prep** even though the paperwork window is 10 days.
 - [ ] **Arrive 2-3 hours early** for cargo drop-off
 
 ### US arrival
-- [ ] **Pick up at destination** — pets hold in cargo until you clear customs
+- [ ] **Pick up at destination**; pets hold in cargo until you clear customs
 - [ ] **CDC check if required** (port of entry dependent)
-- [ ] **Home quarantine** — just 1-2 days to re-acclimate
+- [ ] **Home quarantine**; just 1-2 days to re-acclimate
 
-## CDC 2024 rule changes — what's new
+## CDC 2024 rule changes; what's new
 
 The CDC updated dog-import rules in 2024. Current requirements (verify closer to your return):
 
 ### For dogs entering the US
-- **Microchip** (ISO 11784/11785 compatible) — must match identification
+- **Microchip** (ISO 11784/11785 compatible); must match identification
 - **At least 6 months old**
-- **Healthy at entry** — no obvious illness
+- **Healthy at entry**; no obvious illness
 - **Rabies vaccination certificate** required; CDC permit may be needed depending on port of entry
 - **CDC Dog Import Form** (new requirement since 2024)
 
@@ -74,7 +74,7 @@ The CDC updated dog-import rules in 2024. Current requirements (verify closer to
 ## Transportation options
 
 ### Commercial airline (cargo)
-- **United PetSafe** / **Delta Cargo** / **Lufthansa AnimalLounge** — all have pet cargo services
+- **United PetSafe** / **Delta Cargo** / **Lufthansa AnimalLounge**; all have pet cargo services
 - **Cost**: $500-$2,000 one-way depending on size + route
 - **Pet travels in climate-controlled cargo hold**
 - Most reliable for medium/large pets
@@ -129,9 +129,9 @@ Keep these ready at arrival:
 
 ### After landing
 - **Crate in the car**: keep pet in crate until home for safety
-- **Short walk first thing** home — they need to pee after 10+ hours
-- **Small feeding first day** — not a full meal; gradually increase
-- **Vet check within 2 weeks** of arrival — monitor for travel stress
+- **Short walk first thing** home; they need to pee after 10+ hours
+- **Small feeding first day**; not a full meal; gradually increase
+- **Vet check within 2 weeks** of arrival; monitor for travel stress
 
 ## Documentation to save
 
@@ -154,7 +154,7 @@ For tax / insurance / customs records:
 - Behavioral issues: may need sedation + monitoring
 
 ### Breeds flagged in Germany
-- **Bully breeds (Pit Bull type, Staffies)**: if your dog was legally owned in Hessen, the paperwork doesn't disappear at the border. US reception is state-dependent — some states (CO, GA) have breed laws; others don't.
+- **Bully breeds (Pit Bull type, Staffies)**: if your dog was legally owned in Hessen, the paperwork doesn't disappear at the border. US reception is state-dependent; some states (CO, GA) have breed laws; others don't.
 - Research your destination state's breed laws before committing.
 
 ### Multiple pets
@@ -172,14 +172,14 @@ For most cases, these are minor. Your Abmeldung (residency de-registration) is t
 
 ## Gotchas
 
-- **Don't assume USDA from import is valid** — a new health certificate is needed for return
-- **10-day window is strict** — don't miss it
-- **Cargo bookings sell out** — book 4-6 weeks ahead
-- **Port-of-entry choice matters** — some ports are easier than others (IAD vs. JFK differs)
-- **In-cabin size limits vary by aircraft** — check specific flight's aircraft, not just the airline
-- **State-of-arrival breed rules** — bully breeds may have post-arrival state-level restrictions
+- **Don't assume USDA from import is valid**; a new health certificate is needed for return
+- **10-day window is strict**; don't miss it
+- **Cargo bookings sell out**; book 4-6 weeks ahead
+- **Port-of-entry choice matters**; some ports are easier than others (IAD vs. JFK differs)
+- **In-cabin size limits vary by aircraft**; check specific flight's aircraft, not just the airline
+- **State-of-arrival breed rules**; bully breeds may have post-arrival state-level restrictions
 - **Extreme weather embargoes**: airlines refuse pets in cargo when temperatures are below 45°F or above 85°F at any point in the route. Plan around these seasons.
-- **Pets left in Germany**: if you can't bring yours home, surrender via Tierheim (German animal shelter) is humane — they rehome aggressively. Don't abandon.
+- **Pets left in Germany**: if you can't bring yours home, surrender via Tierheim (German animal shelter) is humane; they rehome aggressively. Don't abandon.
 
 ## Source notes
 

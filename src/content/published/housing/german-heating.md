@@ -66,16 +66,16 @@ US norm: set to 68°F, leave it. German norm: turn down to 16°C (~61°F) at nig
 
 ### Blocking radiators
 Placing a couch or bed in front of a radiator traps heat behind the furniture. The thermostat senses "hot" and shuts off. The room stays cold; the valve runs more trying to catch up.
-**Keep radiators clear** — minimum 50cm / 18 inches free in front.
+**Keep radiators clear**; minimum 50cm / 18 inches free in front.
 
 ### Overheating
-Setting to 5 doesn't warm faster — it overshoots and wastes. Set to 3 (20°C / 68°F) for comfortable, walk away.
+Setting to 5 doesn't warm faster; it overshoots and wastes. Set to 3 (20°C / 68°F) for comfortable, walk away.
 
 ### Leaving windows cracked
-US norm: crack windows in winter for "fresh air." German norm: **Stoßlüften** (burst ventilation) — open windows fully for 5-10 minutes 2-4 times daily; heat recovers fast.
+US norm: crack windows in winter for "fresh air." German norm: **Stoßlüften** (burst ventilation); open windows fully for 5-10 minutes 2-4 times daily; heat recovers fast.
 **Cracking windows** lets heat escape continuously while the warm window-side surfaces promote condensation and mold.
 
-## Stoßlüften — the German ventilation ritual
+## Stoßlüften; the German ventilation ritual
 
 Germans open windows fully for 5-10 minutes, 2-4 times per day, in winter.
 
@@ -96,9 +96,9 @@ Germans open windows fully for 5-10 minutes, 2-4 times per day, in winter.
 ## Temperature targets (German norm)
 
 - **Living room**: 20-21°C (68-70°F) daytime
-- **Kitchen**: 18°C (64°F) — you're moving around
-- **Bedroom**: 16-18°C (61-64°F) — German families sleep colder than Americans
-- **Bathroom**: 22-24°C (72-75°F) — briefly during/after shower
+- **Kitchen**: 18°C (64°F); you're moving around
+- **Bedroom**: 16-18°C (61-64°F); German families sleep colder than Americans
+- **Bathroom**: 22-24°C (72-75°F); briefly during/after shower
 - **Guest room**: 12-14°C (54-57°F) unless in use
 
 ## Your first winter budget
@@ -121,7 +121,7 @@ For a 2-bedroom apartment in Wiesbaden:
 
 ### Thermostatic valves
 - **Turn counter-clockwise** to decrease, clockwise to increase
-- Battery-powered smart radiator thermostats (Honeywell, Bosch, tado°) can replace basic ones — program schedules
+- Battery-powered smart radiator thermostats (Honeywell, Bosch, tado°) can replace basic ones; program schedules
 - Cost: €50-120 per radiator for smart version
 
 ### Central thermostats (rare in apartments)
@@ -133,40 +133,40 @@ German smart home trending; tado°, Bosch Smart Home, and Homematic offer centra
 ## Troubleshooting
 
 ### Radiator cold top, warm bottom
-**Air trapped** — needs bleeding. Call landlord or use a 4mm key (Heizkörperschlüssel) to release air at the top valve. Have a rag + cup ready.
+**Air trapped**; needs bleeding. Call landlord or use a 4mm key (Heizkörperschlüssel) to release air at the top valve. Have a rag + cup ready.
 
 ### Radiator completely cold
-- Check the building boiler (may be a seasonal schedule — some run May-September only for hot water)
+- Check the building boiler (may be a seasonal schedule; some run May-September only for hot water)
 - Check if the valve is blocked (stuck pin)
 - Contact landlord
 
 ### Room never warms up
 - Check for blocked radiators
 - Confirm your windows/doors seal properly
-- Insulation issues — landlord responsibility
+- Insulation issues; landlord responsibility
 
 ### Condensation on windows / walls
-- **Too-low ventilation** — Stoßlüften more often
-- **Too-low heating in cold rooms** — dial up to at least 1-2 (12-16°C)
+- **Too-low ventilation**; Stoßlüften more often
+- **Too-low heating in cold rooms**; dial up to at least 1-2 (12-16°C)
 - **Mold starting**: notify landlord immediately; photograph the spots
 
 ## Summer cooling (not heating, but related)
 
-- **Rolläden / Fensterläden** (shutters) — lower them during day, open evening
-- **Through-ventilation** (Durchzug) — open opposite windows overnight
-- **Fans** (box fan, oscillating fan) — common and effective
-- **Portable AC units** — expensive in Germany, can be bought at Media Markt or Amazon.de (~€300-800)
-- **Built-in AC is rare** — most German apartments don't have it
+- **Rolläden / Fensterläden** (shutters); lower them during day, open evening
+- **Through-ventilation** (Durchzug); open opposite windows overnight
+- **Fans** (box fan, oscillating fan); common and effective
+- **Portable AC units**; expensive in Germany, can be bought at Media Markt or Amazon.de (~€300-800)
+- **Built-in AC is rare**; most German apartments don't have it
 
 ## Gotchas
 
-- **Thermostat dial ≠ speed**, it's a target — setting to 5 doesn't heat faster
+- **Thermostat dial ≠ speed**, it's a target; setting to 5 doesn't heat faster
 - **Don't block radiators** with furniture
-- **Don't crack windows 24/7** — Stoßlüften instead
-- **Don't heat unused rooms** — dial to 1
+- **Don't crack windows 24/7**; Stoßlüften instead
+- **Don't heat unused rooms**; dial to 1
 - **Cold-bedroom habit**: Germans sleep at 16-18°C; takes adjustment but saves $$
 - **Annual settlement surprise**: budget €500-€1,500 reserve for year-end Nachzahlung
-- **Don't touch the boiler or main pipes** — landlord responsibility
+- **Don't touch the boiler or main pipes**; landlord responsibility
 - **Humidifier use**: mostly unneeded; Germany isn't as dry as many US areas
 - **Open-window myth for "airing out"**: Stoßlüften is 5-10 minutes fully open, not all day cracked
 - **Water bills** separate; hot water = meter

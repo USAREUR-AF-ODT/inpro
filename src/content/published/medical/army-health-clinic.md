@@ -32,9 +32,9 @@ order: 10
 
 ## What
 
-The Wiesbaden Army Health Clinic (ARHC) provides primary care, behavioral health, pediatrics, immunizations, and routine services to enrolled TRICARE beneficiaries. It is not an emergency room — real emergencies go to an **off-post hospital** or dial **112** (German emergency) or **117** (on-post ambulance).
+The Wiesbaden Army Health Clinic (ARHC) provides primary care, behavioral health, pediatrics, immunizations, and routine services to enrolled TRICARE beneficiaries. It is not an emergency room; real emergencies go to an **off-post hospital** or dial **112** (German emergency) or **117** (on-post ambulance).
 
-Enrollment with TRICARE Overseas Prime is separate from arrival. Complete enrollment *before* you need care — walk-in appointments for unenrolled beneficiaries are limited.
+Enrollment with TRICARE Overseas Prime is separate from arrival. Complete enrollment *before* you need care; walk-in appointments for unenrolled beneficiaries are limited.
 
 ## Where
 
@@ -42,8 +42,8 @@ Enrollment with TRICARE Overseas Prime is separate from arrival. Complete enroll
 
 ## When
 
-- **Mon–Fri**: 0730–1630
-- **Third Thursday of each month**: closed for training until 1300 — plan accordingly
+- **Mon-Fri**: 0730-1630
+- **Third Thursday of each month**: closed for training until 1300; plan accordingly
 - **Closed**: Saturday, Sunday, U.S. federal holidays, and most German holidays
 
 ## Contact
@@ -52,17 +52,17 @@ See the POC panel below for the main line, appointment line, and dental line.
 
 <div data-profile='{"has_kids":"yes"}'>
 
-**Pediatric care** is provided at ARHC. Get your child's shot records translated and on-hand for school enrollment at DoDEA — schools won't accept un-translated German records.
+**Pediatric care** is provided at ARHC. Get your child's shot records translated and on-hand for school enrollment at DoDEA; schools won't accept un-translated German records.
 
 </div>
 
 ## Gotchas
 
-- **Emergency vs urgent vs routine** — ARHC is routine-only. For urgent after-hours care, call TRICARE Overseas Assistance at **+00-800-4444-8844** for guidance or go directly to an off-post hospital (Asklepios Paulinen-Klinik, HSK, or St. Josefs-Hospital).
-- **Referrals to German specialists** are standard for specialties not available at ARHC. Get the referral processed *before* booking an off-post appointment — TRICARE won't reimburse otherwise.
-- **TRICARE Overseas Prime enrollment** requires a TRICARE transfer from your previous region. Start this the day you arrive; it takes 5–10 business days.
+- **Emergency vs urgent vs routine**; ARHC is routine-only. For urgent after-hours care, call TRICARE Overseas Assistance at **+00-800-4444-8844** for guidance or go directly to an off-post hospital (Asklepios Paulinen-Klinik, HSK, or St. Josefs-Hospital).
+- **Referrals to German specialists** are standard for specialties not available at ARHC. Get the referral processed *before* booking an off-post appointment; TRICARE won't reimburse otherwise.
+- **TRICARE Overseas Prime enrollment** requires a TRICARE transfer from your previous region. Start this the day you arrive; it takes 5-10 business days.
 - **No walk-in sick call for family members.** Route through the appointment line.
-- **Third-Thursday closure** catches people every month — check before you drive.
+- **Third-Thursday closure** catches people every month; check before you drive.
 
 ## Source notes
 

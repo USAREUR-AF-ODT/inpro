@@ -16,7 +16,7 @@ order: 25
 
 ## What
 
-Your NATO Status of Forces Agreement (SOFA) status is the legal framework that lets US military and DoD personnel live and work in Germany. The **SOFA stamp** (formally, the Certificate of Entry) in your passport confirms that status to any German official who checks — police at a traffic stop, customs at the airport, the Bürgeramt during Anmeldung.
+Your NATO Status of Forces Agreement (SOFA) status is the legal framework that lets US military and DoD personnel live and work in Germany. The **SOFA stamp** (formally, the Certificate of Entry) in your passport confirms that status to any German official who checks; police at a traffic stop, customs at the airport, the Bürgeramt during Anmeldung.
 
 Without the stamp, you're a US citizen on a tourist visa. With it, you're a person covered by a multinational treaty that gives you different rights, duties, and tax obligations.
 
@@ -24,27 +24,27 @@ The stamp goes in your passport within **90 days** of arrival. You'll need it vi
 
 ## Where
 
-**Passport/Visa Office — DHR (Directorate of Human Resources), Clay Kaserne.**
+**Passport/Visa Office; DHR (Directorate of Human Resources), Clay Kaserne.**
 
 The specific building has moved; check the garrison page or call the in-processing line. Appointments booked through your unit or walk-in during posted hours.
 
 ## When
 
-- **Walk-ins**: typically accepted during morning hours, Monday–Thursday
+- **Walk-ins**: typically accepted during morning hours, Monday-Thursday
 - **Appointments**: booked online through the garrison scheduling tool or by phone
 - **Closed**: Friday afternoons, federal holidays, some maintenance days
 
 Timing for arrival:
-- **Day 1–7**: you don't need the stamp yet. Your travel orders + passport are enough
-- **Day 7–30**: apply for the stamp
-- **Day 30–90**: stamp is in your passport
+- **Day 1-7**: you don't need the stamp yet. Your travel orders + passport are enough
+- **Day 7-30**: apply for the stamp
+- **Day 30-90**: stamp is in your passport
 - **Day 91+**: you're non-compliant if still stampless
 
 ## What you bring
 
-1. **US passport** — tourist passport (blue), not no-fee (brown/red official)
-2. **PCS orders** — copy, not original (they keep the copy)
-3. **CAC or DD-1173** — photo ID
+1. **US passport**; tourist passport (blue), not no-fee (brown/red official)
+2. **PCS orders**; copy, not original (they keep the copy)
+3. **CAC or DD-1173**; photo ID
 4. **For dependents**: sponsor must attend or provide POA (DD Form 1172-2)
 5. **Marriage certificate** if spouse/dependent spouse: certified copy
 
@@ -59,11 +59,11 @@ SOFA-status personnel:
 - **No vehicle tax (Kfz-Steuer)** for USAREUR-plated vehicles
 
 What you still owe:
-- **VAT (Mehrwertsteuer)** on daily purchases — unless you use VAT forms (see VAT Forms entry)
-- **Rundfunkbeitrag** (public TV tax) — not exempt, applies to off-post residents
-- **Wiesbaden dog tax (Hundesteuer)** — not exempt
-- **Local fees** for services (trash, water, etc.) — yes, even on-post
-- **Tax on German-source income** — your spouse's German job salary, for example, is fully taxable
+- **VAT (Mehrwertsteuer)** on daily purchases; unless you use VAT forms (see VAT Forms entry)
+- **Rundfunkbeitrag** (public TV tax); not exempt, applies to off-post residents
+- **Wiesbaden dog tax (Hundesteuer)**; not exempt
+- **Local fees** for services (trash, water, etc.); yes, even on-post
+- **Tax on German-source income**; your spouse's German job salary, for example, is fully taxable
 
 ### Work authorization
 - **Active Duty Soldiers**: duty status is automatic
@@ -72,7 +72,7 @@ What you still owe:
 
 ### Immigration privileges
 - Visa-free entry to Germany indefinitely (for duration of orders)
-- **Not** visa-free for other Schengen states automatically — your US passport gives you 90-day visa-free travel per 180 days, but the SOFA status doesn't extend that. Day-to-day travel to France, Italy, etc. works because you have both US citizen and SOFA privileges.
+- **Not** visa-free for other Schengen states automatically; your US passport gives you 90-day visa-free travel per 180 days, but the SOFA status doesn't extend that. Day-to-day travel to France, Italy, etc. works because you have both US citizen and SOFA privileges.
 - Right to reside in Germany without a separate residence permit (*Aufenthaltstitel*)
 
 ### Vehicle privileges
@@ -96,7 +96,7 @@ In Wiesbaden, what you get is the passport stamp. Carry it whenever you're off-p
 - Opening a traditional German bank account (some banks want to see it)
 - Apartment lease signings (some landlords ask)
 - Customs re-entry at German airports after international travel
-- **Anmeldung (residency registration)** — the Bürgeramt wants to see it
+- **Anmeldung (residency registration)**; the Bürgeramt wants to see it
 
 ## Renewal and PCS-out
 
@@ -106,9 +106,9 @@ In Wiesbaden, what you get is the passport stamp. Carry it whenever you're off-p
 
 ## Gotchas
 
-- **90 days is hard.** Plan to get the stamp in week 4–6. Emergencies happen and you don't want to be racing the 90-day clock.
+- **90 days is hard.** Plan to get the stamp in week 4-6. Emergencies happen and you don't want to be racing the 90-day clock.
 - **If you leave Germany before getting the stamp**, you may have trouble re-entering on your military orders alone. The stamp proves legal residency.
-- **Minor kids 10+** need their own passports and their own stamps. Kids under 10 travel on a parent's passport in many cases, but the rule is shifting — check your passport policy.
+- **Minor kids 10+** need their own passports and their own stamps. Kids under 10 travel on a parent's passport in many cases, but the rule is shifting; check your passport policy.
 - **Dual-citizen dependents (US + EU)**: SOFA stamp goes in the US passport. Use the EU passport for EU entry/exit; use the US passport + SOFA stamp for DoD-facing things.
 - **Lost passport**: immediate MP report, then visit the Passport/Visa Office for emergency processing. Replacement SOFA stamp comes with the new passport.
 - **Family member work authorization ≠ SOFA status.** Spouses trying to work on the German economy need separate paperwork from Stadt Wiesbaden. Having the SOFA stamp doesn't mean you can take a German job without permission.

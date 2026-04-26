@@ -17,34 +17,34 @@ order: 30
 
 ## What
 
-Having a baby in Wiesbaden is a positive experience — high quality care, excellent hospitals, covered by TRICARE Overseas. The structure differs from US OB care in meaningful ways you should know before you're six months in.
+Having a baby in Wiesbaden is a positive experience; high quality care, excellent hospitals, covered by TRICARE Overseas. The structure differs from US OB care in meaningful ways you should know before you're six months in.
 
-Most Wiesbaden-area babies are delivered at **HSK (Dr. Horst Schmidt Klinik)** or **Asklepios Paulinen-Klinik** — both English-speaking, both top-tier.
+Most Wiesbaden-area babies are delivered at **HSK (Dr. Horst Schmidt Klinik)** or **Asklepios Paulinen-Klinik**; both English-speaking, both top-tier.
 
 ## The path from positive test to delivery
 
-### Confirmation (week 4–8)
-1. **Pregnancy test at ARHC** — most reliable; OB appointment follows
+### Confirmation (week 4-8)
+1. **Pregnancy test at ARHC**; most reliable; OB appointment follows
 2. **ARHC enrolls you as OB-positive patient** in the TRICARE system
-3. **Referral to ATLAS OB/GYN** — English-speaking Wiesbaden private practice or HSK OB clinic
+3. **Referral to ATLAS OB/GYN**; English-speaking Wiesbaden private practice or HSK OB clinic
 
-### First trimester (week 9–13)
+### First trimester (week 9-13)
 - First appointment with German OB
 - **Dating ultrasound** (German OBs use ultrasound more aggressively than US; that's normal)
 - Initial **blood work** + infectious disease screening
-- German OBs provide a **Mutterpass** — a booklet that tracks the pregnancy; brings this to every appointment
+- German OBs provide a **Mutterpass**; a booklet that tracks the pregnancy; brings this to every appointment
 
-### Second trimester (week 14–27)
+### Second trimester (week 14-27)
 - **Appointments every 4 weeks**
 - **Anatomy scan** around week 20
-- **Hebamme (midwife) selection** — see below
-- **Hospital tour** — HSK and Asklepios both have maternity unit tours
+- **Hebamme (midwife) selection**; see below
+- **Hospital tour**; HSK and Asklepios both have maternity unit tours
 
-### Third trimester (week 28–40)
+### Third trimester (week 28-40)
 - **Appointments every 2 weeks**
 - **Birth plan discussion** with OB + Hebamme
 - **Hospital pre-registration** at HSK or Asklepios
-- **Breastfeeding class** (Stillkurs) — optional but recommended
+- **Breastfeeding class** (Stillkurs); optional but recommended
 - **Delivery bag packed** by week 36
 
 ### Delivery
@@ -55,12 +55,12 @@ Most Wiesbaden-area babies are delivered at **HSK (Dr. Horst Schmidt Klinik)** o
 
 ### Post-delivery (week 41+)
 - **Discharge** with instructions in English (HSK and Asklepios)
-- **Home visits by Hebamme** for 8-12 weeks post-birth — German feature that's excellent
+- **Home visits by Hebamme** for 8-12 weeks post-birth; German feature that's excellent
 - **First pediatrician visit** at ARHC or German Kinderarzt within 3-5 days
 - **Lactation support** through Hebamme or ARHC
 - **Birth certificate** issued by the hospital's Standesamt office
 
-## Hebamme — the German midwife system
+## Hebamme; the German midwife system
 
 **Hebamme** is a German institution. It's a midwife, but with expanded role:
 - **Prenatal care supplements** to OB appointments
@@ -70,7 +70,7 @@ Most Wiesbaden-area babies are delivered at **HSK (Dr. Horst Schmidt Klinik)** o
 - **Baby care education**
 
 ### Finding a Hebamme
-- Start early — demand exceeds supply, especially in Wiesbaden
+- Start early; demand exceeds supply, especially in Wiesbaden
 - **HSK Hebammenpraxis** has staff Hebammen
 - **Ask your OB** for recommendations
 - Reach out by **week 12** to secure one for delivery + post-partum
@@ -81,12 +81,12 @@ Several in Wiesbaden. Ask your OB or the ARHC Women's Health coordinator for cur
 ### Cost
 **TRICARE Overseas covers Hebammen** in most cases. Hebammen bill through the hospital or independently.
 
-## Delivery — what's different from US
+## Delivery; what's different from US
 
 ### Pain management
 - **Epidural** available but used less aggressively than US norm
 - **Gas (Lachgas / nitrous)** is commonly offered as first-line pain management
-- **Water births** available at HSK (birthing tub / pool) — many German women prefer
+- **Water births** available at HSK (birthing tub / pool); many German women prefer
 - **Upright / movement-based labor** encouraged more than US norm
 
 ### Length of stay
@@ -96,14 +96,14 @@ Several in Wiesbaden. Ask your OB or the ARHC Women's Health coordinator for cur
 - You're home sooner, but Hebamme visits fill the support gap
 
 ### Hospital pattern
-- **Hospital provides meals** (German food — ask for vegetarian/kosher/halal early if needed)
+- **Hospital provides meals** (German food; ask for vegetarian/kosher/halal early if needed)
 - **Partner can stay overnight** in most rooms (small extra fee, usually)
 - **Visitors restricted** in the maternity ward (check specific hospital rules)
 
 ### Birth registration
 - The hospital registers the baby with the Stadt Wiesbaden's Standesamt automatically
 - **German birth certificate** issued in German; request an English-translated copy (Hochzeitsurkunde = wedding cert; Geburtsurkunde = birth cert)
-- **Passport and US SSN** applied for separately through the US Consulate in Frankfurt — see Legal Office or Consulate info
+- **Passport and US SSN** applied for separately through the US Consulate in Frankfurt; see Legal Office or Consulate info
 
 ## Who covers what
 
@@ -129,10 +129,10 @@ Several in Wiesbaden. Ask your OB or the ARHC Women's Health coordinator for cur
 Within 60 days of birth:
 - **Add baby to DEERS** via milConnect (sponsor must log in)
 - **Baby inherits TRICARE enrollment** automatically
-- **ARHC pediatric intake** — book within 2 weeks of birth
+- **ARHC pediatric intake**; book within 2 weeks of birth
 - **Weighing/measuring schedule** starts at 1 week post-discharge
 
-## Hospital choice — HSK vs. Asklepios
+## Hospital choice; HSK vs. Asklepios
 
 ### HSK (Dr. Horst Schmidt Klinik)
 - Wiesbaden's main hospital; Ludwig-Erhard-Str 100
@@ -176,7 +176,7 @@ Not standard in German system. US-style doulas exist in Wiesbaden (often US mili
 - Coordinate through unit + S1
 
 ### DA Civilian
-- FMLA applies — 12 weeks unpaid
+- FMLA applies; 12 weeks unpaid
 - Consider saving leave/LWOP for extended time
 - **German Elterngeld** (parent money) does NOT apply to SOFA-status civilians
 
@@ -185,9 +185,9 @@ Not standard in German system. US-style doulas exist in Wiesbaden (often US mili
 - Tricare does not offer paid leave
 
 ### German employee spouse
-- **Mutterschutz** — 6 weeks pre-birth + 8 weeks post-birth required
-- **Elternzeit** — up to 3 years parental leave (unpaid but protected)
-- **Elterngeld** — up to 14 months paid parental leave at 65% of salary
+- **Mutterschutz**; 6 weeks pre-birth + 8 weeks post-birth required
+- **Elternzeit**; up to 3 years parental leave (unpaid but protected)
+- **Elterngeld**; up to 14 months paid parental leave at 65% of salary
 
 ## Pediatric care after birth
 
@@ -199,16 +199,16 @@ Not standard in German system. US-style doulas exist in Wiesbaden (often US mili
 
 ## Gotchas
 
-- **Start Hebamme search early** — demand outstrips supply; week 12 of pregnancy is not too early
-- **Mutterpass is a big deal** — German OBs take it seriously. Bring every appointment.
+- **Start Hebamme search early**; demand outstrips supply; week 12 of pregnancy is not too early
+- **Mutterpass is a big deal**; German OBs take it seriously. Bring every appointment.
 - **German maternity is less interventionist** than US. Some families love that; others miss the US pattern. Know your preferences.
 - **Epidural availability** depends on staffing; not 24/7 guaranteed at smaller hospitals
-- **Birth tourism concerns** — you're here legally under SOFA; this isn't birth tourism
-- **US citizenship for German-born baby** — automatic if at least one parent is US citizen; SSN + passport filed through Consulate
-- **Preterm delivery** — neonatal care is excellent; HSK and Frankfurt UniKlinik have NICUs
-- **Midwife-only birth (home birth)** — available through Hebamme networks, but TRICARE approval variable
-- **After-birth registration deadlines** in Germany — 7 days to register with Standesamt; typically done by hospital
-- **German holidays coinciding with due date** — if baby comes on a German holiday, delivery is still fully staffed
+- **Birth tourism concerns**; you're here legally under SOFA; this isn't birth tourism
+- **US citizenship for German-born baby**; automatic if at least one parent is US citizen; SSN + passport filed through Consulate
+- **Preterm delivery**; neonatal care is excellent; HSK and Frankfurt UniKlinik have NICUs
+- **Midwife-only birth (home birth)**; available through Hebamme networks, but TRICARE approval variable
+- **After-birth registration deadlines** in Germany; 7 days to register with Standesamt; typically done by hospital
+- **German holidays coinciding with due date**; if baby comes on a German holiday, delivery is still fully staffed
 
 ## Source notes
 

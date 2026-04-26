@@ -32,7 +32,7 @@ HSO also manages Temporary Lodging Allowance (TLA) paperwork, handles on-post wo
 
 ## Where
 
-**Clay Kaserne, Building 1023 W, 2nd floor.** Parking: visitor lot on the west side. CAC required for base entry. Plan 30–60 minutes for a counseling appointment.
+**Clay Kaserne, Building 1023 W, 2nd floor.** Parking: visitor lot on the west side. CAC required for base entry. Plan 30-60 minutes for a counseling appointment.
 
 A satellite office at **Bldg 1023 East, Room 151** handles the VAT program and some registrations.
 
@@ -40,11 +40,11 @@ Schedule appointments online: `usagwischeduler.timetap.com`.
 
 ## When
 
-- **Walk-ins**: Monday, Wednesday, Friday — 0800–1130 and 1300–1530
-- **Appointments only**: Tuesday and Thursday — 0800–1130 and 1300–1530
+- **Walk-ins**: Monday, Wednesday, Friday; 0800-1130 and 1300-1530
+- **Appointments only**: Tuesday and Thursday; 0800-1130 and 1300-1530
 - **Closed**: Saturday, Sunday, and U.S. federal holidays
 
-Your first visit is typically a **counseling session**. Bring orders, dependent IDs, family arrival dates, and — if you're looking off-post — any rental ads you're considering so HSO can vet them.
+Your first visit is typically a **counseling session**. Bring orders, dependent IDs, family arrival dates, and; if you're looking off-post; any rental ads you're considering so HSO can vet them.
 
 ## Contact
 
@@ -56,15 +56,15 @@ Your first visit is typically a **counseling session**. Bring orders, dependent 
 
 <div data-profile='{"accompanied":"no"}'>
 
-**Unaccompanied arrivals** go to the single-Soldier desk. E1–E5 without command-sponsored dependents are typically placed in barracks rather than off-post.
+**Unaccompanied arrivals** go to the single-Soldier desk. E1-E5 without command-sponsored dependents are typically placed in barracks rather than off-post.
 
 </div>
 
 ## Gotchas
 
-- **Do not sign a German lease before HSO review.** HSO vets leases for SOFA compliance and OHA eligibility. Signing first can invalidate your OHA claim — this is the number-one mistake new arrivals make.
+- **Do not sign a German lease before HSO review.** HSO vets leases for SOFA compliance and OHA eligibility. Signing first can invalidate your OHA claim; this is the number-one mistake new arrivals make.
 - **TLA is 10 days initial**, extendable in 10-day increments up to 60 days for accompanied arrivals. Extensions require proof of active housing search documented through HSO.
-- **Scam warning**: Facebook Marketplace and Kleinanzeigen listings target newcomers. If a landlord demands a deposit before you can view the property in person, it's a scam. HSO maintains a vetted list — use it.
+- **Scam warning**: Facebook Marketplace and Kleinanzeigen listings target newcomers. If a landlord demands a deposit before you can view the property in person, it's a scam. HSO maintains a vetted list; use it.
 - **Pets narrow your options fast.** Not every on-post unit is pet-friendly, and RPP landlords set their own rules. Mention pets at your first appointment.
 - **Tue/Thu means appointment only.** Showing up for a walk-in on Tuesday is a wasted trip.
 

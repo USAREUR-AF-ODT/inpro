@@ -20,14 +20,14 @@ order: 15
 
 Germany taxes dog ownership at the municipal level. In Wiesbaden, the tax is called **Hundesteuer**, paid annually to the Stadt (city) finance office. You register your dog within a short window of arrival or acquisition, get a **Hundesteuermarke** (tag), and pay each year. Separately, **Hessen's HundeVO** (dog ordinance) sets leash requirements, breed restrictions, and insurance rules that apply to every dog owner in the state.
 
-SOFA-status families are **not exempt** from Hundesteuer. Unlike Rundfunkbeitrag, there's no treaty exemption for dog tax — if your dog lives with you in Wiesbaden, you pay.
+SOFA-status families are **not exempt** from Hundesteuer. Unlike Rundfunkbeitrag, there's no treaty exemption for dog tax; if your dog lives with you in Wiesbaden, you pay.
 
 ## Where
 
-- **Stadt Wiesbaden — Steueramt** (tax office) — processes Hundesteuer registration and billing
-- **Ordnungsamt** (public-order office) — enforces leash laws, breed restrictions, and collects fines if violations occur
-- **Tierarztpraxen** (vet clinics) — can write a health certificate used for dog registration in some cases
-- **On-post VTF (Veterinary Treatment Facility)** — maintains your dog's rabies vaccination status; copy required for Hundesteuer registration
+- **Stadt Wiesbaden; Steueramt** (tax office); processes Hundesteuer registration and billing
+- **Ordnungsamt** (public-order office); enforces leash laws, breed restrictions, and collects fines if violations occur
+- **Tierarztpraxen** (vet clinics); can write a health certificate used for dog registration in some cases
+- **On-post VTF (Veterinary Treatment Facility)**; maintains your dog's rabies vaccination status; copy required for Hundesteuer registration
 
 ## When
 
@@ -36,9 +36,9 @@ SOFA-status families are **not exempt** from Hundesteuer. Unlike Rundfunkbeitrag
 - **Cancel**: within 14 days of PCSing out or if the dog dies or is rehomed
 
 ### Timing tactics
-- **Register immediately after Anmeldung** — same Bürgeramt-adjacent system; handling both in one day is efficient
-- **Don't delay** — back-dated registration is still payable from the move-in date; late fees apply
-- **Keep your PCS-out Hundesteuer cancellation receipt** for 3+ years — Stadt sometimes bills after you've left if the cancellation wasn't processed
+- **Register immediately after Anmeldung**; same Bürgeramt-adjacent system; handling both in one day is efficient
+- **Don't delay**; back-dated registration is still payable from the move-in date; late fees apply
+- **Keep your PCS-out Hundesteuer cancellation receipt** for 3+ years; Stadt sometimes bills after you've left if the cancellation wasn't processed
 
 ## Contact
 
@@ -49,9 +49,9 @@ Contact details in the frontmatter. The Steueramt handles registration and payme
 ### 1. Gather documents
 - **Dog's rabies vaccination certificate** (from VTF or a German vet)
 - **Anmeldung Bestätigung** for your household
-- **Dog's microchip number** — mandatory in Germany; most US dogs have ISO-compatible chips
-- **EU pet passport** (if you have one) — not required but helpful
-- **Hundehaftpflicht insurance policy number** — strongly recommended to have in hand
+- **Dog's microchip number**; mandatory in Germany; most US dogs have ISO-compatible chips
+- **EU pet passport** (if you have one); not required but helpful
+- **Hundehaftpflicht insurance policy number**; strongly recommended to have in hand
 
 ### 2. File with Stadt Wiesbaden
 Online via the Stadt Wiesbaden portal, by mail, or in person at the Steueramt. Form name: *Hundesteueranmeldung*. Fill in owner info, dog info, date dog arrived in Wiesbaden.
@@ -72,7 +72,7 @@ A small metal tag with a registration number; attach to the dog's collar. Some S
 ### Leash law
 - **Dogs must be leashed in public spaces** in most of Wiesbaden's urban core (city center, parks with leash signs, near playgrounds, on public transit).
 - **Off-leash areas** (*Hundewiesen*) exist in several Wiesbaden parks; signed areas only.
-- **Forest and trail**: most Hessian forests allow dogs off-leash outside of breeding season (generally March–July require leash); exact rules vary by forest district.
+- **Forest and trail**: most Hessian forests allow dogs off-leash outside of breeding season (generally March-July require leash); exact rules vary by forest district.
 
 ### Breed restrictions
 Hessen classifies certain breeds as **dangerous dogs** (*gefährliche Hunde*), requiring:
@@ -89,16 +89,16 @@ Listed breeds (check current HundeVO Hessen for accuracy): **Pit Bull Terrier, A
 ### Bite-incident reporting
 Any dog bite requiring medical attention is reported to the Ordnungsamt. The dog is assessed; possible outcomes range from muzzle order to confiscation. This applies even on-post if the victim reports off-post.
 
-## Hundehaftpflicht — dog liability insurance
+## Hundehaftpflicht; dog liability insurance
 
 **Hundehaftpflicht** (dog owner's third-party liability insurance) is:
 - **Mandatory by law for listed dangerous breeds** in Hessen
-- **Effectively required for rental housing** — most German landlords won't rent to dog owners without it
+- **Effectively required for rental housing**; most German landlords won't rent to dog owners without it
 - **Strongly recommended for all dogs** regardless of breed
 
-Typical costs: €50–120/year for a standard breed. Providers include HUK-Coburg, Allianz, Getsafe, and breed-specific insurers. Ask the USAG Legal Office for a review of the policy before signing if German is a barrier.
+Typical costs: €50-120/year for a standard breed. Providers include HUK-Coburg, Allianz, Getsafe, and breed-specific insurers. Ask the USAG Legal Office for a review of the policy before signing if German is a barrier.
 
-**Key coverage**: third-party damage (your dog bites someone, your dog causes a traffic accident, etc.). Does NOT cover your own vet bills — for that, see pet health insurance separately.
+**Key coverage**: third-party damage (your dog bites someone, your dog causes a traffic accident, etc.). Does NOT cover your own vet bills; for that, see pet health insurance separately.
 
 ## On-post dog ownership specifics
 
@@ -113,17 +113,17 @@ Typical costs: €50–120/year for a standard breed. Providers include HUK-Cobu
 
 - **On-post housing doesn't exempt from Hundesteuer.** You still register with Stadt Wiesbaden even living on post. Your physical address is in Wiesbaden regardless of whose property it sits on.
 - **Cancel at PCS.** Failing to cancel generates ongoing bills. Keep the cancellation receipt.
-- **Leash-law violations** generate €50–150 fines per incident. Repeat offenders face higher penalties.
+- **Leash-law violations** generate €50-150 fines per incident. Repeat offenders face higher penalties.
 - **Dangerous-breed classification travels.** If a breed is listed in Hessen but not your home state, it's still listed here.
 - **Microchips must be ISO 11784/11785 compatible.** US chips made before 2005 are often 125 kHz AVID chips that German scanners can't read. The VTF or a German vet can re-chip with a compatible chip for ~€50.
 - **Hundesteuer rates change annually.** €186 is approximate; check the Stadt Wiesbaden portal for the current year.
 - **Rental homes** almost always require proof of insurance. Get Hundehaftpflicht **before** signing a lease if you have a dog.
 - **Loud barking triggers complaints** fast. German tolerance for noise is lower than US; expect early conversations (or police visits) about a barking dog.
-- **Children and dogs in public** — German social norms expect children to ask before petting unfamiliar dogs. Teach your kids; also teach them to decline if the owner says no.
+- **Children and dogs in public**; German social norms expect children to ask before petting unfamiliar dogs. Teach your kids; also teach them to decline if the owner says no.
 - **Don't let the dog off-leash** in city parks with kids playing. Fine on sight; also socially unwise.
 - **Dogs in restaurants**: permitted at most casual places and Apfelweinlokale, forbidden at fine-dining; water bowls often provided. Keep your dog under the table and quiet.
 - **Vet records transfer**: get a paper copy of your dog's full vaccination history before PCSing out; some US vets won't accept electronic-only records from German systems.
 
 ## Source notes
 
-Hundesteuer rates and registration process from the Stadt Wiesbaden tax office portal (verified 2026-04-20). HundeVO Hessen listed-breed rules and liability insurance requirements from the Hessisches Innenministerium. Specific rates and breed lists change — verify with Stadt Wiesbaden and Ordnungsamt for current year.
+Hundesteuer rates and registration process from the Stadt Wiesbaden tax office portal (verified 2026-04-20). HundeVO Hessen listed-breed rules and liability insurance requirements from the Hessisches Innenministerium. Specific rates and breed lists change; verify with Stadt Wiesbaden and Ordnungsamt for current year.

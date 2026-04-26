@@ -25,8 +25,8 @@ order: 20
 
 The **Auto Skills Center** is an MWR-run garage that does two things:
 
-1. **Self-service bays and tool rental** — rent a lift and a bench, borrow the specialized tools, and fix your own car. Oil changes, brake pads, struts, timing belts, electrical work, suspension, and pre-PCS inspections all happen here at patron prices.
-2. **Shop labor** — if you don't want to DIY, certified staff will do the work at **$89/hr** labor (parts separate). Still well under German-shop rates and much cheaper than AAFES-outsourced alternatives.
+1. **Self-service bays and tool rental**; rent a lift and a bench, borrow the specialized tools, and fix your own car. Oil changes, brake pads, struts, timing belts, electrical work, suspension, and pre-PCS inspections all happen here at patron prices.
+2. **Shop labor**; if you don't want to DIY, certified staff will do the work at **$89/hr** labor (parts separate). Still well under German-shop rates and much cheaper than AAFES-outsourced alternatives.
 
 Both modes serve the Wiesbaden community (soldiers, civilians, retirees, Family members). Using your own parts is permitted and encouraged for the shop-labor side.
 
@@ -38,11 +38,11 @@ No Hainerberg location. Everything routes through Clay.
 
 ## When
 
-- **Open Tue–Sun** — closed Monday
-- **Specific hours shift seasonally** — call or check the MWR page for the current day-of hours
-- **Appointments have priority** — call ahead (DSN 548-9817) to book a bay or a shop slot. Walk-ins accepted as bays allow.
+- **Open Tue-Sun**; closed Monday
+- **Specific hours shift seasonally**; call or check the MWR page for the current day-of hours
+- **Appointments have priority**; call ahead (DSN 548-9817) to book a bay or a shop slot. Walk-ins accepted as bays allow.
 
-Peak demand: fall seasonal tire swap (snow tires go on in October/November), spring tire swap (summer tires in March/April), pre-PCS inspections May–August.
+Peak demand: fall seasonal tire swap (snow tires go on in October/November), spring tire swap (summer tires in March/April), pre-PCS inspections May-August.
 
 ## Contact
 
@@ -59,44 +59,44 @@ Contact details in the frontmatter. When booking by email or phone, include:
 Reserve by the hour; minimum charge varies with bay type. Lifts, workbenches, air lines, and floor space included.
 
 ### Tool rental (per use)
-- **Welding equipment** — $25 per 15 minutes
-- **Acetylene torch** — $10 per 10 minutes
-- **Propane torch** — $3
-- **Parts washer** — $10 per half hour
-- **Sand blast cabinet** — $10 per half hour
-- **Strut compressor** — $10 plus $20 staff assist
-- **Press** — $5 plus $10 staff assist
-- **Tire-mounting machine** — $5 per tire
-- **Tire balancer** — $5 per tire
-- **Grinder** — $5
-- **Battery charger** — $5
-- **Power and pneumatic tools** — $3 each
+- **Welding equipment**; $25 per 15 minutes
+- **Acetylene torch**; $10 per 10 minutes
+- **Propane torch**; $3
+- **Parts washer**; $10 per half hour
+- **Sand blast cabinet**; $10 per half hour
+- **Strut compressor**; $10 plus $20 staff assist
+- **Press**; $5 plus $10 staff assist
+- **Tire-mounting machine**; $5 per tire
+- **Tire balancer**; $5 per tire
+- **Grinder**; $5
+- **Battery charger**; $5
+- **Power and pneumatic tools**; $3 each
 
-Rates are indicative — check the current price list at the counter before committing.
+Rates are indicative; check the current price list at the counter before committing.
 
 ## Shop labor rates (with your parts)
 
-- **Hourly labor** — $89 (surcharges for seized/rusted fasteners)
-- **Oil change** — $35 ($15 surcharge for underbody cover removal; $10 scan-tool reset if needed)
-- **Battery replacement** — $18 minimum
-- **Test battery/alternator** — $18
-- **Replace light bulb** — $10 minimum
-- **Replace wiper blades** — $10 minimum
-- **Pre-purchase inspection** — $35
-- **Towing** (business hours, call DSN 548-9817) — priced per tow
+- **Hourly labor**; $89 (surcharges for seized/rusted fasteners)
+- **Oil change**; $35 ($15 surcharge for underbody cover removal; $10 scan-tool reset if needed)
+- **Battery replacement**; $18 minimum
+- **Test battery/alternator**; $18
+- **Replace light bulb**; $10 minimum
+- **Replace wiper blades**; $10 minimum
+- **Pre-purchase inspection**; $35
+- **Towing** (business hours, call DSN 548-9817); priced per tow
 
 ### Tire services (with your parts)
-- **Tire rotation** — $30 ($10 SUV/truck surcharge)
-- **Seasonal tire change** (tires already on rims) — $35
-- **4-tire mount + balance (pound-on)** — $85 plus surcharges
-- **4-tire mount + balance (adhesive)** — $95 plus surcharges
-- **Plug a flat tire** — $12 plus surcharges
-- **Run-flat surcharge** — $10 per tire
+- **Tire rotation**; $30 ($10 SUV/truck surcharge)
+- **Seasonal tire change** (tires already on rims); $35
+- **4-tire mount + balance (pound-on)**; $85 plus surcharges
+- **4-tire mount + balance (adhesive)**; $95 plus surcharges
+- **Plug a flat tire**; $12 plus surcharges
+- **Run-flat surcharge**; $10 per tire
 
 ### TPMS sensor services
-- **Replace sensor only** — $20 each (relearn not included)
-- **Reset after rotation** — $20
-- **Reset and relearn system** — $20
+- **Replace sensor only**; $20 each (relearn not included)
+- **Reset after rotation**; $20
+- **Reset and relearn system**; $20
 
 ## Classes
 
@@ -104,7 +104,7 @@ The shop sometimes runs **safety and introductory classes** (basic maintenance, 
 
 ## Pre-PCS inspection
 
-Before shipping your POV back to the States, most shipping companies require a **pre-PCS inspection** proving the vehicle is in ship-ready condition. Auto Skills does this for $35 and will identify the items that need to be addressed before the vehicle can be accepted at the port. Schedule **4–6 weeks before your ship date** so you have time to fix anything flagged.
+Before shipping your POV back to the States, most shipping companies require a **pre-PCS inspection** proving the vehicle is in ship-ready condition. Auto Skills does this for $35 and will identify the items that need to be addressed before the vehicle can be accepted at the port. Schedule **4-6 weeks before your ship date** so you have time to fix anything flagged.
 
 ## Gotchas
 

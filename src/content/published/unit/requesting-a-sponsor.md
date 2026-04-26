@@ -23,26 +23,26 @@ If you are **90 days from your Report No Later Than Date (RNLTD)** and don't yet
 
 ## Where
 
-- **Sponsor assignment** lives with your **gaining unit's S1** — the S1 section of the unit you'll report to, not USAG Wiesbaden garrison
-- **TASP portal** — Army sponsorship enrollment and tracking tool; accessed via Army365 SharePoint
-- **USAG Wiesbaden Sponsorship office** — backstop under DFMWR's ACS; can nudge unit S1s and arrange spouse-side sponsors
+- **Sponsor assignment** lives with your **gaining unit's S1**; the S1 section of the unit you'll report to, not USAG Wiesbaden garrison
+- **TASP portal**; Army sponsorship enrollment and tracking tool; accessed via Army365 SharePoint
+- **USAG Wiesbaden Sponsorship office**; backstop under DFMWR's ACS; can nudge unit S1s and arrange spouse-side sponsors
 
 ## When
 
 - **T-90 days from RNLTD**: if no sponsor assigned, start the request
 - **T-60 days**: sponsor should be assigned and in contact with you
 - **T-45 days**: if still no sponsor, escalate
-- **T-30 days**: at this point you absorb the cost of not having a sponsor — keep pushing, but plan for self-service arrival
+- **T-30 days**: at this point you absorb the cost of not having a sponsor; keep pushing, but plan for self-service arrival
 
 ## Contact
 
 For sponsor-assignment questions:
 
-- **Your losing-unit S1** — first call, can query the gaining unit for status
-- **Gaining-unit S1** — email directly using the unit's published roster or the orders-issuing office
-- **USAG Wiesbaden ACS Relocation Readiness** — provides sponsorship backup coordination
-- **USAG Wiesbaden Command Sergeant Major's office** — escalation for soldier-side gaps
-- **Gaining-unit CSM/1SG** — enlisted soldiers can email directly; officer-to-officer email for officers
+- **Your losing-unit S1**; first call, can query the gaining unit for status
+- **Gaining-unit S1**; email directly using the unit's published roster or the orders-issuing office
+- **USAG Wiesbaden ACS Relocation Readiness**; provides sponsorship backup coordination
+- **USAG Wiesbaden Command Sergeant Major's office**; escalation for soldier-side gaps
+- **Gaining-unit CSM/1SG**; enlisted soldiers can email directly; officer-to-officer email for officers
 
 Phone directory: see the USAG Wiesbaden phone directory on home.army.mil/wiesbaden, and your unit's specific S1 contact on its home.army.mil tenant page.
 
@@ -55,7 +55,7 @@ Your orders list the UIC and unit designation. Cross-reference against the USAG 
 Most Wiesbaden tenant units (66th MI, 2nd Signal Bde, V Corps Forward, 5th Signal Command, etc.) have S1 contact info on their unit page under home.army.mil/wiesbaden → Units/Tenants → [your unit]. Enterprise email format is usually firstname.mi.lastname.mil@army.mil.
 
 ### 3. Send the initial email
-Subject: "PCS Arrival — [Rank Last Name] — RNLTD [date]"
+Subject: "PCS Arrival; [Rank Last Name]; RNLTD [date]"
 
 Body:
 - Your rank, last name, MOS/AOC
@@ -87,7 +87,7 @@ At T-30 if nothing works, contact **USAG Wiesbaden ACS Relocation Readiness**. A
 - Coordinate with the garrison CSM's office to put pressure on the unit S1
 - Schedule you directly into the Newcomer's Orientation and Welcome Packet so you're not starting from zero
 
-ACS volunteer sponsors are usually highly engaged — the people who raise their hand for volunteer sponsorship are often the best sponsors you'll meet.
+ACS volunteer sponsors are usually highly engaged; the people who raise their hand for volunteer sponsorship are often the best sponsors you'll meet.
 
 ## Special cases
 
@@ -112,7 +112,7 @@ Sponsors are required regardless of notice time. For short-notice PCS (<60 days)
 - **Attach paper trail.** Include your prior emails, TASP screenshot.
 - **State the ask clearly.** "Requesting your assistance in expediting sponsor assignment."
 - **Don't editorialize.** No "I'm disappointed" or "this is unacceptable." Facts land; emotion doesn't.
-- **Short.** 4–6 sentences. Chain of command reads on mobile.
+- **Short.** 4-6 sentences. Chain of command reads on mobile.
 
 ## Gotchas
 
@@ -126,4 +126,4 @@ Sponsors are required regardless of notice time. For short-notice PCS (<60 days)
 
 ## Source notes
 
-Sponsor-assignment authority and escalation path drawn from AR 600-8-8 (Total Army Sponsorship Program), the USAG Wiesbaden sponsorship page, and TASP portal documentation (verified 2026-04-20). Tenant-unit S1 contacts rotate and personal email addresses change — check the current unit page before sending.
+Sponsor-assignment authority and escalation path drawn from AR 600-8-8 (Total Army Sponsorship Program), the USAG Wiesbaden sponsorship page, and TASP portal documentation (verified 2026-04-20). Tenant-unit S1 contacts rotate and personal email addresses change; check the current unit page before sending.

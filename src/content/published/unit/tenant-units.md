@@ -24,49 +24,49 @@ Most tenant units are on **Clay Kaserne** (the garrison's main installation, on 
 
 ### Command-level
 
-- **U.S. Army Europe and Africa (USAREUR-AF)** — HQ element at Clay Kaserne; the 4-star command that oversees all Army forces in Europe and Africa
-- **V Corps (Forward)** — forward element of V Corps (HQ is at Fort Knox, KY); command element coordinating rotational forces in Europe
-- **5th Signal Command (Theater)** — Army theater-level signal command; Clay Kaserne is HQ, with units across Europe
-- **56th Theater Multi Domain Command** — newer multi-domain operations HQ
+- **U.S. Army Europe and Africa (USAREUR-AF)**; HQ element at Clay Kaserne; the 4-star command that oversees all Army forces in Europe and Africa
+- **V Corps (Forward)**; forward element of V Corps (HQ is at Fort Knox, KY); command element coordinating rotational forces in Europe
+- **5th Signal Command (Theater)**; Army theater-level signal command; Clay Kaserne is HQ, with units across Europe
+- **56th Theater Multi Domain Command**; newer multi-domain operations HQ
 
 ### Intelligence
 
-- **66th Military Intelligence Brigade** — INSCOM's theater brigade for Europe. HQ at Clay Kaserne.
+- **66th Military Intelligence Brigade**; INSCOM's theater brigade for Europe. HQ at Clay Kaserne.
   - **2nd Military Intelligence Battalion**
   - **24th Military Intelligence Battalion**
-- **522nd Military Intelligence Battalion** (207th MI Brigade) — separate battalion at Clay Kaserne
+- **522nd Military Intelligence Battalion** (207th MI Brigade); separate battalion at Clay Kaserne
 
 ### Signal / Communications
 
-- **2nd Theater Signal Brigade** — theater-wide Army communications brigade
+- **2nd Theater Signal Brigade**; theater-wide Army communications brigade
   - **102nd Signal Battalion**
-- **Regional Cyber Center — Europe (RCC-E)** — cyber defense element (CAC users only for info)
-- **7th Weather Squadron** — Air Force weather support to USAREUR
+- **Regional Cyber Center; Europe (RCC-E)**; cyber defense element (CAC users only for info)
+- **7th Weather Squadron**; Air Force weather support to USAREUR
 
 ### Aviation
 
-- **1st Battalion, 214th Aviation Regiment** (12th Combat Aviation Brigade) — General Support Aviation Battalion at Clay Kaserne
+- **1st Battalion, 214th Aviation Regiment** (12th Combat Aviation Brigade); General Support Aviation Battalion at Clay Kaserne
 
 ### Other
 
-- **405th Army Field Support Battalion / LRC-Wiesbaden** — logistics support
-- **485th Intelligence Squadron** — Air Force element (Clay Kaserne)
-- **Branch Movement Control Team — Wiesbaden** (39th Transportation Battalion) — movement control
-- **Training Support Center Wiesbaden** (7th Army Training Command) — training support
+- **405th Army Field Support Battalion / LRC-Wiesbaden**; logistics support
+- **485th Intelligence Squadron**; Air Force element (Clay Kaserne)
+- **Branch Movement Control Team; Wiesbaden** (39th Transportation Battalion); movement control
+- **Training Support Center Wiesbaden** (7th Army Training Command); training support
 - **U.S. Army Counterintelligence Europe (ACI-E) Wiesbaden Field Office**
-- **U.S. Army Customs Agency — Europe Wiesbaden Field Office**
+- **U.S. Army Customs Agency; Europe Wiesbaden Field Office**
 - **529th Military Police Company**
-- **4th Air Support Operations Group** — Air Force element
+- **4th Air Support Operations Group**; Air Force element
 - **209th Digital Liaison Detachment**
 - **Company C, 457th Civil Affairs Company**
 
 ### Garrison and support
 
-- **USAG Wiesbaden HQ** — garrison command element
+- **USAG Wiesbaden HQ**; garrison command element
 - **DES (Directorate of Emergency Services)**
 - **DHR (Directorate of Human Resources)**
 - **DPW (Directorate of Public Works)**
-- **DFMWR (Directorate of Family, MWR)** — runs ACS, CYS, MWR facilities
+- **DFMWR (Directorate of Family, MWR)**; runs ACS, CYS, MWR facilities
 - **LRC (Logistics Readiness Center)**
 
 ## Kasernen layout
@@ -88,7 +88,7 @@ Named for Amelia Earhart (the aviator). Small footprint. Check with garrison for
 ## Typical arrival for a new Soldier
 
 1. **Sign in at your gaining unit** (wherever that is)
-2. **In-process at the garrison** — DES for registration, DHR for HR, Finance for pay, etc.
+2. **In-process at the garrison**; DES for registration, DHR for HR, Finance for pay, etc.
 3. **Check with your unit's S1** about unit-specific in-processing (uniforms, equipment issue, unit briefings)
 4. **Clay Kaserne** is where 80% of your first week happens
 
@@ -99,7 +99,7 @@ Named for Amelia Earhart (the aviator). Small footprint. Check with garrison for
 - **V Corps Forward and the main V Corps (CONUS) have different administrative paths.** If you're V Corps, confirm which element you're reporting to.
 - **Some tenant units have outposts at Hainerberg or Mainz-Kastel.** Don't assume "Clay Kaserne" = everyone's HQ. Confirm the exact duty location with your orders.
 - **Inprocessing brief schedules rotate.** OIG-level briefs happen quarterly; CCIU cyber briefings are regular. Check the garrison bulletin for the week's schedule.
-- **Unit families**: sponsor assignment usually goes through the unit, not the garrison. Build a relationship with your unit's Family Readiness Group (FRG) — they're often the fastest source of real-time help.
+- **Unit families**: sponsor assignment usually goes through the unit, not the garrison. Build a relationship with your unit's Family Readiness Group (FRG); they're often the fastest source of real-time help.
 
 ## Source notes
 

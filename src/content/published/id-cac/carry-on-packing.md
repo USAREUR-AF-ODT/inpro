@@ -28,16 +28,16 @@ Assumptions:
 
 These go in your personal item, NOT checked:
 
-- [ ] **US passport(s)** — sponsor + all dependents
-- [ ] **PCS orders** — original + 2 photocopies
+- [ ] **US passport(s)**; sponsor + all dependents
+- [ ] **PCS orders**; original + 2 photocopies
 - [ ] **CAC / DD-1173 / dependent IDs**
 - [ ] **Birth certificates** (certified copies)
 - [ ] **Marriage certificate** (certified copy)
-- [ ] **Shot records** — English translation if applicable
+- [ ] **Shot records**; English translation if applicable
 - [ ] **EFMP documents + IEP / 504 plans** (if applicable)
 - [ ] **TRICARE transfer confirmation**
-- [ ] **Cash**: €50-100 + US $200-300 — for first-day expenses
-- [ ] **Credit card(s)** + debit card — backup + ATM access
+- [ ] **Cash**: €50-100 + US $200-300; for first-day expenses
+- [ ] **Credit card(s)** + debit card; backup + ATM access
 
 **Back these up** digitally: scan to cloud (Google Drive, iCloud) + email to yourself. If your carry-on gets stolen, you have copies.
 
@@ -48,16 +48,16 @@ These go in your personal item, NOT checked:
 - [ ] **Basic first-aid kit**: Tylenol, Ibuprofen, Benadryl, Band-Aids, Hydrocortisone
 - [ ] **Glasses + backup pair** + contact lenses (90-day supply)
 - [ ] **Kids' meds**: fever reducer, any prescribed regulars
-- [ ] **Hand sanitizer + masks** — Germans rarely mask but having them helps
+- [ ] **Hand sanitizer + masks**; Germans rarely mask but having them helps
 
 ## Electronics
 
-- [ ] **Laptop + charger** (dual-voltage — check your charger label)
+- [ ] **Laptop + charger** (dual-voltage; check your charger label)
 - [ ] **Phone + charger + Lightning/USB-C cables**
-- [ ] **2-3 Type F plug adapters** — for first-day outlet conversion
+- [ ] **2-3 Type F plug adapters**; for first-day outlet conversion
 - [ ] **Battery bank** (charged)
 - [ ] **Kindle / eReader** + charger
-- [ ] **Over-ear headphones or AirPods** — flight + tuning out the first week
+- [ ] **Over-ear headphones or AirPods**; flight + tuning out the first week
 - [ ] **Kids' tablet** + charger + kids' headphones
 - [ ] **Downloaded content**: Netflix, Spotify, Kindle downloads for flight + settling
 
@@ -76,22 +76,22 @@ For each child:
 - [ ] **Snacks**: crackers, apple slices, cheese sticks, trail mix (no jam = no spills)
 - [ ] **Water bottle** (empty through security, fill airside)
 - [ ] **One "activity"**: markers + paper, sticker book, small puzzle, iPad with downloaded content
-- [ ] **Diapers + wipes** (if applicable) — pack 2x what you think you need
-- [ ] **Formula / bottles** — pack 2x
-- [ ] **Car seat / booster** — carry on if flying with young child; not checked
+- [ ] **Diapers + wipes** (if applicable); pack 2x what you think you need
+- [ ] **Formula / bottles**; pack 2x
+- [ ] **Car seat / booster**; carry on if flying with young child; not checked
 
 ## Pet carry-on (if flying with pet)
 
-- [ ] **Original EU Health Certificate** (must be within 10 days — non-negotiable)
+- [ ] **Original EU Health Certificate** (must be within 10 days; non-negotiable)
 - [ ] **Rabies vaccination certificate**
-- [ ] **Microchip number** — written down, since readers don't always work
+- [ ] **Microchip number**; written down, since readers don't always work
 - [ ] **Small baggie of current pet food** (transition slowly to German food over 2 weeks)
 - [ ] **Small water dispenser + familiar blanket** in the carrier
 - [ ] **Sedative IF prescribed** (talk to vet beforehand; most airlines discourage sedation)
 
 ## Snacks
 
-- [ ] **Protein bars** (4-6 — good for post-landing hunger before groceries)
+- [ ] **Protein bars** (4-6; good for post-landing hunger before groceries)
 - [ ] **Nuts / trail mix**
 - [ ] **Dried fruit**
 - [ ] **Jerky** (check customs; US-sourced fine for personal consumption)
@@ -106,14 +106,14 @@ Your phone charger has USB → USB-C/Lightning + brick. The brick goes into a Ty
 - 1 in your checked bag
 - 2-3 for the first week at the Army Lodge
 
-**Do NOT pack US extension cords or surge strips** — they're 110V rated.
+**Do NOT pack US extension cords or surge strips**; they're 110V rated.
 
 ## What to NOT pack in carry-on
 
 ### Bulky items
 - Winter coats (check them)
 - Multiple shoes (check them)
-- Full toiletries bag (liquids rule applies — use travel sizes)
+- Full toiletries bag (liquids rule applies; use travel sizes)
 
 ### Kitchen stuff
 - The Lodge has basics; commissary has more. Don't carry pots.
@@ -132,23 +132,23 @@ Your phone charger has USB → USB-C/Lightning + brick. The brick goes into a Ty
 Military Patriot Express: typically 2 × 70 lb checked bags + 22 lb carry-on + personal item. Enforced.
 Commercial: 2 × 50-70 lb checked depending on airline; Active Duty often gets the higher limit with orders.
 
-**Pack with 5-10 lb buffer** — you don't want to unpack at check-in.
+**Pack with 5-10 lb buffer**; you don't want to unpack at check-in.
 
 ## The "thinking ahead" checklist
 
 - [ ] **Printed Army Lodge confirmation** in carry-on
 - [ ] **Printed sponsor contact** on paper (in case phone dies)
-- [ ] **Printed Wiesbaden map** (screenshot of Clay Kaserne) — in case offline
+- [ ] **Printed Wiesbaden map** (screenshot of Clay Kaserne); in case offline
 - [ ] **Backup cash** hidden in a second location in carry-on
 - [ ] **Emergency contact list** written on paper
 
 ## The flight
 
 Long-haul flights to Germany:
-- **Sleep aids** (melatonin, Benadryl, or whatever you use) — jetlag is real
+- **Sleep aids** (melatonin, Benadryl, or whatever you use); jetlag is real
 - **Compression socks** for long-haul comfort
 - **Hydration**: drink water aggressively, limit alcohol
-- **Move every 2-3 hours** — walk the aisle if possible
+- **Move every 2-3 hours**; walk the aisle if possible
 - **Time zone alignment**: go to bed at European bedtime on arrival day, even if exhausted
 
 ## Airport arrival logistics
@@ -164,21 +164,21 @@ Ramstein (Patriot Express) arrival:
 
 ## Gotchas
 
-- **Don't pack valuables in checked bags.** Watches, jewelry, laptops — all carry-on.
-- **Don't pack hazmat** — lithium batteries with spare cells are cabin-only
+- **Don't pack valuables in checked bags.** Watches, jewelry, laptops; all carry-on.
+- **Don't pack hazmat**; lithium batteries with spare cells are cabin-only
 - **Don't pack high-value items** that exceed checked insurance limits
-- **Check your airline's specific carry-on dimensions** — they vary
-- **Prescription bottles in original labels** — customs may ask
+- **Check your airline's specific carry-on dimensions**; they vary
+- **Prescription bottles in original labels**; customs may ask
 - **Pet carrier size** matters more than weight; airline rules vary by specific aircraft
-- **The Army Lodge has basic kitchen** — you can actually cook your first meal from commissary supplies
+- **The Army Lodge has basic kitchen**; you can actually cook your first meal from commissary supplies
 
 ## Pro tips
 
-- **Separate your "arrival-day essentials"** from rest of carry-on — put in small pouch on top
-- **Have €50 cash in each adult's wallet** — just in case
-- **Buy a combination padlock** — if you use a hotel safe or Lodge safe, it's good to have
-- **Pack kids' comfort items in a small drawstring bag** — easier for them to carry their own
-- **Wear compression-friendly clothes** — what you want to sleep in on the plane
+- **Separate your "arrival-day essentials"** from rest of carry-on; put in small pouch on top
+- **Have €50 cash in each adult's wallet**; just in case
+- **Buy a combination padlock**; if you use a hotel safe or Lodge safe, it's good to have
+- **Pack kids' comfort items in a small drawstring bag**; easier for them to carry their own
+- **Wear compression-friendly clothes**; what you want to sleep in on the plane
 - **Keep shoes you can slip off** for security + plane comfort
 
 ## Source notes

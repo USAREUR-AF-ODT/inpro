@@ -20,15 +20,15 @@ order: 10
 
 ## What
 
-The School Liaison Office (SLO) bridges the gap between DoDEA, local German schools, and military families. Contact the SLO *before* you lock down housing — some housing areas pre-assign you to specific DoDEA schools, and the catchments matter.
+The School Liaison Office (SLO) bridges the gap between DoDEA, local German schools, and military families. Contact the SLO *before* you lock down housing; some housing areas pre-assign you to specific DoDEA schools, and the catchments matter.
 
 SLO services:
-- **DoDEA enrollment** — Wiesbaden High School, Aukamm Elementary, Hainerberg Elementary, Wiesbaden Middle School
+- **DoDEA enrollment**; Wiesbaden High School, Aukamm Elementary, Hainerberg Elementary, Wiesbaden Middle School
 - **Transfer-records coordination** with losing-station school
 - **IEP / 504 plan continuation** for students with special needs
-- **Homeschool support** — curriculum options, state reciprocity
-- **Off-post German-school options** — international schools, Realschule, Gymnasium, Grundschule
-- **CYS school-age programs** — before/after-school care (separate from DoDEA; run by CYS)
+- **Homeschool support**; curriculum options, state reciprocity
+- **Off-post German-school options**; international schools, Realschule, Gymnasium, Grundschule
+- **CYS school-age programs**; before/after-school care (separate from DoDEA; run by CYS)
 
 ## Where
 
@@ -36,7 +36,7 @@ The SLO is co-located with Army Community Service at Bldg 7790 Hainerberg; the S
 
 ## When
 
-Weekdays, business hours. Specific SLO program manager hours vary — call ahead.
+Weekdays, business hours. Specific SLO program manager hours vary; call ahead.
 
 ## Contact
 
@@ -48,7 +48,7 @@ Use the ACS main line (**DSN 548-9201 / +49-611-143-548-9201**) and ask for the 
 
 - Most recent **report cards and transcripts** from losing school
 - **IEP / 504 plan** documents (if applicable)
-- **Immunization records** — must be translated to English and match DoDEA schedule
+- **Immunization records**; must be translated to English and match DoDEA schedule
 - **Birth certificate** (copy) and dependent ID
 - **Orders** showing command sponsorship
 
@@ -56,10 +56,10 @@ Use the ACS main line (**DSN 548-9201 / +49-611-143-548-9201**) and ask for the 
 
 ## DoDEA Wiesbaden schools
 
-- **Wiesbaden High School (WHS)** — grades 9–12, Clay Kaserne
-- **Wiesbaden Middle School** — grades 6–8, Hainerberg
-- **Aukamm Elementary School** — PK–5, Aukamm housing
-- **Hainerberg Elementary School** — PK–5, Hainerberg housing
+- **Wiesbaden High School (WHS)**; grades 9-12, Clay Kaserne
+- **Wiesbaden Middle School**; grades 6-8, Hainerberg
+- **Aukamm Elementary School**; PK-5, Aukamm housing
+- **Hainerberg Elementary School**; PK-5, Hainerberg housing
 
 Bus zones and catchments tie to your housing address. Confirm before signing a lease.
 
@@ -68,10 +68,10 @@ Bus zones and catchments tie to your housing address. Confirm before signing a l
 - **Start the school conversation at the same time as housing.** On-post housing areas pre-determine school assignment; off-post leaves you with more flexibility but more legwork.
 - **DoDEA won't accept un-translated German immunization records.** Get them translated before arrival if your child has had German shots, or have ARHC update them.
 - **IEP continuation is not automatic.** Send the current IEP to the SLO before arrival so DoDEA can place your student appropriately.
-- **Enrollment windows** — DoDEA opens registration in late spring for the next academic year. PCSing in mid-year works but coordinate through SLO to avoid paperwork lag.
-- **Some housing areas are zoned to Ramstein's district**, which isn't Wiesbaden SLO's territory — double-check if you're offered housing outside Wiesbaden proper.
+- **Enrollment windows**; DoDEA opens registration in late spring for the next academic year. PCSing in mid-year works but coordinate through SLO to avoid paperwork lag.
+- **Some housing areas are zoned to Ramstein's district**, which isn't Wiesbaden SLO's territory; double-check if you're offered housing outside Wiesbaden proper.
 - **Homeschool is recognized under DoDEA policy**, but state reciprocity for standardized testing depends on your state of residence.
 
 ## Source notes
 
-See the Sources panel below. Primary source is the Army Europe SLO PCS Guide, cross-referenced against DoDEA Wiesbaden Community Schools and MilitaryOneSource. Policies update yearly — confirm specifics with the SLO before acting.
+See the Sources panel below. Primary source is the Army Europe SLO PCS Guide, cross-referenced against DoDEA Wiesbaden Community Schools and MilitaryOneSource. Policies update yearly; confirm specifics with the SLO before acting.

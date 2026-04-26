@@ -19,7 +19,7 @@ Germany has seasons, and Wiesbaden leans into them. This is a month-by-month cal
 
 ## January
 
-**Quiet, cold, grey.** Post-New-Year's doldrums. Restaurants open but muted. Museums are open and uncrowded — best time for the Städel, Gutenberg, Jewish Museum.
+**Quiet, cold, grey.** Post-New-Year's doldrums. Restaurants open but muted. Museums are open and uncrowded; best time for the Städel, Gutenberg, Jewish Museum.
 
 - New Year's Day: public holiday
 - Epiphany (6 Jan): public holiday in some German states (not Hessen)
@@ -85,7 +85,7 @@ Germany has seasons, and Wiesbaden leans into them. This is a month-by-month cal
 - First strawberry season (*Erdbeerzeit*): strawberry stands everywhere
 
 **Do**: Rheingau Musik Festival concerts at Schloss Vollrads etc., open-air cinema at Walhalla, Rhine river cruises
-**Skip**: outdoor markets on peak weekends — they're mobbed
+**Skip**: outdoor markets on peak weekends; they're mobbed
 
 ## July
 
@@ -100,13 +100,13 @@ Germany has seasons, and Wiesbaden leans into them. This is a month-by-month cal
 
 ## August
 
-**German vacation month. Much of the city shuts down.** Many small restaurants and businesses close for 2–4 weeks. The Wiesbaden rhythm slows.
+**German vacation month. Much of the city shuts down.** Many small restaurants and businesses close for 2-4 weeks. The Wiesbaden rhythm slows.
 
-- Weinwochen (Wine Weeks) on the Kurhaus lawn: 10 days of wine from Rheingau wineries, late August – early September
+- Weinwochen (Wine Weeks) on the Kurhaus lawn: 10 days of wine from Rheingau wineries, late August; early September
 - Schützenfest in smaller towns (shooter's festivals)
 
-**Do**: Weinwochen is the annual social event — plan around it; short getaways to quieter places; pool days at Thermen
-**Skip**: trying to get anything done in early-mid August — half of Wiesbaden is on holiday
+**Do**: Weinwochen is the annual social event; plan around it; short getaways to quieter places; pool days at Thermen
+**Skip**: trying to get anything done in early-mid August; half of Wiesbaden is on holiday
 
 ## September
 
@@ -118,7 +118,7 @@ Germany has seasons, and Wiesbaden leans into them. This is a month-by-month cal
 - Back-to-school for DoDEA
 
 **Do**: every wine-country thing you've been meaning to do, Oktoberfest in Munich if you want, hiking in fall colors
-**Skip**: trying to compete with Germans for weekend wine-country bookings — it's peak
+**Skip**: trying to compete with Germans for weekend wine-country bookings; it's peak
 
 ## October
 
@@ -130,7 +130,7 @@ Germany has seasons, and Wiesbaden leans into them. This is a month-by-month cal
 - *Martinstag* preparations begin
 
 **Do**: Rheingau wine tasting (peak vintage tastings), pumpkin patches in Taunus, Oktoberfest parties
-**Skip**: trying to ski — mountains aren't ready yet
+**Skip**: trying to ski; mountains aren't ready yet
 
 ## November
 
@@ -146,11 +146,11 @@ Germany has seasons, and Wiesbaden leans into them. This is a month-by-month cal
 
 ## December
 
-**Christmas-market season. Glühwein everywhere. December 25–26 are holidays.**
+**Christmas-market season. Glühwein everywhere. December 25-26 are holidays.**
 
 - Weihnachtsmärkte (Christmas markets) in Wiesbaden, Mainz, Frankfurt, Heidelberg, Nuremberg, etc.
 - December 6: St. Nikolaus (kids get small gifts)
-- December 24: Christmas Eve — stores close at noon; main family celebration
+- December 24: Christmas Eve; stores close at noon; main family celebration
 - December 25, 26: public holidays
 - Silvester (New Year's Eve): fireworks; Germans actually buy their own
 
@@ -174,9 +174,9 @@ DoDEA has its own US-based holiday calendar; German holidays apply to off-post l
 
 ## Travel seasons
 
-- **Best weather for European travel**: April–June, September–early October
-- **Worst for weather-dependent trips**: November–March (except ski destinations)
-- **School holidays**: Hessen school breaks for Pfingsten (May/June), Summer (Jul-Aug), Autumn (October), Christmas, Easter — German families book everything, prices spike
+- **Best weather for European travel**: April-June, September-early October
+- **Worst for weather-dependent trips**: November-March (except ski destinations)
+- **School holidays**: Hessen school breaks for Pfingsten (May/June), Summer (Jul-Aug), Autumn (October), Christmas, Easter; German families book everything, prices spike
 - **Cheapest European travel**: January, November (not Christmas), mid-February
 
 ## Source notes

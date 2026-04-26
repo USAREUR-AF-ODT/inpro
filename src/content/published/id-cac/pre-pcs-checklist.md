@@ -22,34 +22,34 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 ## 90 days out
 
 ### Orders and administrative
-- [ ] **Orders in hand** — read carefully: report date, effective date, TDY en route (if any)
-- [ ] **DEERS current** — verify all dependents correctly enrolled
-- [ ] **EFMP screening** — if enrolled, initiate the USAREUR assignment screening through losing station's EFMP office
-- [ ] **HRC EFMP branch** — coordinate any medical concerns about assignment suitability
-- [ ] **Command sponsorship decision** — dependent travel authorized/denied
+- [ ] **Orders in hand**; read carefully: report date, effective date, TDY en route (if any)
+- [ ] **DEERS current**; verify all dependents correctly enrolled
+- [ ] **EFMP screening**; if enrolled, initiate the USAREUR assignment screening through losing station's EFMP office
+- [ ] **HRC EFMP branch**; coordinate any medical concerns about assignment suitability
+- [ ] **Command sponsorship decision**; dependent travel authorized/denied
 
 ### Sponsor assignment
 - [ ] **Gaining unit S1** sends you a sponsor assignment
-- [ ] **Initial contact with sponsor** — introduce yourself, trade email/phone
-- [ ] **Ask for photos of Wiesbaden + your housing area** — gives kids a visual preview
+- [ ] **Initial contact with sponsor**; introduce yourself, trade email/phone
+- [ ] **Ask for photos of Wiesbaden + your housing area**; gives kids a visual preview
 - [ ] **Get your sponsor's quick list** of things to know
 
 ### Passports
-- [ ] **US passports** — verify 6+ months validity past anticipated PCS end date. Renew if close.
-- [ ] **Dependent passports** — same rule, especially minor kids
+- [ ] **US passports**; verify 6+ months validity past anticipated PCS end date. Renew if close.
+- [ ] **Dependent passports**; same rule, especially minor kids
 
 → See: [SOFA Card](/entries/legal/sofa-card)
 
 ### Pets
-- [ ] **ISO-compliant microchip** — required for EU entry; confirm your existing one is compliant
-- [ ] **Rabies vaccination** — must be 21+ days before EU entry if first-time; confirm validity
+- [ ] **ISO-compliant microchip**; required for EU entry; confirm your existing one is compliant
+- [ ] **Rabies vaccination**; must be 21+ days before EU entry if first-time; confirm validity
 - [ ] **USDA-accredited vet identified** for health certificate in final 10 days
-- [ ] **Flight plan for pet** — commercial cargo, Patriot Express, or pet transport service?
+- [ ] **Flight plan for pet**; commercial cargo, Patriot Express, or pet transport service?
 
 → See: [Pet Import to Germany](/entries/pets/pet-import-to-germany)
 
 ### POV shipping
-- [ ] **VPC appointment scheduled** for drop-off (2–4 weeks before flight)
+- [ ] **VPC appointment scheduled** for drop-off (2-4 weeks before flight)
 - [ ] **Drop-off prep**: under ¼ tank, interior cleaned, spare key set aside, registration/title ready
 - [ ] **Decide**: ship your car or sell and buy in Germany?
 
@@ -59,7 +59,7 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 - [ ] **Personal Property Office briefing** at losing station
 - [ ] **Pickup dates scheduled** (UB + HHG + express shipments)
 - [ ] **Weight allowance understood** for your rank + dependents
-- [ ] **Inventory audit** — what ships, what sells, what stores
+- [ ] **Inventory audit**; what ships, what sells, what stores
 
 → See: [Household Goods Shipment](/entries/housing/household-goods-shipment)
 
@@ -67,7 +67,7 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 
 ### Medical
 - [ ] **TRICARE regional transfer** requested (60-day window)
-- [ ] **90-day Rx refills** for chronic meds — you won't have German mail-order immediately
+- [ ] **90-day Rx refills** for chronic meds; you won't have German mail-order immediately
 - [ ] **Dental cleanings + orthodontist visits** before leaving
 - [ ] **Eyeglasses + contact supply** for 6 months
 - [ ] **OB prenatal care coordination** if pregnant
@@ -77,7 +77,7 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 ### Finance
 - [ ] **LES → verify SLR** is optimal for German tour (no-income-tax state preferred)
 - [ ] **Savings account** accessible internationally
-- [ ] **Credit card with no foreign transaction fees** — USAA, Charles Schwab, etc.
+- [ ] **Credit card with no foreign transaction fees**; USAA, Charles Schwab, etc.
 - [ ] **Wise / Revolut account** setup for USD→EUR transfers
 - [ ] **Auto-pay stateside bills** (mortgage, storage, US insurance) set up for overseas access
 
@@ -85,7 +85,7 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 
 ### Electronics audit
 - [ ] **Check every appliance** for 110/220V compatibility
-- [ ] **Sell 110V-only items** — vacuum, hair dryer, coffee maker, etc.
+- [ ] **Sell 110V-only items**; vacuum, hair dryer, coffee maker, etc.
 - [ ] **Pack plug adapters** (Type F / Schuko for Germany)
 - [ ] **Pack surge strips** that work at 220V (if bringing electronics)
 
@@ -96,7 +96,7 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 - [ ] **School transcripts** ordered (official, sealed) from losing DoDEA or US school
 - [ ] **IEP copies** for special-education students
 - [ ] **Recent report cards** + standardized test results
-- [ ] **Schedule SLO contact** at Wiesbaden 30–45 days out
+- [ ] **Schedule SLO contact** at Wiesbaden 30-45 days out
 
 → See: [School Liaison Office](/entries/family/school-liaison-office), [DoDEA Schools](/entries/schools/dodea-schools)
 
@@ -109,7 +109,7 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 ## 30 days out
 
 ### Pets
-- [ ] **Vet appointment in the 10-day window** for EU Health Certificate — **absolutely do not miss this**
+- [ ] **Vet appointment in the 10-day window** for EU Health Certificate; **absolutely do not miss this**
 - [ ] **USDA endorsement** requested (digital if possible; faster)
 - [ ] **Confirm pet crate** meets IATA standards
 - [ ] **Final health check** from vet
@@ -122,7 +122,7 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 ### HHG
 - [ ] **Pack-out days confirmed** (usually 3 separate days)
 - [ ] **Pre-inventory photos** of every room, every valuable
-- [ ] **Separate UB from HHG** clearly — you'll receive UB 3 weeks before HHG
+- [ ] **Separate UB from HHG** clearly; you'll receive UB 3 weeks before HHG
 - [ ] **Carry-on essentials** list prepared: meds, passports, laptop, 1 change of clothes
 
 ### Legal
@@ -131,7 +131,7 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 - [ ] **Medical POA** for dependents
 
 ### Travel
-- [ ] **Flight itinerary confirmed** — Patriot Express or commercial to FRA
+- [ ] **Flight itinerary confirmed**; Patriot Express or commercial to FRA
 - [ ] **Army Lodge reserved** at Clay Kaserne (gaining post)
 - [ ] **Sponsor knows your arrival day/time**
 - [ ] **German SIM card or rental phone** plan for Day 1
@@ -139,26 +139,26 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 ## 14 days out
 
 ### Final prep
-- [ ] **Close US apartment / utilities** — final bills arranged
+- [ ] **Close US apartment / utilities**; final bills arranged
 - [ ] **Mail forwarding** from US address to APO set up via USPS
-- [ ] **Last medical appointments** — final check-ups, Rx refills as backup
-- [ ] **Bank accounts** — verify online access, mobile deposit
+- [ ] **Last medical appointments**; final check-ups, Rx refills as backup
+- [ ] **Bank accounts**; verify online access, mobile deposit
 - [ ] **Credit freezes** considered (to protect during transition chaos)
 
 ### Emotional prep
-- [ ] **Say goodbyes** — schedule the last dinners
-- [ ] **Kids' good-bye events** — school, friends, activities
+- [ ] **Say goodbyes**; schedule the last dinners
+- [ ] **Kids' good-bye events**; school, friends, activities
 - [ ] **Print a paper map** of Clay Kaserne + Hainerberg
-- [ ] **Print key contacts** — sponsor, ACS, Wiesbaden Army Lodge
+- [ ] **Print key contacts**; sponsor, ACS, Wiesbaden Army Lodge
 - [ ] **Fully charge everything**
 
 ## 7 days out
 
 ### Final week
 - [ ] **Buy travel-day snacks + kids' entertainment**
-- [ ] **Pet crate prep** — let pet sleep in crate for familiarity
+- [ ] **Pet crate prep**; let pet sleep in crate for familiarity
 - [ ] **Final HHG pickup** (if scheduled this week)
-- [ ] **Last day at US installation** — formal sign-out
+- [ ] **Last day at US installation**; formal sign-out
 - [ ] **Confirm rental car return in US + rental car pickup in Germany**
 
 ## Day of travel
@@ -169,7 +169,7 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 - [ ] **1 change of clothes** for each family member in carry-on
 - [ ] **Kids' comfort items** in carry-on
 - [ ] **Meds + glasses + contact lenses** in carry-on, not HHG
-- [ ] **€50–€100 cash** for first-day German purchases
+- [ ] **€50-€100 cash** for first-day German purchases
 - [ ] **Deep breath, coffee, and go**
 
 ## Critical mistakes to avoid
@@ -184,9 +184,9 @@ The 90-day pre-PCS checklist. Companion to [The First-Month Checklist](/entries/
 
 ## Resources
 
-- **ACS Relocation Readiness Program (RRP)** — free pre-PCS counseling
-- **Sponsor** — assigned by gaining unit, your peer guide
-- **MilitaryOneSource** — 24/7 support line
+- **ACS Relocation Readiness Program (RRP)**; free pre-PCS counseling
+- **Sponsor**; assigned by gaining unit, your peer guide
+- **MilitaryOneSource**; 24/7 support line
 
 → Link back to the main site: continue reading [Why Wiesbaden](/entries/life/why-wiesbaden) or [First 72 Hours](/entries/housing/first-72-hours).
 
