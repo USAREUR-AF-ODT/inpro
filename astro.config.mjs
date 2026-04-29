@@ -16,7 +16,7 @@ export default defineConfig({
     icon({ include: { lucide: ['*'] } }),
     AstroPWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'icons/*', 'offline.html', 'maps/*'],
+      includeAssets: ['favicon.svg', 'apple-touch-icon.png', 'og-default.png', 'icons/*', 'offline.html', 'maps/*'],
       manifest: {
         name: 'inpro — Wiesbaden PCS',
         short_name: 'inpro',
@@ -28,8 +28,10 @@ export default defineConfig({
         start_url: BASE + '/',
         scope: BASE + '/',
         icons: [
-          { src: 'icons/icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' },
-          { src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml' },
+          { src: 'icons/icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any' },
+          { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+          { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+          { src: 'icons/icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
       workbox: {
@@ -40,11 +42,6 @@ export default defineConfig({
             urlPattern: /\/_astro\//,
             handler: 'CacheFirst',
             options: { cacheName: 'astro-assets', expiration: { maxEntries: 200 } },
-          },
-          {
-            urlPattern: /^https:\/\/static\.cloudflareinsights\.com\//,
-            handler: 'StaleWhileRevalidate',
-            options: { cacheName: 'cf-insights' },
           },
         ],
       },

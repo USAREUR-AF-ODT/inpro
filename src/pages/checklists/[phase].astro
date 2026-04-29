@@ -1,0 +1,212 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { PHASE_LABEL, TOPIC_LABEL, PHASES, type Phase } from '../../lib/tags';
+
+export async function getStaticPaths() {
+  return PHASES.map((phase) => ({ params: { phase } }));
+}
+
+const { phase } = Astro.params as { phase: Phase };
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const all = await getCollection(
+  'published',
+  (e) => e.data.phase === phase && e.data.checklist === true && !e.data.stub,
+);
+const sorted = all.sort((a, b) => (a.data.order - b.data.order) || a.data.title.localeCompare(b.data.title));
+
+const phaseNum: Record<Phase, string> = {
+  before: '01', arrive: '02', settle: '03', life: '04', sponsors: '05',
+};
+
+const intro: Record<Phase, string> = {
+  before: 'Tasks to handle before you leave CONUS. Tap each item once you\'ve completed it. Progress stays on your device.',
+  arrive: 'First-two-weeks tasks. Tap each as you finish. Progress stays on your device.',
+  settle: '30 / 60 / 90-day tasks. Tap each as you finish. Progress stays on your device.',
+  life: 'Recurring tasks for life in Wiesbaden. Tap each as you finish. Progress stays on your device.',
+  sponsors: 'What a sponsor needs to handle for an inbound. Tap each as you complete it.',
+};
+---
+<BaseLayout
+  title={`${PHASE_LABEL[phase]} checklist — inpro`}
+  description={`Trackable checklist of ${sorted.length} ${PHASE_LABEL[phase]} tasks for PCS to Wiesbaden.`}
+  activePhase={phase}
+>
+  <article class="cl">
+    <header class="cl-head">
+      <p class="eyebrow">Phase {phaseNum[phase]} · Checklist</p>
+      <h1 class="display">{PHASE_LABEL[phase]}</h1>
+      <p class="lead">{intro[phase]}</p>
+      {sorted.length > 0 && (
+        <p class="cl-progress" data-cl-progress data-phase={phase}>
+          <span data-cl-done>0</span> of <span data-cl-total>{sorted.length}</span> done
+        </p>
+      )}
+    </header>
+
+    {sorted.length === 0 ? (
+      <p class="cl-empty">
+        No checklist entries for this phase yet. Looking for the full list of entries?
+        <a href={`${base}/${phase}`}>Open {PHASE_LABEL[phase]}.</a>
+      </p>
+    ) : (
+      <ul class="cl-list" data-cl-list data-phase={phase}>
+        {sorted.map((e: any) => (
+          <li class="cl-item" data-cl-item data-slug={e.slug}>
+            <label class="cl-row">
+              <input type="checkbox" class="cl-check" data-cl-check />
+              <span class="cl-meta">
+                <span class="cl-topic">{TOPIC_LABEL[e.data.topic as keyof typeof TOPIC_LABEL]}</span>
+                <a href={`${base}/entries/${e.slug}`} class="cl-title">{e.data.title}</a>
+                <span class="cl-summary">{e.data.summary}</span>
+                {e.data.poc_volatile && <span class="pill pill--terracotta cl-pill">Verify before acting</span>}
+              </span>
+            </label>
+          </li>
+        ))}
+      </ul>
+    )}
+
+    {sorted.length > 0 && (
+      <div class="cl-footer">
+        <button type="button" class="cl-reset" data-cl-reset data-phase={phase}>Reset checklist</button>
+        <a href={`${base}/${phase}`} class="cl-link">All {PHASE_LABEL[phase]} entries →</a>
+      </div>
+    )}
+  </article>
+
+  <script>
+    import '../../islands/checklistTracker.client.ts';
+  </script>
+
+  <style>
+    .cl { max-width: 44rem; }
+    .cl-head {
+      margin: 0 0 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--rule-soft);
+    }
+    .cl-head h1 {
+      margin: 0.4rem 0 0.6rem;
+    }
+    .cl-head .lead {
+      font-family: var(--font-sans);
+      font-size: 1.05rem;
+      color: var(--muted-readable);
+    }
+    .cl-progress {
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      color: var(--plum);
+      font-weight: 600;
+      font-feature-settings: "tnum" 1;
+      margin: 0.75rem 0 0;
+    }
+    .cl-progress [data-cl-done],
+    .cl-progress [data-cl-total] {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+    }
+    .cl-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .cl-item {
+      border-top: 1px solid var(--rule-soft);
+    }
+    .cl-item:last-child {
+      border-bottom: 1px solid var(--rule-soft);
+    }
+    .cl-row {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1rem;
+      padding: 1rem 0.5rem;
+      cursor: pointer;
+      transition: background var(--transition);
+    }
+    .cl-row:hover {
+      background: var(--paper-warm);
+    }
+    .cl-check {
+      align-self: start;
+      margin-top: 0.35rem;
+      width: 1.15rem;
+      height: 1.15rem;
+      accent-color: var(--plum);
+      cursor: pointer;
+    }
+    .cl-meta {
+      display: grid;
+      gap: 0.25rem;
+    }
+    .cl-topic {
+      font-family: var(--font-sans);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--plum);
+    }
+    .cl-title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .cl-title:hover { color: var(--plum); }
+    .cl-summary {
+      font-family: var(--font-sans);
+      font-size: 0.92rem;
+      color: var(--muted-readable);
+      line-height: 1.55;
+    }
+    .cl-pill {
+      align-self: start;
+      width: max-content;
+      margin-top: 0.25rem;
+    }
+    .cl-item.is-done .cl-title {
+      color: var(--muted-readable);
+      text-decoration: line-through;
+      text-decoration-color: var(--rule);
+      text-decoration-thickness: 1px;
+    }
+    .cl-item.is-done .cl-summary { color: var(--muted-readable); opacity: 0.7; }
+
+    .cl-footer {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--rule-soft);
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+    }
+    .cl-reset {
+      background: transparent;
+      border: 1px solid var(--rule-soft);
+      color: var(--ink);
+      padding: 0.4rem 0.85rem;
+      border-radius: var(--radius);
+      cursor: pointer;
+    }
+    .cl-reset:hover {
+      border-color: var(--terracotta);
+      color: var(--terracotta);
+    }
+    .cl-link {
+      color: var(--plum);
+      margin-left: auto;
+    }
+
+    @media (max-width: 720px) {
+      .cl-row { padding: 0.85rem 0.25rem; }
+    }
+  </style>
+</BaseLayout>

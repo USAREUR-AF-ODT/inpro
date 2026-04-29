@@ -34,12 +34,39 @@ jobs:
         env:
           SITE_URL: ${{ vars.SITE_URL || 'https://example.github.io' }}
           SITE_BASE: ${{ vars.SITE_BASE || '/inpro' }}
-          PUBLIC_CF_ANALYTICS_TOKEN: ${{ secrets.CF_ANALYTICS_TOKEN }}
-      - name: Audit content (blocks deploy on schema or staleness violations)
-        # M-ip-02 fix (2026-04-25): removed `|| true` so audit failures block production deploys.
+          PUBLIC_REPO_URL: ${{ vars.PUBLIC_REPO_URL }}
+          PUBLIC_FEEDBACK_EMAIL: ${{ vars.PUBLIC_FEEDBACK_EMAIL }}
+      - name: Audit content (blocks deploy on errors; surfaces warnings in summary)
+        # M-ip-02 fix (2026-04-25): audit failures block production deploys.
         # Override only via explicit workflow_dispatch input `skip_audit=true`.
         if: ${{ inputs.skip_audit != true }}
-        run: npm run audit
+        env:
+          SITE_BASE: ${{ vars.SITE_BASE || '/inpro' }}
+        run: |
+          set +e
+          node scripts/audit-content.mjs --json > audit.json
+          audit_exit=$?
+          {
+            echo '## Content audit'
+            echo ''
+            if [ -f audit.json ]; then
+              count=$(jq -r '.count // 0' audit.json)
+              total=$(jq -r '.issues | length' audit.json)
+              errors=$(jq -r '[.issues[] | select(.level=="error")] | length' audit.json)
+              warns=$(jq -r '[.issues[] | select(.level=="warn")] | length' audit.json)
+              echo "- ${count} entries scanned"
+              echo "- ${errors} errors · ${warns} warnings"
+              if [ "$total" -gt 0 ]; then
+                echo ''
+                echo '<details><summary>Issue list</summary>'
+                echo ''
+                jq -r '.issues[] | "- [" + .level + "] " + .file + " — " + .msg' audit.json | head -50
+                echo ''
+                echo '</details>'
+              fi
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit $audit_exit
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

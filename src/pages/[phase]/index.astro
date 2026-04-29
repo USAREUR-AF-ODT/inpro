@@ -10,6 +10,7 @@ export async function getStaticPaths() {
 const { phase } = Astro.params as { phase: Phase };
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const all = await getCollection('published', e => e.data.phase === phase);
+const checklistCount = all.filter(e => e.data.checklist === true && !e.data.stub).length;
 const sorted = all.sort((a, b) => {
   const ao = a.data.opinion ? 1 : 0;
   const bo = b.data.opinion ? 1 : 0;
@@ -46,6 +47,15 @@ for (const e of factSorted) {
     <p class="eyebrow">Phase {phaseNum[phase]}</p>
     <h1 class="display">{PHASE_LABEL[phase]}</h1>
     <p class="lead">{phaseDescription[phase]}</p>
+    {checklistCount > 0 && (
+      <p class="phase-cl-cta">
+        <a href={`${base}/checklists/${phase}`}>
+          <span class="phase-cl-label">Checklist</span>
+          <span class="phase-cl-text">Track your progress through {checklistCount} key task{checklistCount === 1 ? '' : 's'}</span>
+          <span class="phase-cl-arrow" aria-hidden="true">→</span>
+        </a>
+      </p>
+    )}
   </header>
 
   {sorted.length === 0 ? (
@@ -132,6 +142,42 @@ for (const e of factSorted) {
       font-size: 1.15rem;
       color: var(--muted-readable);
       max-width: 42rem;
+    }
+    .phase-cl-cta {
+      margin: 1.5rem 0 0;
+      max-width: 42rem;
+    }
+    .phase-cl-cta a {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.85rem 1rem;
+      background: var(--paper-warm);
+      border: 1px solid var(--rule-soft);
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: var(--ink);
+      font-family: var(--font-sans);
+      transition: all var(--transition);
+    }
+    .phase-cl-cta a:hover {
+      border-color: var(--plum);
+      background: var(--paper);
+    }
+    .phase-cl-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--plum);
+      font-weight: 600;
+    }
+    .phase-cl-text {
+      flex: 1;
+      font-size: 0.95rem;
+    }
+    .phase-cl-arrow {
+      color: var(--plum);
+      font-size: 1.1rem;
     }
 
     .entry-stream {

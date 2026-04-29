@@ -20,6 +20,34 @@ const ogImg = ogImage ?? `${base}/og-default.png`;
 // M-ip-04 fix (2026-04-26): Cloudflare Insights beacon removed to honor the
 // "No tracking" claim in the footer. The PUBLIC_CF_ANALYTICS_TOKEN env var is
 // no longer read; if a future change wants analytics, also update the footer.
+const siteOrigin = (Astro.site ?? new URL('http://localhost:4321')).origin;
+const siteHome = new URL(`${base}/`, siteOrigin).toString();
+const ogImgAbs = new URL(ogImg, siteOrigin).toString();
+const isHome = Astro.url.pathname.replace(/\/$/, '') === base.replace(/\/$/, '');
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'inpro',
+    alternateName: 'Wiesbaden PCS guide',
+    description: 'Unofficial, offline-capable PCS information portal for Wiesbaden, Germany.',
+    url: siteHome,
+    inLanguage: 'en',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `${siteHome}search?q={search_term_string}` },
+      'query-input': 'required name=search_term_string',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'inpro contributors',
+    description: 'Community-maintained, unofficial PCS information portal for USAG Wiesbaden personnel and families. Not affiliated with the US Army, DoD, or USAG Wiesbaden.',
+    url: siteHome,
+    logo: ogImgAbs,
+  },
+];
 const path = Astro.url.pathname.replace(/\/$/, '');
 const basePath = base.replace(/\/$/, '');
 function isPhaseActive(phase: string): boolean {
@@ -55,6 +83,7 @@ const searchActive = path === `${basePath}/search`;
     )}
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+    <link rel="apple-touch-icon" href={`${base}/apple-touch-icon.png`} />
     <link rel="alternate" type="application/rss+xml" title="inpro updates" href={`${base}/feed.xml`} />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
@@ -63,6 +92,13 @@ const searchActive = path === `${basePath}/search`;
     <meta property="og:image" content={ogImg} />
     <meta name="twitter:card" content="summary_large_image" />
     <title>{title}</title>
+    {isHome && (
+      <script
+        is:inline
+        type="application/ld+json"
+        set:html={JSON.stringify(jsonLd)}
+      />
+    )}
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -126,6 +162,7 @@ const searchActive = path === `${basePath}/search`;
         <div class="ft-col">
           <p class="eyebrow">Not affiliated</p>
           <p>inpro is not affiliated with the US Army, the Department of War, DoD, or USAG Wiesbaden. All content is unclass and community-verified.</p>
+          <p class="ft-disclaimer">Information only — not legal, medical, or financial advice. Verify with a qualified professional, your sponsor, or an official source before acting on anything you read here.</p>
         </div>
         <div class="ft-col">
           <p class="eyebrow">Links</p>
@@ -303,6 +340,7 @@ const searchActive = path === `${basePath}/search`;
       .ft-tagline { font-size: 0.9rem; color: var(--muted-readable); margin: 0; }
       .ft-col p { margin: 0; font-size: 0.9rem; line-height: 1.5; color: var(--ink); }
       .ft-col .eyebrow { color: var(--plum); margin-bottom: 0.4rem; }
+      .ft-disclaimer { font-size: 0.82rem !important; color: var(--muted-readable) !important; margin-top: 0.6rem !important; }
       .ft-rule {
         max-width: 76rem;
         margin: 0 auto;

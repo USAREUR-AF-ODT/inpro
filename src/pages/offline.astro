@@ -6,8 +6,17 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <section class="offline">
     <p class="eyebrow">Offline</p>
     <h1 class="display">You're <em>offline</em>.</h1>
-    <p class="lead">The page you requested isn't cached yet. Pages you've already visited should still work.</p>
+    <p class="lead" data-offline-status>
+      <span data-offline-when-cached hidden>The page you requested isn't cached, but pages you've visited before should still load.</span>
+      <span data-offline-when-fresh>The page you requested isn't cached yet. Pages you've already visited should still work.</span>
+    </p>
 
+    <section class="recents-block" data-offline-recents-block hidden>
+      <h2 class="recents-head">From your last visit</h2>
+      <ul class="recents-list" data-offline-recents></ul>
+    </section>
+
+    <h2 class="fallback-head">Always available</h2>
     <ul class="offline-list">
       <li><a href={`${base}/`}>Home</a> — category index</li>
       <li><a href={`${base}/arrive`}>When You Arrive</a></li>
@@ -15,8 +24,42 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <li><a href={`${base}/search`}>Search</a></li>
     </ul>
 
-    <p class="note">Service worker cache refreshes after each site update. Refresh while connected to Wi-Fi to get the latest.</p>
+    <p class="note">Every page you've visited is cached locally. The service worker refreshes after each site update — open this page on Wi-Fi to pick up the latest.</p>
   </section>
+
+  <script is:inline>
+    (function () {
+      const TOPIC_LABEL = {
+        housing: 'Housing', finance: 'Finance', medical: 'Medical', legal: 'Legal',
+        vehicle: 'Vehicle', 'id-cac': 'ID & CAC', family: 'Family', schools: 'Schools',
+        pets: 'Pets', religious: 'Religious', mwr: 'MWR', unit: 'Unit',
+      };
+      const base = (document.querySelector('meta[name="inpro-base"]')?.content ?? '').replace(/\/$/, '');
+      let recents = [];
+      try {
+        const raw = localStorage.getItem('inpro.recent.v1');
+        if (raw) recents = JSON.parse(raw) || [];
+      } catch { recents = []; }
+
+      const block = document.querySelector('[data-offline-recents-block]');
+      const list = document.querySelector('[data-offline-recents]');
+      if (recents.length && list && block) {
+        list.innerHTML = recents.map((e) => {
+          const label = TOPIC_LABEL[e.topic] ?? e.topic;
+          const safeTitle = String(e.title).replace(/[&<>"']/g, (c) => (
+            { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+          ));
+          return `<li><a href="${base}/entries/${e.slug}">
+            <span class="r-topic">${label}</span>
+            <span class="r-title">${safeTitle}</span>
+          </a></li>`;
+        }).join('');
+        block.hidden = false;
+        document.querySelector('[data-offline-when-cached]').hidden = false;
+        document.querySelector('[data-offline-when-fresh]').hidden = true;
+      }
+    })();
+  </script>
 
   <style>
     .offline { max-width: 36rem; padding-top: 2rem; }
@@ -33,10 +76,57 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       font-size: 1.1rem;
       color: var(--muted-readable);
     }
+    .recents-block {
+      margin: 2rem 0;
+    }
+    .recents-head, .fallback-head {
+      font-family: var(--font-sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--plum);
+      margin: 1.5rem 0 0.4rem;
+    }
+    .recents-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .recents-list li {
+      border-top: 1px solid var(--rule-soft);
+    }
+    .recents-list li:last-child {
+      border-bottom: 1px solid var(--rule-soft);
+    }
+    .recents-list a {
+      display: grid;
+      gap: 0.2rem;
+      padding: 0.85rem 0.25rem;
+      text-decoration: none;
+      color: var(--ink);
+      transition: background var(--transition), padding var(--transition);
+    }
+    .recents-list a:hover {
+      background: var(--paper-warm);
+      padding-left: 0.75rem;
+      color: var(--plum);
+    }
+    .recents-list .r-topic {
+      font-family: var(--font-sans);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--plum);
+    }
+    .recents-list .r-title {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      letter-spacing: -0.01em;
+    }
     .offline-list {
       list-style: none;
       padding: 0;
-      margin: 2rem 0;
+      margin: 0 0 2rem;
     }
     .offline-list li {
       padding: 0.75rem 0;

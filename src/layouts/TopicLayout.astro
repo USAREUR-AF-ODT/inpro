@@ -104,7 +104,7 @@ const topicLabel = TOPIC_LABEL[frontmatter.topic as Topic];
       </section>
     )}
 
-    <FeedbackLink slug={slug} title={frontmatter.title} lastVerified={frontmatter.last_verified} />
+    <FeedbackLink slug={slug} title={frontmatter.title} topic={frontmatter.topic} lastVerified={frontmatter.last_verified} />
   </article>
 
   <style>

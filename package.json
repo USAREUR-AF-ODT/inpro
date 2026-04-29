@@ -14,7 +14,11 @@
     "promote": "node scripts/promote.mjs",
     "audit": "node scripts/audit-content.mjs",
     "verify-links": "node scripts/verify-links.mjs",
-    "static-maps": "node scripts/static-maps.mjs"
+    "static-maps": "node scripts/static-maps.mjs",
+    "gen-og": "node scripts/gen-og.mjs",
+    "gen-icons": "node scripts/gen-icons.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -36,7 +40,8 @@
     "js-yaml": "^4.1.0",
     "lighthouse": "^13.1.0",
     "pagefind": "^1.2.0",
-    "tailwindcss": "^4.0.0"
+    "tailwindcss": "^4.0.0",
+    "vitest": "^4.1.5"
   },
   "engines": {
     "node": ">=20"
