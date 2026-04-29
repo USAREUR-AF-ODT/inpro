@@ -43,6 +43,21 @@ const PERSONAL_EMAIL_DOMAINS = new Set([
 const SSN_RE = /(?<![\d-])\d{3}-\d{2}-\d{4}(?![\d-])/g;
 const DODID_RE = /\b(?:DODID|EDIPI|DOD\s*ID)\b[^\n]{0,40}?(\d{10})\b/gi;
 const PHONE_HINT_RE = /(?:phone|tel|fax|dsn|hotline|kontakt)[^\n]{0,12}/i;
+// US passport: one letter + 8 digits, OR 9 digits (book-style). Require the literal
+// token to avoid false positives on tracking numbers.
+const PASSPORT_RE = /\bpassport\s*(?:no\.?|number|#)?\s*[:#]?\s*([A-Z]\d{8}|\d{9})\b/gi;
+// Banned classification / OPSEC strings. Should never appear in published content.
+const BANNED_STRINGS = [
+  '\\bSECRET\\b',
+  '\\bTOP\\s+SECRET\\b',
+  '\\bCONFIDENTIAL\\b',
+  '\\bCUI//[A-Z]+',
+  '\\bNOFORN\\b',
+  '\\bFOUO\\b',
+  '\\bORCON\\b',
+  '\\bOPDATA\\b',
+];
+const BANNED_RE = new RegExp(`(?:${BANNED_STRINGS.join('|')})`, 'g');
 
 function checkOpsec(fm, body, issues, rel) {
   // Scan body for SSN-like patterns. Skip lines with phone/dsn context.
@@ -56,6 +71,16 @@ function checkOpsec(fm, body, issues, rel) {
   // DODID requires the literal token nearby to avoid false positives on phone numbers.
   for (const m of body.matchAll(DODID_RE)) {
     issues.push({ file: rel, level: 'error', msg: `OPSEC: DODID/EDIPI followed by 10-digit "${m[1]}"` });
+  }
+
+  // US passport number near the literal "passport" keyword.
+  for (const m of body.matchAll(PASSPORT_RE)) {
+    issues.push({ file: rel, level: 'error', msg: `OPSEC: passport-number-shaped value near "passport" keyword "${m[1]}"` });
+  }
+
+  // Banned classification / handling-caveat strings.
+  for (const m of body.matchAll(BANNED_RE)) {
+    issues.push({ file: rel, level: 'error', msg: `OPSEC: banned classification string "${m[0]}"` });
   }
 
   // Personal email domains in POC contacts.
@@ -185,14 +210,25 @@ async function main() {
       }
     }
 
-    if (isSafety) {
-      const tiers = (fm.sources ?? []).map(s => s.tier);
+    if (isSafety && !fm.stub) {
+      const sources = fm.sources ?? [];
+      const tiers = sources.map(s => s.tier);
       const hasT1 = tiers.includes('T1');
       // German-side legal entries (e.g., Rundfunkbeitrag, Hessen holidays) cite T4 only by nature.
       // Treat "legal" with no T1 but all-T4 sources as a German-side entry, exempt from the T1 rule.
       const isGermanSideLegal = fm.topic === 'legal' && tiers.length > 0 && tiers.every(t => t === 'T4');
       if (!hasT1 && !isGermanSideLegal) {
         issues.push({ file: rel, level: 'warn', msg: `safety topic "${fm.topic}" missing T1 source` });
+      }
+      // Multi-host requirement: safety topics should not depend on a single host. Single-host
+      // sources are a freshness time bomb when that host reorganizes. Cap on home.army.mil
+      // dominance was 80% across the corpus; force diversity entry-by-entry going forward.
+      const hosts = new Set();
+      for (const s of sources) {
+        try { hosts.add(new URL(s.url).hostname.replace(/^www\./, '')); } catch { /* skip unparseable */ }
+      }
+      if (sources.length >= 1 && hosts.size < 2 && !isGermanSideLegal) {
+        issues.push({ file: rel, level: 'warn', msg: `safety topic "${fm.topic}" cites only ${hosts.size} host(s) — diversify to ≥2 distinct hosts` });
       }
     }
 

@@ -67,15 +67,23 @@ function parseFm(text) {
   try { return yaml.load(m[1]); } catch { return null; }
 }
 
+// Polite UA — many .mil/.gov hosts WAF-block default Node UA. An explicit,
+// identifiable agent reduces false-positive 403s and shrinks SKIP_HOSTS.
+const HEADERS = {
+  'User-Agent': 'inpro-link-checker/0.1 (+https://github.com/USAREUR-AF-ODT/inpro)',
+  'Accept': 'text/html,application/xhtml+xml,application/pdf,*/*',
+  'Accept-Language': 'en-US,en;q=0.9',
+};
+
 async function head(url) {
   try {
-    const res = await fetch(url, { method: 'HEAD', redirect: 'manual' });
+    const res = await fetch(url, { method: 'HEAD', redirect: 'manual', headers: HEADERS });
     if (res.status >= 200 && res.status < 300) return { ok: true, status: res.status };
     if (res.status >= 300 && res.status < 400) {
       return { ok: true, status: res.status, redirect: res.headers.get('location') };
     }
     // Retry as GET — some servers block HEAD
-    const getRes = await fetch(url, { method: 'GET' });
+    const getRes = await fetch(url, { method: 'GET', headers: HEADERS });
     return { ok: getRes.ok, status: getRes.status };
   } catch (err) {
     return { ok: false, status: 0, error: String(err?.message ?? err) };

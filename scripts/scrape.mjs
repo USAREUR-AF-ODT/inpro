@@ -234,6 +234,7 @@ async function doScrape(target, counters) {
     onlyMainContent: true,
     timeout: isPdf ? 120_000 : 30_000,   // Firecrawl server-side timeout
     waitFor: isPdf ? 0 : 1500,
+    zeroDataRetention: true,             // do not retain scraped content on Firecrawl side
   };
   const clientTimeoutMs = isPdf ? 180_000 : 60_000;
   const res = await fc('/v1/scrape', payload, { timeoutMs: clientTimeoutMs });
@@ -250,7 +251,7 @@ async function doScrape(target, counters) {
 
 async function doMap(target, counters) {
   const { url, tier, topic, limit = 100 } = target;
-  const res = await fc('/v1/map', { url, limit });
+  const res = await fc('/v1/map', { url, limit, zeroDataRetention: true });
   const urls = res?.links ?? res?.data?.links ?? [];
   console.log(`  map discovered ${urls.length} links for ${url}`);
   // Write a simple index file listing discovered URLs — scraping them is a second pass.
@@ -276,6 +277,7 @@ async function doCrawl(target, counters) {
   const payload = {
     url,
     limit,
+    zeroDataRetention: true,
     scrapeOptions: { formats: ['markdown'], onlyMainContent: true },
   };
   if (includePaths) payload.includePaths = includePaths;
@@ -326,6 +328,7 @@ async function doSearch(target, counters) {
   const res = await fc('/v1/search', {
     query,
     limit,
+    zeroDataRetention: true,
     scrapeOptions: { formats: ['markdown'], onlyMainContent: true },
   });
   const hits = res?.data ?? res?.results ?? [];

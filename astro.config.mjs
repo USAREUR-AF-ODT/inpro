@@ -36,12 +36,21 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{html,css,js,svg,png,webp,woff2,json,webmanifest,txt}'],
+        // Pagefind self-fetches its chunked index at runtime; precaching it bloats install
+        // size and freezes a stale corpus across deploys. Same for the .pf_* hash files.
+        globIgnores: ['**/pagefind/**', '**/*.pf_*'],
         navigateFallback: BASE + '/offline',
+        // Don't serve the offline shell for non-routes (typo'd entry slugs, /api, etc.).
+        navigateFallbackDenylist: [/\/api\//, /\/pagefind\//, /\/\.well-known\//, /\.[a-z0-9]+$/i],
         runtimeCaching: [
           {
             urlPattern: /\/_astro\//,
             handler: 'CacheFirst',
-            options: { cacheName: 'astro-assets', expiration: { maxEntries: 200 } },
+            options: {
+              cacheName: 'astro-assets',
+              expiration: { maxEntries: 200 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
           },
         ],
       },
