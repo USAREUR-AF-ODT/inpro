@@ -2,7 +2,20 @@
 import TagPill from './TagPill.astro';
 import { TIER_LABEL } from '../lib/tags';
 
-export interface Source { tier: 'T1' | 'T2' | 'T3' | 'T4'; url: string; label: string; scraped?: string }
+export interface SourceScore {
+  authority: number;
+  currency: number;
+  accuracy: number;
+  purpose: number;
+  license: number;
+}
+export interface Source {
+  tier: 'T1' | 'T2' | 'T3' | 'T4';
+  url: string;
+  label: string;
+  scraped?: string;
+  score?: SourceScore;
+}
 export interface Props { sources: Source[]; lastVerified: string }
 
 const { sources, lastVerified } = Astro.props;
@@ -29,6 +42,17 @@ const { sources, lastVerified } = Astro.props;
             <TagPill tier={s.tier} label={TIER_LABEL[s.tier]} />
             <a href={s.url} target="_blank" rel="noopener noreferrer">{s.label}</a>
             {s.scraped && <span class="scraped">· scraped {s.scraped}</span>}
+            {s.score && (
+              <span
+                class="score-badge"
+                title={`Authority ${s.score.authority}/5 · Currency ${s.score.currency}/5 · Accuracy ${s.score.accuracy}/5 · Purpose ${s.score.purpose}/5 · License ${s.score.license}/5`}
+                aria-label={`Source score: authority ${s.score.authority} of 5, currency ${s.score.currency} of 5, accuracy ${s.score.accuracy} of 5`}
+              >
+                <span class="sb-dim">A{s.score.authority}</span>
+                <span class="sb-dim">C{s.score.currency}</span>
+                <span class="sb-dim">X{s.score.accuracy}</span>
+              </span>
+            )}
           </li>
         ))}
       </ul>
@@ -71,4 +95,16 @@ const { sources, lastVerified } = Astro.props;
   .sources li { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; font-size: .92rem; }
   .scraped { color: var(--muted-readable); font-size: .8rem; }
   .empty { color: var(--muted-readable); font-size: .9rem; }
+  .score-badge {
+    display: inline-flex;
+    gap: .25rem;
+    padding: .1rem .4rem;
+    background: var(--paper);
+    border: 1px solid var(--rule-soft);
+    border-radius: 999px;
+    font-family: var(--font-mono);
+    font-size: .7rem;
+    color: var(--muted-readable);
+  }
+  .sb-dim { letter-spacing: 0; }
 </style>

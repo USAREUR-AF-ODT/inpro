@@ -15,6 +15,7 @@
     "scrape:from-maps": "node scripts/scrape-from-maps.mjs",
     "promote": "node scripts/promote.mjs",
     "audit": "node scripts/audit-content.mjs",
+    "score-sources": "node scripts/auto-score-sources.mjs",
     "verify-links": "node scripts/verify-links.mjs",
     "static-maps": "node scripts/static-maps.mjs",
     "gen-og": "node scripts/gen-og.mjs",

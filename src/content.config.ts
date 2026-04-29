@@ -28,11 +28,30 @@ const poc = z.object({
   hours: z.string().optional(),
 });
 
+// Source-credibility scorecard. Tier remains the human shorthand; score is
+// the auditable structure. Optional during the migration window; promote to
+// required once auto-score-sources.mjs has filled all published entries.
+//   - authority  5 = .mil/.gov direct ; 4 = federal-contracted ;
+//                3 = major outlet ; 2 = municipal/foreign-gov ; 1 = community
+//   - currency   5 = ≤90d ; 4 = ≤180d ; 3 = ≤1y ; 2 = ≤2y ; 1 = >2y or undated
+//   - accuracy   5 = ≥2 distinct hosts ; 3 = single T1 ; 1 = uncorroborated
+//   - purpose    5 = public-service ; 3 = commercial-aligned ; 1 = advocacy/promo
+//   - license    5 = public domain (17 USC 105) ; 3 = permissive cite ;
+//                1 = full copyright (link-only, no excerpt)
+const sourceScore = z.object({
+  authority: z.number().int().min(1).max(5),
+  currency: z.number().int().min(1).max(5),
+  accuracy: z.number().int().min(1).max(5),
+  purpose: z.number().int().min(1).max(5),
+  license: z.number().int().min(1).max(5),
+});
+
 const source = z.object({
   tier: z.enum(['T1', 'T2', 'T3', 'T4']),
   url: z.string().url(),
   label: z.string(),
   scraped: z.string().optional(),
+  score: sourceScore.optional(),
 });
 
 export const collections = {
