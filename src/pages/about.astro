@@ -43,9 +43,24 @@ const totalEntries = all.filter(e => !e.data.stub).length;
         <p>We do not republish other people's content. We read their content as research, then write our own synthesis. Closed Facebook groups are research material only — we don't quote members.</p>
       </section>
 
-      <section>
+      <section id="report">
         <h2>Found something wrong?</h2>
-        <p>Every entry has a "Report outdated info" link at the bottom. Corrections welcome. Fast turnaround. The email address is aliased — we don't publish real emails.</p>
+        <p>Every entry has a "Report outdated info" link at the bottom. Corrections welcome. Fast turnaround.</p>
+        <p>For routine corrections — outdated POCs, broken links, factual errors — the report link is the right path. We aim to triage within 72 hours and resolve within a week.</p>
+      </section>
+
+      <section id="takedown">
+        <h2>Takedowns &amp; sensitive concerns</h2>
+        <p>If something on this site needs to come down — your name or photo appearing where it shouldn't, an address that should be redacted, content that touches operational details — use the takedown channel, not the regular feedback link.</p>
+        <p>Send to <code>inpro+takedown</code> at the same alias used for feedback (the email is replied to from a project-only label, not a personal inbox). Include:</p>
+        <ul>
+          <li>The full URL of the page</li>
+          <li>What needs to be removed or changed (be specific — quote the exact text or describe the image)</li>
+          <li>Why (one sentence is fine)</li>
+          <li>How to reach you for follow-up if needed</li>
+        </ul>
+        <p>We aim to acknowledge takedown requests within 24 hours and act within 72 hours. If a request involves OPSEC or a credible safety concern, we take the page down first and discuss after. We do not publish names of takedown requesters.</p>
+        <p>This is a community project, not a legal entity. We can't accept formal legal process; if your matter requires that, contact USAG Wiesbaden Public Affairs.</p>
       </section>
 
       <section>
@@ -56,7 +71,22 @@ const totalEntries = all.filter(e => !e.data.stub).length;
       <section>
         <h2>Privacy</h2>
         <p>No accounts. No tracking cookies. Your profile selection (Soldier / DACiv / Family etc.) lives only in your browser's localStorage — we never see it. Aggregate pageview counts are collected via Cloudflare Web Analytics, with no cookies and no personal data.</p>
+        <p class="reset-row">
+          <button type="button" class="reset-btn" data-pp-open>Change my view</button>
+          <button type="button" class="reset-btn reset-clear" data-profile-reset>Reset (clear stored view)</button>
+        </p>
       </section>
+
+      <script is:inline>
+        document.querySelector('[data-profile-reset]')?.addEventListener('click', () => {
+          try {
+            localStorage.removeItem('inpro.profile.v1');
+            localStorage.removeItem('inpro.seenBanner.v1');
+            sessionStorage.removeItem('inpro.sessionShowAll.v1');
+            location.reload();
+          } catch { /* storage disabled */ }
+        });
+      </script>
     </div>
 
     <section class="about-cta">
@@ -114,5 +144,27 @@ const totalEntries = all.filter(e => !e.data.stub).length;
       border-top: 1px solid var(--rule-soft);
       flex-wrap: wrap;
     }
+    .reset-row {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-top: 0.75rem !important;
+    }
+    .reset-btn {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      padding: 0.4rem 0.85rem;
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--rule-soft);
+      border-radius: var(--radius);
+      cursor: pointer;
+    }
+    .reset-btn:hover {
+      border-color: var(--plum);
+      color: var(--plum);
+      background: var(--paper-warm);
+    }
+    .reset-clear { color: var(--terracotta); }
   </style>
 </BaseLayout>

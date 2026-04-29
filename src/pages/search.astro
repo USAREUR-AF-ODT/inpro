@@ -35,6 +35,25 @@ const exampleQueries = [
         }
       });
     });
+
+    // Honor the ?q=… SearchAction target declared in JSON-LD.
+    const params = new URLSearchParams(window.location.search);
+    const initialQuery = params.get('q');
+    if (initialQuery) {
+      const seed = () => {
+        const input = document.querySelector('.pagefind-ui__search-input');
+        if (!input) return false;
+        input.value = initialQuery;
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+        input.focus();
+        return true;
+      };
+      if (!seed()) {
+        const obs = new MutationObserver(() => { if (seed()) obs.disconnect(); });
+        obs.observe(document.body, { childList: true, subtree: true });
+        setTimeout(() => obs.disconnect(), 5000);
+      }
+    }
   </script>
 
   <style>

@@ -190,6 +190,23 @@ function mountBanner(el: HTMLElement): void {
 document.querySelectorAll<PickerEl>('[data-pp-badge]').forEach(mountBadge);
 document.querySelectorAll<PickerEl>('[data-pp-banner]').forEach(mountBanner);
 
+// Auto-open the picker on the first home-page visit when no profile exists.
+// Conditions: home only, no profile, banner not previously dismissed, page just loaded
+// without a hash/fragment (search-engine landings on a hash anchor skip auto-open).
+function isHomePage(): boolean {
+  const base = (document.querySelector<HTMLMetaElement>('meta[name="inpro-base"]')?.content ?? '').replace(/\/$/, '');
+  const path = location.pathname.replace(/\/$/, '');
+  return path === base.replace(/\/$/, '') || path === `${base}/index.html`;
+}
+
+if (isHomePage() && !location.hash && !hasSeenBanner() && !load()) {
+  // Defer until paint settles so the SSR'd banner shows briefly and CLS stays at 0.
+  setTimeout(() => {
+    if (hasSeenBanner() || load()) return;
+    openPicker();
+  }, 800);
+}
+
 // Global fallback: any [data-pp-open] trigger outside a mounted badge/banner
 // (e.g. inside the profile-filter status caption) opens the picker.
 document.addEventListener('click', (e) => {

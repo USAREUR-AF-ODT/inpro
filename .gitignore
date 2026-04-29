@@ -15,5 +15,9 @@ coverage/
 scripts/scrape-report.json
 scripts/link-report.json
 scripts/scrape-errors.json
+audit.json
+flag-result.json
+flag-result.md
+.lighthouseci/
 *.placeholder
 # NOTE: src/content/_raw/ IS tracked — scraped output is human-reviewable in PRs.

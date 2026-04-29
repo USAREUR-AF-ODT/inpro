@@ -2,28 +2,161 @@
 export interface Props {
   slug: string;
   title: string;
+  topic: string;
   lastVerified: string;
 }
-const { slug, title, lastVerified } = Astro.props;
+const { slug, title, topic, lastVerified } = Astro.props;
 const path = Astro.url.pathname;
-const subject = encodeURIComponent(`[inpro outdated] ${slug} — ${title}`);
-const body = encodeURIComponent(
-  `Page: ${path}\nLast verified: ${lastVerified}\n\nWhat's wrong or missing:\n\n\n---\nLeave the section above filled out so we can fix it fast.`
-);
-const href = `mailto:hater.andrewd+inpro@gmail.com?subject=${subject}&body=${body}`;
+
+const repoUrl = import.meta.env.PUBLIC_REPO_URL || '';
+const mailAlias = import.meta.env.PUBLIC_FEEDBACK_EMAIL || 'hater.andrewd+inpro@gmail.com';
+
+function buildIssueUrl(intent: 'outdated' | 'helpful_no') {
+  if (!repoUrl) return null;
+  const titleMap: Record<string, string> = {
+    outdated: `[inpro] outdated info — ${slug}`,
+    helpful_no: `[inpro] entry wasn't helpful — ${slug}`,
+  };
+  const introMap: Record<string, string> = {
+    outdated: `What's outdated or wrong on this page:`,
+    helpful_no: `What was missing, confusing, or wrong about this entry:`,
+  };
+  const body = [
+    `Page: ${path}`,
+    `Slug: ${slug}`,
+    `Topic: ${topic}`,
+    `Last verified: ${lastVerified}`,
+    '',
+    introMap[intent],
+    '',
+    '',
+    '---',
+    'Leave the section above filled out so we can fix it fast.',
+  ].join('\n');
+  const params = new URLSearchParams({
+    title: titleMap[intent],
+    body,
+    labels: `feedback,topic:${topic}`,
+  });
+  return `${repoUrl.replace(/\/$/, '')}/issues/new?${params.toString()}`;
+}
+
+function buildMailto(intent: 'outdated' | 'helpful_no') {
+  const titleMap: Record<string, string> = {
+    outdated: `[inpro outdated] ${slug} — ${title}`,
+    helpful_no: `[inpro feedback] not helpful — ${slug}`,
+  };
+  const introMap: Record<string, string> = {
+    outdated: `What's wrong or missing:`,
+    helpful_no: `What was missing, confusing, or wrong:`,
+  };
+  const subject = encodeURIComponent(titleMap[intent]);
+  const body = encodeURIComponent(
+    `Page: ${path}\nSlug: ${slug}\nTopic: ${topic}\nLast verified: ${lastVerified}\n\n${introMap[intent]}\n\n\n---\nLeave the section above filled out so we can fix it fast.`,
+  );
+  return `mailto:${mailAlias}?subject=${subject}&body=${body}`;
+}
+
+const outdatedHref = buildIssueUrl('outdated') ?? buildMailto('outdated');
+const helpfulNoHref = buildIssueUrl('helpful_no') ?? buildMailto('helpful_no');
+const mailtoFallback = buildMailto('outdated');
+const usingGitHub = Boolean(repoUrl);
 ---
-<p class="feedback-link no-print">
-  <a href={href}>Report outdated info on this page</a>
-</p>
+<aside class="feedback-block no-print" aria-label="Was this helpful?">
+  <p class="fb-prompt">Was this helpful?</p>
+  <div class="fb-thumbs">
+    <button type="button" class="fb-btn fb-yes" data-fb-yes data-slug={slug} aria-label="Yes, this was helpful">
+      <span aria-hidden="true">👍</span> Yes
+    </button>
+    <a class="fb-btn fb-no" href={helpfulNoHref} target={usingGitHub ? '_blank' : undefined} rel={usingGitHub ? 'noopener' : undefined}>
+      <span aria-hidden="true">👎</span> No — tell us why
+    </a>
+  </div>
+  <p class="fb-thanks" data-fb-thanks hidden>Noted — thanks.</p>
+
+  <p class="fb-report">
+    <a href={outdatedHref} target={usingGitHub ? '_blank' : undefined} rel={usingGitHub ? 'noopener' : undefined}>
+      Report outdated info →
+    </a>
+    {usingGitHub && (
+      <span class="fb-fallback">
+        · No GitHub account? <a href={mailtoFallback}>Email instead</a>
+      </span>
+    )}
+  </p>
+</aside>
+
+<script is:inline>
+  document.querySelectorAll('[data-fb-yes]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const slug = btn.getAttribute('data-slug') || 'unknown';
+      try {
+        const k = 'inpro.helpful.v1';
+        const raw = localStorage.getItem(k);
+        const set = raw ? new Set(JSON.parse(raw)) : new Set();
+        set.add(slug);
+        localStorage.setItem(k, JSON.stringify([...set].slice(-200)));
+      } catch { /* storage disabled */ }
+      btn.disabled = true;
+      const thanks = btn.parentElement?.parentElement?.querySelector('[data-fb-thanks]');
+      if (thanks) thanks.hidden = false;
+    });
+  });
+</script>
 
 <style>
-  .feedback-link {
+  .feedback-block {
+    margin-top: 2.5rem;
+    padding: 1rem 1.1rem;
+    border-top: 1px solid var(--rule-soft);
     font-family: var(--font-sans);
-    font-size: .85rem;
-    color: var(--muted-readable);
-    margin-top: 2rem;
-    text-align: right;
   }
-  .feedback-link a { color: var(--muted-readable); }
-  .feedback-link a:hover { color: var(--plum); }
+  .fb-prompt {
+    font-size: 0.85rem;
+    color: var(--muted-readable);
+    margin: 0 0 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .fb-thumbs {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .fb-btn {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    padding: 0.4rem 0.85rem;
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid var(--rule-soft);
+    border-radius: var(--radius);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all var(--transition);
+  }
+  .fb-btn:hover {
+    border-color: var(--plum);
+    color: var(--plum);
+    background: var(--paper-warm);
+  }
+  .fb-btn:disabled {
+    opacity: 0.5;
+    cursor: default;
+    border-style: dashed;
+  }
+  .fb-thanks {
+    font-size: 0.85rem;
+    color: var(--muted-readable);
+    margin: 0.7rem 0 0;
+  }
+  .fb-report {
+    font-size: 0.82rem;
+    color: var(--muted-readable);
+    margin: 1rem 0 0;
+  }
+  .fb-report a { color: var(--plum); text-decoration: underline; text-decoration-color: var(--rule-soft); }
+  .fb-report a:hover { text-decoration-color: var(--plum); }
+  .fb-fallback { color: var(--muted-readable); }
+  .fb-fallback a { color: var(--muted-readable); }
 </style>
