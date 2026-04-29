@@ -21,6 +21,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
+import { checkOpsec as runOpsec } from './lib/opsec.mjs';
 
 const ROOT = path.resolve(fileURLToPath(import.meta.url), '../..');
 const PUB = path.join(ROOT, 'src', 'content', 'published');
@@ -33,74 +34,11 @@ const SAFETY_TOPICS = new Set(['medical', 'legal', 'finance', 'id-cac']);
 const TOPICS = ['housing','finance','medical','legal','vehicle','id-cac','family','schools','pets','religious','mwr','unit'];
 const PHASES = ['before','arrive','settle','life','sponsors'];
 
-const PERSONAL_EMAIL_DOMAINS = new Set([
-  'gmail.com', 'yahoo.com', 'outlook.com', 'hotmail.com',
-  'aol.com', 'icloud.com', 'me.com', 'mac.com',
-  'proton.me', 'protonmail.com', 'pm.me',
-  'gmx.com', 'gmx.de', 'web.de', 't-online.de',
-]);
-
-const SSN_RE = /(?<![\d-])\d{3}-\d{2}-\d{4}(?![\d-])/g;
-const DODID_RE = /\b(?:DODID|EDIPI|DOD\s*ID)\b[^\n]{0,40}?(\d{10})\b/gi;
-const PHONE_HINT_RE = /(?:phone|tel|fax|dsn|hotline|kontakt)[^\n]{0,12}/i;
-// US passport: one letter + 8 digits, OR 9 digits (book-style). Require the literal
-// token to avoid false positives on tracking numbers.
-const PASSPORT_RE = /\bpassport\s*(?:no\.?|number|#)?\s*[:#]?\s*([A-Z]\d{8}|\d{9})\b/gi;
-// Banned classification / OPSEC strings. Should never appear in published content.
-const BANNED_STRINGS = [
-  '\\bSECRET\\b',
-  '\\bTOP\\s+SECRET\\b',
-  '\\bCONFIDENTIAL\\b',
-  '\\bCUI//[A-Z]+',
-  '\\bNOFORN\\b',
-  '\\bFOUO\\b',
-  '\\bORCON\\b',
-  '\\bOPDATA\\b',
-];
-const BANNED_RE = new RegExp(`(?:${BANNED_STRINGS.join('|')})`, 'g');
+// OPSEC patterns moved to scripts/lib/opsec.mjs (shared with tests).
 
 function checkOpsec(fm, body, issues, rel) {
-  // Scan body for SSN-like patterns. Skip lines with phone/dsn context.
-  for (const line of body.split('\n')) {
-    if (PHONE_HINT_RE.test(line)) continue;
-    for (const m of line.matchAll(SSN_RE)) {
-      issues.push({ file: rel, level: 'error', msg: `OPSEC: SSN-like pattern "${m[0]}"` });
-    }
-  }
-
-  // DODID requires the literal token nearby to avoid false positives on phone numbers.
-  for (const m of body.matchAll(DODID_RE)) {
-    issues.push({ file: rel, level: 'error', msg: `OPSEC: DODID/EDIPI followed by 10-digit "${m[1]}"` });
-  }
-
-  // US passport number near the literal "passport" keyword.
-  for (const m of body.matchAll(PASSPORT_RE)) {
-    issues.push({ file: rel, level: 'error', msg: `OPSEC: passport-number-shaped value near "passport" keyword "${m[1]}"` });
-  }
-
-  // Banned classification / handling-caveat strings.
-  for (const m of body.matchAll(BANNED_RE)) {
-    issues.push({ file: rel, level: 'error', msg: `OPSEC: banned classification string "${m[0]}"` });
-  }
-
-  // Personal email domains in POC contacts.
-  for (const poc of fm.poc ?? []) {
-    if (!poc.email) continue;
-    const domain = String(poc.email).split('@').pop()?.toLowerCase();
-    if (domain && PERSONAL_EMAIL_DOMAINS.has(domain)) {
-      issues.push({ file: rel, level: 'warn', msg: `OPSEC: personal-email domain in POC "${poc.email}"` });
-    }
-  }
-
-  // Personal email domains in source URLs (T3 community, T4 German). T1/T2 should be official; flag if any.
-  for (const src of fm.sources ?? []) {
-    try {
-      const host = new URL(src.url).hostname.toLowerCase();
-      const apex = host.split('.').slice(-2).join('.');
-      if (PERSONAL_EMAIL_DOMAINS.has(apex)) {
-        issues.push({ file: rel, level: 'warn', msg: `OPSEC: personal domain as source "${src.url}"` });
-      }
-    } catch { /* ignore unparseable */ }
+  for (const i of runOpsec(fm, body)) {
+    issues.push({ file: rel, ...i });
   }
 }
 
