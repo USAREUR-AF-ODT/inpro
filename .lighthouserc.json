@@ -3,11 +3,11 @@
     "collect": {
       "staticDistDir": "./dist",
       "url": [
-        "http://localhost/inpro/index.html",
-        "http://localhost/inpro/about/index.html",
-        "http://localhost/inpro/search/index.html",
-        "http://localhost/inpro/topics/medical/index.html",
-        "http://localhost/inpro/entries/medical/emergency-numbers/index.html"
+        "http://localhost/index.html",
+        "http://localhost/about/index.html",
+        "http://localhost/search/index.html",
+        "http://localhost/topics/medical/index.html",
+        "http://localhost/entries/medical/emergency-numbers/index.html"
       ],
       "numberOfRuns": 1,
       "settings": {

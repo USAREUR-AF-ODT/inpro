@@ -19,11 +19,11 @@ jobs:
           cache: npm
       - run: npm ci
 
-      - name: Build site
+      - name: Build site (empty base path for LHCI's static server)
         run: npm run build
         env:
-          SITE_URL: ${{ vars.SITE_URL || 'http://localhost' }}
-          SITE_BASE: ${{ vars.SITE_BASE || '/inpro' }}
+          SITE_URL: http://localhost
+          SITE_BASE: ""
 
       - name: Run Lighthouse CI
         uses: treosh/lighthouse-ci-action@v11
