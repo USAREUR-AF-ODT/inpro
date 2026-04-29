@@ -42,6 +42,7 @@ function buildIssueUrl(intent: 'outdated' | 'helpful_no') {
 }
 
 function buildMailto(intent: 'outdated' | 'helpful_no') {
+  if (!mailAlias) return null;
   const titleMap: Record<string, string> = {
     outdated: `[inpro outdated] ${slug} — ${title}`,
     helpful_no: `[inpro feedback] not helpful — ${slug}`,
@@ -57,8 +58,10 @@ function buildMailto(intent: 'outdated' | 'helpful_no') {
   return `mailto:${mailAlias}?subject=${subject}&body=${body}`;
 }
 
-const outdatedHref = buildIssueUrl('outdated') ?? buildMailto('outdated');
-const helpfulNoHref = buildIssueUrl('helpful_no') ?? buildMailto('helpful_no');
+// Guard at the top of the file ensures at least one of repoUrl / mailAlias is set,
+// so the ?? chain always resolves to a string. The non-null assertion is safe here.
+const outdatedHref = (buildIssueUrl('outdated') ?? buildMailto('outdated'))!;
+const helpfulNoHref = (buildIssueUrl('helpful_no') ?? buildMailto('helpful_no'))!;
 const mailtoFallback = buildMailto('outdated');
 const usingGitHub = Boolean(repoUrl);
 ---
@@ -78,7 +81,7 @@ const usingGitHub = Boolean(repoUrl);
     <a href={outdatedHref} target={usingGitHub ? '_blank' : undefined} rel={usingGitHub ? 'noopener' : undefined}>
       Report outdated info →
     </a>
-    {usingGitHub && (
+    {usingGitHub && mailtoFallback && (
       <span class="fb-fallback">
         · No GitHub account? <a href={mailtoFallback}>Email instead</a>
       </span>

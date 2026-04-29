@@ -22,6 +22,7 @@ poc:
 last_verified: "2026-04-16"
 poc_volatile: true
 order: 10
+checklist: true
 ---
 
 ## What

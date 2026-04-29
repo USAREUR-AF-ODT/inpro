@@ -20,6 +20,7 @@ poc:
     address: "Clay Kaserne, consult current in-processing page for building"
     maps_query: "Clay Kaserne ID Card Center Wiesbaden"
     hours: "Mon-Fri appointments only via ID Card Office Online (IDCO)"
+checklist: true
 ---
 
 ## What

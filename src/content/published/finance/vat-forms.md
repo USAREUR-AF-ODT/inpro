@@ -19,6 +19,7 @@ poc:
     address: "Bldg 1023 East, Room 151, Clay Kaserne, Wiesbaden"
     maps_query: "Clay Kaserne Building 1023 Wiesbaden"
     hours: "Call for current hours; appointments preferred"
+checklist: true
 ---
 
 ## What

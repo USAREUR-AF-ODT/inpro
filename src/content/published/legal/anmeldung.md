@@ -21,6 +21,7 @@ poc:
     address: "Rathaus, Schlossplatz 6, 65183 Wiesbaden"
     maps_query: "Rathaus Wiesbaden Schlossplatz 6"
     hours: "Mon/Tue/Fri 0800–1300; Wed 0800–1300 + 1400–1800; Thu 0800–1800. Check termin.wiesbaden.de for online appointments."
+checklist: true
 ---
 
 ## What

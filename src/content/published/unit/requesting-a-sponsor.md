@@ -13,6 +13,7 @@ sources:
 last_verified: "2026-04-20"
 poc_volatile: false
 order: 10
+checklist: true
 ---
 
 ## What
