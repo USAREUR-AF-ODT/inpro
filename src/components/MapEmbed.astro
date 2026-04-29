@@ -3,42 +3,62 @@ export interface Props { query: string; label?: string }
 const { query, label } = Astro.props;
 const encoded = encodeURIComponent(query);
 // Google Maps "q" embed — no API key required for read-only iframe.
+// Click-to-load pattern: default is the placeholder card; user must explicitly
+// expand the <details> block to load the iframe. This prevents Google from
+// receiving the user's IP + entry slug on every page load (privacy + OPSEC).
 const src = `https://www.google.com/maps?q=${encoded}&output=embed`;
 const openUrl = `https://www.google.com/maps/search/?api=1&query=${encoded}`;
 const mapsUri = `maps:?q=${encoded}`;
+const labelOrQuery = label ?? query;
 ---
 <div class="map-embed" data-map-query={query}>
   <noscript>
-    <a href={openUrl} target="_blank" rel="noopener noreferrer">Open {label ?? query} in Maps</a>
+    <a href={openUrl} target="_blank" rel="noopener noreferrer">Open {labelOrQuery} in Maps</a>
   </noscript>
-  <div class="map-online" hidden>
-    <iframe
-      title={`Map: ${label ?? query}`}
-      src={src}
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-      allowfullscreen
-    ></iframe>
-  </div>
-  <div class="map-offline">
-    <p class="map-fallback-head">Offline — map unavailable</p>
-    <p>{label ?? query}</p>
+
+  <!-- Always-visible placeholder with deep links. No third-party request fires here. -->
+  <div class="map-card">
+    <p class="map-card-head">{labelOrQuery}</p>
+    <p class="map-card-note" data-map-status>Map opens in a new tab. No data sent to Google until you load the embed.</p>
     <div class="map-actions">
       <a class="btn btn--ghost" href={openUrl} target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
       <a class="btn btn--ghost" href={mapsUri}>Open in native Maps</a>
     </div>
+
+    <details class="map-reveal" data-map-reveal>
+      <summary>Load embedded map (sends IP + page URL to Google)</summary>
+      <div class="map-online">
+        <iframe
+          title={`Map: ${labelOrQuery}`}
+          src={src}
+          loading="lazy"
+          referrerpolicy="no-referrer"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </details>
   </div>
 </div>
 
 <script is:inline>
   (function () {
+    // When offline, surface that fact in the status note and disable the
+    // embed reveal (the iframe would fail anyway). When online, the
+    // <details> is left to the user.
     function update() {
+      var online = navigator.onLine;
       document.querySelectorAll('.map-embed').forEach(function (el) {
-        var on = el.querySelector('.map-online');
-        var off = el.querySelector('.map-offline');
-        if (!on || !off) return;
-        if (navigator.onLine) { on.hidden = false; off.hidden = true; }
-        else { on.hidden = true; off.hidden = false; }
+        var status = el.querySelector('[data-map-status]');
+        var reveal = el.querySelector('[data-map-reveal]');
+        if (status) {
+          status.textContent = online
+            ? 'Map opens in a new tab. No data sent to Google until you load the embed.'
+            : 'Offline — embedded map unavailable. Use the deep links above.';
+        }
+        if (reveal) {
+          if (!online) { reveal.open = false; reveal.setAttribute('hidden', ''); }
+          else { reveal.removeAttribute('hidden'); }
+        }
       });
     }
     update();
@@ -49,6 +69,27 @@ const mapsUri = `maps:?q=${encoded}`;
 
 <style>
   .map-embed { margin: 1rem 0; }
+  .map-card {
+    padding: 1rem;
+    border: 1px dashed var(--rule);
+    border-radius: var(--radius);
+    background: var(--paper-warm);
+    font-family: var(--font-sans);
+  }
+  .map-card-head { font-weight: 600; margin: 0 0 .25rem; color: var(--plum); }
+  .map-card-note { color: var(--muted-readable); font-size: .85rem; margin: 0 0 .75rem; }
+  .map-actions { display: flex; gap: .5rem; flex-wrap: wrap; }
+  .map-reveal { margin-top: .9rem; }
+  .map-reveal summary {
+    cursor: pointer;
+    color: var(--muted-readable);
+    font-size: .8rem;
+    padding: .35rem 0;
+  }
+  .map-reveal summary:hover { color: var(--plum); }
+  .map-online {
+    margin-top: .5rem;
+  }
   .map-online iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
@@ -56,13 +97,4 @@ const mapsUri = `maps:?q=${encoded}`;
     border-radius: var(--radius);
     background: var(--paper-warm);
   }
-  .map-offline {
-    padding: 1rem;
-    border: 1px dashed var(--rule);
-    border-radius: var(--radius);
-    background: var(--paper-warm);
-    font-family: var(--font-sans);
-  }
-  .map-fallback-head { font-weight: 600; margin: 0 0 .25rem; color: var(--plum); }
-  .map-actions { display: flex; gap: .5rem; margin-top: .75rem; flex-wrap: wrap; }
 </style>

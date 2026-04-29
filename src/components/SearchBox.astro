@@ -1,7 +1,16 @@
 ---
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
-<div id="search" class="search-mount"></div>
+<!--
+  WCAG 2.2 §4.1.3 (Status Messages): wrap the Pagefind UI in a live region so
+  screen readers are notified when results update. Pagefind default UI does not
+  announce result counts; we observe the DOM and emit "N results" into a
+  separate aria-live span sibling.
+-->
+<div role="region" aria-label="Search results" class="search-region">
+  <div id="search" class="search-mount"></div>
+  <p class="sr-only" aria-live="polite" aria-atomic="true" data-pf-announce></p>
+</div>
 
 <link rel="stylesheet" href={`${base}/pagefind/pagefind-ui.css`} />
 <script type="module" define:vars={{ base }}>
@@ -17,6 +26,27 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         filters_label: 'Narrow by topic or phase',
       },
     });
+
+    // Announce result count for screen readers. Settle delay (TPGi guidance:
+    // 1.5–2s) so a user mid-typing isn't bombarded with intermediate counts.
+    const announce = document.querySelector('[data-pf-announce]');
+    if (!announce) return;
+    const root = document.getElementById('search');
+    if (!root) return;
+    let timer;
+    const emit = () => {
+      const items = root.querySelectorAll('.pagefind-ui__result');
+      const n = items.length;
+      const empty = root.querySelector('.pagefind-ui__results-empty');
+      if (empty) announce.textContent = 'No results.';
+      else if (n > 0) announce.textContent = `${n} result${n === 1 ? '' : 's'}.`;
+      else announce.textContent = '';
+    };
+    const obs = new MutationObserver(() => {
+      clearTimeout(timer);
+      timer = setTimeout(emit, 1500);
+    });
+    obs.observe(root, { childList: true, subtree: true });
   }).catch((e) => {
     const el = document.getElementById('search');
     if (el) el.innerHTML = '<p class="filter-empty">Search index unavailable. Run <code>npm run build</code> to generate it.</p>';
@@ -25,6 +55,18 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 </script>
 
 <style>
+  /* Visually-hidden but available to assistive tech (WAI-ARIA APG pattern). */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
   .search-mount {
     --pagefind-ui-primary: var(--plum);
     --pagefind-ui-text: var(--ink);
