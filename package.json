@@ -11,6 +11,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "scrape": "node scripts/scrape.mjs",
+    "ingest": "node scripts/ingest.mjs",
+    "scrape:from-maps": "node scripts/scrape-from-maps.mjs",
     "promote": "node scripts/promote.mjs",
     "audit": "node scripts/audit-content.mjs",
     "verify-links": "node scripts/verify-links.mjs",

@@ -1,0 +1,21 @@
+{
+  "run_at": "2026-04-29T20:11:51.240Z",
+  "args": {
+    "only": null,
+    "limit": null,
+    "dryRun": true,
+    "noFallback": false,
+    "rateMs": 400
+  },
+  "counters": {
+    "mapsRead": 0,
+    "urlsTotal": 0,
+    "alreadyHave": 0,
+    "fetched": 0,
+    "empty": 0,
+    "failed": 0,
+    "firecrawlCalls": 0
+  },
+  "error_count": 0,
+  "errors": []
+}

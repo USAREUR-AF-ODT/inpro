@@ -778,3 +778,177 @@
   tier: T3
   topic: schools
   limit: 8
+
+# ═══ Round-3 Expansion (added 2026-04-29) ════════════════════════════════════
+#
+# Targets selected to close ecosystem gaps surfaced in the wider-net review:
+# theater medical (LRMC), theater command (USAREUR-AF), logistics (21st TSC,
+# 405th AFSB), exchange/commissary (AAFES, DeCA), pay (DFAS/MyPay), PCS logistics
+# (move.mil, DPS, DTS, SmartVoucher), overseas voting (FVAP), ID cards (DEERS/
+# RAPIDS/CAC — closes the id-cac zero-raw gap), DoDEA Europe HQ, German
+# bureaucracy beyond wiesbaden.de.
+#
+# Most are static .mil/.gov pages — ingest.mjs will pull them via direct fetch
+# and burn 0 Firecrawl credits. Use:
+#   node scripts/ingest.mjs --tier T1 --skip-existing
+# before falling back to:
+#   node scripts/scrape.mjs --tier T1 --skip-existing
+# for any that stay empty after direct fetch.
+
+# ── LRMC / Landstuhl Regional Medical Center ────────────────────────────────
+- kind: scrape
+  url: https://landstuhl.tricare.mil/
+  tier: T1
+  topic: medical
+  notes: LRMC — referrals from Wiesbaden Health Clinic
+- kind: map
+  url: https://landstuhl.tricare.mil/
+  tier: T1
+  topic: medical
+  limit: 40
+
+# ── USAREUR-AF HQ ────────────────────────────────────────────────────────────
+- kind: scrape
+  url: https://www.eur.army.mil/
+  tier: T1
+  topic: mixed
+  notes: USAREUR-AF HQ landing
+- kind: map
+  url: https://www.eur.army.mil/
+  tier: T1
+  topic: mixed
+  limit: 40
+
+# ── 21st TSC + 405th AFSB ────────────────────────────────────────────────────
+- kind: scrape
+  url: https://www.21tsc.army.mil/
+  tier: T1
+  topic: mixed
+- kind: scrape
+  url: https://www.afsbeurope.army.mil/
+  tier: T1
+  topic: vehicle
+  notes: 405th AFSB — POV / household goods / equipment turn-in
+
+# ── AAFES / Exchange ─────────────────────────────────────────────────────────
+- kind: scrape
+  url: https://www.shopmyexchange.com/customer-service
+  tier: T1
+  topic: mwr
+- kind: scrape
+  url: https://odin.aafes.com/
+  tier: T1
+  topic: mwr
+  notes: AAFES gas / Esso card portal
+
+# ── DeCA / Commissary ────────────────────────────────────────────────────────
+- kind: scrape
+  url: https://www.commissaries.com/shopping/store-locator
+  tier: T1
+  topic: mwr
+  notes: store hours for Wiesbaden commissary
+
+# ── DFAS / MyPay ─────────────────────────────────────────────────────────────
+- kind: scrape
+  url: https://www.dfas.mil/MilitaryMembers/
+  tier: T1
+  topic: finance
+- kind: scrape
+  url: https://mypay.dfas.mil/
+  tier: T1
+  topic: finance
+
+# ── PCS logistics: move.mil / DPS / SmartVoucher / DTS ───────────────────────
+- kind: scrape
+  url: https://www.move.mil/
+  tier: T1
+  topic: mixed
+  notes: PCS shipment scheduling
+- kind: scrape
+  url: https://smartvoucher.dfas.mil/
+  tier: T1
+  topic: finance
+  notes: TLA voucher submission
+- kind: scrape
+  url: https://www.defensetravel.dod.mil/
+  tier: T1
+  topic: finance
+  notes: DTS — TDY in-country travel
+
+# ── FVAP — overseas voting ───────────────────────────────────────────────────
+- kind: scrape
+  url: https://www.fvap.gov/
+  tier: T1
+  topic: legal
+  notes: Federal Voting Assistance Program
+
+# ── APO/FPO + MPSA ───────────────────────────────────────────────────────────
+- kind: scrape
+  url: https://www.usps.com/ship/apo-fpo-dpo.htm
+  tier: T1
+  topic: mixed
+- kind: scrape
+  url: https://hqdainet.army.mil/mpsa/
+  tier: T1
+  topic: mixed
+
+# ── MyCAA — mil-spouse career ────────────────────────────────────────────────
+- kind: scrape
+  url: https://mycaa.militaryonesource.mil/
+  tier: T2
+  topic: family
+
+# ── DEERS / RAPIDS / CAC (closes id-cac zero-raw gap) ────────────────────────
+- kind: scrape
+  url: https://idco.dmdc.osd.mil/idco
+  tier: T1
+  topic: id-cac
+- kind: scrape
+  url: https://www.cac.mil/
+  tier: T1
+  topic: id-cac
+- kind: crawl
+  url: https://www.dmdc.osd.mil/milconnect/
+  tier: T1
+  topic: id-cac
+  limit: 25
+  notes: DEERS / DD-1172 / dependent ID
+
+# ── DODEA Europe HQ ──────────────────────────────────────────────────────────
+- kind: scrape
+  url: https://www.dodea.edu/europe/
+  tier: T1
+  topic: schools
+  notes: region-wide policy beyond per-school sites
+- kind: scrape
+  url: https://www.dodea.edu/StudentServices/
+  tier: T1
+  topic: schools
+
+# ── German bureaucracy beyond wiesbaden.de ───────────────────────────────────
+- kind: scrape
+  url: https://www.adac.de/verkehr/auto-motorrad/fuehrerschein/auslaendische-fuehrerscheine/
+  tier: T4
+  topic: vehicle
+  notes: ADAC — driver-license conversion guide
+- kind: scrape
+  url: https://www.schufa.de/en/
+  tier: T4
+  topic: finance
+  notes: German credit reporting (needed for off-post lease)
+- kind: scrape
+  url: https://www.tuev-hessen.de/privatkunden/auto-motorrad/
+  tier: T4
+  topic: vehicle
+  notes: TÜV Hessen — vehicle inspection (HU/AU)
+- kind: scrape
+  url: https://www.gesetze-im-internet.de/stvo_2013/
+  tier: T4
+  topic: vehicle
+  notes: German road traffic regulations
+
+# ── State Dept overseas driving ──────────────────────────────────────────────
+- kind: scrape
+  url: https://travel.state.gov/content/travel/en/international-travel/before-you-go/driving-and-road-safety-abroad.html
+  tier: T1
+  topic: vehicle
