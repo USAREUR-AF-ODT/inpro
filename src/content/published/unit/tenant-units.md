@@ -1,15 +1,35 @@
 ---
-title: "USAG Wiesbaden tenant units — who's where"
-summary: "V Corps HQ, 2nd Theater Signal Brigade, 66th Military Intelligence Brigade, 5th Signal Command, and a dozen more. Clay Kaserne is the main footprint; many tenants have outposts at Hainerberg and Mainz-Kastel."
+title: USAG Wiesbaden tenant units — who's where
+summary: >-
+  V Corps HQ, 2nd Theater Signal Brigade, 66th Military Intelligence Brigade, 5th Signal Command, and a dozen more. Clay Kaserne is the main footprint; many tenants have outposts at Hainerberg and
+  Mainz-Kastel.
 topic: unit
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv]
+  status:
+    - soldier
+    - daciv
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/units-tenants/usag-wiesbaden-tenant-units", label: "USAG Wiesbaden Tenant Units"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/major-units", label: "MOS — Wiesbaden Major Units"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/units-tenants/usag-wiesbaden-tenant-units
+    label: USAG Wiesbaden Tenant Units
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/major-units
+    label: MOS — Wiesbaden Major Units
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 10
 ---

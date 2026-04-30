@@ -1,17 +1,46 @@
 ---
-title: "German driver license — SOFA license vs. Führerschein conversion"
-summary: "You can drive on your US license for 6 months under SOFA. After that, convert to a USAREUR Certificate of License (on-post) or a full German Führerschein (off-post via Wiesbaden Fahrerlaubnisbehörde)."
+title: German driver license — SOFA license vs. Führerschein conversion
+summary: >-
+  You can drive on your US license for 6 months under SOFA. After that, convert to a USAREUR Certificate of License (on-post) or a full German Führerschein (off-post via Wiesbaden
+  Fahrerlaubnisbehörde).
 topic: vehicle
 phase: settle
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_pov: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_pov: 'yes'
 sources:
-  - {tier: T1, url: "https://afsbeurope.army.afpims.mil/Logistics-Readiness-Centers/LRC-Bavaria/Transporation-Division/Drivers-Testing/", label: "USAREUR Drivers Testing"}
-  - {tier: T4, url: "https://www.wiesbaden.de/en/", label: "Stadt Wiesbaden — Foreign License Conversion (non-EU)"}
-  - {tier: T4, url: "https://www.germany.info/us-en/service/09-DrivingPermits/drivers-license-exchange/930182", label: "German Embassy US — License Exchange"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://afsbeurope.army.afpims.mil/Logistics-Readiness-Centers/LRC-Bavaria/Transporation-Division/Drivers-Testing/
+    label: USAREUR Drivers Testing
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T4
+    url: https://www.wiesbaden.de/en/
+    label: Stadt Wiesbaden — Foreign License Conversion (non-EU)
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 5
+      purpose: 4
+      license: 3
+  - tier: T4
+    url: https://www.germany.info/us-en/service/09-DrivingPermits/drivers-license-exchange/930182
+    label: German Embassy US — License Exchange
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 5
+      purpose: 4
+      license: 3
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 50
 checklist: true

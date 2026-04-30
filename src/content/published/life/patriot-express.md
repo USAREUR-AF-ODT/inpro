@@ -1,14 +1,27 @@
 ---
-title: "Patriot Express and flying to Europe"
-summary: "AMC's Patriot Express connects US East Coast to Ramstein. BWI/Philadelphia/JFK → Ramstein in 7–8 hours. Space-available seats for dependents; mandatory for some orders. Plan on pets and kids friendlier than commercial, but schedule is rigid."
+title: Patriot Express and flying to Europe
+summary: >-
+  AMC's Patriot Express connects US East Coast to Ramstein. BWI/Philadelphia/JFK → Ramstein in 7–8 hours. Space-available seats for dependents; mandatory for some orders. Plan on pets and kids
+  friendlier than commercial, but schedule is rigid.
 topic: vehicle
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/getting-around", label: "USAG Wiesbaden Getting Around"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/getting-around
+    label: USAG Wiesbaden Getting Around
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 15
 ---

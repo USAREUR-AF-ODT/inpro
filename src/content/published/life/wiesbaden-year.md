@@ -1,14 +1,27 @@
 ---
-title: "The Wiesbaden year — what's happening each month"
-summary: "January quiet, March wine opening, May–June Spargelzeit, July–August vacation dead zone, September Rheingau Festival, October Oktoberfest, November Weihnachtsmarkt, December wine and food. Plan around the calendar."
+title: The Wiesbaden year — what's happening each month
+summary: >-
+  January quiet, March wine opening, May–June Spargelzeit, July–August vacation dead zone, September Rheingau Festival, October Oktoberfest, November Weihnachtsmarkt, December wine and food. Plan
+  around the calendar.
 topic: mwr
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T4, url: "https://www.wiesbaden.de/", label: "Stadt Wiesbaden events calendar"}
-last_verified: "2026-04-16"
+  - tier: T4
+    url: https://www.wiesbaden.de/
+    label: Stadt Wiesbaden events calendar
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 1
+      purpose: 4
+      license: 3
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 90
 ---

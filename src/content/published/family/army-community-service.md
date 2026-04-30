@@ -1,25 +1,62 @@
 ---
-title: "Army Community Service (ACS) — Hainerberg"
-summary: "The one-stop support hub: spouse sponsorship, lending closet, relocation readiness, financial counseling, EFMP liaison, and more. Bldg 7790, Hainerberg."
+title: Army Community Service (ACS) — Hainerberg
+summary: 'The one-stop support hub: spouse sponsorship, lending closet, relocation readiness, financial counseling, EFMP liaison, and more. Bldg 7790, Hainerberg.'
 topic: family
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/army-community-service-acs", label: "Wiesbaden ACS"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "USAG Wiesbaden 2024 Welcome Packet (PDF)", scraped: "2026-04-16"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/relocation-assistance", label: "MOS — Wiesbaden Relocation Assistance", scraped: "2026-04-16"}
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/army-community-service-acs", label: "Relocation Readiness Program"}
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/programs/army-community-service-acs
+    label: Wiesbaden ACS
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: USAG Wiesbaden 2024 Welcome Packet (PDF)
+    scraped: '2026-04-16'
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/relocation-assistance
+    label: MOS — Wiesbaden Relocation Assistance
+    scraped: '2026-04-16'
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/programs/army-community-service-acs
+    label: Relocation Readiness Program
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
 poc:
   - name: Army Community Service (ACS) — Hainerberg
-    dsn: "548-9201"
-    phone: "+49-611-143-548-9201"
-    email: "usarmy.wiesbaden.imcom-europe.mbx.mwr-acs@mail.mil"
-    address: "Mississippi Straße 22, Bldg 7790, Hainerberg Housing, Wiesbaden"
-    maps_query: "Hainerberg Housing Bldg 7790 Wiesbaden"
-    hours: "Mon/Tue/Wed/Fri 0800–1700. Thu: appointments only until 1300. Closed U.S. federal holidays."
-last_verified: "2026-04-16"
+    dsn: 548-9201
+    phone: +49-611-143-548-9201
+    email: usarmy.wiesbaden.imcom-europe.mbx.mwr-acs@mail.mil
+    address: Mississippi Straße 22, Bldg 7790, Hainerberg Housing, Wiesbaden
+    maps_query: Hainerberg Housing Bldg 7790 Wiesbaden
+    hours: 'Mon/Tue/Wed/Fri 0800–1700. Thu: appointments only until 1300. Closed U.S. federal holidays.'
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 10
 ---

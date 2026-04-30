@@ -1,14 +1,27 @@
 ---
-title: "Restaurants and food — opinion, not policy"
-summary: "Wiesbaden is a food town. This page is opinion, not garrison policy: where to eat, what to order, and which neighborhoods actually reward wandering. Takes are specific to make them disagree-able; your taste varies."
+title: Restaurants and food — opinion, not policy
+summary: >-
+  Wiesbaden is a food town. This page is opinion, not garrison policy: where to eat, what to order, and which neighborhoods actually reward wandering. Takes are specific to make them disagree-able;
+  your taste varies.
 topic: mwr
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/", label: "Wiesbaden MWR (for AAFES food)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/
+    label: Wiesbaden MWR (for AAFES food)
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 1
+last_verified: '2026-04-16'
 poc_volatile: false
 opinion: true
 order: 95

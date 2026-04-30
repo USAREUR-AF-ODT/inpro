@@ -1,16 +1,45 @@
 ---
-title: "Rundfunkbeitrag — the German TV/radio fee and how SOFA families avoid it"
-summary: "€18.36/month per German dwelling, not per person or device, funds public broadcasting (ARD, ZDF, Deutschlandradio). SOFA-status personnel are exempt but must apply with a Beitragsservice exemption form plus SOFA ID. Paying when you don't owe is the default failure mode."
+title: Rundfunkbeitrag — the German TV/radio fee and how SOFA families avoid it
+summary: >-
+  €18.36/month per German dwelling, not per person or device, funds public broadcasting (ARD, ZDF, Deutschlandradio). SOFA-status personnel are exempt but must apply with a Beitragsservice exemption
+  form plus SOFA ID. Paying when you don't owe is the default failure mode.
 topic: legal
 phase: settle
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T4, url: "https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/formulare/anmelden", label: "Rundfunkbeitrag — Anmelden (Beitragsservice)"}
-  - {tier: T4, url: "https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/formulare/abmelden", label: "Rundfunkbeitrag — Abmelden"}
-  - {tier: T2, url: "https://www.militaryonesource.mil/family-relationships/family-life/keeping-your-family-strong/sofa/", label: "Military OneSource — SOFA"}
-last_verified: "2026-04-20"
+  - tier: T4
+    url: https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/formulare/anmelden
+    label: Rundfunkbeitrag — Anmelden (Beitragsservice)
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T4
+    url: https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/formulare/abmelden
+    label: Rundfunkbeitrag — Abmelden
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T2
+    url: https://www.militaryonesource.mil/family-relationships/family-life/keeping-your-family-strong/sofa/
+    label: Military OneSource — SOFA
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 4
+      purpose: 3
+      license: 5
+last_verified: '2026-04-20'
 poc_volatile: false
 order: 25
 checklist: true

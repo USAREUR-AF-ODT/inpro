@@ -1,15 +1,36 @@
 ---
-title: "Chapel and religious services"
-summary: "USAG Wiesbaden's Religious Support Office coordinates Protestant, Catholic, Jewish, and ecumenical services on Clay Kaserne and Hainerberg. Off-post English-language congregations exist for most traditions."
+title: Chapel and religious services
+summary: >-
+  USAG Wiesbaden's Religious Support Office coordinates Protestant, Catholic, Jewish, and ecumenical services on Clay Kaserne and Hainerberg. Off-post English-language congregations exist for most
+  traditions.
 topic: religious
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/garrison/rso", label: "USAG Wiesbaden Religious Support Office"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet (PDF)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/garrison/rso
+    label: USAG Wiesbaden Religious Support Office
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 10
 ---

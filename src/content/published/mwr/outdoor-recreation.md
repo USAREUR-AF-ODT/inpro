@@ -1,22 +1,43 @@
 ---
-title: "Outdoor Recreation (ODR) — Europe trips, gear rental, travel hub"
-summary: "ODR Wiesbaden runs weekend bus trips across Europe and rents camping, biking, skiing, watersport, and party gear at MWR rates. Clay Kaserne location. Book trips 4–8 weeks out; popular weekends (Oktoberfest, Christmas markets) fill within hours."
+title: Outdoor Recreation (ODR) — Europe trips, gear rental, travel hub
+summary: >-
+  ODR Wiesbaden runs weekend bus trips across Europe and rents camping, biking, skiing, watersport, and party gear at MWR rates. Clay Kaserne location. Book trips 4–8 weeks out; popular weekends
+  (Oktoberfest, Christmas markets) fill within hours.
 topic: mwr
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 poc:
   - name: Wiesbaden Outdoor Recreation (ODR)
-    dsn: "548-9830"
-    phone: "+49-611-143-548-9830"
-    address: "Clay Kaserne, Wiesbaden 65205"
-    maps_query: "Clay Kaserne Wiesbaden Outdoor Recreation"
-    hours: "Tue–Fri 1000–1800; Sat 0900–1700; Sun/Mon closed (verify seasonally)"
+    dsn: 548-9830
+    phone: +49-611-143-548-9830
+    address: Clay Kaserne, Wiesbaden 65205
+    maps_query: Clay Kaserne Wiesbaden Outdoor Recreation
+    hours: Tue–Fri 1000–1800; Sat 0900–1700; Sun/Mon closed (verify seasonally)
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/", label: "Wiesbaden MWR (portal)"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/garrison/family-and-mwr", label: "USAG Wiesbaden MWR directorate"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/
+    label: Wiesbaden MWR (portal)
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/garrison/family-and-mwr
+    label: USAG Wiesbaden MWR directorate
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 20
 ---

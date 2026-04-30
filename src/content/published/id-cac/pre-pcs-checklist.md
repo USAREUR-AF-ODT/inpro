@@ -1,15 +1,36 @@
 ---
-title: "Pre-PCS — the 90-day checklist"
-summary: "90 days before you fly: orders in hand, EFMP current, sponsor assigned, pets prepped, POV scheduled, HHG briefed. 30 days before: passports, immunizations, electronics audit, school records. Print this."
+title: Pre-PCS — the 90-day checklist
+summary: >-
+  90 days before you fly: orders in hand, EFMP current, sponsor assigned, pets prepped, POV scheduled, HHG briefed. 30 days before: passports, immunizations, electronics audit, school records. Print
+  this.
 topic: id-cac
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/relocation-assistance", label: "MOS — Wiesbaden Relocation Assistance"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers", label: "USAG Wiesbaden Newcomers"}
-last_verified: "2026-04-16"
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/relocation-assistance
+    label: MOS — Wiesbaden Relocation Assistance
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers
+    label: USAG Wiesbaden Newcomers
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 checklist: true
 order: 4

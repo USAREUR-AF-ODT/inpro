@@ -1,17 +1,54 @@
 ---
-title: "Banking strategy — US military banks, Community Bank, and German Sparkasse"
-summary: "Keep a US bank (USAA, Navy Federal, Andrews FCU) for DFAS pay and ATM access. Add Community Bank on-post for checks/cash. Consider a German bank (Sparkasse, Deutsche Bank, or Commerzbank) only if you need SEPA outflow or a landlord insists on IBAN. Dual is standard."
+title: Banking strategy — US military banks, Community Bank, and German Sparkasse
+summary: >-
+  Keep a US bank (USAA, Navy Federal, Andrews FCU) for DFAS pay and ATM access. Add Community Bank on-post for checks/cash. Consider a German bank (Sparkasse, Deutsche Bank, or Commerzbank) only if
+  you need SEPA outflow or a landlord insists on IBAN. Dual is standard.
 topic: finance
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://www.dodcommunitybank.com/", label: "Community Bank (DoW overseas banking)"}
-  - {tier: T1, url: "https://www.usaa.com/inet/wc/international_overseas_banking", label: "USAA Overseas"}
-  - {tier: T1, url: "https://www.navyfederal.org/services/global-banking.html", label: "Navy Federal Global Banking"}
-  - {tier: T4, url: "https://www.sparkasse-wiesbaden.de/", label: "Sparkasse Wiesbaden (Nassauische Sparkasse)"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://www.dodcommunitybank.com/
+    label: Community Bank (DoW overseas banking)
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://www.usaa.com/inet/wc/international_overseas_banking
+    label: USAA Overseas
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://www.navyfederal.org/services/global-banking.html
+    label: Navy Federal Global Banking
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T4
+    url: https://www.sparkasse-wiesbaden.de/
+    label: Sparkasse Wiesbaden (Nassauische Sparkasse)
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 5
+      purpose: 4
+      license: 3
+last_verified: '2026-04-20'
 poc_volatile: false
 order: 10
 ---

@@ -1,14 +1,27 @@
 ---
-title: "Internet and mobile phone setup"
-summary: "Deutsche Telekom or 1&1 for home internet; O2, Vodafone, or a prepaid SIM for mobile. Contracts run 24 months and auto-renew — beware. For short-term, a prepaid SIM costs €10–€30/month with good coverage."
+title: Internet and mobile phone setup
+summary: >-
+  Deutsche Telekom or 1&1 for home internet; O2, Vodafone, or a prepaid SIM for mobile. Contracts run 24 months and auto-renew — beware. For short-term, a prepaid SIM costs €10–€30/month with good
+  coverage.
 topic: legal
 phase: settle
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet (PDF)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 45
 checklist: true

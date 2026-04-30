@@ -1,24 +1,43 @@
 ---
-title: "VAT forms — how to not pay German tax"
-summary: "19% off most purchases if you use VAT forms correctly. NF-1 ($5) for anything under €2,500; NF-2 ($65) for single purchases above. Forms purchased at Bldg 1023E, Clay Kaserne."
+title: VAT forms — how to not pay German tax
+summary: 19% off most purchases if you use VAT forms correctly. NF-1 ($5) for anything under €2,500; NF-2 ($65) for single purchases above. Forms purchased at Bldg 1023E, Clay Kaserne.
 topic: finance
 phase: settle
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/value-added-tax-vat", label: "Wiesbaden MWR VAT program"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet (PDF)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/programs/value-added-tax-vat
+    label: Wiesbaden MWR VAT program
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 30
 poc:
   - name: VAT Office
-    dsn: "548-9107"
-    phone: "+49-611-143-548-9107"
-    address: "Bldg 1023 East, Room 151, Clay Kaserne, Wiesbaden"
-    maps_query: "Clay Kaserne Building 1023 Wiesbaden"
-    hours: "Call for current hours; appointments preferred"
+    dsn: 548-9107
+    phone: +49-611-143-548-9107
+    address: Bldg 1023 East, Room 151, Clay Kaserne, Wiesbaden
+    maps_query: Clay Kaserne Building 1023 Wiesbaden
+    hours: Call for current hours; appointments preferred
 checklist: true
 ---
 

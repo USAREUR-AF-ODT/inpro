@@ -1,24 +1,40 @@
 ---
-title: "Wiesbaden Veterinary Treatment Facility (VTF)"
-summary: "Primary care + preventive for pets of military personnel. Bldg 1038, Wurger St., Clay Kaserne. Tue/Thu 0800–1600, Wed 0800–1200. Emergency pet care goes to civilian Tierklinik — not the VTF."
+title: Wiesbaden Veterinary Treatment Facility (VTF)
+summary: Primary care + preventive for pets of military personnel. Bldg 1038, Wurger St., Clay Kaserne. Tue/Thu 0800–1600, Wed 0800–1200. Emergency pet care goes to civilian Tierklinik — not the VTF.
 topic: pets
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  has_pets: yes
+  has_pets: 'yes'
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet — Vet Info"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/moving/shipping-pets", label: "MOS — Wiesbaden Pets"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet — Vet Info
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/moving/shipping-pets
+    label: MOS — Wiesbaden Pets
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 20
 poc:
   - name: Wiesbaden Veterinary Treatment Facility (VTF)
-    dsn: "546-0700"
-    phone: "+49-611-143-546-0700"
-    address: "Bldg 1038, Wurger St., Clay Kaserne, Wiesbaden"
-    maps_query: "Clay Kaserne Building 1038 Wiesbaden"
-    hours: "Tue 0800–1600, Wed 0800–1200, Thu 0800–1600. Last Thu inventory closure 1200 onward. Closed U.S. federal holidays."
+    dsn: 546-0700
+    phone: +49-611-143-546-0700
+    address: Bldg 1038, Wurger St., Clay Kaserne, Wiesbaden
+    maps_query: Clay Kaserne Building 1038 Wiesbaden
+    hours: Tue 0800–1600, Wed 0800–1200, Thu 0800–1600. Last Thu inventory closure 1200 onward. Closed U.S. federal holidays.
 ---
 
 ## What

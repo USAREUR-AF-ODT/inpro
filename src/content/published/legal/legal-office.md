@@ -1,18 +1,63 @@
 ---
-title: "Legal Office — wills, POA, notary, and divorce"
-summary: "The on-post Legal Assistance Office handles wills, powers of attorney, notary, and legal counseling free for Active Duty + dependents. For non-military legal matters (German criminal defense, immigration), you need a German attorney."
+title: Legal Office — wills, POA, notary, and divorce
+summary: >-
+  The on-post Legal Assistance Office handles wills, powers of attorney, notary, and legal counseling free for Active Duty + dependents. For non-military legal matters (German criminal defense,
+  immigration), you need a German attorney.
 topic: legal
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden", label: "USAG Wiesbaden Legal Office"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/legal/legal-assistance", label: "MOS — Wiesbaden Legal Assistance"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/2415/3838/8595/Legal_Home_of_Record.pdf", label: "Home of Record (PDF)"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/6415/3838/8596/Legal_Loss_in_Quarters.pdf", label: "Loss in Quarters (PDF)"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/9615/3838/8594/Legal_Divorce_Overseas.pdf", label: "Divorce Overseas (PDF)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden
+    label: USAG Wiesbaden Legal Office
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/legal/legal-assistance
+    label: MOS — Wiesbaden Legal Assistance
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/2415/3838/8595/Legal_Home_of_Record.pdf
+    label: Home of Record (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/6415/3838/8596/Legal_Loss_in_Quarters.pdf
+    label: Loss in Quarters (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/9615/3838/8594/Legal_Divorce_Overseas.pdf
+    label: Divorce Overseas (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 30
 ---

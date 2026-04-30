@@ -1,19 +1,63 @@
 ---
-title: "School Liaison Office (SLO)"
-summary: "Your single POC for DoDEA enrollment, transfer records, and German-school questions. Contact the SLO before you finalize housing — school catchments drive where you can live."
+title: School Liaison Office (SLO)
+summary: Your single POC for DoDEA enrollment, transfer records, and German-school questions. Contact the SLO before you finalize housing — school catchments drive where you can live.
 topic: schools
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_kids: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_kids: 'yes'
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/happenings/school-liaison-office", label: "Wiesbaden SLO — Army MWR"}
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/application/files/8417/5508/3851/ArmyEuropeSLO-PCSGuide.pdf", label: "Army Europe SLO PCS Guide (PDF)", scraped: "2026-04-16"}
-  - {tier: T1, url: "https://www.dodea.edu/europe/eu-central/wiesbaden-community-schools", label: "DoDEA Wiesbaden Community Schools"}
-  - {tier: T1, url: "https://wiesbadenhs.dodea.edu/registration/registration-process-eligibility-and-enrollment", label: "Wiesbaden HS Registration"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/education/education", label: "MOS — Wiesbaden Education"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/happenings/school-liaison-office
+    label: Wiesbaden SLO — Army MWR
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/application/files/8417/5508/3851/ArmyEuropeSLO-PCSGuide.pdf
+    label: Army Europe SLO PCS Guide (PDF)
+    scraped: '2026-04-16'
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://www.dodea.edu/europe/eu-central/wiesbaden-community-schools
+    label: DoDEA Wiesbaden Community Schools
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://wiesbadenhs.dodea.edu/registration/registration-process-eligibility-and-enrollment
+    label: Wiesbaden HS Registration
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/education/education
+    label: MOS — Wiesbaden Education
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 10
 ---

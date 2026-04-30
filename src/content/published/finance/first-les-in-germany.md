@@ -1,16 +1,44 @@
 ---
-title: "Your first LES in Germany — reading the paycheck"
-summary: "Your first LES after PCS hits with OHA, COLA, TLA, and possibly a travel voucher — all USD, all untaxed. Expect confusion; expect 30–60 days for it to stabilize. File your travel voucher within 5 days of arrival."
+title: Your first LES in Germany — reading the paycheck
+summary: >-
+  Your first LES after PCS hits with OHA, COLA, TLA, and possibly a travel voucher — all USD, all untaxed. Expect confusion; expect 30–60 days for it to stabilize. File your travel voucher within 5
+  days of arrival.
 topic: finance
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv]
+  status:
+    - soldier
+    - daciv
 sources:
-  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library", label: "MyArmyBenefits — OHA"}
-  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library", label: "MyArmyBenefits — COLA"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/financial-assistance", label: "MOS — Wiesbaden Financial Assistance"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://myarmybenefits.us.army.mil/Benefit-Library
+    label: MyArmyBenefits — OHA
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://myarmybenefits.us.army.mil/Benefit-Library
+    label: MyArmyBenefits — COLA
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/financial-assistance
+    label: MOS — Wiesbaden Financial Assistance
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 checklist: true
 order: 30

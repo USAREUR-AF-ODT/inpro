@@ -1,17 +1,46 @@
 ---
-title: "DoDEA sports and extracurriculars — USAREUR-AF travel circuit"
-summary: "Wiesbaden HS fields 15+ varsity sports, traveling across Germany, Italy, UK, and Belgium. Middle school runs intramurals and select varsity. JROTC, ~30 clubs. Tryouts are early; physicals required. Travel costs split between DoDEA and families."
+title: DoDEA sports and extracurriculars — USAREUR-AF travel circuit
+summary: >-
+  Wiesbaden HS fields 15+ varsity sports, traveling across Germany, Italy, UK, and Belgium. Middle school runs intramurals and select varsity. JROTC, ~30 clubs. Tryouts are early; physicals required.
+  Travel costs split between DoDEA and families.
 topic: schools
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_kids: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_kids: 'yes'
 sources:
-  - {tier: T1, url: "https://wiesbadenhs.dodea.edu/", label: "Wiesbaden High School"}
-  - {tier: T1, url: "https://wiesbadenms.dodea.edu/", label: "Wiesbaden Middle School"}
-  - {tier: T1, url: "https://www.dodea.edu/europe/eu-central/wiesbaden-community-schools", label: "DoDEA Wiesbaden Community Schools"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://wiesbadenhs.dodea.edu/
+    label: Wiesbaden High School
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://wiesbadenms.dodea.edu/
+    label: Wiesbaden Middle School
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://www.dodea.edu/europe/eu-central/wiesbaden-community-schools
+    label: DoDEA Wiesbaden Community Schools
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 30
 ---

@@ -1,17 +1,46 @@
 ---
-title: "Shipping your POV to Wiesbaden"
-summary: "4–8 weeks transit, one POV free per SOFA-status Soldier/DACiv, two for accompanied married. Drop it off at your losing VPC before you fly. Pick it up at the Bremerhaven / Emden VPC or have it delivered to Wiesbaden."
+title: Shipping your POV to Wiesbaden
+summary: >-
+  4–8 weeks transit, one POV free per SOFA-status Soldier/DACiv, two for accompanied married. Drop it off at your losing VPC before you fly. Pick it up at the Bremerhaven / Emden VPC or have it
+  delivered to Wiesbaden.
 topic: vehicle
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_pov: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_pov: 'yes'
 sources:
-  - {tier: T1, url: "https://www.afsbeurope.army.mil/Logistics-Readiness-Centers/Personal-Property-and-POV/", label: "Army LRC Europe — POV shipment"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/transportation/motor-vehicles", label: "MOS — Wiesbaden Motor Vehicles"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/getting-around", label: "USAG Wiesbaden — Getting Around"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://www.afsbeurope.army.mil/Logistics-Readiness-Centers/Personal-Property-and-POV/
+    label: Army LRC Europe — POV shipment
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/transportation/motor-vehicles
+    label: MOS — Wiesbaden Motor Vehicles
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/getting-around
+    label: USAG Wiesbaden — Getting Around
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 20
 checklist: true

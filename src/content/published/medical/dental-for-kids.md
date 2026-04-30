@@ -1,26 +1,55 @@
 ---
-title: "Dental care for kids — ARHC clinic, DoDEA screenings, and off-post Zahnärzte"
-summary: "ARHC Dental sees ADFM kids for routine cleanings when space allows. DoDEA runs annual screenings. Complex care (orthodontics, sedation, emergency) goes to a Wiesbaden pediatric Zahnarzt. TRICARE Dental Program (United Concordia) reimburses off-post costs at 50–100% by category."
+title: Dental care for kids — ARHC clinic, DoDEA screenings, and off-post Zahnärzte
+summary: >-
+  ARHC Dental sees ADFM kids for routine cleanings when space allows. DoDEA runs annual screenings. Complex care (orthodontics, sedation, emergency) goes to a Wiesbaden pediatric Zahnarzt. TRICARE
+  Dental Program (United Concordia) reimburses off-post costs at 50–100% by category.
 topic: medical
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_kids: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_kids: 'yes'
 poc:
   - name: ARHC Wiesbaden Dental Clinic
-    dsn: "548-9999"
-    phone: "+49-611-143-548-9999"
-    address: "Clay Kaserne, Wiesbaden 65205"
-    hours: "Mon–Fri duty hours; emergency via clinic after-hours line"
+    dsn: 548-9999
+    phone: +49-611-143-548-9999
+    address: Clay Kaserne, Wiesbaden 65205
+    hours: Mon–Fri duty hours; emergency via clinic after-hours line
   - name: TRICARE Dental Program (TDP) — United Concordia
-    phone: "1-844-653-4061 (CONUS line, international callback available)"
-    hours: "24/7 claim submission"
+    phone: 1-844-653-4061 (CONUS line, international callback available)
+    hours: 24/7 claim submission
 sources:
-  - {tier: T1, url: "https://wiesbaden.tricare.mil/Health-Services/Dental", label: "ARHC Wiesbaden Dental"}
-  - {tier: T1, url: "https://www.uccitdp.com/dtwb/", label: "TRICARE Dental Program (United Concordia)"}
-  - {tier: T1, url: "https://www.dodea.edu/StudentServices/HealthWellness/", label: "DoDEA Student Health and Wellness"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://wiesbaden.tricare.mil/Health-Services/Dental
+    label: ARHC Wiesbaden Dental
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://www.uccitdp.com/dtwb/
+    label: TRICARE Dental Program (United Concordia)
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://www.dodea.edu/StudentServices/HealthWellness/
+    label: DoDEA Student Health and Wellness
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 15
 ---

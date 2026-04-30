@@ -1,28 +1,65 @@
 ---
-title: "Education Center — ACES, TA, GI Bill, and on-post college programs"
-summary: "Clay Kaserne Education Center administers Tuition Assistance, GI Bill counseling, CLEP/DSST/APT testing, and UMGC/Troy/UMD campus classes. Walk-in counseling during duty hours. Spouses and retirees served for most programs. Start 30+ days before your first class."
+title: Education Center — ACES, TA, GI Bill, and on-post college programs
+summary: >-
+  Clay Kaserne Education Center administers Tuition Assistance, GI Bill counseling, CLEP/DSST/APT testing, and UMGC/Troy/UMD campus classes. Walk-in counseling during duty hours. Spouses and retirees
+  served for most programs. Start 30+ days before your first class.
 topic: id-cac
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 poc:
   - name: Wiesbaden Education Center (ACES)
-    address: "Clay Kaserne, Wiesbaden 65205"
-    maps_query: "Clay Kaserne Wiesbaden Education Center"
-    hours: "Mon–Fri duty hours; walk-in counseling available"
+    address: Clay Kaserne, Wiesbaden 65205
+    maps_query: Clay Kaserne Wiesbaden Education Center
+    hours: Mon–Fri duty hours; walk-in counseling available
   - name: UMGC Wiesbaden (University of Maryland Global Campus)
-    dsn: "548-1315"
-    email: "NTCWiesbaden-europe@umgc.edu"
-    address: "Clay Kaserne, Wiesbaden 65205"
+    dsn: 548-1315
+    email: NTCWiesbaden-europe@umgc.edu
+    address: Clay Kaserne, Wiesbaden 65205
   - name: Education Testing (APT scheduling)
-    email: "usarmy.wiesbaden-germany.id-europe.mbx.education-testing@army.mil"
+    email: usarmy.wiesbaden-germany.id-europe.mbx.education-testing@army.mil
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/Garrison/directorate-human-resources/education_center", label: "USAG Wiesbaden Education Center"}
-  - {tier: T1, url: "http://www.benefits.va.gov/gibill/", label: "VA GI Bill benefits"}
-  - {tier: T1, url: "https://europe.umgc.edu/locations/germany-wiesbaden", label: "UMGC Europe — Wiesbaden"}
-  - {tier: T1, url: "https://jst.doded.mil/", label: "Joint Services Transcript"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/Garrison/directorate-human-resources/education_center
+    label: USAG Wiesbaden Education Center
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: http://www.benefits.va.gov/gibill/
+    label: VA GI Bill benefits
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://europe.umgc.edu/locations/germany-wiesbaden
+    label: UMGC Europe — Wiesbaden
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://jst.doded.mil/
+    label: Joint Services Transcript
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 15
 ---

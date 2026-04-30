@@ -1,24 +1,43 @@
 ---
-title: "Dental care — on-post for AD, off-post for everyone else"
-summary: "Active Duty use the Wiesbaden Dental Clinic (DSN 590-1515). Dependents enroll in TRICARE Dental Program (TDP) and see off-post German dentists. TDP coverage is strong; German dentistry is excellent."
+title: Dental care — on-post for AD, off-post for everyone else
+summary: Active Duty use the Wiesbaden Dental Clinic (DSN 590-1515). Dependents enroll in TRICARE Dental Program (TDP) and see off-post German dentists. TDP coverage is strong; German dentistry is excellent.
 topic: medical
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet (PDF)"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care", label: "MOS — Wiesbaden Health Care"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care
+    label: MOS — Wiesbaden Health Care
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 40
 poc:
   - name: Wiesbaden Dental Clinic
-    dsn: "590-1515"
-    phone: "+49-6371-9464-1515"
-    address: "Clay Kaserne, Bldg 1040 complex, Wiesbaden"
-    maps_query: "Clay Kaserne Building 1040 Wiesbaden"
-    hours: "Mon–Fri business hours; call for current appointment availability"
+    dsn: 590-1515
+    phone: +49-6371-9464-1515
+    address: Clay Kaserne, Bldg 1040 complex, Wiesbaden
+    maps_query: Clay Kaserne Building 1040 Wiesbaden
+    hours: Mon–Fri business hours; call for current appointment availability
 ---
 
 ## What

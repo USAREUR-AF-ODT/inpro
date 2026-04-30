@@ -1,23 +1,52 @@
 ---
-title: "Pharmacy workflow — ARHC pharmacy, German Apotheke, and OTC differences"
-summary: "ARHC pharmacy fills most TRICARE prescriptions on-post at no cost. German Apotheken fill prescriptions off-post (most TRICARE-reimbursable). OTC in Germany is tighter — many US OTC drugs are pharmacist-only. Learn the dual system before you're sick."
+title: Pharmacy workflow — ARHC pharmacy, German Apotheke, and OTC differences
+summary: >-
+  ARHC pharmacy fills most TRICARE prescriptions on-post at no cost. German Apotheken fill prescriptions off-post (most TRICARE-reimbursable). OTC in Germany is tighter — many US OTC drugs are
+  pharmacist-only. Learn the dual system before you're sick.
 topic: medical
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 poc:
   - name: Army Health Clinic Wiesbaden (ARHC) Pharmacy
-    address: "Clay Kaserne, Wiesbaden 65205"
-    hours: "Mon–Fri duty hours; refills online or via drive-through"
+    address: Clay Kaserne, Wiesbaden 65205
+    hours: Mon–Fri duty hours; refills online or via drive-through
   - name: TRICARE Overseas Service Center (Germany)
-    phone: "International Medical Group (IMG) 1-877-451-8659"
-    hours: "24/7 TRICARE Overseas"
+    phone: International Medical Group (IMG) 1-877-451-8659
+    hours: 24/7 TRICARE Overseas
 sources:
-  - {tier: T1, url: "https://wiesbaden.tricare.mil/Health-Services/Pharmacy", label: "ARHC Wiesbaden Pharmacy"}
-  - {tier: T1, url: "https://www.tricare-overseas.com/", label: "TRICARE Overseas"}
-  - {tier: T4, url: "https://www.aponet.de/", label: "Aponet.de — German pharmacy finder (Notdienst)"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://wiesbaden.tricare.mil/Health-Services/Pharmacy
+    label: ARHC Wiesbaden Pharmacy
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://www.tricare-overseas.com/
+    label: TRICARE Overseas
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T4
+    url: https://www.aponet.de/
+    label: Aponet.de — German pharmacy finder (Notdienst)
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 5
+      purpose: 4
+      license: 3
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 20
 ---

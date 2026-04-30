@@ -1,14 +1,27 @@
 ---
-title: "Why Wiesbaden is the best PCS in USAREUR"
-summary: "Hot take: Wiesbaden is the best US Army posting in Europe. Warm wine country, mild weather, Frankfurt airport, walkable city, world-class hospitals. Other garrisons aren't bad — Wiesbaden is just better."
+title: Why Wiesbaden is the best PCS in USAREUR
+summary: >-
+  Hot take: Wiesbaden is the best US Army posting in Europe. Warm wine country, mild weather, Frankfurt airport, walkable city, world-class hospitals. Other garrisons aren't bad — Wiesbaden is just
+  better.
 topic: mwr
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/", label: "USAG Wiesbaden"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/
+    label: USAG Wiesbaden
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 opinion: true
 order: 2

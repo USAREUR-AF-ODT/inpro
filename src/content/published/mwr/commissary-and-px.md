@@ -1,16 +1,45 @@
 ---
-title: "Commissary, PX, and Shoppette — the on-post shopping economy"
-summary: "Tax-free US brands at DeCA Commissary. PX (AAFES) for electronics, clothing, home goods, and restaurant food court. Shoppette is a convenience store and gas station rolled together. Hainerberg is the main complex."
+title: Commissary, PX, and Shoppette — the on-post shopping economy
+summary: >-
+  Tax-free US brands at DeCA Commissary. PX (AAFES) for electronics, clothing, home goods, and restaurant food court. Shoppette is a convenience store and gas station rolled together. Hainerberg is
+  the main complex.
 topic: mwr
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/", label: "Wiesbaden MWR"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet (PDF)"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/morale-welfare-and-recreation/morale-welfare-and-recreation", label: "MOS — Wiesbaden MWR"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/
+    label: Wiesbaden MWR
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/morale-welfare-and-recreation/morale-welfare-and-recreation
+    label: MOS — Wiesbaden MWR
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 20
 ---

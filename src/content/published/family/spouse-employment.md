@@ -1,17 +1,42 @@
 ---
-title: "Spouse employment in Wiesbaden"
-summary: "NAF and GS jobs on-post are the easiest route. Working on the German economy requires an Arbeitserlaubnis. Remote US work is often simplest. ACS ERP, MSEP, and MyCAA all help."
+title: Spouse employment in Wiesbaden
+summary: NAF and GS jobs on-post are the easiest route. Working on the German economy requires an Arbeitserlaubnis. Remote US work is often simplest. ACS ERP, MSEP, and MyCAA all help.
 topic: family
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [family]
-  accompanied: yes
+  status:
+    - family
+  accompanied: 'yes'
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/employment", label: "Wiesbaden MWR Employment"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/employment", label: "MOS — Wiesbaden Employment"}
-  - {tier: T1, url: "https://msepjobs.militaryonesource.mil/msep/", label: "Military Spouse Employment Partnership (MSEP)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/employment
+    label: Wiesbaden MWR Employment
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/employment
+    label: MOS — Wiesbaden Employment
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+  - tier: T1
+    url: https://msepjobs.militaryonesource.mil/msep/
+    label: Military Spouse Employment Partnership (MSEP)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 35
 ---

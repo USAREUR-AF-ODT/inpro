@@ -1,15 +1,36 @@
 ---
-title: "How to be a good sponsor"
-summary: "You were picked because you've been here. Your job isn't to re-welcome them to the Army — it's to answer the stupid questions they're afraid to ask their unit. Reach out 60 days before, meet them at baggage claim if you can, and stay reachable for week one."
+title: How to be a good sponsor
+summary: >-
+  You were picked because you've been here. Your job isn't to re-welcome them to the Army — it's to answer the stupid questions they're afraid to ask their unit. Reach out 60 days before, meet them at
+  baggage claim if you can, and stay reachable for week one.
 topic: family
 phase: sponsors
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/sponsorship-pcs-moves", label: "USAG Wiesbaden Sponsorship"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/6416/1357/2419/USAG_Wiesbaden_COVID_Supplementary_Sponsor_Checklist_20210122.pdf", label: "Sponsor Checklist Template (PDF)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers/sponsorship-pcs-moves
+    label: USAG Wiesbaden Sponsorship
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/6416/1357/2419/USAG_Wiesbaden_COVID_Supplementary_Sponsor_Checklist_20210122.pdf
+    label: Sponsor Checklist Template (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 1
 ---

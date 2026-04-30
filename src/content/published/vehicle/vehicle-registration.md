@@ -1,27 +1,56 @@
 ---
-title: "Vehicle Registration (DES / RMV)"
-summary: "Every POV registered in Germany goes through DES Registration of Motor Vehicles. Bring orders, insurance, US title, and $45/year. Inspection required first."
+title: Vehicle Registration (DES / RMV)
+summary: Every POV registered in Germany goes through DES Registration of Motor Vehicles. Bring orders, insurance, US title, and $45/year. Inspection required first.
 topic: vehicle
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_pov: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_pov: 'yes'
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/Garrison/DES/vehicle-registration", label: "USAG Wiesbaden DES Vehicle Registration"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "USAG Wiesbaden 2024 Welcome Packet (PDF)", scraped: "2026-04-16"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/transportation/motor-vehicles", label: "MilitaryOneSource — Wiesbaden Motor Vehicles", scraped: "2026-04-16"}
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/Garrison/DES/vehicle-registration
+    label: USAG Wiesbaden DES Vehicle Registration
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: USAG Wiesbaden 2024 Welcome Packet (PDF)
+    scraped: '2026-04-16'
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/transportation/motor-vehicles
+    label: MilitaryOneSource — Wiesbaden Motor Vehicles
+    scraped: '2026-04-16'
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
 poc:
   - name: Registration of Motor Vehicles (RMV) — Main Office
-    dsn: "548-7815"
-    phone: "+49-611-143-548-7815"
-    address: "Bldg 1182, North Clay Kaserne, Wiesbaden"
-    maps_query: "Clay Kaserne Building 1182 Wiesbaden"
-    hours: "Mon–Fri 0730–1500 (walk-in or appointment). Closed last working day of each month for inventory. Closed U.S. federal holidays and German holidays."
+    dsn: 548-7815
+    phone: +49-611-143-548-7815
+    address: Bldg 1182, North Clay Kaserne, Wiesbaden
+    maps_query: Clay Kaserne Building 1182 Wiesbaden
+    hours: Mon–Fri 0730–1500 (walk-in or appointment). Closed last working day of each month for inventory. Closed U.S. federal holidays and German holidays.
   - name: RMV Satellite Office
-    address: "Bldg 1023 East, Room 151, Clay Kaserne"
-    hours: "Same as main office"
-last_verified: "2026-04-16"
+    address: Bldg 1023 East, Room 151, Clay Kaserne
+    hours: Same as main office
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 10
 checklist: true

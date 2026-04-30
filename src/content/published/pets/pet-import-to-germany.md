@@ -1,25 +1,49 @@
 ---
-title: "Bringing pets to Germany"
-summary: "ISO-compatible microchip, rabies vaccine, USDA-endorsed EU health certificate issued within 10 days of travel. No quarantine for dogs/cats from the US. Plan 3–4 months of prep."
+title: Bringing pets to Germany
+summary: ISO-compatible microchip, rabies vaccine, USDA-endorsed EU health certificate issued within 10 days of travel. No quarantine for dogs/cats from the US. Plan 3–4 months of prep.
 topic: pets
 phase: before
 usag: wiesbaden
 profile_tags:
-  has_pets: yes
+  has_pets: 'yes'
 sources:
-  - {tier: T1, url: "https://www.aphis.usda.gov/pet-travel/us-to-another-country/export-pet-travel-us-germany", label: "USDA APHIS — Pet Travel US to Germany"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/moving/shipping-pets", label: "MOS — Wiesbaden Shipping Pets"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet (PDF) — Vet info"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://www.aphis.usda.gov/pet-travel/us-to-another-country/export-pet-travel-us-germany
+    label: USDA APHIS — Pet Travel US to Germany
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/moving/shipping-pets
+    label: MOS — Wiesbaden Shipping Pets
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet (PDF) — Vet info
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 10
 poc:
   - name: Wiesbaden Veterinary Treatment Facility (VTF)
-    dsn: "546-0700"
-    phone: "+49-611-143-546-0700"
-    address: "Bldg 1038, Wurger St., Clay Kaserne, Wiesbaden"
-    maps_query: "Clay Kaserne Building 1038 Wiesbaden"
-    hours: "Tue/Thu 0800–1600, Wed 0800–1200. Closed U.S. federal holidays and last Thursday (inventory). 72-hour Rx lead time."
+    dsn: 546-0700
+    phone: +49-611-143-546-0700
+    address: Bldg 1038, Wurger St., Clay Kaserne, Wiesbaden
+    maps_query: Clay Kaserne Building 1038 Wiesbaden
+    hours: Tue/Thu 0800–1600, Wed 0800–1200. Closed U.S. federal holidays and last Thursday (inventory). 72-hour Rx lead time.
 ---
 
 ## What

@@ -1,16 +1,37 @@
 ---
-title: "How German rentals work — finding a house, the Mietvertrag, the Kaution"
-summary: "German leases run 1-3 years with 3 months notice. Expect to pay 2-3 months rent as deposit (Kaution), provide a SCHUFA credit check, compete with 20 other applicants for nice apartments. Kaltmiete ≠ total rent; Nebenkosten is extra."
+title: How German rentals work — finding a house, the Mietvertrag, the Kaution
+summary: >-
+  German leases run 1-3 years with 3 months notice. Expect to pay 2-3 months rent as deposit (Kaution), provide a SCHUFA credit check, compete with 20 other applicants for nice apartments. Kaltmiete ≠
+  total rent; Nebenkosten is extra.
 topic: housing
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  accompanied: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  accompanied: 'yes'
 sources:
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing", label: "MOS — Wiesbaden Housing"}
-  - {tier: T4, url: "https://www.wiesbaden.de/", label: "Stadt Wiesbaden"}
-last_verified: "2026-04-17"
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing
+    label: MOS — Wiesbaden Housing
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 4
+      purpose: 3
+      license: 5
+  - tier: T4
+    url: https://www.wiesbaden.de/
+    label: Stadt Wiesbaden
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+last_verified: '2026-04-17'
 poc_volatile: false
 order: 40
 ---

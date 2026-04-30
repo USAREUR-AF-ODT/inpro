@@ -1,15 +1,36 @@
 ---
-title: "Working with your sponsor — get the most out of the person assigned to you"
-summary: "Your sponsor is a peer contact at the gaining unit, not a concierge. Email first, ask specific questions, share arrival details early. Most sponsor relationships underperform because the newcomer waits for the sponsor to drive. You get what you ask for."
+title: Working with your sponsor — get the most out of the person assigned to you
+summary: >-
+  Your sponsor is a peer contact at the gaining unit, not a concierge. Email first, ask specific questions, share arrival details early. Most sponsor relationships underperform because the newcomer
+  waits for the sponsor to drive. You get what you ask for.
 topic: family
 phase: sponsors
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/sponsorship-pcs-moves", label: "USAG Wiesbaden Sponsorship"}
-  - {tier: T1, url: "https://www.armymwr.com/programs-and-services/family-programs/sponsorship", label: "Army Family Sponsorship Program"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers/sponsorship-pcs-moves
+    label: USAG Wiesbaden Sponsorship
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://www.armymwr.com/programs-and-services/family-programs/sponsorship
+    label: Army Family Sponsorship Program
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+last_verified: '2026-04-20'
 poc_volatile: false
 order: 5
 ---

@@ -1,14 +1,27 @@
 ---
-title: "Your first weekend in Wiesbaden — a lazy itinerary"
-summary: "You just arrived. You're jetlagged. You don't need to conquer Europe yet. Saturday: sleep late, walk the Kurhaus, lunch in the Altstadt. Sunday: Biebrich castle park, Rhine river, German bakery. That's enough."
+title: Your first weekend in Wiesbaden — a lazy itinerary
+summary: >-
+  You just arrived. You're jetlagged. You don't need to conquer Europe yet. Saturday: sleep late, walk the Kurhaus, lunch in the Altstadt. Sunday: Biebrich castle park, Rhine river, German bakery.
+  That's enough.
 topic: mwr
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/", label: "USAG Wiesbaden"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/
+    label: USAG Wiesbaden
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 95
 ---

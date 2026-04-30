@@ -1,16 +1,40 @@
 ---
-title: "Savings Deposit Program — the 10% deployment guarantee"
-summary: "SDP pays 10% annual interest (5% semiannual, compounded) on up to $10,000 during a qualifying deployment. Enrollment requires 30+ consecutive days in a CZTE zone. Deposit up to your monthly unallotted base pay. Withdraw within 90 days of returning. Few products match this return."
+title: Savings Deposit Program — the 10% deployment guarantee
+summary: >-
+  SDP pays 10% annual interest (5% semiannual, compounded) on up to $10,000 during a qualifying deployment. Enrollment requires 30+ consecutive days in a CZTE zone. Deposit up to your monthly
+  unallotted base pay. Withdraw within 90 days of returning. Few products match this return.
 topic: finance
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier]
-  rank: [E1-E4, E5-E6, E7-E9, WO, CO-FG]
+  status:
+    - soldier
+  rank:
+    - E1-E4
+    - E5-E6
+    - E7-E9
+    - WO
+    - CO-FG
 sources:
-  - {tier: T1, url: "https://www.dfas.mil/militarymembers/payentitlements/Pay-Tables/SDP/", label: "DFAS Savings Deposit Program"}
-  - {tier: T1, url: "https://militarypay.defense.gov/Pay/Special-and-Incentive-Pays/SDP/", label: "DoD Military Pay — SDP"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://www.dfas.mil/militarymembers/payentitlements/Pay-Tables/SDP/
+    label: DFAS Savings Deposit Program
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://militarypay.defense.gov/Pay/Special-and-Incentive-Pays/SDP/
+    label: DoD Military Pay — SDP
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-20'
 poc_volatile: false
 order: 20
 ---

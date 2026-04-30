@@ -1,16 +1,43 @@
 ---
-title: "The first 72 hours"
-summary: "A triage-ordered run sheet for the three days after you land. Skip the ones that don't apply, but do them in this order."
+title: The first 72 hours
+summary: A triage-ordered run sheet for the three days after you land. Skip the ones that don't apply, but do them in this order.
 topic: housing
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing", label: "USAG Wiesbaden In-Processing"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet (PDF)"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/check-in-procedures", label: "MOS — Wiesbaden Check-in"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing
+    label: USAG Wiesbaden In-Processing
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/check-in-procedures
+    label: MOS — Wiesbaden Check-in
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 1
 ---

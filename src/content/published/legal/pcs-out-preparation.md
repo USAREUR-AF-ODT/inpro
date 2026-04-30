@@ -1,15 +1,34 @@
 ---
-title: "PCS-out — the last 60 days in Wiesbaden"
-summary: "Start 60 days out with HHG pickup, legal office for wills update, Abmeldung (de-registration) from Wiesbaden, and gym cancellations. Ship POV 6+ weeks ahead. Close German bank before your last day."
+title: PCS-out — the last 60 days in Wiesbaden
+summary: Start 60 days out with HHG pickup, legal office for wills update, Abmeldung (de-registration) from Wiesbaden, and gym cancellations. Ship POV 6+ weeks ahead. Close German bank before your last day.
 topic: legal
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing", label: "USAG Wiesbaden in/out-processing"}
-  - {tier: T4, url: "https://www.wiesbaden.de/en/", label: "Stadt Wiesbaden Registration (de-registration applies same office)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing
+    label: USAG Wiesbaden in/out-processing
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T4
+    url: https://www.wiesbaden.de/en/
+    label: Stadt Wiesbaden Registration (de-registration applies same office)
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 5
+      purpose: 4
+      license: 3
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 99
 ---

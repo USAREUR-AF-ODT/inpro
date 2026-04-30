@@ -1,16 +1,45 @@
 ---
-title: "Sponsor gone dark — what to do when your assigned sponsor disappears"
-summary: "A silent sponsor is common. Fallback: call the gaining unit S1 for reassignment, loop ACS Relocation Readiness for a volunteer replacement, lean on Lodge and ICE for week-one help. You can finish in-processing without a functioning sponsor."
+title: Sponsor gone dark — what to do when your assigned sponsor disappears
+summary: >-
+  A silent sponsor is common. Fallback: call the gaining unit S1 for reassignment, loop ACS Relocation Readiness for a volunteer replacement, lean on Lodge and ICE for week-one help. You can finish
+  in-processing without a functioning sponsor.
 topic: unit
 phase: sponsors
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers", label: "USAG Wiesbaden Newcomers"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/garrison/family-and-mwr/army-community-service", label: "USAG Wiesbaden Army Community Service"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/contact", label: "USAG Wiesbaden Contact & ICE"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers
+    label: USAG Wiesbaden Newcomers
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/garrison/family-and-mwr/army-community-service
+    label: USAG Wiesbaden Army Community Service
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/contact
+    label: USAG Wiesbaden Contact & ICE
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 15
 ---

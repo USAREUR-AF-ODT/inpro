@@ -1,17 +1,46 @@
 ---
-title: "EFMP — enrollment, continuity, and what actually transfers"
-summary: "EFMP moves with you, but each installation maintains its own case file. Start the transfer the day orders drop. In Wiesbaden, ACS is your liaison; DoDEA handles school-side IEPs; TRICARE Overseas covers medical."
+title: EFMP — enrollment, continuity, and what actually transfers
+summary: >-
+  EFMP moves with you, but each installation maintains its own case file. Start the transfer the day orders drop. In Wiesbaden, ACS is your liaison; DoDEA handles school-side IEPs; TRICARE Overseas
+  covers medical.
 topic: family
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_kids: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_kids: 'yes'
 sources:
-  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library", label: "MyArmyBenefits — EFMP"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/exceptional-family-member-program/preparing-for-your-move", label: "MOS — Wiesbaden EFMP Preparing"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/exceptional-family-member-program/special-education-eis", label: "MOS — Wiesbaden EFMP Special Education"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://myarmybenefits.us.army.mil/Benefit-Library
+    label: MyArmyBenefits — EFMP
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/exceptional-family-member-program/preparing-for-your-move
+    label: MOS — Wiesbaden EFMP Preparing
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/exceptional-family-member-program/special-education-eis
+    label: MOS — Wiesbaden EFMP Special Education
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 15
 checklist: true

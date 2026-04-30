@@ -1,15 +1,34 @@
 ---
-title: "German survival basics — the 20 things that make Germany easier"
-summary: "Sundays are closed. Pfand is recycling. You greet when you enter a small shop. Recycling has 4 bins. Bakeries are cash-only more than you'd think. Nobody's being rude, it's just how it works."
+title: German survival basics — the 20 things that make Germany easier
+summary: Sundays are closed. Pfand is recycling. You greet when you enter a small shop. Recycling has 4 bins. Bakeries are cash-only more than you'd think. Nobody's being rude, it's just how it works.
 topic: legal
 phase: settle
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet — Host Nation Orientation"}
-  - {tier: T4, url: "https://www.wiesbaden.de/en/", label: "Stadt Wiesbaden — Living in Wiesbaden"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet — Host Nation Orientation
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T4
+    url: https://www.wiesbaden.de/en/
+    label: Stadt Wiesbaden — Living in Wiesbaden
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 5
+      purpose: 4
+      license: 3
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 5
 ---

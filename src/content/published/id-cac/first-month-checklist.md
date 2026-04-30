@@ -1,16 +1,43 @@
 ---
-title: "The first-month checklist"
-summary: "Week 1: sign-in, HSO, Finance, ID. Week 2: housing, SOFA stamp, TRICARE, banking. Week 3: Anmeldung, car registration, first LES. Week 4: schools settled, social integration. Print this."
+title: The first-month checklist
+summary: 'Week 1: sign-in, HSO, Finance, ID. Week 2: housing, SOFA stamp, TRICARE, banking. Week 3: Anmeldung, car registration, first LES. Week 4: schools settled, social integration. Print this.'
 topic: id-cac
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing", label: "USAG Wiesbaden In-Processing"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/1715/9186/4668/OIG_Inprocessing_Brief_WEB.pdf", label: "OIG Inprocessing Brief (PDF)"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/check-in-procedures", label: "MOS — Wiesbaden Check-in"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing
+    label: USAG Wiesbaden In-Processing
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/1715/9186/4668/OIG_Inprocessing_Brief_WEB.pdf
+    label: OIG Inprocessing Brief (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/check-in-procedures
+    label: MOS — Wiesbaden Check-in
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 checklist: true
 order: 3

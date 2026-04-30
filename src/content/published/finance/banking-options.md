@@ -1,15 +1,36 @@
 ---
-title: "Banking: Andrews, Community, German"
-summary: "Andrews FCU and Community Bank both have branches on Clay Kaserne — use one of them for USD, add a German bank (Sparkasse, Commerzbank, or an online like N26) for day-to-day SEPA payments. Don't rely on one bank."
+title: 'Banking: Andrews, Community, German'
+summary: >-
+  Andrews FCU and Community Bank both have branches on Clay Kaserne — use one of them for USD, add a German bank (Sparkasse, Commerzbank, or an online like N26) for day-to-day SEPA payments. Don't
+  rely on one bank.
 topic: finance
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing", label: "USAG Wiesbaden In-Processing — links to Andrews/Community"}
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/financial-readiness-program", label: "Wiesbaden Financial Readiness Program"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing
+    label: USAG Wiesbaden In-Processing — links to Andrews/Community
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/programs/financial-readiness-program
+    label: Wiesbaden Financial Readiness Program
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 25
 ---

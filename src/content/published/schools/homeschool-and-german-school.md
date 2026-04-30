@@ -1,17 +1,46 @@
 ---
-title: "Homeschool (mostly illegal) and German public schools as DoDEA alternatives"
-summary: "Homeschooling is illegal in Germany; SOFA status covers on-post quarters but not off-post. Gymnasium is academic-prep, Realschule mid-tier, Hauptschule trades. Gesamtschule bundles all three. Enrollment free but Anmeldung-dependent. DoDEA remains the default for most families."
+title: Homeschool (mostly illegal) and German public schools as DoDEA alternatives
+summary: >-
+  Homeschooling is illegal in Germany; SOFA status covers on-post quarters but not off-post. Gymnasium is academic-prep, Realschule mid-tier, Hauptschule trades. Gesamtschule bundles all three.
+  Enrollment free but Anmeldung-dependent. DoDEA remains the default for most families.
 topic: schools
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_kids: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_kids: 'yes'
 sources:
-  - {tier: T4, url: "https://kultusministerium.hessen.de/schulsystem", label: "Hessisches Kultusministerium — Schulsystem"}
-  - {tier: T4, url: "https://www.wiesbaden.de/leben-in-wiesbaden/gesellschaft/bildung/schulen/", label: "Stadt Wiesbaden — Schulen"}
-  - {tier: T2, url: "https://hslda.org/legal/germany", label: "HSLDA — Germany homeschool legal status"}
-last_verified: "2026-04-20"
+  - tier: T4
+    url: https://kultusministerium.hessen.de/schulsystem
+    label: Hessisches Kultusministerium — Schulsystem
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T4
+    url: https://www.wiesbaden.de/leben-in-wiesbaden/gesellschaft/bildung/schulen/
+    label: Stadt Wiesbaden — Schulen
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T2
+    url: https://hslda.org/legal/germany
+    label: HSLDA — Germany homeschool legal status
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 4
+      purpose: 3
+      license: 3
+last_verified: '2026-04-20'
 poc_volatile: false
 order: 35
 ---

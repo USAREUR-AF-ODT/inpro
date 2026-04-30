@@ -1,18 +1,55 @@
 ---
-title: "German Kita — pre-K immersion outside DoDEA"
-summary: "German Kindertagesstätte (Kita) enrolls children from ~1 to ~6 in municipal-subsidized care. Strong immersion. Waitlists are long (6–18 months). Eligibility depends on Anmeldung; SOFA-status does not automatically exclude you. Free or income-scaled in Hessen."
+title: German Kita — pre-K immersion outside DoDEA
+summary: >-
+  German Kindertagesstätte (Kita) enrolls children from ~1 to ~6 in municipal-subsidized care. Strong immersion. Waitlists are long (6–18 months). Eligibility depends on Anmeldung; SOFA-status does
+  not automatically exclude you. Free or income-scaled in Hessen.
 topic: schools
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_kids: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_kids: 'yes'
 sources:
-  - {tier: T4, url: "https://www.wiesbaden.de/leben-in-wiesbaden/gesellschaft/kinder/kinderbetreuung/", label: "Stadt Wiesbaden — Kinderbetreuung"}
-  - {tier: T4, url: "https://wiesbaden-kita.de/", label: "Kitaportal Wiesbaden"}
-  - {tier: T4, url: "https://soziales.hessen.de/familie/kinderbetreuung", label: "Hessisches Ministerium für Soziales — Kinderbetreuung"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/childcare-and-schools", label: "MOS — USAG Wiesbaden Childcare & Schools"}
-last_verified: "2026-04-20"
+  - tier: T4
+    url: https://www.wiesbaden.de/leben-in-wiesbaden/gesellschaft/kinder/kinderbetreuung/
+    label: Stadt Wiesbaden — Kinderbetreuung
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T4
+    url: https://wiesbaden-kita.de/
+    label: Kitaportal Wiesbaden
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T4
+    url: https://soziales.hessen.de/familie/kinderbetreuung
+    label: Hessisches Ministerium für Soziales — Kinderbetreuung
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/childcare-and-schools
+    label: MOS — USAG Wiesbaden Childcare & Schools
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 4
+      purpose: 3
+      license: 5
+last_verified: '2026-04-20'
 poc_volatile: false
 order: 25
 ---

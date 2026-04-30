@@ -1,15 +1,34 @@
 ---
-title: "Emergency Numbers — Wiesbaden"
-summary: "Save these numbers before you arrive. 112 is German fire/ambulance; 110 is Polizei. On-post emergencies use 117 (ambulance/fire) and 114 (police)."
+title: Emergency Numbers — Wiesbaden
+summary: Save these numbers before you arrive. 112 is German fire/ambulance; 110 is Polizei. On-post emergencies use 117 (ambulance/fire) and 114 (police).
 topic: medical
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [any]
+  status:
+    - any
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/contact/crisis-phone-numbers", label: "USAG Wiesbaden Crisis Phone Numbers", scraped: "2026-04-16"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "USAG Wiesbaden 2024 Welcome Packet (PDF)", scraped: "2026-04-16"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/contact/crisis-phone-numbers
+    label: USAG Wiesbaden Crisis Phone Numbers
+    scraped: '2026-04-16'
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: USAG Wiesbaden 2024 Welcome Packet (PDF)
+    scraped: '2026-04-16'
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 1
 ---

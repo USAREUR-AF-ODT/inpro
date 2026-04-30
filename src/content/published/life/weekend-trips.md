@@ -1,15 +1,36 @@
 ---
-title: "Weekend trips from Wiesbaden"
-summary: "Rheingau wine country is 20 min away. Heidelberg and Frankfurt are 1 hour. Paris, Amsterdam, Prague are 5–7 hours by train. Rhine-Main region is the best PCS lottery-ticket in USAREUR for access to Europe."
+title: Weekend trips from Wiesbaden
+summary: >-
+  Rheingau wine country is 20 min away. Heidelberg and Frankfurt are 1 hour. Paris, Amsterdam, Prague are 5–7 hours by train. Rhine-Main region is the best PCS lottery-ticket in USAREUR for access to
+  Europe.
 topic: mwr
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/", label: "Wiesbaden MWR"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/getting-around", label: "USAG Wiesbaden — Getting Around"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/
+    label: Wiesbaden MWR
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/getting-around
+    label: USAG Wiesbaden — Getting Around
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 opinion: true
 order: 10

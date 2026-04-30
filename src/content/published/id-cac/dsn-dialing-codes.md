@@ -1,15 +1,33 @@
 ---
-title: "DSN and Civilian Dialing Codes — Wiesbaden"
-summary: "How to convert any USAG Wiesbaden DSN to a civilian number (and vice versa), plus how to dial Germany from the US and DSN from outside Europe."
+title: DSN and Civilian Dialing Codes — Wiesbaden
+summary: How to convert any USAG Wiesbaden DSN to a civilian number (and vice versa), plus how to dial Germany from the US and DSN from outside Europe.
 topic: id-cac
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [any]
+  status:
+    - any
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/contact", label: "USAG Wiesbaden Contact Page"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "USAG Wiesbaden 2024 Welcome Packet (PDF)", scraped: "2026-04-16"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/contact
+    label: USAG Wiesbaden Contact Page
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: USAG Wiesbaden 2024 Welcome Packet (PDF)
+    scraped: '2026-04-16'
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 5
 ---

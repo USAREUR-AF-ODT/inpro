@@ -1,17 +1,44 @@
 ---
-title: "Housing areas, compared"
-summary: "Five on-post housing areas plus off-post. Here's what each actually gets you — building type, commute, kid-friendliness, parking reality."
+title: Housing areas, compared
+summary: Five on-post housing areas plus off-post. Here's what each actually gets you — building type, commute, kid-friendliness, parking reality.
 topic: housing
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  accompanied: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  accompanied: 'yes'
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/2816/7170/4200/Crestview_2023.pdf", label: "Crestview Housing — Garrison info (PDF)"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/8316/7351/1637/Newman_Village_2023.pdf", label: "Newman Village Housing — Garrison info (PDF)"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/government-housing", label: "MOS — Wiesbaden Government Housing"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/2816/7170/4200/Crestview_2023.pdf
+    label: Crestview Housing — Garrison info (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/8316/7351/1637/Newman_Village_2023.pdf
+    label: Newman Village Housing — Garrison info (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/government-housing
+    label: MOS — Wiesbaden Government Housing
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 30
 ---

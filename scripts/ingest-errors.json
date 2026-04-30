@@ -1,0 +1,257 @@
+[
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Cost-of-Living-Allowance-(COLA)",
+      "tier": "T1",
+      "topic": "finance"
+    },
+    "error": "HTTP 404"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Temporary-Lodging-Allowance-(TLA)",
+      "tier": "T1",
+      "topic": "finance"
+    },
+    "error": "HTTP 404"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Exceptional-Family-Member-Program-(EFMP)",
+      "tier": "T1",
+      "topic": "family"
+    },
+    "error": "HTTP 404"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.dodea.edu/europe/eu-central/wiesbaden-community-schools/wiesbaden-leadership",
+      "tier": "T1",
+      "topic": "schools"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://home.army.mil/wiesbaden/about/Garrison/Legal",
+      "tier": "T1",
+      "topic": "legal"
+    },
+    "error": "HTTP 404"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.wiesbaden.de/en/living-in-wiesbaden/",
+      "tier": "T4",
+      "topic": "mixed"
+    },
+    "error": "HTTP 404"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://mrc-europe.army.mil/Portals/106/Welcome%20Packet.pdf",
+      "tier": "T1",
+      "topic": "medical",
+      "notes": "MRC Europe Welcome Packet — health clinic info"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://wiesbadenhs.dodea.edu/registration/registration-process-eligibility-and-enrollment",
+      "tier": "T1",
+      "topic": "schools"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://tricare.mil/Plans/Eligibility/OCONUS",
+      "tier": "T1",
+      "topic": "medical"
+    },
+    "error": "HTTP 404"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://tricare.mil/Plans/HealthPlans/OS",
+      "tier": "T1",
+      "topic": "medical"
+    },
+    "error": "HTTP 404"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://landstuhl.tricare.mil/",
+      "tier": "T1",
+      "topic": "medical",
+      "notes": "LRMC — referrals from Wiesbaden Health Clinic"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.eur.army.mil/",
+      "tier": "T1",
+      "topic": "mixed",
+      "notes": "USAREUR-AF HQ landing"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.21tsc.army.mil/",
+      "tier": "T1",
+      "topic": "mixed"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.afsbeurope.army.mil/",
+      "tier": "T1",
+      "topic": "vehicle",
+      "notes": "405th AFSB — POV / household goods / equipment turn-in"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://odin.aafes.com/",
+      "tier": "T1",
+      "topic": "mwr",
+      "notes": "AAFES gas / Esso card portal"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.commissaries.com/shopping/store-locator",
+      "tier": "T1",
+      "topic": "mwr",
+      "notes": "store hours for Wiesbaden commissary"
+    },
+    "error": "HTTP 404"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.dfas.mil/MilitaryMembers/",
+      "tier": "T1",
+      "topic": "finance"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.move.mil/",
+      "tier": "T1",
+      "topic": "mixed",
+      "notes": "PCS shipment scheduling"
+    },
+    "error": "fetch failed"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://smartvoucher.dfas.mil/",
+      "tier": "T1",
+      "topic": "finance",
+      "notes": "TLA voucher submission"
+    },
+    "error": "fetch failed"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.defensetravel.dod.mil/",
+      "tier": "T1",
+      "topic": "finance",
+      "notes": "DTS — TDY in-country travel"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://hqdainet.army.mil/mpsa/",
+      "tier": "T1",
+      "topic": "mixed"
+    },
+    "error": "fetch failed"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.cac.mil/",
+      "tier": "T1",
+      "topic": "id-cac"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.dodea.edu/europe/",
+      "tier": "T1",
+      "topic": "schools",
+      "notes": "region-wide policy beyond per-school sites"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.dodea.edu/StudentServices/",
+      "tier": "T1",
+      "topic": "schools"
+    },
+    "error": "HTTP 403"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.adac.de/verkehr/auto-motorrad/fuehrerschein/auslaendische-fuehrerscheine/",
+      "tier": "T4",
+      "topic": "vehicle",
+      "notes": "ADAC — driver-license conversion guide"
+    },
+    "error": "HTTP 404"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://www.tuev-hessen.de/privatkunden/auto-motorrad/",
+      "tier": "T4",
+      "topic": "vehicle",
+      "notes": "TÜV Hessen — vehicle inspection (HU/AU)"
+    },
+    "error": "HTTP 404"
+  },
+  {
+    "target": {
+      "kind": "scrape",
+      "url": "https://travel.state.gov/content/travel/en/international-travel/before-you-go/driving-and-road-safety-abroad.html",
+      "tier": "T1",
+      "topic": "vehicle"
+    },
+    "error": "HTTP 404"
+  }
+]

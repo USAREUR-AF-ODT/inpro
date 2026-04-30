@@ -1,23 +1,44 @@
 ---
-title: "Wiesbaden Army Lodge — where most PCS families land"
-summary: "Hainerberg TLF: Mississippi Strasse 45, BLDG 7890. Open 24/7, rates per diem or below, breakfast included, walk to PX/commissary/DoDEA schools. Book before arrival; 90-day TLA clock starts the day you check in. Reservations@army.mil or DSN 548-9700."
+title: Wiesbaden Army Lodge — where most PCS families land
+summary: >-
+  Hainerberg TLF: Mississippi Strasse 45, BLDG 7890. Open 24/7, rates per diem or below, breakfast included, walk to PX/commissary/DoDEA schools. Book before arrival; 90-day TLA clock starts the day
+  you check in. Reservations@army.mil or DSN 548-9700.
 topic: housing
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 poc:
   - name: Wiesbaden Army Lodge
-    dsn: "548-9700"
-    phone: "+49-611-143-548-9700"
-    email: "reservations@army.mil"
-    address: "Hainerberg Housing, Mississippi Strasse 45, BLDG 7890, Wiesbaden 65189"
-    maps_query: "Wiesbaden Army Lodge Mississippi Strasse 45"
-    hours: "Front desk 24/7; breakfast Mon–Fri 0600–0900, weekends/US holidays 0800–1000"
+    dsn: 548-9700
+    phone: +49-611-143-548-9700
+    email: reservations@army.mil
+    address: Hainerberg Housing, Mississippi Strasse 45, BLDG 7890, Wiesbaden 65189
+    maps_query: Wiesbaden Army Lodge Mississippi Strasse 45
+    hours: Front desk 24/7; breakfast Mon–Fri 0600–0900, weekends/US holidays 0800–1000
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/wiesbaden-army-lodge", label: "Wiesbaden Army Lodge"}
-  - {tier: T1, url: "https://aoprals.state.gov/web920/per_diem_action.asp?MenuHide=1&CountryCode=1089", label: "DoS Per Diem — Germany"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/programs/wiesbaden-army-lodge
+    label: Wiesbaden Army Lodge
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://aoprals.state.gov/web920/per_diem_action.asp?MenuHide=1&CountryCode=1089
+    label: DoS Per Diem — Germany
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 5
 ---

@@ -1,22 +1,35 @@
 ---
-title: "Auto Skills Center — self-service bays, tools, and shop labor"
-summary: "MWR-run garage on Clay Kaserne, BLDG 3500, open Tue–Sun. Rent lifts and bays by the hour, borrow tools, or pay shop labor ($89/hr) for oil changes, tire work, pre-PCS inspections, and diagnostics. Cheaper than German shops; great for DIY."
+title: Auto Skills Center — self-service bays, tools, and shop labor
+summary: >-
+  MWR-run garage on Clay Kaserne, BLDG 3500, open Tue–Sun. Rent lifts and bays by the hour, borrow tools, or pay shop labor ($89/hr) for oil changes, tire work, pre-PCS inspections, and diagnostics.
+  Cheaper than German shops; great for DIY.
 topic: vehicle
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_pov: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_pov: 'yes'
 poc:
   - name: Wiesbaden Auto Skills Center
-    dsn: "548-9817"
-    phone: "+49-611-143-548-9817"
-    address: "Clay Kaserne, BLDG 3500, Wiesbaden 65205"
-    maps_query: "Clay Kaserne Building 3500 Wiesbaden"
-    hours: "Tue–Sun (closed Monday); call to confirm current day-of hours"
+    dsn: 548-9817
+    phone: +49-611-143-548-9817
+    address: Clay Kaserne, BLDG 3500, Wiesbaden 65205
+    maps_query: Clay Kaserne Building 3500 Wiesbaden
+    hours: Tue–Sun (closed Monday); call to confirm current day-of hours
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/automotive-skills", label: "Wiesbaden Automotive Skills"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/programs/automotive-skills
+    label: Wiesbaden Automotive Skills
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 1
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 20
 ---

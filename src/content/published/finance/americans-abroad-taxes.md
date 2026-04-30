@@ -1,17 +1,54 @@
 ---
-title: "US taxes while stationed overseas — FBAR, FEIE, state residency"
-summary: "You still file US federal taxes from Germany. SOFA-status shields you from German income tax, but FBAR reports any German bank account over $10K. Your state of legal residence (SLR) decides whether you owe state tax. File via VITA at Legal Office (free, Jan–Apr)."
+title: US taxes while stationed overseas — FBAR, FEIE, state residency
+summary: >-
+  You still file US federal taxes from Germany. SOFA-status shields you from German income tax, but FBAR reports any German bank account over $10K. Your state of legal residence (SLR) decides whether
+  you owe state tax. File via VITA at Legal Office (free, Jan–Apr).
 topic: finance
 phase: settle
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://www.irs.gov/individuals/international-taxpayers/us-citizens-and-resident-aliens-abroad", label: "IRS US Citizens Abroad"}
-  - {tier: T1, url: "https://www.irs.gov/individuals/international-taxpayers/foreign-earned-income-exclusion", label: "IRS FEIE"}
-  - {tier: T1, url: "https://www.fincen.gov/report-foreign-bank-and-financial-accounts", label: "FinCEN FBAR"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/financial-assistance", label: "MOS — Wiesbaden Financial Assistance"}
-last_verified: "2026-04-17"
+  - tier: T1
+    url: https://www.irs.gov/individuals/international-taxpayers/us-citizens-and-resident-aliens-abroad
+    label: IRS US Citizens Abroad
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://www.irs.gov/individuals/international-taxpayers/foreign-earned-income-exclusion
+    label: IRS FEIE
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://www.fincen.gov/report-foreign-bank-and-financial-accounts
+    label: FinCEN FBAR
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/financial-assistance
+    label: MOS — Wiesbaden Financial Assistance
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-17'
 poc_volatile: false
 order: 60
 ---

@@ -1,16 +1,36 @@
 ---
-title: "Geographic bachelor — arriving without Family"
-summary: "Unaccompanied arrivals skip OHA in most cases, land in the barracks or off-post lodging, and navigate a distinct timeline. Fast to set up, slow to feel settled. Use the time for travel, PT, German classes, and career moves Family-accompanied Soldiers can't."
+title: Geographic bachelor — arriving without Family
+summary: >-
+  Unaccompanied arrivals skip OHA in most cases, land in the barracks or off-post lodging, and navigate a distinct timeline. Fast to set up, slow to feel settled. Use the time for travel, PT, German
+  classes, and career moves Family-accompanied Soldiers can't.
 topic: housing
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv]
-  accompanied: no
+  status:
+    - soldier
+    - daciv
+  accompanied: 'no'
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing", label: "USAG Wiesbaden In-Processing"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing", label: "MOS — Wiesbaden Housing"}
-last_verified: "2026-04-17"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing
+    label: USAG Wiesbaden In-Processing
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing
+    label: MOS — Wiesbaden Housing
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-17'
 poc_volatile: false
 order: 45
 ---

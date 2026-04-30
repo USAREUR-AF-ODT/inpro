@@ -1,15 +1,36 @@
 ---
-title: "Household goods (HHG) shipment"
-summary: "Three categories ship: HHG (bulk, 90 days), UB (unaccompanied baggage, 30 days), express (air, 7 days). Plan what you need on arrival day vs. a month later. Damage happens; photograph everything before pickup."
+title: Household goods (HHG) shipment
+summary: >-
+  Three categories ship: HHG (bulk, 90 days), UB (unaccompanied baggage, 30 days), express (air, 7 days). Plan what you need on arrival day vs. a month later. Damage happens; photograph everything
+  before pickup.
 topic: housing
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/moving/household-goods", label: "MOS — Wiesbaden Moving Household Goods"}
-  - {tier: T1, url: "https://www.afsbeurope.army.mil/Logistics-Readiness-Centers/LRC-Wiesbaden/", label: "LRC-Wiesbaden"}
-last_verified: "2026-04-16"
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/moving/household-goods
+    label: MOS — Wiesbaden Moving Household Goods
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+  - tier: T1
+    url: https://www.afsbeurope.army.mil/Logistics-Readiness-Centers/LRC-Wiesbaden/
+    label: LRC-Wiesbaden
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 25
 checklist: true

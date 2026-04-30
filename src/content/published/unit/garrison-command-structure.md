@@ -1,23 +1,44 @@
 ---
-title: "Garrison directorates — who to call for what"
-summary: "USAG Wiesbaden runs through ~15 directorates (DES for security, DPW for housing maintenance, DHR for personnel, DFMWR for family programs, Legal, SHARP, etc.). Garrison HQ at BLDG 3340 North Clay. This entry maps the problem to the office."
+title: Garrison directorates — who to call for what
+summary: >-
+  USAG Wiesbaden runs through ~15 directorates (DES for security, DPW for housing maintenance, DHR for personnel, DFMWR for family programs, Legal, SHARP, etc.). Garrison HQ at BLDG 3340 North Clay.
+  This entry maps the problem to the office.
 topic: unit
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 poc:
   - name: USAG Wiesbaden Garrison Headquarters
-    address: "North Clay Kaserne, BLDG 3340, Wiesbaden 65205"
-    maps_query: "Clay Kaserne Building 3340 Wiesbaden"
-    hours: "Mon–Fri 0730–1630"
+    address: North Clay Kaserne, BLDG 3340, Wiesbaden 65205
+    maps_query: Clay Kaserne Building 3340 Wiesbaden
+    hours: Mon–Fri 0730–1630
   - name: Commander's Hotline (ICE feedback)
-    phone: "via home.army.mil/wiesbaden ICE portal"
-    hours: "24/7 submission; business-hours response"
+    phone: via home.army.mil/wiesbaden ICE portal
+    hours: 24/7 submission; business-hours response
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/Garrison", label: "USAG Wiesbaden Garrison Directorates"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/", label: "USAG Wiesbaden"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/Garrison
+    label: USAG Wiesbaden Garrison Directorates
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/
+    label: USAG Wiesbaden
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 5
 ---

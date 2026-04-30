@@ -1,22 +1,43 @@
 ---
-title: "Clay Kaserne Library — books, wifi, and community programs"
-summary: "MWR library on Clay Kaserne lends books, audiobooks, movies, and video games free to ID-card holders. Wifi, printing, and programs (book club, German conversation, preschool story time) run weekly. Digital library app works worldwide."
+title: Clay Kaserne Library — books, wifi, and community programs
+summary: >-
+  MWR library on Clay Kaserne lends books, audiobooks, movies, and video games free to ID-card holders. Wifi, printing, and programs (book club, German conversation, preschool story time) run weekly.
+  Digital library app works worldwide.
 topic: mwr
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 poc:
   - name: Wiesbaden MWR Library
-    dsn: "548-9821"
-    phone: "+49-611-143-548-9821"
-    address: "Clay Kaserne, BLDG 1029, Wiesbaden 65205"
-    maps_query: "Clay Kaserne Building 1029 Wiesbaden"
-    hours: "Mon–Thu 1000–1800; Sun 1000–1800; Fri/Sat closed"
+    dsn: 548-9821
+    phone: +49-611-143-548-9821
+    address: Clay Kaserne, BLDG 1029, Wiesbaden 65205
+    maps_query: Clay Kaserne Building 1029 Wiesbaden
+    hours: Mon–Thu 1000–1800; Sun 1000–1800; Fri/Sat closed
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/libraries", label: "Wiesbaden MWR Libraries"}
-  - {tier: T1, url: "https://army.dodmwrlibraries.org/", label: "DoD MWR Digital Library"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/programs/libraries
+    label: Wiesbaden MWR Libraries
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://army.dodmwrlibraries.org/
+    label: DoD MWR Digital Library
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 15
 ---

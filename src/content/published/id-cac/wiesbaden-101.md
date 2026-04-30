@@ -1,14 +1,25 @@
 ---
-title: "Wiesbaden 101 — the 30-second primer"
-summary: "USAG Wiesbaden is the US Army Garrison centered on Clay Kaserne (Wiesbaden Army Airfield). 25K+ US community. V Corps (F), 66th MI, 2nd Sig HQ here. Germans refer to it as Flugplatz Erbenheim."
+title: Wiesbaden 101 — the 30-second primer
+summary: USAG Wiesbaden is the US Army Garrison centered on Clay Kaserne (Wiesbaden Army Airfield). 25K+ US community. V Corps (F), 66th MI, 2nd Sig HQ here. Germans refer to it as Flugplatz Erbenheim.
 topic: id-cac
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/", label: "USAG Wiesbaden"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/
+    label: USAG Wiesbaden
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 1
 ---

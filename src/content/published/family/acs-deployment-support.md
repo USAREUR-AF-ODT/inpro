@@ -1,20 +1,41 @@
 ---
-title: "ACS deployment support — pre-deployment, during, and reintegration"
-summary: "Army Community Service runs deployment programs for the soldier and family: Military Family Life Counselors, Pre-Deployment Readiness briefings, Hearts Apart events for kids, Family Readiness Group liaison, and Post-Deployment reintegration workshops. Free and confidential."
+title: ACS deployment support — pre-deployment, during, and reintegration
+summary: >-
+  Army Community Service runs deployment programs for the soldier and family: Military Family Life Counselors, Pre-Deployment Readiness briefings, Hearts Apart events for kids, Family Readiness Group
+  liaison, and Post-Deployment reintegration workshops. Free and confidential.
 topic: family
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 poc:
   - name: USAG Wiesbaden Army Community Service (ACS)
-    address: "Clay Kaserne, Wiesbaden 65205"
-    maps_query: "Clay Kaserne Wiesbaden Army Community Service"
-    hours: "Mon–Fri 0800–1630; closed Federal holidays"
+    address: Clay Kaserne, Wiesbaden 65205
+    maps_query: Clay Kaserne Wiesbaden Army Community Service
+    hours: Mon–Fri 0800–1630; closed Federal holidays
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/garrison/family-and-mwr/army-community-service", label: "USAG Wiesbaden Army Community Service"}
-  - {tier: T1, url: "https://www.armymwr.com/programs-and-services/family-programs/deployment-readiness", label: "Army MWR — Deployment Readiness"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/garrison/family-and-mwr/army-community-service
+    label: USAG Wiesbaden Army Community Service
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://www.armymwr.com/programs-and-services/family-programs/deployment-readiness
+    label: Army MWR — Deployment Readiness
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 25
 ---

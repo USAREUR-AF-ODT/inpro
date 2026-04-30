@@ -1,25 +1,55 @@
 ---
-title: "Housing Services Office (HSO)"
-summary: "Every accompanied arrival starts here for on-post quarters, off-post lease review, and TLA. Walk-ins Mon/Wed/Fri; appointments only Tue/Thu."
+title: Housing Services Office (HSO)
+summary: Every accompanied arrival starts here for on-post quarters, off-post lease review, and TLA. Walk-ins Mon/Wed/Fri; appointments only Tue/Thu.
 topic: housing
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
   accompanied: any
   has_kids: any
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/Garrison/directorate-public-works/housing-services-office", label: "USAG Wiesbaden HSO", scraped: "2026-04-16"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing", label: "MilitaryOneSource — USAG Wiesbaden Housing", scraped: "2026-04-16"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/4816/5764/6530/PREMISES_CONDITION_AND_INVENTORY_REPORT_BLANK_2022.pdf", label: "PCI Inventory Report Form (PDF)", scraped: "2026-04-16"}
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/Garrison/directorate-public-works/housing-services-office
+    label: USAG Wiesbaden HSO
+    scraped: '2026-04-16'
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing
+    label: MilitaryOneSource — USAG Wiesbaden Housing
+    scraped: '2026-04-16'
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/4816/5764/6530/PREMISES_CONDITION_AND_INVENTORY_REPORT_BLANK_2022.pdf
+    label: PCI Inventory Report Form (PDF)
+    scraped: '2026-04-16'
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
 poc:
   - name: Housing Services Office (HSO)
-    dsn: "548-4456"
-    phone: "+49-611-143-548-4456"
-    address: "Clay Kaserne, Bldg 1023 W, 2nd floor, Wiesbaden 65189"
-    maps_query: "Clay Kaserne Building 1023 Wiesbaden"
-    hours: "Mon/Wed/Fri 0800–1130, 1300–1530 (walk-ins); Tue/Thu 0800–1130, 1300–1530 (appointments only)"
-last_verified: "2026-04-16"
+    dsn: 548-4456
+    phone: +49-611-143-548-4456
+    address: Clay Kaserne, Bldg 1023 W, 2nd floor, Wiesbaden 65189
+    maps_query: Clay Kaserne Building 1023 Wiesbaden
+    hours: Mon/Wed/Fri 0800–1130, 1300–1530 (walk-ins); Tue/Thu 0800–1130, 1300–1530 (appointments only)
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 10
 checklist: true

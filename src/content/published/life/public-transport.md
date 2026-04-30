@@ -1,16 +1,45 @@
 ---
-title: "Public transport — RMV, Deutschlandticket, and the S-Bahn to Frankfurt"
-summary: "Wiesbaden sits in the RMV transit network. The Deutschlandticket (~€58/month as of 2025) covers all regional and local transit nationwide. Buses + S1/S8/S9 S-Bahns and ICE trains from Hbf connect to Frankfurt (35 min) and Europe. No metro; buses and trains do everything."
+title: Public transport — RMV, Deutschlandticket, and the S-Bahn to Frankfurt
+summary: >-
+  Wiesbaden sits in the RMV transit network. The Deutschlandticket (~€58/month as of 2025) covers all regional and local transit nationwide. Buses + S1/S8/S9 S-Bahns and ICE trains from Hbf connect to
+  Frankfurt (35 min) and Europe. No metro; buses and trains do everything.
 topic: vehicle
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T4, url: "https://www.rmv.de/c/en/start", label: "RMV (Rhein-Main regional transit)"}
-  - {tier: T4, url: "https://www.deutschlandticket.de/", label: "Deutschlandticket"}
-  - {tier: T4, url: "https://www.wiesbaden.de/leben-in-wiesbaden/verkehr/", label: "Stadt Wiesbaden — Verkehr"}
-last_verified: "2026-04-20"
+  - tier: T4
+    url: https://www.rmv.de/c/en/start
+    label: RMV (Rhein-Main regional transit)
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T4
+    url: https://www.deutschlandticket.de/
+    label: Deutschlandticket
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T4
+    url: https://www.wiesbaden.de/leben-in-wiesbaden/verkehr/
+    label: Stadt Wiesbaden — Verkehr
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+last_verified: '2026-04-20'
 poc_volatile: false
 order: 20
 ---

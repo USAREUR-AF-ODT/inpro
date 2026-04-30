@@ -1,14 +1,27 @@
 ---
-title: "Faith communities beyond the on-post chapel"
-summary: "Wiesbaden has long-established English-speaking Catholic, Protestant, Anglican, Jewish, Muslim, LDS, and Buddhist communities. The on-post RSO covers the garrison's own services; this entry points to the broader Wiesbaden interfaith landscape."
+title: Faith communities beyond the on-post chapel
+summary: >-
+  Wiesbaden has long-established English-speaking Catholic, Protestant, Anglican, Jewish, Muslim, LDS, and Buddhist communities. The on-post RSO covers the garrison's own services; this entry points
+  to the broader Wiesbaden interfaith landscape.
 topic: religious
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/garrison/rso", label: "USAG Wiesbaden Religious Support Office"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/garrison/rso
+    label: USAG Wiesbaden Religious Support Office
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 20
 ---

@@ -1,15 +1,36 @@
 ---
-title: "Specialty referrals — how to get to a German specialist"
-summary: "Your ARHC PCM refers through ATLAS; TRICARE Overseas approves; you book. 2-5 days for routine, same-day for urgent. English-speaking specialists are plentiful in Wiesbaden — ATLAS has a searchable directory."
+title: Specialty referrals — how to get to a German specialist
+summary: >-
+  Your ARHC PCM refers through ATLAS; TRICARE Overseas approves; you book. 2-5 days for routine, same-day for urgent. English-speaking specialists are plentiful in Wiesbaden — ATLAS has a searchable
+  directory.
 topic: medical
 phase: settle
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://www.tricare-overseas.com/en/home", label: "International SOS — TRICARE Overseas"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care", label: "MOS — Wiesbaden Health Care"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://www.tricare-overseas.com/en/home
+    label: International SOS — TRICARE Overseas
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care
+    label: MOS — Wiesbaden Health Care
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 25
 ---

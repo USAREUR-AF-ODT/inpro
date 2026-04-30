@@ -1,14 +1,27 @@
 ---
-title: "Restaurants and food culture — how eating out actually works"
-summary: "German restaurants run slower and more casually than US ones. Ask for a table, seat yourself at a Stammtisch-style pub, pay at the table with cash or card, and tip 5–10% by rounding up. Sunday closures apply to grocery stores but not restaurants."
+title: Restaurants and food culture — how eating out actually works
+summary: >-
+  German restaurants run slower and more casually than US ones. Ask for a table, seat yourself at a Stammtisch-style pub, pay at the table with cash or card, and tip 5–10% by rounding up. Sunday
+  closures apply to grocery stores but not restaurants.
 topic: mwr
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T4, url: "https://www.wiesbaden.de/leben-in-wiesbaden/kultur/gastronomie/", label: "Stadt Wiesbaden — Gastronomie"}
-last_verified: "2026-04-20"
+  - tier: T4
+    url: https://www.wiesbaden.de/leben-in-wiesbaden/kultur/gastronomie/
+    label: Stadt Wiesbaden — Gastronomie
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 1
+      purpose: 4
+      license: 3
+last_verified: '2026-04-20'
 poc_volatile: false
 order: 30
 ---

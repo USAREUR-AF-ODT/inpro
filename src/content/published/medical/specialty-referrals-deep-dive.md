@@ -1,25 +1,54 @@
 ---
-title: "Specialty referrals — how TRICARE Overseas actually routes you"
-summary: "ARHC PCM writes the referral; TRICARE Overseas (International SOS) authorizes and finds the network provider. You book the appointment. Often German specialist, sometimes LRMC. Translation available. 3–12 week timelines; escalate to case manager if stuck."
+title: Specialty referrals — how TRICARE Overseas actually routes you
+summary: >-
+  ARHC PCM writes the referral; TRICARE Overseas (International SOS) authorizes and finds the network provider. You book the appointment. Often German specialist, sometimes LRMC. Translation
+  available. 3–12 week timelines; escalate to case manager if stuck.
 topic: medical
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 poc:
   - name: TRICARE Overseas — International SOS (Germany)
-    phone: "+49-69-801-081-800 (Germany duty line)"
-    hours: "24/7"
+    phone: +49-69-801-081-800 (Germany duty line)
+    hours: 24/7
   - name: ARHC Wiesbaden Referral Management
-    dsn: "548-9440"
-    phone: "+49-611-143-548-9440"
-    address: "Clay Kaserne, Wiesbaden 65205"
-    hours: "Mon–Fri duty hours"
+    dsn: 548-9440
+    phone: +49-611-143-548-9440
+    address: Clay Kaserne, Wiesbaden 65205
+    hours: Mon–Fri duty hours
 sources:
-  - {tier: T1, url: "https://tricare.mil/Plans/Eligibility/Overseas", label: "TRICARE Overseas — eligibility and referrals"}
-  - {tier: T1, url: "https://www.tricare-overseas.com/beneficiaries/provider-lookup", label: "TRICARE Overseas provider lookup"}
-  - {tier: T1, url: "https://wiesbaden.tricare.mil/", label: "ARHC Wiesbaden"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://tricare.mil/Plans/Eligibility/Overseas
+    label: TRICARE Overseas — eligibility and referrals
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://www.tricare-overseas.com/beneficiaries/provider-lookup
+    label: TRICARE Overseas provider lookup
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://wiesbaden.tricare.mil/
+    label: ARHC Wiesbaden
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 15
 ---

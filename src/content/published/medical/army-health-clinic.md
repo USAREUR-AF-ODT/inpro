@@ -1,31 +1,60 @@
 ---
-title: "Wiesbaden Army Health Clinic (ARHC)"
-summary: "Primary care for enrolled Soldiers, DoD Civilians, and Family members. Clay Kaserne, Bldg 1040. Enroll first, then call the appointment line."
+title: Wiesbaden Army Health Clinic (ARHC)
+summary: Primary care for enrolled Soldiers, DoD Civilians, and Family members. Clay Kaserne, Bldg 1040. Enroll first, then call the appointment line.
 topic: medical
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
   has_kids: any
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "USAG Wiesbaden 2024 Welcome Packet (PDF)", scraped: "2026-04-16"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care", label: "MilitaryOneSource — Wiesbaden Health Care", scraped: "2026-04-16"}
-  - {tier: T1, url: "https://www.tricare.mil/Plans/Eligibility/OCONUS", label: "TRICARE OCONUS Eligibility"}
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: USAG Wiesbaden 2024 Welcome Packet (PDF)
+    scraped: '2026-04-16'
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care
+    label: MilitaryOneSource — Wiesbaden Health Care
+    scraped: '2026-04-16'
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+  - tier: T1
+    url: https://www.tricare.mil/Plans/Eligibility/OCONUS
+    label: TRICARE OCONUS Eligibility
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
 poc:
   - name: Wiesbaden Army Health Clinic — Main
-    dsn: "590-1300"
-    phone: "+49-6371-9464-1330"
-    address: "Clay Kaserne, Bldg 1040, Flugplatz Erbenheim, Wiesbaden"
-    maps_query: "Clay Kaserne Building 1040 Wiesbaden"
-    hours: "Mon–Fri 0730–1630. Third Thursday each month: closed for training until 1300."
+    dsn: 590-1300
+    phone: +49-6371-9464-1330
+    address: Clay Kaserne, Bldg 1040, Flugplatz Erbenheim, Wiesbaden
+    maps_query: Clay Kaserne Building 1040 Wiesbaden
+    hours: 'Mon–Fri 0730–1630. Third Thursday each month: closed for training until 1300.'
   - name: Appointment Line
-    dsn: "590-5762"
-    phone: "+49-6371-9464-5762"
-    hours: "Active patients should call the line, not walk in."
+    dsn: 590-5762
+    phone: +49-6371-9464-5762
+    hours: Active patients should call the line, not walk in.
   - name: Wiesbaden Dental Clinic
-    dsn: "590-1515"
-    phone: "+49-6371-9464-1515"
-last_verified: "2026-04-16"
+    dsn: 590-1515
+    phone: +49-6371-9464-1515
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 10
 ---

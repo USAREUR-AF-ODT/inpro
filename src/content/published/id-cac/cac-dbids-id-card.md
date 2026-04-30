@@ -1,25 +1,55 @@
 ---
-title: "CAC, DBIDS, and the ID Card Center"
-summary: "Your CAC comes with you from CONUS. Family members re-badge at the ID Card Center — CAC for teens 14+, DD-1173 for dependents under 14. DBIDS (installation access) is separate, automatic once enrolled."
+title: CAC, DBIDS, and the ID Card Center
+summary: >-
+  Your CAC comes with you from CONUS. Family members re-badge at the ID Card Center — CAC for teens 14+, DD-1173 for dependents under 14. DBIDS (installation access) is separate, automatic once
+  enrolled.
 topic: id-cac
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, contractor, family]
+  status:
+    - soldier
+    - daciv
+    - contractor
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing", label: "USAG Wiesbaden In-Processing"}
-  - {tier: T1, url: "https://milconnect.dmdc.osd.mil/milconnect/", label: "DMDC milConnect — Dependents"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/2616/0345/0820/CPL_19_Replacement_of_Lost_Stolen_or_Altered_Government_ID_Card_or_CAC.pdf", label: "USAG Wiesbaden CPL 19 — Lost/Stolen ID (PDF)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing
+    label: USAG Wiesbaden In-Processing
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://milconnect.dmdc.osd.mil/milconnect/
+    label: DMDC milConnect — Dependents
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/2616/0345/0820/CPL_19_Replacement_of_Lost_Stolen_or_Altered_Government_ID_Card_or_CAC.pdf
+    label: USAG Wiesbaden CPL 19 — Lost/Stolen ID (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 20
 poc:
   - name: ID Card Center (DEERS / RAPIDS Wiesbaden)
-    dsn: "548-9105"
-    phone: "+49-611-143-548-9105"
-    address: "Clay Kaserne, consult current in-processing page for building"
-    maps_query: "Clay Kaserne ID Card Center Wiesbaden"
-    hours: "Mon-Fri appointments only via ID Card Office Online (IDCO)"
+    dsn: 548-9105
+    phone: +49-611-143-548-9105
+    address: Clay Kaserne, consult current in-processing page for building
+    maps_query: Clay Kaserne ID Card Center Wiesbaden
+    hours: Mon-Fri appointments only via ID Card Office Online (IDCO)
 checklist: true
 ---
 

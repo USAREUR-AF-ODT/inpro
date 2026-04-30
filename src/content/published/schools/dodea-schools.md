@@ -1,17 +1,46 @@
 ---
-title: "DoDEA Wiesbaden — the four schools"
-summary: "Wiesbaden High (Clay Kaserne), Middle School (Hainerberg), Aukamm Elementary, Hainerberg Elementary. Catchment tied to housing. Register via SLO; transcripts & translated shot records required. DoDEA calendar differs from US state calendars."
+title: DoDEA Wiesbaden — the four schools
+summary: >-
+  Wiesbaden High (Clay Kaserne), Middle School (Hainerberg), Aukamm Elementary, Hainerberg Elementary. Catchment tied to housing. Register via SLO; transcripts & translated shot records required.
+  DoDEA calendar differs from US state calendars.
 topic: schools
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_kids: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_kids: 'yes'
 sources:
-  - {tier: T1, url: "https://www.dodea.edu/europe/eu-central/wiesbaden-community-schools", label: "DoDEA Wiesbaden Community Schools"}
-  - {tier: T1, url: "https://wiesbadenhs.dodea.edu/registration/registration-process-eligibility-and-enrollment", label: "Wiesbaden HS Registration"}
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/application/files/8417/5508/3851/ArmyEuropeSLO-PCSGuide.pdf", label: "Army Europe SLO PCS Guide (PDF)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://www.dodea.edu/europe/eu-central/wiesbaden-community-schools
+    label: DoDEA Wiesbaden Community Schools
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://wiesbadenhs.dodea.edu/registration/registration-process-eligibility-and-enrollment
+    label: Wiesbaden HS Registration
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/application/files/8417/5508/3851/ArmyEuropeSLO-PCSGuide.pdf
+    label: Army Europe SLO PCS Guide (PDF)
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 15
 ---

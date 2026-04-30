@@ -1,15 +1,36 @@
 ---
-title: "APO mail — US address, German location"
-summary: "Your APO address routes US mail + packages to Wiesbaden via the MPO. Amazon US ships to APO like domestic; most US retailers do too. German mail to your APO address doesn't work — you need a German address for that."
+title: APO mail — US address, German location
+summary: >-
+  Your APO address routes US mail + packages to Wiesbaden via the MPO. Amazon US ships to APO like domestic; most US retailers do too. German mail to your APO address doesn't work — you need a German
+  address for that.
 topic: id-cac
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/Garrison/directorate-human-resources/postalservices", label: "USAG Wiesbaden — Postal Services"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet (PDF)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/Garrison/directorate-human-resources/postalservices
+    label: USAG Wiesbaden — Postal Services
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 40
 ---

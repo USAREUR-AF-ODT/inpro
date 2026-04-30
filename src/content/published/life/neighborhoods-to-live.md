@@ -1,16 +1,35 @@
 ---
-title: "Off-post neighborhoods — where to actually live"
-summary: "Erbenheim for proximity, Taunusstein for quiet, Mainz-Kastel for budget, Westend for walkable, Rheingauviertel for the wine life. Opinion piece with specific reasoning."
+title: Off-post neighborhoods — where to actually live
+summary: Erbenheim for proximity, Taunusstein for quiet, Mainz-Kastel for budget, Westend for walkable, Rheingauviertel for the wine life. Opinion piece with specific reasoning.
 topic: housing
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  accompanied: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  accompanied: 'yes'
 sources:
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing", label: "MOS — Wiesbaden Housing"}
-  - {tier: T4, url: "https://www.wiesbaden.de/", label: "Stadt Wiesbaden"}
-last_verified: "2026-04-16"
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing
+    label: MOS — Wiesbaden Housing
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 4
+      purpose: 3
+      license: 5
+  - tier: T4
+    url: https://www.wiesbaden.de/
+    label: Stadt Wiesbaden
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+last_verified: '2026-04-16'
 poc_volatile: false
 opinion: true
 order: 35

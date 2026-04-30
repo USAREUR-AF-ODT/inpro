@@ -1,34 +1,63 @@
 ---
-title: "Mental health resources — on-post and off-post"
-summary: "ARHC behavioral health for routine; ATLAS-referral German therapists for longer-term; chaplain for confidential pastoral care; Military Crisis Line (988) 24/7; SHARP for assault response. Don't wait until it's acute."
+title: Mental health resources — on-post and off-post
+summary: >-
+  ARHC behavioral health for routine; ATLAS-referral German therapists for longer-term; chaplain for confidential pastoral care; Military Crisis Line (988) 24/7; SHARP for assault response. Don't wait
+  until it's acute.
 topic: medical
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet"}
-  - {tier: T1, url: "https://www.tricare.mil/Plans/HealthPlans/OS", label: "TRICARE Overseas"}
-  - {tier: T1, url: "https://988lifeline.org", label: "988 Suicide & Crisis Lifeline"}
-last_verified: "2026-04-17"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://www.tricare.mil/Plans/HealthPlans/OS
+    label: TRICARE Overseas
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://988lifeline.org
+    label: 988 Suicide & Crisis Lifeline
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+last_verified: '2026-04-17'
 poc_volatile: true
 order: 35
 poc:
   - name: Veterans / Military Crisis Line
-    phone: "988"
-    email: "— or text 988"
-    hours: "24/7 worldwide"
+    phone: '988'
+    email: — or text 988
+    hours: 24/7 worldwide
   - name: SHARP Victim Advocate — Wiesbaden
-    dsn: "53-SHARP (74277)"
-    phone: "+49-162-296-6741"
-    hours: "24/7"
+    dsn: 53-SHARP (74277)
+    phone: +49-162-296-6741
+    hours: 24/7
   - name: Domestic Violence Response Hotline
-    phone: "+49-162-297-5625"
-    hours: "24/7"
+    phone: +49-162-297-5625
+    hours: 24/7
   - name: Chaplain (RSO) — on-post pastoral care
-    dsn: "Call garrison main"
-    phone: "+49-611-143-548-9201"
-    hours: "Business hours for routine; emergency Chaplain on-call"
+    dsn: Call garrison main
+    phone: +49-611-143-548-9201
+    hours: Business hours for routine; emergency Chaplain on-call
 ---
 
 ## What

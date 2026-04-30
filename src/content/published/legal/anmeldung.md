@@ -1,26 +1,63 @@
 ---
-title: "Anmeldung — registering as a Wiesbaden resident"
-summary: "You have 14 days after moving into a German address to register with the Bürgeramt. Walk-ins accepted at the Rathaus; bring passport, SOFA card, lease, and a Wohnungsgeberbestätigung from your landlord."
+title: Anmeldung — registering as a Wiesbaden resident
+summary: >-
+  You have 14 days after moving into a German address to register with the Bürgeramt. Walk-ins accepted at the Rathaus; bring passport, SOFA card, lease, and a Wohnungsgeberbestätigung from your
+  landlord.
 topic: legal
 phase: settle
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  accompanied: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  accompanied: 'yes'
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing", label: "USAG Wiesbaden In-Processing — covers Anmeldung briefing"}
-  - {tier: T4, url: "https://www.wiesbaden.de/en/", label: "Stadt Wiesbaden — Residence Registration"}
-  - {tier: T4, url: "https://www.wiesbaden.de/", label: "Stadt Wiesbaden — Bürgerservice"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/check-in-procedures", label: "MOS — Wiesbaden Check-in"}
-last_verified: "2026-04-17"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing
+    label: USAG Wiesbaden In-Processing — covers Anmeldung briefing
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T4
+    url: https://www.wiesbaden.de/en/
+    label: Stadt Wiesbaden — Residence Registration
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 5
+      purpose: 4
+      license: 3
+  - tier: T4
+    url: https://www.wiesbaden.de/
+    label: Stadt Wiesbaden — Bürgerservice
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 5
+      purpose: 4
+      license: 3
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/check-in-procedures
+    label: MOS — Wiesbaden Check-in
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-17'
 poc_volatile: true
 order: 40
 poc:
   - name: Bürgeramt Wiesbaden (Rathaus)
-    phone: "+49-611-315-115"
-    address: "Rathaus, Schlossplatz 6, 65183 Wiesbaden"
-    maps_query: "Rathaus Wiesbaden Schlossplatz 6"
-    hours: "Mon/Tue/Fri 0800–1300; Wed 0800–1300 + 1400–1800; Thu 0800–1800. Check termin.wiesbaden.de for online appointments."
+    phone: +49-611-315-115
+    address: Rathaus, Schlossplatz 6, 65183 Wiesbaden
+    maps_query: Rathaus Wiesbaden Schlossplatz 6
+    hours: Mon/Tue/Fri 0800–1300; Wed 0800–1300 + 1400–1800; Thu 0800–1800. Check termin.wiesbaden.de for online appointments.
 checklist: true
 ---
 

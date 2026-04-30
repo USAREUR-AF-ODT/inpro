@@ -1,16 +1,37 @@
 ---
-title: "Kids and youth religious programs — CYS coordination with the RSO"
-summary: "Sunday school, VBS, youth group, confirmation, and first-communion prep run through the USAG Wiesbaden RSO and the assigned chaplain. Volunteer-driven; availability depends on the current chaplain and participating families. Off-post programs fill gaps for specific traditions."
+title: Kids and youth religious programs — CYS coordination with the RSO
+summary: >-
+  Sunday school, VBS, youth group, confirmation, and first-communion prep run through the USAG Wiesbaden RSO and the assigned chaplain. Volunteer-driven; availability depends on the current chaplain
+  and participating families. Off-post programs fill gaps for specific traditions.
 topic: religious
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_kids: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_kids: 'yes'
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/garrison/rso", label: "USAG Wiesbaden Religious Support Office"}
-  - {tier: T1, url: "https://www.armymwr.com/programs-and-services/family-programs/religious-support", label: "Army MWR — Religious Support Family Programs"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/garrison/rso
+    label: USAG Wiesbaden Religious Support Office
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://www.armymwr.com/programs-and-services/family-programs/religious-support
+    label: Army MWR — Religious Support Family Programs
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 25
 ---

@@ -1,16 +1,35 @@
 ---
-title: "Having a baby in Wiesbaden"
-summary: "Pregnancy confirmed at ARHC → ATLAS referral to German OB → Hebamme (midwife) → HSK or Asklepios delivery. TRICARE covers most. English-speaking OBs plentiful. German maternity care differs from US pattern — but it's excellent."
+title: Having a baby in Wiesbaden
+summary: >-
+  Pregnancy confirmed at ARHC → ATLAS referral to German OB → Hebamme (midwife) → HSK or Asklepios delivery. TRICARE covers most. English-speaking OBs plentiful. German maternity care differs from US
+  pattern — but it's excellent.
 topic: medical
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [family]
+  status:
+    - family
   has_kids: any
 sources:
-  - {tier: T1, url: "https://www.tricare-overseas.com/en/home", label: "International SOS"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care", label: "MOS — Wiesbaden Health Care"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://www.tricare-overseas.com/en/home
+    label: International SOS
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care
+    label: MOS — Wiesbaden Health Care
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 30
 ---

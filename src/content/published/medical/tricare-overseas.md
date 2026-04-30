@@ -1,27 +1,64 @@
 ---
-title: "TRICARE Overseas — enrollment, referrals, the ATLAS"
-summary: "Active Duty Family Members enroll in TRICARE Overseas Prime. Call International SOS to register, schedule your first PCM appointment at the Army Health Clinic, and expect specialty referrals to route through ATLAS to off-post German specialists."
+title: TRICARE Overseas — enrollment, referrals, the ATLAS
+summary: >-
+  Active Duty Family Members enroll in TRICARE Overseas Prime. Call International SOS to register, schedule your first PCM appointment at the Army Health Clinic, and expect specialty referrals to
+  route through ATLAS to off-post German specialists.
 topic: medical
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://tricare.mil/Plans/Eligibility/OCONUS", label: "TRICARE OCONUS Eligibility"}
-  - {tier: T1, url: "https://tricare.mil/Plans/HealthPlans/OS", label: "TRICARE Overseas Plans"}
-  - {tier: T1, url: "https://www.tricare-overseas.com/en/home", label: "International SOS — TRICARE Overseas Contractor"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care", label: "MOS — Wiesbaden Health Care"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://tricare.mil/Plans/Eligibility/OCONUS
+    label: TRICARE OCONUS Eligibility
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://tricare.mil/Plans/HealthPlans/OS
+    label: TRICARE Overseas Plans
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://www.tricare-overseas.com/en/home
+    label: International SOS — TRICARE Overseas Contractor
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care
+    label: MOS — Wiesbaden Health Care
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 15
 poc:
   - name: International SOS — TRICARE Overseas
-    phone: "+00-800-4444-8844"
-    email: "tohs-eurasiaafrica@internationalsos.com"
-    hours: "24/7 for medical issues; regional office business hours for admin"
+    phone: +00-800-4444-8844
+    email: tohs-eurasiaafrica@internationalsos.com
+    hours: 24/7 for medical issues; regional office business hours for admin
   - name: Wiesbaden Army Health Clinic — TRICARE coordinator
-    dsn: "590-1300"
-    phone: "+49-6371-9464-1330"
+    dsn: 590-1300
+    phone: +49-6371-9464-1330
 ---
 
 ## What

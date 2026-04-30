@@ -1,23 +1,44 @@
 ---
-title: "Routine vet care during your tour — on-post VTF vs. German Tierärzte"
-summary: "The Wiesbaden VTF handles rabies, microchip, Pet Europass, and basic wellness for military-owned pets. German vets (Tierärzte) handle complex care, emergency, and specialty. Budget €50–100 per German vet visit. Build a relationship with both before you need them."
+title: Routine vet care during your tour — on-post VTF vs. German Tierärzte
+summary: >-
+  The Wiesbaden VTF handles rabies, microchip, Pet Europass, and basic wellness for military-owned pets. German vets (Tierärzte) handle complex care, emergency, and specialty. Budget €50–100 per
+  German vet visit. Build a relationship with both before you need them.
 topic: pets
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_pets: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_pets: 'yes'
 poc:
   - name: Wiesbaden Veterinary Treatment Facility (VTF)
-    dsn: "548-1635"
-    phone: "+49-611-143-548-1635"
-    address: "Clay Kaserne, Wiesbaden 65205"
-    maps_query: "Clay Kaserne Wiesbaden Veterinary Treatment Facility"
-    hours: "By appointment; call for current schedule"
+    dsn: 548-1635
+    phone: +49-611-143-548-1635
+    address: Clay Kaserne, Wiesbaden 65205
+    maps_query: Clay Kaserne Wiesbaden Veterinary Treatment Facility
+    hours: By appointment; call for current schedule
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/about/garrison/dental-and-veterinary-services", label: "USAG Wiesbaden Dental and Veterinary Services"}
-  - {tier: T4, url: "https://www.tieraerzteverband-hessen.de/", label: "Tierärzteverband Hessen"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/about/garrison/dental-and-veterinary-services
+    label: USAG Wiesbaden Dental and Veterinary Services
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T4
+    url: https://www.tieraerzteverband-hessen.de/
+    label: Tierärzteverband Hessen
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 5
+      purpose: 4
+      license: 3
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 20
 ---

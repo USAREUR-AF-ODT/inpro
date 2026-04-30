@@ -1,15 +1,33 @@
 ---
-title: "Bringing pets back to the US"
-summary: "End-of-tour pet return is easier than import. USDA accepts most EU health certificates within 10 days. No quarantine. But microchip + rabies + flight arrangements still take 4–6 weeks of prep. Don't leave it to the last week."
+title: Bringing pets back to the US
+summary: >-
+  End-of-tour pet return is easier than import. USDA accepts most EU health certificates within 10 days. No quarantine. But microchip + rabies + flight arrangements still take 4–6 weeks of prep. Don't
+  leave it to the last week.
 topic: pets
 phase: life
 usag: wiesbaden
 profile_tags:
-  has_pets: yes
+  has_pets: 'yes'
 sources:
-  - {tier: T1, url: "https://www.aphis.usda.gov/pet-travel", label: "USDA APHIS Pet Travel"}
-  - {tier: T1, url: "https://www.cdc.gov/importation/dogs/index.html", label: "CDC Dog Import Rules"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://www.aphis.usda.gov/pet-travel
+    label: USDA APHIS Pet Travel
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://www.cdc.gov/importation/dogs/index.html
+    label: CDC Dog Import Rules
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 checklist: true
 order: 30

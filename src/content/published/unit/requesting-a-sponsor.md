@@ -1,16 +1,45 @@
 ---
-title: "Requesting a sponsor — how to make it happen before you arrive"
-summary: "Sponsor assignment is mandatory under AR 600-8-8 but often slow. Email the gaining unit S1 90 days before RNLTD with your orders and family details. No reply in 2 weeks: escalate to the gaining unit's CSM or 1SG. Use Total Army Sponsorship Program (TASP) as a paper trail."
+title: Requesting a sponsor — how to make it happen before you arrive
+summary: >-
+  Sponsor assignment is mandatory under AR 600-8-8 but often slow. Email the gaining unit S1 90 days before RNLTD with your orders and family details. No reply in 2 weeks: escalate to the gaining
+  unit's CSM or 1SG. Use Total Army Sponsorship Program (TASP) as a paper trail.
 topic: unit
 phase: sponsors
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/sponsorship-pcs-moves", label: "USAG Wiesbaden Sponsorship and PCS Moves"}
-  - {tier: T1, url: "https://armyeitaas.sharepoint-mil.us/teams/TASP", label: "Total Army Sponsorship Program (TASP)"}
-  - {tier: T1, url: "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1003013", label: "AR 600-8-8, Total Army Sponsorship Program"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers/sponsorship-pcs-moves
+    label: USAG Wiesbaden Sponsorship and PCS Moves
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://armyeitaas.sharepoint-mil.us/teams/TASP
+    label: Total Army Sponsorship Program (TASP)
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1003013
+    label: AR 600-8-8, Total Army Sponsorship Program
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+last_verified: '2026-04-20'
 poc_volatile: false
 order: 10
 checklist: true

@@ -1,17 +1,46 @@
 ---
-title: "CYS — child care, SKIES, sports, teens"
-summary: "Child & Youth Services runs on-post childcare (CDC, SKIES), school-age care, Youth Sports, and Middle School/Teen programs. Subsidized by income. Register via webtrac; book early — popular programs fill in weeks."
+title: CYS — child care, SKIES, sports, teens
+summary: >-
+  Child & Youth Services runs on-post childcare (CDC, SKIES), school-age care, Youth Sports, and Middle School/Teen programs. Subsidized by income. Register via webtrac; book early — popular programs
+  fill in weeks.
 topic: family
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_kids: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_kids: 'yes'
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/categories/cys-services", label: "Wiesbaden CYS Services"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet (PDF)"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/child-and-youth-services/child-and-youth-programs", label: "MOS — Wiesbaden CYS"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/categories/cys-services
+    label: Wiesbaden CYS Services
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/child-and-youth-services/child-and-youth-programs
+    label: MOS — Wiesbaden CYS
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 20
 ---

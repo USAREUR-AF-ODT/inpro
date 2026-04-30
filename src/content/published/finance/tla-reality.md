@@ -1,17 +1,43 @@
 ---
-title: "TLA — the math, the reality, the extension"
-summary: "10 days initial, extendable in 10-day blocks to 60 max for accompanied arrivals. Lodging + per-diem meals. Document your housing search weekly through HSO or the clock stops."
+title: TLA — the math, the reality, the extension
+summary: 10 days initial, extendable in 10-day blocks to 60 max for accompanied arrivals. Lodging + per-diem meals. Document your housing search weekly through HSO or the clock stops.
 topic: finance
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv]
-  accompanied: yes
+  status:
+    - soldier
+    - daciv
+  accompanied: 'yes'
 sources:
-  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library", label: "MyArmyBenefits — TLA"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/temporary-housing", label: "MOS — Wiesbaden Temporary Housing"}
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/wiesbaden-army-lodge", label: "Wiesbaden Army Lodge"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://myarmybenefits.us.army.mil/Benefit-Library
+    label: MyArmyBenefits — TLA
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/temporary-housing
+    label: MOS — Wiesbaden Temporary Housing
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/programs/wiesbaden-army-lodge
+    label: Wiesbaden Army Lodge
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 1
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 15
 ---

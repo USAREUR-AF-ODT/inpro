@@ -1,15 +1,36 @@
 ---
-title: "Getting around Wiesbaden without driving"
-summary: "Wiesbaden Shuttle Bus connects on-post sites free. ESWE city bus goes everywhere else. Taxi Wiesbaden (0611-444-444) is the only on-post-authorized cab. Deutsche Bahn to Mainz, Frankfurt, and beyond."
+title: Getting around Wiesbaden without driving
+summary: >-
+  Wiesbaden Shuttle Bus connects on-post sites free. ESWE city bus goes everywhere else. Taxi Wiesbaden (0611-444-444) is the only on-post-authorized cab. Deutsche Bahn to Mainz, Frankfurt, and
+  beyond.
 topic: vehicle
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/getting-around", label: "USAG Wiesbaden — Getting Around"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet (PDF) — Shuttle schedule"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/getting-around
+    label: USAG Wiesbaden — Getting Around
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet (PDF) — Shuttle schedule
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: true
 order: 50
 ---

@@ -1,0 +1,19 @@
+{
+  "run_at": "2026-04-30T05:41:05.703Z",
+  "args": {
+    "skipExisting": true,
+    "noFallback": true
+  },
+  "targets_total": 178,
+  "targets_run": 146,
+  "counters": {
+    "new": 12,
+    "changed": 0,
+    "unchanged": 0,
+    "empty": 4,
+    "failed": 27,
+    "skipped": 103,
+    "firecrawlCalls": 0
+  },
+  "error_count": 27
+}

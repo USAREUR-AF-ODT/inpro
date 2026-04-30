@@ -1,14 +1,27 @@
 ---
-title: "110V vs 220V — electronics in Germany"
-summary: "Germany is 220V / 50Hz. Your US hair dryer is a disaster. Laptops and phones (dual-voltage) work with just a plug adapter. High-draw appliances need 220V replacements or a step-down transformer — rarely worth the hassle."
+title: 110V vs 220V — electronics in Germany
+summary: >-
+  Germany is 220V / 50Hz. Your US hair dryer is a disaster. Laptops and phones (dual-voltage) work with just a plug adapter. High-draw appliances need 220V replacements or a step-down transformer —
+  rarely worth the hassle.
 topic: id-cac
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf", label: "2024 Welcome Packet (PDF)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
+    label: 2024 Welcome Packet (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 40
 ---

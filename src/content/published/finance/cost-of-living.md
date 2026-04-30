@@ -1,16 +1,45 @@
 ---
-title: "Cost of living in Wiesbaden"
-summary: "OHA + COLA cover most of the delta from CONUS, but the transition month hurts. Budget for deposit + first month rent in EUR, VAT purchases don't help with German-side costs, and German utilities bill annually with a settlement."
+title: Cost of living in Wiesbaden
+summary: >-
+  OHA + COLA cover most of the delta from CONUS, but the transition month hurts. Budget for deposit + first month rent in EUR, VAT purchases don't help with German-side costs, and German utilities
+  bill annually with a settlement.
 topic: finance
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library", label: "OHA overview"}
-  - {tier: T1, url: "https://myarmybenefits.us.army.mil/Benefit-Library", label: "COLA overview"}
-  - {tier: T2, url: "https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/financial-assistance", label: "MOS — Wiesbaden Financial Assistance"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://myarmybenefits.us.army.mil/Benefit-Library
+    label: OHA overview
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://myarmybenefits.us.army.mil/Benefit-Library
+    label: COLA overview
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T2
+    url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/financial-assistance
+    label: MOS — Wiesbaden Financial Assistance
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 5
+      purpose: 3
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 40
 ---

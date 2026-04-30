@@ -1,14 +1,27 @@
 ---
-title: "What to pack in your carry-on"
-summary: "A PCS carry-on list for the flight to Germany. Not a vacation list. Documents, meds, laptop, one change of clothes, kids' comfort stuff, no-plug snacks, power adapters. Assumption: HHG takes 6 weeks, you need to survive that gap."
+title: What to pack in your carry-on
+summary: >-
+  A PCS carry-on list for the flight to Germany. Not a vacation list. Documents, meds, laptop, one change of clothes, kids' comfort stuff, no-plug snacks, power adapters. Assumption: HHG takes 6
+  weeks, you need to survive that gap.
 topic: id-cac
 phase: before
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers", label: "USAG Wiesbaden Newcomers"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers
+    label: USAG Wiesbaden Newcomers
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-16'
 poc_volatile: false
 checklist: true
 order: 42

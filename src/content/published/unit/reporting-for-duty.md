@@ -1,15 +1,34 @@
 ---
-title: "Reporting for duty — your first week at the unit"
-summary: "S1 handles in-processing, Operations owns the mission, Supply gears you up. Expect 3–5 days of admin before real work starts. Learn your sponsor chain, your ERB/SRP, and where to find the S1 lanyard-shaped office."
+title: Reporting for duty — your first week at the unit
+summary: >-
+  S1 handles in-processing, Operations owns the mission, Supply gears you up. Expect 3–5 days of admin before real work starts. Learn your sponsor chain, your ERB/SRP, and where to find the S1
+  lanyard-shaped office.
 topic: unit
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier]
+  status:
+    - soldier
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing", label: "USAG Wiesbaden In-Processing"}
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/1715/9186/4668/OIG_Inprocessing_Brief_WEB.pdf", label: "OIG Inprocessing Brief (PDF)"}
-last_verified: "2026-04-17"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing
+    label: USAG Wiesbaden In-Processing
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/1715/9186/4668/OIG_Inprocessing_Brief_WEB.pdf
+    label: OIG Inprocessing Brief (PDF)
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 5
+last_verified: '2026-04-17'
 poc_volatile: false
 order: 20
 ---

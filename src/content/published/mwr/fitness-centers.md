@@ -1,27 +1,48 @@
 ---
-title: "Wiesbaden Sports and Fitness Center — gym, classes, intramurals"
-summary: "Clay Kaserne gym runs Mon–Fri 0500–2030 with cardio, free weights, group classes, and intramural sports coordination. Free for ID-card holders; guests allowed with escort. MWR after-hours access available at some garrisons — check enrollment at the desk."
+title: Wiesbaden Sports and Fitness Center — gym, classes, intramurals
+summary: >-
+  Clay Kaserne gym runs Mon–Fri 0500–2030 with cardio, free weights, group classes, and intramural sports coordination. Free for ID-card holders; guests allowed with escort. MWR after-hours access
+  available at some garrisons — check enrollment at the desk.
 topic: mwr
 phase: arrive
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 poc:
   - name: Wiesbaden Sports and Fitness Center
-    dsn: "548-9830"
-    phone: "+49-611-143-548-9830"
-    address: "Clay Kaserne, BLDG 1631, Wiesbaden 65205"
-    maps_query: "Clay Kaserne Building 1631 Wiesbaden"
-    hours: "Mon–Fri 0500–2030; Sat/Sun/Federal holidays 0830–1700"
+    dsn: 548-9830
+    phone: +49-611-143-548-9830
+    address: Clay Kaserne, BLDG 1631, Wiesbaden 65205
+    maps_query: Clay Kaserne Building 1631 Wiesbaden
+    hours: Mon–Fri 0500–2030; Sat/Sun/Federal holidays 0830–1700
   - name: Intramural Sports Office
-    dsn: "548-9830"
-    phone: "+49-611-143-548-9830"
-    address: "Clay Kaserne, BLDG 1631, Wiesbaden 65205"
-    hours: "Mon–Fri 0800–1700"
+    dsn: 548-9830
+    phone: +49-611-143-548-9830
+    address: Clay Kaserne, BLDG 1631, Wiesbaden 65205
+    hours: Mon–Fri 0800–1700
 sources:
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/fitness-centers", label: "Wiesbaden MWR Fitness Centers"}
-  - {tier: T1, url: "https://wiesbaden.armymwr.com/programs/intramural-sports", label: "Wiesbaden MWR Intramural Sports"}
-last_verified: "2026-04-20"
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/programs/fitness-centers
+    label: Wiesbaden MWR Fitness Centers
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 1
+  - tier: T1
+    url: https://wiesbaden.armymwr.com/programs/intramural-sports
+    label: Wiesbaden MWR Intramural Sports
+    score:
+      authority: 4
+      currency: 5
+      accuracy: 3
+      purpose: 5
+      license: 1
+last_verified: '2026-04-20'
 poc_volatile: true
 order: 15
 ---

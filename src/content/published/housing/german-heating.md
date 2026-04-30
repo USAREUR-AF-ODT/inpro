@@ -1,15 +1,28 @@
 ---
-title: "Heating a German apartment — radiators, bills, and why it's different"
-summary: "German apartments heat via hot-water radiators, not forced air. Each room has its own thermostat dial. Heating is expensive (€80–€180/mo winter); the annual Nebenkostenabrechnung settlement catches new arrivals. Don't block radiators."
+title: Heating a German apartment — radiators, bills, and why it's different
+summary: >-
+  German apartments heat via hot-water radiators, not forced air. Each room has its own thermostat dial. Heating is expensive (€80–€180/mo winter); the annual Nebenkostenabrechnung settlement catches
+  new arrivals. Don't block radiators.
 topic: housing
 phase: settle
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  accompanied: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  accompanied: 'yes'
 sources:
-  - {tier: T4, url: "https://www.wiesbaden.de/", label: "Stadt Wiesbaden"}
-last_verified: "2026-04-16"
+  - tier: T4
+    url: https://www.wiesbaden.de/
+    label: Stadt Wiesbaden
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 1
+      purpose: 4
+      license: 3
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 50
 ---

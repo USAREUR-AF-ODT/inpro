@@ -1,17 +1,46 @@
 ---
-title: "Hundesteuer, leash law, and dog-owner insurance — the German dog tax stack"
-summary: "Dogs register with Stadt Wiesbaden within 14 days of arrival. Annual Hundesteuer is ~€186 for the first dog; more for additional. Leash laws apply widely. Hundehaftpflicht (liability insurance) is mandatory for listed breeds and strongly recommended for all."
+title: Hundesteuer, leash law, and dog-owner insurance — the German dog tax stack
+summary: >-
+  Dogs register with Stadt Wiesbaden within 14 days of arrival. Annual Hundesteuer is ~€186 for the first dog; more for additional. Leash laws apply widely. Hundehaftpflicht (liability insurance) is
+  mandatory for listed breeds and strongly recommended for all.
 topic: pets
 phase: settle
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_pets: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_pets: 'yes'
 sources:
-  - {tier: T4, url: "https://www.wiesbaden.de/leben-in-wiesbaden/steuern/hundesteuer.php", label: "Stadt Wiesbaden — Hundesteuer"}
-  - {tier: T4, url: "https://www.wiesbaden.de/vv/produkte/53/0200/index.php", label: "Stadt Wiesbaden — Hundesteuer Anmeldung"}
-  - {tier: T4, url: "https://www.rv.hessenrecht.hessen.de/bshe/document/jlr-HundGBefVHEV7P5", label: "Hessische Hundeverordnung (HundeVO Hessen)"}
-last_verified: "2026-04-20"
+  - tier: T4
+    url: https://www.wiesbaden.de/leben-in-wiesbaden/steuern/hundesteuer.php
+    label: Stadt Wiesbaden — Hundesteuer
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T4
+    url: https://www.wiesbaden.de/vv/produkte/53/0200/index.php
+    label: Stadt Wiesbaden — Hundesteuer Anmeldung
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T4
+    url: https://www.rv.hessenrecht.hessen.de/bshe/document/jlr-HundGBefVHEV7P5
+    label: Hessische Hundeverordnung (HundeVO Hessen)
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+last_verified: '2026-04-20'
 poc_volatile: false
 order: 15
 ---

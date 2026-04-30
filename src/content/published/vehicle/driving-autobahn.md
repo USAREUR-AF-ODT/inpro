@@ -1,16 +1,37 @@
 ---
-title: "Driving in Germany — Autobahn, Stau, and what's different"
-summary: "Autobahn has no universal speed limit but plenty of local limits. Right lane to drive, left to pass. Keep headlights on in rain, don't pass on the right, and expect €300+ tickets for things that are a warning in the US."
+title: Driving in Germany — Autobahn, Stau, and what's different
+summary: >-
+  Autobahn has no universal speed limit but plenty of local limits. Right lane to drive, left to pass. Keep headlights on in rain, don't pass on the right, and expect €300+ tickets for things that are
+  a warning in the US.
 topic: vehicle
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
-  has_pov: yes
+  status:
+    - soldier
+    - daciv
+    - family
+  has_pov: 'yes'
 sources:
-  - {tier: T1, url: "https://home.army.mil/wiesbaden/my-fort/getting-around", label: "USAG Wiesbaden — Getting Around"}
-  - {tier: T4, url: "https://www.adac.de/", label: "ADAC (German Automobile Club)"}
-last_verified: "2026-04-16"
+  - tier: T1
+    url: https://home.army.mil/wiesbaden/my-fort/getting-around
+    label: USAG Wiesbaden — Getting Around
+    score:
+      authority: 5
+      currency: 5
+      accuracy: 5
+      purpose: 5
+      license: 5
+  - tier: T4
+    url: https://www.adac.de/
+    label: ADAC (German Automobile Club)
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 5
+      purpose: 4
+      license: 3
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 45
 ---

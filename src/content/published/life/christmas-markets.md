@@ -1,14 +1,27 @@
 ---
-title: "Christmas markets — the actual winter move"
-summary: "Late November to Dec 23. Wiesbaden's Sternschnuppenmarkt is at the Rathaus, Frankfurt's is on Römerberg, Nuremberg's is the most famous. Glühwein cups carry Pfand. Bring kids. Bring cash. Don't skip this."
+title: Christmas markets — the actual winter move
+summary: >-
+  Late November to Dec 23. Wiesbaden's Sternschnuppenmarkt is at the Rathaus, Frankfurt's is on Römerberg, Nuremberg's is the most famous. Glühwein cups carry Pfand. Bring kids. Bring cash. Don't skip
+  this.
 topic: mwr
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T4, url: "https://www.wiesbaden.de/", label: "Stadt Wiesbaden events"}
-last_verified: "2026-04-16"
+  - tier: T4
+    url: https://www.wiesbaden.de/
+    label: Stadt Wiesbaden events
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 1
+      purpose: 4
+      license: 3
+last_verified: '2026-04-16'
 poc_volatile: false
 order: 85
 ---

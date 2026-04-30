@@ -1,15 +1,36 @@
 ---
-title: "Hessen holidays and store closures — when everything shuts"
-summary: "Germany has federal + state holidays. Hessen adds Corpus Christi (religious); no Reformation Day. Stores close Sundays and federal holidays by law (Ladenschlussgesetz). Restaurants, pharmacies with notdienst, gas stations, and on-post commissary/PX work around it."
+title: Hessen holidays and store closures — when everything shuts
+summary: >-
+  Germany has federal + state holidays. Hessen adds Corpus Christi (religious); no Reformation Day. Stores close Sundays and federal holidays by law (Ladenschlussgesetz). Restaurants, pharmacies with
+  notdienst, gas stations, and on-post commissary/PX work around it.
 topic: legal
 phase: life
 usag: wiesbaden
 profile_tags:
-  status: [soldier, daciv, family]
+  status:
+    - soldier
+    - daciv
+    - family
 sources:
-  - {tier: T4, url: "https://innen.hessen.de/sicherheit/feiertage", label: "Hessisches Ministerium des Innern — Feiertage"}
-  - {tier: T4, url: "https://www.wiesbaden.de/leben-in-wiesbaden/wirtschaft/handel/einzelhandel/ladenoeffnungszeiten.php", label: "Stadt Wiesbaden — Ladenöffnungszeiten"}
-last_verified: "2026-04-20"
+  - tier: T4
+    url: https://innen.hessen.de/sicherheit/feiertage
+    label: Hessisches Ministerium des Innern — Feiertage
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+  - tier: T4
+    url: https://www.wiesbaden.de/leben-in-wiesbaden/wirtschaft/handel/einzelhandel/ladenoeffnungszeiten.php
+    label: Stadt Wiesbaden — Ladenöffnungszeiten
+    score:
+      authority: 2
+      currency: 5
+      accuracy: 4
+      purpose: 4
+      license: 3
+last_verified: '2026-04-20'
 poc_volatile: false
 order: 35
 ---
