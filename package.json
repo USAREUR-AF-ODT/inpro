@@ -33,7 +33,7 @@
     "@fontsource/jetbrains-mono": "^5.1.0",
     "astro": "^5.0.0",
     "astro-icon": "^1.1.5",
-    "typescript": "^5.7.2"
+    "typescript": "^6.0.3"
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.20",
