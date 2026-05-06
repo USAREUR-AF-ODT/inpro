@@ -62,6 +62,12 @@ jobs:
         run: |
           set +e
           node scripts/fetch-html.mjs --from-errors || true
+          # peter-evans/create-pull-request runs `git add` on every path in
+          # `add-paths` and aborts on any pathspec that matches no file.
+          # scrape-errors.json is only produced when prior scrapes failed; on
+          # a clean week it doesn't exist. Seed an empty array so the add
+          # always succeeds.
+          [ -f scripts/scrape-errors.json ] || echo '[]' > scripts/scrape-errors.json
 
       - name: Open PR for new raw entries
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
