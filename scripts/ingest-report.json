@@ -1,19 +1,19 @@
 {
-  "run_at": "2026-04-30T05:41:05.703Z",
+  "run_at": "2026-05-11T15:55:22.645Z",
   "args": {
-    "skipExisting": true,
-    "noFallback": true
+    "tier": "T1",
+    "skipExisting": true
   },
   "targets_total": 178,
-  "targets_run": 146,
+  "targets_run": 101,
   "counters": {
-    "new": 12,
+    "new": 0,
     "changed": 0,
     "unchanged": 0,
-    "empty": 4,
-    "failed": 27,
-    "skipped": 103,
-    "firecrawlCalls": 0
+    "empty": 3,
+    "failed": 25,
+    "skipped": 73,
+    "firecrawlCalls": 24
   },
-  "error_count": 27
+  "error_count": 25
 }
