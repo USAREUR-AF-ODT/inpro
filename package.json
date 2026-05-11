@@ -36,7 +36,7 @@
     "typescript": "^5.7.2"
   },
   "devDependencies": {
-    "@iconify-json/lucide": "^1.2.105",
+    "@iconify-json/lucide": "^1.2.106",
     "@tailwindcss/typography": "^0.5.15",
     "@tailwindcss/vite": "^4.2.4",
     "@vite-pwa/astro": "^1.2.0",
