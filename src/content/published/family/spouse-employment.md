@@ -20,7 +20,7 @@ sources:
       license: 1
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/employment
-    label: MOS — Wiesbaden Employment
+    label: MOS: Wiesbaden Employment
     score:
       authority: 4
       currency: 5

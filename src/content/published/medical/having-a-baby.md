@@ -2,7 +2,7 @@
 title: Having a baby in Wiesbaden
 summary: >-
   Pregnancy confirmed at ARHC → ATLAS referral to German OB → Hebamme (midwife) → HSK or Asklepios delivery. TRICARE covers most. English-speaking OBs plentiful. German maternity care differs from US
-  pattern — but it's excellent.
+  pattern: but it's excellent.
 topic: medical
 phase: life
 usag: wiesbaden
@@ -22,7 +22,7 @@ sources:
       license: 1
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care
-    label: MOS — Wiesbaden Health Care
+    label: MOS: Wiesbaden Health Care
     score:
       authority: 4
       currency: 5

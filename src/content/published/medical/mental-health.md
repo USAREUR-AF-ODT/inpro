@@ -1,5 +1,5 @@
 ---
-title: Mental health resources — on-post and off-post
+title: Mental health resources: on-post and off-post
 summary: >-
   ARHC behavioral health for routine; ATLAS-referral German therapists for longer-term; chaplain for confidential pastoral care; Military Crisis Line (988) 24/7; SHARP for assault response. Don't wait
   until it's acute.
@@ -45,16 +45,16 @@ order: 35
 poc:
   - name: Veterans / Military Crisis Line
     phone: '988'
-    email: — or text 988
+    email:: or text 988
     hours: 24/7 worldwide
-  - name: SHARP Victim Advocate — Wiesbaden
+  - name: SHARP Victim Advocate: Wiesbaden
     dsn: 53-SHARP (74277)
     phone: +49-162-296-6741
     hours: 24/7
   - name: Domestic Violence Response Hotline
     phone: +49-162-297-5625
     hours: 24/7
-  - name: Chaplain (RSO) — on-post pastoral care
+  - name: Chaplain (RSO): on-post pastoral care
     dsn: Call garrison main
     phone: +49-611-143-548-9201
     hours: Business hours for routine; emergency Chaplain on-call

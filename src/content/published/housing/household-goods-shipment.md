@@ -14,7 +14,7 @@ profile_tags:
 sources:
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/moving/household-goods
-    label: MOS — Wiesbaden Moving Household Goods
+    label: MOS: Wiesbaden Moving Household Goods
     score:
       authority: 4
       currency: 5

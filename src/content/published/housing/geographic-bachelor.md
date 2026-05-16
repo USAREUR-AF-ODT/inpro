@@ -1,5 +1,5 @@
 ---
-title: Geographic bachelor — arriving without Family
+title: Geographic bachelor: arriving without Family
 summary: >-
   Unaccompanied arrivals skip OHA in most cases, land in the barracks or off-post lodging, and navigate a distinct timeline. Fast to set up, slow to feel settled. Use the time for travel, PT, German
   classes, and career moves Family-accompanied Soldiers can't.
@@ -23,7 +23,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing
-    label: MOS — Wiesbaden Housing
+    label: MOS: Wiesbaden Housing
     score:
       authority: 4
       currency: 5

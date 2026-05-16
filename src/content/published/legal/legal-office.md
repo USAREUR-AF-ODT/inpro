@@ -1,5 +1,5 @@
 ---
-title: Legal Office — wills, POA, notary, and divorce
+title: Legal Office: wills, POA, notary, and divorce
 summary: >-
   The on-post Legal Assistance Office handles wills, powers of attorney, notary, and legal counseling free for Active Duty + dependents. For non-military legal matters (German criminal defense,
   immigration), you need a German attorney.
@@ -23,7 +23,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/legal/legal-assistance
-    label: MOS — Wiesbaden Legal Assistance
+    label: MOS: Wiesbaden Legal Assistance
     score:
       authority: 4
       currency: 5

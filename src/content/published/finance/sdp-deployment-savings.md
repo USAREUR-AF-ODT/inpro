@@ -1,5 +1,5 @@
 ---
-title: Savings Deposit Program — the 10% deployment guarantee
+title: Savings Deposit Program: the 10% deployment guarantee
 summary: >-
   SDP pays 10% annual interest (5% semiannual, compounded) on up to $10,000 during a qualifying deployment. Enrollment requires 30+ consecutive days in a CZTE zone. Deposit up to your monthly
   unallotted base pay. Withdraw within 90 days of returning. Few products match this return.
@@ -27,7 +27,7 @@ sources:
       license: 5
   - tier: T1
     url: https://militarypay.defense.gov/Pay/Special-and-Incentive-Pays/SDP/
-    label: DoD Military Pay — SDP
+    label: DoD Military Pay: SDP
     score:
       authority: 5
       currency: 5

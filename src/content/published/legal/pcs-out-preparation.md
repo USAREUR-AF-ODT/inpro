@@ -1,5 +1,5 @@
 ---
-title: PCS-out — the last 60 days in Wiesbaden
+title: PCS-out: the last 60 days in Wiesbaden
 summary: Start 60 days out with HHG pickup, legal office for wills update, Abmeldung (de-registration) from Wiesbaden, and gym cancellations. Ship POV 6+ weeks ahead. Close German bank before your last day.
 topic: legal
 phase: life

@@ -45,7 +45,7 @@ What This Means for You
 
 **Accredited Veterinarians:** Use the links below to access or get help with VEHCS. Learn more about [how to issue export health certificates](https://www.aphis.usda.gov/pet-travel/accredited-veterinarians "USDA-Accredited Veterinarians: Certifying Animals for International Travel (Export)").
 
-**Animal Owners/Shippers:** You can arrange to have your health certificate returned by mail (a prepaid, preaddressed return label must be provided during certificate submission). The endorsed health certificate—ink-signed and embossed—must accompany the animal(s) during shipment or travel.
+**Animal Owners/Shippers:** You can arrange to have your health certificate returned by mail (a prepaid, preaddressed return label must be provided during certificate submission). The endorsed health certificate, ink-signed and embossed, must accompany the animal(s) during shipment or travel.
 
 [VEHCS Help](https://www.aphis.usda.gov/pet-travel/vehcs "Using the Veterinary Export Health Certification System (VEHCS)")  \|  [VEHCS Guide](https://www.aphis.usda.gov/sites/default/files/av-vehcs-tutorial-presentation.pdf "av-vehcs-tutorial-presentation.pdf") (7.58 MB)  \|  [VEHCS Login](https://vehcs.aphis.usda.gov/)
 

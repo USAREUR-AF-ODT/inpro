@@ -1,6 +1,6 @@
 ---
 title: School Liaison Office (SLO)
-summary: Your single POC for DoDEA enrollment, transfer records, and German-school questions. Contact the SLO before you finalize housing — school catchments drive where you can live.
+summary: Your single POC for DoDEA enrollment, transfer records, and German-school questions. Contact the SLO before you finalize housing: school catchments drive where you can live.
 topic: schools
 phase: before
 usag: wiesbaden
@@ -13,7 +13,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://wiesbaden.armymwr.com/happenings/school-liaison-office
-    label: Wiesbaden SLO — Army MWR
+    label: Wiesbaden SLO: Army MWR
     score:
       authority: 4
       currency: 5
@@ -50,7 +50,7 @@ sources:
       license: 1
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/education/education
-    label: MOS — Wiesbaden Education
+    label: MOS: Wiesbaden Education
     score:
       authority: 4
       currency: 5

@@ -1,5 +1,5 @@
 ---
-title: German tax and SOFA — when you owe, when you don't
+title: German tax and SOFA: when you owe, when you don't
 summary: >-
   SOFA-status Active Duty and DA Civilians generally owe no German tax on US government salary. Spouses working on the German economy usually owe. German-sourced investment income can trigger German
   tax. US obligations continue regardless. Consult Legal when unsure.
@@ -14,7 +14,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://www.irs.gov/individuals/international-taxpayers/us-citizens-and-resident-aliens-abroad
-    label: IRS — US citizens and resident aliens abroad
+    label: IRS: US citizens and resident aliens abroad
     score:
       authority: 5
       currency: 5
@@ -23,7 +23,7 @@ sources:
       license: 5
   - tier: T1
     url: https://www.irs.gov/individuals/international-taxpayers/foreign-earned-income-exclusion
-    label: IRS — Foreign Earned Income Exclusion
+    label: IRS: Foreign Earned Income Exclusion
     score:
       authority: 5
       currency: 5
@@ -32,7 +32,7 @@ sources:
       license: 5
   - tier: T4
     url: https://www.bundesfinanzministerium.de/Web/EN/Issues/Taxation/taxation.html
-    label: German Federal Ministry of Finance — Taxation
+    label: German Federal Ministry of Finance: Taxation
     score:
       authority: 2
       currency: 5
@@ -41,7 +41,7 @@ sources:
       license: 3
   - tier: T2
     url: https://www.militaryonesource.mil/financial-legal/taxes/overseas-filing-resources/
-    label: Military OneSource — Overseas Tax Resources
+    label: Military OneSource: Overseas Tax Resources
     score:
       authority: 4
       currency: 5

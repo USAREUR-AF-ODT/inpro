@@ -1,5 +1,5 @@
 ---
-title: Education Center — ACES, TA, GI Bill, and on-post college programs
+title: Education Center: ACES, TA, GI Bill, and on-post college programs
 summary: >-
   Clay Kaserne Education Center administers Tuition Assistance, GI Bill counseling, CLEP/DSST/APT testing, and UMGC/Troy/UMD campus classes. Walk-in counseling during duty hours. Spouses and retirees
   served for most programs. Start 30+ days before your first class.
@@ -43,7 +43,7 @@ sources:
       license: 5
   - tier: T1
     url: https://europe.umgc.edu/locations/germany-wiesbaden
-    label: UMGC Europe — Wiesbaden
+    label: UMGC Europe: Wiesbaden
     score:
       authority: 4
       currency: 5

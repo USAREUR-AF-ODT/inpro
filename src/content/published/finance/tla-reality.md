@@ -1,5 +1,5 @@
 ---
-title: TLA — the math, the reality, the extension
+title: TLA: the math, the reality, the extension
 summary: 10 days initial, extendable in 10-day blocks to 60 max for accompanied arrivals. Lodging + per-diem meals. Document your housing search weekly through HSO or the clock stops.
 topic: finance
 phase: arrive
@@ -12,7 +12,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://myarmybenefits.us.army.mil/Benefit-Library
-    label: MyArmyBenefits — TLA
+    label: MyArmyBenefits: TLA
     score:
       authority: 5
       currency: 5
@@ -21,7 +21,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/temporary-housing
-    label: MOS — Wiesbaden Temporary Housing
+    label: MOS: Wiesbaden Temporary Housing
     score:
       authority: 4
       currency: 5

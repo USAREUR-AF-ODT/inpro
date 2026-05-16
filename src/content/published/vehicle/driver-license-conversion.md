@@ -1,5 +1,5 @@
 ---
-title: German driver license — SOFA license vs. Führerschein conversion
+title: German driver license: SOFA license vs. Führerschein conversion
 summary: >-
   You can drive on your US license for 6 months under SOFA. After that, convert to a USAREUR Certificate of License (on-post) or a full German Führerschein (off-post via Wiesbaden
   Fahrerlaubnisbehörde).
@@ -24,7 +24,7 @@ sources:
       license: 5
   - tier: T4
     url: https://www.wiesbaden.de/en/
-    label: Stadt Wiesbaden — Foreign License Conversion (non-EU)
+    label: Stadt Wiesbaden: Foreign License Conversion (non-EU)
     score:
       authority: 2
       currency: 5
@@ -33,7 +33,7 @@ sources:
       license: 3
   - tier: T4
     url: https://www.germany.info/us-en/service/09-DrivingPermits/drivers-license-exchange/930182
-    label: German Embassy US — License Exchange
+    label: German Embassy US: License Exchange
     score:
       authority: 2
       currency: 5

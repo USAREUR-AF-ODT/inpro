@@ -1,5 +1,5 @@
 ---
-title: Rundfunkbeitrag — the German TV/radio fee and how SOFA families avoid it
+title: Rundfunkbeitrag: the German TV/radio fee and how SOFA families avoid it
 summary: >-
   €18.36/month per German dwelling, not per person or device, funds public broadcasting (ARD, ZDF, Deutschlandradio). SOFA-status personnel are exempt but must apply with a Beitragsservice exemption
   form plus SOFA ID. Paying when you don't owe is the default failure mode.
@@ -14,7 +14,7 @@ profile_tags:
 sources:
   - tier: T4
     url: https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/formulare/anmelden
-    label: Rundfunkbeitrag — Anmelden (Beitragsservice)
+    label: Rundfunkbeitrag: Anmelden (Beitragsservice)
     score:
       authority: 2
       currency: 5
@@ -23,7 +23,7 @@ sources:
       license: 3
   - tier: T4
     url: https://www.rundfunkbeitrag.de/buergerinnen-und-buerger/formulare/abmelden
-    label: Rundfunkbeitrag — Abmelden
+    label: Rundfunkbeitrag: Abmelden
     score:
       authority: 2
       currency: 5
@@ -32,7 +32,7 @@ sources:
       license: 3
   - tier: T2
     url: https://www.militaryonesource.mil/family-relationships/family-life/keeping-your-family-strong/sofa/
-    label: Military OneSource — SOFA
+    label: Military OneSource: SOFA
     score:
       authority: 4
       currency: 5

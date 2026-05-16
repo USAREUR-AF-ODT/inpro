@@ -1,7 +1,7 @@
 ---
 title: How to be a good sponsor
 summary: >-
-  You were picked because you've been here. Your job isn't to re-welcome them to the Army — it's to answer the stupid questions they're afraid to ask their unit. Reach out 60 days before, meet them at
+  You were picked because you've been here. Your job isn't to re-welcome them to the Army: it's to answer the stupid questions they're afraid to ask their unit. Reach out 60 days before, meet them at
   baggage claim if you can, and stay reachable for week one.
 topic: family
 phase: sponsors

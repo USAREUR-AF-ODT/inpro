@@ -24,7 +24,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing
-    label: MilitaryOneSource — USAG Wiesbaden Housing
+    label: MilitaryOneSource: USAG Wiesbaden Housing
     scraped: '2026-04-16'
     score:
       authority: 4

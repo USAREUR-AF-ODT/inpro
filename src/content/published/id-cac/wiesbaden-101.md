@@ -1,5 +1,5 @@
 ---
-title: Wiesbaden 101 — the 30-second primer
+title: Wiesbaden 101: the 30-second primer
 summary: USAG Wiesbaden is the US Army Garrison centered on Clay Kaserne (Wiesbaden Army Airfield). 25K+ US community. V Corps (F), 66th MI, 2nd Sig HQ here. Germans refer to it as Flugplatz Erbenheim.
 topic: id-cac
 phase: before

@@ -1,5 +1,5 @@
 ---
-title: VAT forms — how to not pay German tax
+title: VAT forms: how to not pay German tax
 summary: 19% off most purchases if you use VAT forms correctly. NF-1 ($5) for anything under €2,500; NF-2 ($65) for single purchases above. Forms purchased at Bldg 1023E, Clay Kaserne.
 topic: finance
 phase: settle

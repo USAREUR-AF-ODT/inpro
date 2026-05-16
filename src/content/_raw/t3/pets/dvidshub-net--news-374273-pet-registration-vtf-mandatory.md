@@ -125,7 +125,7 @@ USAG Wiesbaden's VTF helps to maintain Soldier readiness in ways such as preppin
 
 ![sharethis sharing button](https://platform-cdn.sharethis.com/img/sharethis.svg)
 
-WIESBADEN, Germany -- Anyone who’s brought a pet overseas has already jumped through several hoops — making sure they’re microchipped and vaccinated, obtaining a health certificate and complying with airline regulations. But once here, there are still some things pet owners must take care of and some laws to be aware of.
+WIESBADEN, Germany -- Anyone who’s brought a pet overseas has already jumped through several hoops: making sure they’re microchipped and vaccinated, obtaining a health certificate and complying with airline regulations. But once here, there are still some things pet owners must take care of and some laws to be aware of.
 
 Pet owners living on post or off must register their pets at the Veterinary Treatment Facility on Clay Kaserne within two weeks of arriving in Germany, said Capt. Kathleen Stewart, DVM, officer in charge at the VTF. The good news is, it’s free to register pets with the garrison, and it only needs to be done once at the duty station where the pet resides.
 

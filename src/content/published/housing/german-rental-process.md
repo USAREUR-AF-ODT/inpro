@@ -1,5 +1,5 @@
 ---
-title: How German rentals work — finding a house, the Mietvertrag, the Kaution
+title: How German rentals work: finding a house, the Mietvertrag, the Kaution
 summary: >-
   German leases run 1-3 years with 3 months notice. Expect to pay 2-3 months rent as deposit (Kaution), provide a SCHUFA credit check, compete with 20 other applicants for nice apartments. Kaltmiete ≠
   total rent; Nebenkosten is extra.
@@ -15,7 +15,7 @@ profile_tags:
 sources:
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing
-    label: MOS — Wiesbaden Housing
+    label: MOS: Wiesbaden Housing
     score:
       authority: 4
       currency: 5

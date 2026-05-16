@@ -1,5 +1,5 @@
 ---
-title: Wiesbaden Army Lodge — where most PCS families land
+title: Wiesbaden Army Lodge: where most PCS families land
 summary: >-
   Hainerberg TLF: Mississippi Strasse 45, BLDG 7890. Open 24/7, rates per diem or below, breakfast included, walk to PX/commissary/DoDEA schools. Book before arrival; 90-day TLA clock starts the day
   you check in. Reservations@army.mil or DSN 548-9700.
@@ -31,7 +31,7 @@ sources:
       license: 1
   - tier: T1
     url: https://aoprals.state.gov/web920/per_diem_action.asp?MenuHide=1&CountryCode=1089
-    label: DoS Per Diem — Germany
+    label: DoS Per Diem: Germany
     score:
       authority: 5
       currency: 5

@@ -1,5 +1,5 @@
 ---
-title: Pre-PCS — the 90-day checklist
+title: Pre-PCS: the 90-day checklist
 summary: >-
   90 days before you fly: orders in hand, EFMP current, sponsor assigned, pets prepped, POV scheduled, HHG briefed. 30 days before: passports, immunizations, electronics audit, school records. Print
   this.
@@ -14,7 +14,7 @@ profile_tags:
 sources:
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/relocation-assistance
-    label: MOS — Wiesbaden Relocation Assistance
+    label: MOS: Wiesbaden Relocation Assistance
     score:
       authority: 4
       currency: 5

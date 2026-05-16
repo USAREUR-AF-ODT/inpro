@@ -1,6 +1,6 @@
 ---
 title: Wiesbaden Veterinary Treatment Facility (VTF)
-summary: Primary care + preventive for pets of military personnel. Bldg 1038, Wurger St., Clay Kaserne. Tue/Thu 0800–1600, Wed 0800–1200. Emergency pet care goes to civilian Tierklinik — not the VTF.
+summary: Primary care + preventive for pets of military personnel. Bldg 1038, Wurger St., Clay Kaserne. Tue/Thu 0800–1600, Wed 0800–1200. Emergency pet care goes to civilian Tierklinik: not the VTF.
 topic: pets
 phase: arrive
 usag: wiesbaden
@@ -9,7 +9,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
-    label: 2024 Welcome Packet — Vet Info
+    label: 2024 Welcome Packet: Vet Info
     score:
       authority: 5
       currency: 5
@@ -18,7 +18,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/moving/shipping-pets
-    label: MOS — Wiesbaden Pets
+    label: MOS: Wiesbaden Pets
     score:
       authority: 4
       currency: 5

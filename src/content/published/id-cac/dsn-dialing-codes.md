@@ -1,5 +1,5 @@
 ---
-title: DSN and Civilian Dialing Codes — Wiesbaden
+title: DSN and Civilian Dialing Codes: Wiesbaden
 summary: How to convert any USAG Wiesbaden DSN to a civilian number (and vice versa), plus how to dial Germany from the US and DSN from outside Europe.
 topic: id-cac
 phase: before

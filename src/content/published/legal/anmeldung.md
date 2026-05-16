@@ -1,5 +1,5 @@
 ---
-title: Anmeldung — registering as a Wiesbaden resident
+title: Anmeldung: registering as a Wiesbaden resident
 summary: >-
   You have 14 days after moving into a German address to register with the Bürgeramt. Walk-ins accepted at the Rathaus; bring passport, SOFA card, lease, and a Wohnungsgeberbestätigung from your
   landlord.
@@ -15,7 +15,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing
-    label: USAG Wiesbaden In-Processing — covers Anmeldung briefing
+    label: USAG Wiesbaden In-Processing: covers Anmeldung briefing
     score:
       authority: 5
       currency: 5
@@ -24,7 +24,7 @@ sources:
       license: 5
   - tier: T4
     url: https://www.wiesbaden.de/en/
-    label: Stadt Wiesbaden — Residence Registration
+    label: Stadt Wiesbaden: Residence Registration
     score:
       authority: 2
       currency: 5
@@ -33,7 +33,7 @@ sources:
       license: 3
   - tier: T4
     url: https://www.wiesbaden.de/
-    label: Stadt Wiesbaden — Bürgerservice
+    label: Stadt Wiesbaden: Bürgerservice
     score:
       authority: 2
       currency: 5
@@ -42,7 +42,7 @@ sources:
       license: 3
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/check-in-procedures
-    label: MOS — Wiesbaden Check-in
+    label: MOS: Wiesbaden Check-in
     score:
       authority: 4
       currency: 5

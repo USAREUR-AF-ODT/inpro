@@ -1,5 +1,5 @@
 ---
-title: Your first weekend in Wiesbaden — a lazy itinerary
+title: Your first weekend in Wiesbaden: a lazy itinerary
 summary: >-
   You just arrived. You're jetlagged. You don't need to conquer Europe yet. Saturday: sleep late, walk the Kurhaus, lunch in the Altstadt. Sunday: Biebrich castle park, Rhine river, German bakery.
   That's enough.

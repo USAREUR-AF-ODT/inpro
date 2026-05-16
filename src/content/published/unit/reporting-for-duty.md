@@ -1,5 +1,5 @@
 ---
-title: Reporting for duty — your first week at the unit
+title: Reporting for duty: your first week at the unit
 summary: >-
   S1 handles in-processing, Operations owns the mission, Supply gears you up. Expect 3–5 days of admin before real work starts. Learn your sponsor chain, your ERB/SRP, and where to find the S1
   lanyard-shaped office.

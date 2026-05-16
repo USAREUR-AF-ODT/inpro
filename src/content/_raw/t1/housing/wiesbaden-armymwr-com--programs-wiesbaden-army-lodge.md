@@ -318,14 +318,14 @@ Located on US Army Garrison Yongsan in Seoul. The perfect home away from home to
 # The “Do What I Want” Discover Package
 
 Discover Europe the Easy Way
-Enjoyed by more than 250 military families. Start your European getaway stress free with the Discover Package, featuring a seamless airport pick up at Munich and a relaxing stay at Edelweiss Lodge and Resort — one of our world class Armed Forces Recreation Centers.
+Enjoyed by more than 250 military families. Start your European getaway stress free with the Discover Package, featuring a seamless airport pick up at Munich and a relaxing stay at Edelweiss Lodge and Resort: one of our world class Armed Forces Recreation Centers.
 
 ![thumbnail](https://wiesbaden.armymwr.com/application/files/8817/7429/0547/ESMC_AFRC_ELR__23MAR2026-01SEP2026_MARCOM_GLOBAL.png)
 
 # The “Do What I Want” Discover Package
 
 Discover Europe the Easy Way
-Enjoyed by more than 250 military families. Start your European getaway stress free with the Discover Package, featuring a seamless airport pick up at Munich and a relaxing stay at Edelweiss Lodge and Resort — one of our world class Armed Forces Recreation Centers.
+Enjoyed by more than 250 military families. Start your European getaway stress free with the Discover Package, featuring a seamless airport pick up at Munich and a relaxing stay at Edelweiss Lodge and Resort: one of our world class Armed Forces Recreation Centers.
 
 ![thumbnail](https://wiesbaden.armymwr.com/application/files/8817/7429/0547/ESMC_AFRC_ELR__23MAR2026-01SEP2026_MARCOM_GLOBAL.png)
 

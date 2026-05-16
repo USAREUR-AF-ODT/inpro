@@ -1,7 +1,7 @@
 ---
 title: Why Wiesbaden is the best PCS in USAREUR
 summary: >-
-  Hot take: Wiesbaden is the best US Army posting in Europe. Warm wine country, mild weather, Frankfurt airport, walkable city, world-class hospitals. Other garrisons aren't bad — Wiesbaden is just
+  Hot take: Wiesbaden is the best US Army posting in Europe. Warm wine country, mild weather, Frankfurt airport, walkable city, world-class hospitals. Other garrisons aren't bad: Wiesbaden is just
   better.
 topic: mwr
 phase: before

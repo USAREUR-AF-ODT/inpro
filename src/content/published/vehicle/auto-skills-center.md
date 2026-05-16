@@ -1,5 +1,5 @@
 ---
-title: Auto Skills Center — self-service bays, tools, and shop labor
+title: Auto Skills Center: self-service bays, tools, and shop labor
 summary: >-
   MWR-run garage on Clay Kaserne, BLDG 3500, open Tue–Sun. Rent lifts and bays by the hour, borrow tools, or pay shop labor ($89/hr) for oil changes, tire work, pre-PCS inspections, and diagnostics.
   Cheaper than German shops; great for DIY.

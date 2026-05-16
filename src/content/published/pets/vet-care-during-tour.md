@@ -1,5 +1,5 @@
 ---
-title: Routine vet care during your tour — on-post VTF vs. German Tierärzte
+title: Routine vet care during your tour: on-post VTF vs. German Tierärzte
 summary: >-
   The Wiesbaden VTF handles rabies, microchip, Pet Europass, and basic wellness for military-owned pets. German vets (Tierärzte) handle complex care, emergency, and specialty. Budget €50–100 per
   German vet visit. Build a relationship with both before you need them.

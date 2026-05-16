@@ -10,17 +10,17 @@ A static site that answers the questions nobody puts in the welcome packet: hous
 
 - No tracking, no accounts, no PII
 - Offline-capable (PWA) after first visit
-- Profile-aware — filters content to your situation (Soldier / Civilian / Family, rank, accompanied status, kids, POV, pets)
+- Profile-aware: filters content to your situation (Soldier / Civilian / Family, rank, accompanied status, kids, POV, pets)
 
 ## Stack
 
 - [Astro](https://astro.build/) 5 + content collections (Zod-typed markdown)
 - Tailwind v4 (CSS-first config)
-- [Pagefind](https://pagefind.app/) — client-side, offline-capable search
-- [`@vite-pwa/astro`](https://vite-pwa-org.netlify.app/frameworks/astro.html) — Workbox-powered service worker
-- [Firecrawl](https://www.firecrawl.dev/) — content scrape pipeline (local dev, not CI)
+- [Pagefind](https://pagefind.app/): client-side, offline-capable search
+- [`@vite-pwa/astro`](https://vite-pwa-org.netlify.app/frameworks/astro.html): Workbox-powered service worker
+- [Firecrawl](https://www.firecrawl.dev/): content scrape pipeline (local dev, not CI)
 - Self-hosted fonts (Source Serif 4 Variable, Inter, JetBrains Mono)
-- Cloudflare Web Analytics — aggregate, no cookies
+- Cloudflare Web Analytics: aggregate, no cookies
 
 ## Local development
 
@@ -125,7 +125,7 @@ Source tiers:
 - **T3** Community (blogs, Reddit, public-facing FB)
 - **T4** German-side (Stadt, ADAC, Bürgeramt)
 
-Closed FB groups are **research context only** — we read them to identify common pain points, never quote or republish.
+Closed FB groups are **research context only**: we read them to identify common pain points, never quote or republish.
 
 ## Contributing
 

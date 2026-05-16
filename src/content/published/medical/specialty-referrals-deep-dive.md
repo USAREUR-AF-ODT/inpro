@@ -1,5 +1,5 @@
 ---
-title: Specialty referrals — how TRICARE Overseas actually routes you
+title: Specialty referrals: how TRICARE Overseas actually routes you
 summary: >-
   ARHC PCM writes the referral; TRICARE Overseas (International SOS) authorizes and finds the network provider. You book the appointment. Often German specialist, sometimes LRMC. Translation
   available. 3–12 week timelines; escalate to case manager if stuck.
@@ -12,7 +12,7 @@ profile_tags:
     - daciv
     - family
 poc:
-  - name: TRICARE Overseas — International SOS (Germany)
+  - name: TRICARE Overseas: International SOS (Germany)
     phone: +49-69-801-081-800 (Germany duty line)
     hours: 24/7
   - name: ARHC Wiesbaden Referral Management
@@ -23,7 +23,7 @@ poc:
 sources:
   - tier: T1
     url: https://tricare.mil/Plans/Eligibility/Overseas
-    label: TRICARE Overseas — eligibility and referrals
+    label: TRICARE Overseas: eligibility and referrals
     score:
       authority: 5
       currency: 5

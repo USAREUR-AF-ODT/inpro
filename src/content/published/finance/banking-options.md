@@ -1,7 +1,7 @@
 ---
 title: 'Banking: Andrews, Community, German'
 summary: >-
-  Andrews FCU and Community Bank both have branches on Clay Kaserne — use one of them for USD, add a German bank (Sparkasse, Commerzbank, or an online like N26) for day-to-day SEPA payments. Don't
+  Andrews FCU and Community Bank both have branches on Clay Kaserne: use one of them for USD, add a German bank (Sparkasse, Commerzbank, or an online like N26) for day-to-day SEPA payments. Don't
   rely on one bank.
 topic: finance
 phase: before
@@ -14,7 +14,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://home.army.mil/wiesbaden/my-fort/newcomers/in-processing
-    label: USAG Wiesbaden In-Processing — links to Andrews/Community
+    label: USAG Wiesbaden In-Processing: links to Andrews/Community
     score:
       authority: 5
       currency: 5

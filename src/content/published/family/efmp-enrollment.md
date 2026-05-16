@@ -1,5 +1,5 @@
 ---
-title: EFMP — enrollment, continuity, and what actually transfers
+title: EFMP: enrollment, continuity, and what actually transfers
 summary: >-
   EFMP moves with you, but each installation maintains its own case file. Start the transfer the day orders drop. In Wiesbaden, ACS is your liaison; DoDEA handles school-side IEPs; TRICARE Overseas
   covers medical.
@@ -15,7 +15,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://myarmybenefits.us.army.mil/Benefit-Library
-    label: MyArmyBenefits — EFMP
+    label: MyArmyBenefits: EFMP
     score:
       authority: 5
       currency: 5
@@ -24,7 +24,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/exceptional-family-member-program/preparing-for-your-move
-    label: MOS — Wiesbaden EFMP Preparing
+    label: MOS: Wiesbaden EFMP Preparing
     score:
       authority: 4
       currency: 5
@@ -33,7 +33,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/exceptional-family-member-program/special-education-eis
-    label: MOS — Wiesbaden EFMP Special Education
+    label: MOS: Wiesbaden EFMP Special Education
     score:
       authority: 4
       currency: 5

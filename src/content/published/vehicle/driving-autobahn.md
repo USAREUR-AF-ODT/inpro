@@ -1,5 +1,5 @@
 ---
-title: Driving in Germany — Autobahn, Stau, and what's different
+title: Driving in Germany: Autobahn, Stau, and what's different
 summary: >-
   Autobahn has no universal speed limit but plenty of local limits. Right lane to drive, left to pass. Keep headlights on in rain, don't pass on the right, and expect €300+ tickets for things that are
   a warning in the US.
@@ -15,7 +15,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://home.army.mil/wiesbaden/my-fort/getting-around
-    label: USAG Wiesbaden — Getting Around
+    label: USAG Wiesbaden: Getting Around
     score:
       authority: 5
       currency: 5

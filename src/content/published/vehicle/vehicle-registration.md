@@ -32,7 +32,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/transportation/motor-vehicles
-    label: MilitaryOneSource — Wiesbaden Motor Vehicles
+    label: MilitaryOneSource: Wiesbaden Motor Vehicles
     scraped: '2026-04-16'
     score:
       authority: 4
@@ -41,7 +41,7 @@ sources:
       purpose: 3
       license: 5
 poc:
-  - name: Registration of Motor Vehicles (RMV) — Main Office
+  - name: Registration of Motor Vehicles (RMV): Main Office
     dsn: 548-7815
     phone: +49-611-143-548-7815
     address: Bldg 1182, North Clay Kaserne, Wiesbaden

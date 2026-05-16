@@ -196,7 +196,7 @@ Contact information for key programs and services at this installation.
 
 ## Overseas Schools Overview
 
-**Moving Overseas with School Age Children—Education Options**
+**Moving Overseas with School Age Children, Education Options**
 
 Changing schools can be challenging enough for a child, but changing schools and going overseas is likely to come with a unique set of stressors. The U.S. government offers a variety of resources to help ensure your child’s education needs are met, no matter where in the world you are. Use the following tips to find the support you need to make the best education decision for your child.
 

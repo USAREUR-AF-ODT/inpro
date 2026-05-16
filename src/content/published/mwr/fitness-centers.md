@@ -1,8 +1,8 @@
 ---
-title: Wiesbaden Sports and Fitness Center — gym, classes, intramurals
+title: Wiesbaden Sports and Fitness Center: gym, classes, intramurals
 summary: >-
   Clay Kaserne gym runs Mon–Fri 0500–2030 with cardio, free weights, group classes, and intramural sports coordination. Free for ID-card holders; guests allowed with escort. MWR after-hours access
-  available at some garrisons — check enrollment at the desk.
+  available at some garrisons: check enrollment at the desk.
 topic: mwr
 phase: arrive
 usag: wiesbaden

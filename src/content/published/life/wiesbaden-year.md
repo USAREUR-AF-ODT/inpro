@@ -1,5 +1,5 @@
 ---
-title: The Wiesbaden year — what's happening each month
+title: The Wiesbaden year: what's happening each month
 summary: >-
   January quiet, March wine opening, May–June Spargelzeit, July–August vacation dead zone, September Rheingau Festival, October Oktoberfest, November Weihnachtsmarkt, December wine and food. Plan
   around the calendar.

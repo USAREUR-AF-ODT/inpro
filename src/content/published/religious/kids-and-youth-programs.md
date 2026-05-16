@@ -1,5 +1,5 @@
 ---
-title: Kids and youth religious programs — CYS coordination with the RSO
+title: Kids and youth religious programs: CYS coordination with the RSO
 summary: >-
   Sunday school, VBS, youth group, confirmation, and first-communion prep run through the USAG Wiesbaden RSO and the assigned chaplain. Volunteer-driven; availability depends on the current chaplain
   and participating families. Off-post programs fill gaps for specific traditions.
@@ -24,7 +24,7 @@ sources:
       license: 5
   - tier: T1
     url: https://www.armymwr.com/programs-and-services/family-programs/religious-support
-    label: Army MWR — Religious Support Family Programs
+    label: Army MWR: Religious Support Family Programs
     score:
       authority: 4
       currency: 5

@@ -1,5 +1,5 @@
 ---
-title: Hundesteuer, leash law, and dog-owner insurance — the German dog tax stack
+title: Hundesteuer, leash law, and dog-owner insurance: the German dog tax stack
 summary: >-
   Dogs register with Stadt Wiesbaden within 14 days of arrival. Annual Hundesteuer is ~€186 for the first dog; more for additional. Leash laws apply widely. Hundehaftpflicht (liability insurance) is
   mandatory for listed breeds and strongly recommended for all.
@@ -15,7 +15,7 @@ profile_tags:
 sources:
   - tier: T4
     url: https://www.wiesbaden.de/leben-in-wiesbaden/steuern/hundesteuer.php
-    label: Stadt Wiesbaden — Hundesteuer
+    label: Stadt Wiesbaden: Hundesteuer
     score:
       authority: 2
       currency: 5
@@ -24,7 +24,7 @@ sources:
       license: 3
   - tier: T4
     url: https://www.wiesbaden.de/vv/produkte/53/0200/index.php
-    label: Stadt Wiesbaden — Hundesteuer Anmeldung
+    label: Stadt Wiesbaden: Hundesteuer Anmeldung
     score:
       authority: 2
       currency: 5

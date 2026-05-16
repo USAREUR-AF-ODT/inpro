@@ -14,7 +14,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://home.army.mil/wiesbaden/my-fort/getting-around
-    label: USAG Wiesbaden — Getting Around
+    label: USAG Wiesbaden: Getting Around
     score:
       authority: 5
       currency: 5
@@ -23,7 +23,7 @@ sources:
       license: 5
   - tier: T1
     url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
-    label: 2024 Welcome Packet (PDF) — Shuttle schedule
+    label: 2024 Welcome Packet (PDF): Shuttle schedule
     score:
       authority: 5
       currency: 5

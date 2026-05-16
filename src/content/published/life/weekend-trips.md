@@ -23,7 +23,7 @@ sources:
       license: 1
   - tier: T1
     url: https://home.army.mil/wiesbaden/my-fort/getting-around
-    label: USAG Wiesbaden — Getting Around
+    label: USAG Wiesbaden: Getting Around
     score:
       authority: 5
       currency: 5

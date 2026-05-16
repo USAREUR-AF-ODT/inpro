@@ -1,6 +1,6 @@
 ---
 title: Housing areas, compared
-summary: Five on-post housing areas plus off-post. Here's what each actually gets you — building type, commute, kid-friendliness, parking reality.
+summary: Five on-post housing areas plus off-post. Here's what each actually gets you: building type, commute, kid-friendliness, parking reality.
 topic: housing
 phase: before
 usag: wiesbaden
@@ -13,7 +13,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://home.army.mil/wiesbaden/2816/7170/4200/Crestview_2023.pdf
-    label: Crestview Housing — Garrison info (PDF)
+    label: Crestview Housing: Garrison info (PDF)
     score:
       authority: 5
       currency: 5
@@ -22,7 +22,7 @@ sources:
       license: 5
   - tier: T1
     url: https://home.army.mil/wiesbaden/8316/7351/1637/Newman_Village_2023.pdf
-    label: Newman Village Housing — Garrison info (PDF)
+    label: Newman Village Housing: Garrison info (PDF)
     score:
       authority: 5
       currency: 5
@@ -31,7 +31,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/government-housing
-    label: MOS — Wiesbaden Government Housing
+    label: MOS: Wiesbaden Government Housing
     score:
       authority: 4
       currency: 5

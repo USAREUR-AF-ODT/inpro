@@ -75,7 +75,7 @@ Contact information for key programs and services at this installation.
 
 ## Deployment Support Overview
 
-Deployment can be a challenging phase of the military lifecycle, but it’s important to know that you don’t have to go through it alone. The military provides a variety of resources and support programs — ranging from educational briefings to morale calls — for your loved ones, children and service members to ease the stress of deployment. Military members may be assigned to a specific installation but support may come from local communities, Yellow Ribbon events or the installation itself.
+Deployment can be a challenging phase of the military lifecycle, but it’s important to know that you don’t have to go through it alone. The military provides a variety of resources and support programs: ranging from educational briefings to morale calls: for your loved ones, children and service members to ease the stress of deployment. Military members may be assigned to a specific installation but support may come from local communities, Yellow Ribbon events or the installation itself.
 
 ## Subtopics
 

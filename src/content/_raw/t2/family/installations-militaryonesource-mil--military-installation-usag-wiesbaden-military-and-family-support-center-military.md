@@ -226,7 +226,7 @@ Military and Family Support Centers provide information, education and support p
 - **Personal financial readiness** assists you and your family in building and maintaining your financial readiness.
 - **Employment assistance** supports military spouse career and education goals, along with employment readiness for service members and other family members. Learn more about how the [Spouse Education and Career Opportunities](https://myseco.militaryonesource.mil/portal/about) program can support military spouses throughout all phases of their career journey.
 - **Information and referral** can assist you in identifying and clarifying needs and locating and connecting to services and programs available both on and off your installation.
-- **Morale, Welfare and Recreation, or MWR services** provide lots of ways for you to connect with friends and others for entertainment, rest and relaxation — all at reduced or no cost. Learn more about [MWR programs and services](https://www.militaryonesource.mil/resources/millife-guides/off-duty-health-fitness/).
+- **Morale, Welfare and Recreation, or MWR services** provide lots of ways for you to connect with friends and others for entertainment, rest and relaxation: all at reduced or no cost. Learn more about [MWR programs and services](https://www.militaryonesource.mil/resources/millife-guides/off-duty-health-fitness/).
 - **The Transition Assistance Program** provides the information, skills and knowledge necessary for a successful transition from military to civilian life. Learn more about [transition assistance programs and resources](https://www.militaryonesource.mil/benefits/transition-assistance-program/).
 
 Military and Family Support Centers may provide other programs such as the following:

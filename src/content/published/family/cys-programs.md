@@ -1,7 +1,7 @@
 ---
-title: CYS — child care, SKIES, sports, teens
+title: CYS: child care, SKIES, sports, teens
 summary: >-
-  Child & Youth Services runs on-post childcare (CDC, SKIES), school-age care, Youth Sports, and Middle School/Teen programs. Subsidized by income. Register via webtrac; book early — popular programs
+  Child & Youth Services runs on-post childcare (CDC, SKIES), school-age care, Youth Sports, and Middle School/Teen programs. Subsidized by income. Register via webtrac; book early: popular programs
   fill in weeks.
 topic: family
 phase: arrive
@@ -33,7 +33,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/child-and-youth-services/child-and-youth-programs
-    label: MOS — Wiesbaden CYS
+    label: MOS: Wiesbaden CYS
     score:
       authority: 4
       currency: 5

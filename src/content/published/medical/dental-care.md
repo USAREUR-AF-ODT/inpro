@@ -1,5 +1,5 @@
 ---
-title: Dental care — on-post for AD, off-post for everyone else
+title: Dental care: on-post for AD, off-post for everyone else
 summary: Active Duty use the Wiesbaden Dental Clinic (DSN 590-1515). Dependents enroll in TRICARE Dental Program (TDP) and see off-post German dentists. TDP coverage is strong; German dentistry is excellent.
 topic: medical
 phase: life
@@ -21,7 +21,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care
-    label: MOS — Wiesbaden Health Care
+    label: MOS: Wiesbaden Health Care
     score:
       authority: 4
       currency: 5

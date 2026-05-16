@@ -4,7 +4,7 @@ source_host: "home.army.mil"
 tier: "T1"
 topic: "mixed"
 kind: "pdf-direct"
-title: "2024 WELCOME PACKET — highest-value single document"
+title: "2024 WELCOME PACKET: highest-value single document"
 first_scraped: "2026-04-16"
 last_scraped: "2026-04-16"
 content_hash: "e45498373dfe99c2da7f361d6f2c7a8e535ab4f389c5aa27920bc669dc338d97"
@@ -364,14 +364,14 @@ should beware: some vendors may not fully understand these rules and offer to vi
 customer is ultimately responsible for using the forms properly. If a VAT form is used improperly, the
 customer must correct it by paying the tax, said Clifford Wix, program manager for the VAT/UTAP office.
 Purchases over €2,500
-The NF-2 VAT form costs $65 and is for purchases of €2,500 or more — like a car, for instance. Before an NF-2
+The NF-2 VAT form costs $65 and is for purchases of €2,500 or more: like a car, for instance. Before an NF-2
 can be issued, certain requirements must be met. “We need a quote showing what’s being purchased and
 how much it would cost without the tax,” Wix said. The buyer also needs to show they are capable of making
 the payment in full, he added. “That can be done one of two ways. One is with a cashier’s check, if they’re
 basically buying it straight out. They can also get a letter of intent, or a loan letter, showing that they’re
 approved to finance the full amount without tax.” “You cannot pay or negotiate before you have the VAT form
 and still receive tax relief,” Wix said. “You can get a cost assessment, but if you put down any money at the
-time — if you pay one penny down — then we can’t issue that VAT form.” Another thing to be aware of when
+time: if you pay one penny down: then we can’t issue that VAT form.” Another thing to be aware of when
 making big purchases is that a customer cannot split up items from the same vendor made on the same day in
 order to use NF-1 forms instead of an NF-2. For example, if someone purchases a bed for €1,500 and a couch
 for €2,000 from the same store on the same day, they cannot use one NF-1 form for the bed and another for
@@ -552,8 +552,8 @@ TORED EXAMS.                                                                  Cl
                                                                               DSN: 548-1323
 CLAY KASERNE, 1023 E RM. 7                                                    CIV: 0611-143-548-1323                                                                         CLAY KASERNE, BUILDING 1023E
 DSN 548-1311                                                                  www. va.gov
-CIV 0611-143-548-1311                                                                                                                                                           DSN: 314—548—1302
-                                                                                                                                                                             CIV: 0611—143—548—1302
+CIV 0611-143-548-1311                                                                                                                                                           DSN: 314, 548, 1302
+                                                                                                                                                                             CIV: 0611, 143, 548, 1302
                                                                                                               P.S. WE HAVE A FULL SERVICE COM-
 PETERSON’S OASC & CPST                                                                                                                                            usarmy.wiesbaden.id-europe.mbx.education-services@mail.mil
 https://dantes.petersons.com

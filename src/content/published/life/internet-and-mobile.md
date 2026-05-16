@@ -1,7 +1,7 @@
 ---
 title: Internet and mobile phone setup
 summary: >-
-  Deutsche Telekom or 1&1 for home internet; O2, Vodafone, or a prepaid SIM for mobile. Contracts run 24 months and auto-renew — beware. For short-term, a prepaid SIM costs €10–€30/month with good
+  Deutsche Telekom or 1&1 for home internet; O2, Vodafone, or a prepaid SIM for mobile. Contracts run 24 months and auto-renew: beware. For short-term, a prepaid SIM costs €10–€30/month with good
   coverage.
 topic: legal
 phase: settle

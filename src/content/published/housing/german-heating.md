@@ -1,5 +1,5 @@
 ---
-title: Heating a German apartment — radiators, bills, and why it's different
+title: Heating a German apartment: radiators, bills, and why it's different
 summary: >-
   German apartments heat via hot-water radiators, not forced air. Each room has its own thermostat dial. Heating is expensive (€80–€180/mo winter); the annual Nebenkostenabrechnung settlement catches
   new arrivals. Don't block radiators.

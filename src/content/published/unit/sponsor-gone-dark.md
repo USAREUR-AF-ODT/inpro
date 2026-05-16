@@ -1,5 +1,5 @@
 ---
-title: Sponsor gone dark — what to do when your assigned sponsor disappears
+title: Sponsor gone dark: what to do when your assigned sponsor disappears
 summary: >-
   A silent sponsor is common. Fallback: call the gaining unit S1 for reassignment, loop ACS Relocation Readiness for a volunteer replacement, lean on Lodge and ICE for week-one help. You can finish
   in-processing without a functioning sponsor.

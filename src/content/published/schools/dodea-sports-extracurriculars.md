@@ -1,5 +1,5 @@
 ---
-title: DoDEA sports and extracurriculars — USAREUR-AF travel circuit
+title: DoDEA sports and extracurriculars: USAREUR-AF travel circuit
 summary: >-
   Wiesbaden HS fields 15+ varsity sports, traveling across Germany, Italy, UK, and Belgium. Middle school runs intramurals and select varsity. JROTC, ~30 clubs. Tryouts are early; physicals required.
   Travel costs split between DoDEA and families.

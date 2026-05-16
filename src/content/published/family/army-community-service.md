@@ -1,5 +1,5 @@
 ---
-title: Army Community Service (ACS) — Hainerberg
+title: Army Community Service (ACS): Hainerberg
 summary: 'The one-stop support hub: spouse sponsorship, lending closet, relocation readiness, financial counseling, EFMP liaison, and more. Bldg 7790, Hainerberg.'
 topic: family
 phase: arrive
@@ -31,7 +31,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/relocation-assistance
-    label: MOS — Wiesbaden Relocation Assistance
+    label: MOS: Wiesbaden Relocation Assistance
     scraped: '2026-04-16'
     score:
       authority: 4
@@ -49,7 +49,7 @@ sources:
       purpose: 5
       license: 1
 poc:
-  - name: Army Community Service (ACS) — Hainerberg
+  - name: Army Community Service (ACS): Hainerberg
     dsn: 548-9201
     phone: +49-611-143-548-9201
     email: usarmy.wiesbaden.imcom-europe.mbx.mwr-acs@mail.mil

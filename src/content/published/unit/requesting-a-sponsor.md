@@ -1,5 +1,5 @@
 ---
-title: Requesting a sponsor — how to make it happen before you arrive
+title: Requesting a sponsor: how to make it happen before you arrive
 summary: >-
   Sponsor assignment is mandatory under AR 600-8-8 but often slow. Email the gaining unit S1 90 days before RNLTD with your orders and family details. No reply in 2 weeks: escalate to the gaining
   unit's CSM or 1SG. Use Total Army Sponsorship Program (TASP) as a paper trail.

@@ -1,5 +1,5 @@
 ---
-title: Christmas markets — the actual winter move
+title: Christmas markets: the actual winter move
 summary: >-
   Late November to Dec 23. Wiesbaden's Sternschnuppenmarkt is at the Rathaus, Frankfurt's is on Römerberg, Nuremberg's is the most famous. Glühwein cups carry Pfand. Bring kids. Bring cash. Don't skip
   this.

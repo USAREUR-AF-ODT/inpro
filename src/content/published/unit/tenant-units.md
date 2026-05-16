@@ -1,5 +1,5 @@
 ---
-title: USAG Wiesbaden tenant units — who's where
+title: USAG Wiesbaden tenant units: who's where
 summary: >-
   V Corps HQ, 2nd Theater Signal Brigade, 66th Military Intelligence Brigade, 5th Signal Command, and a dozen more. Clay Kaserne is the main footprint; many tenants have outposts at Hainerberg and
   Mainz-Kastel.
@@ -22,7 +22,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/major-units
-    label: MOS — Wiesbaden Major Units
+    label: MOS: Wiesbaden Major Units
     score:
       authority: 4
       currency: 5

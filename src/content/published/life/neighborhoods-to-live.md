@@ -1,5 +1,5 @@
 ---
-title: Off-post neighborhoods — where to actually live
+title: Off-post neighborhoods: where to actually live
 summary: Erbenheim for proximity, Taunusstein for quiet, Mainz-Kastel for budget, Westend for walkable, Rheingauviertel for the wine life. Opinion piece with specific reasoning.
 topic: housing
 phase: before
@@ -13,7 +13,7 @@ profile_tags:
 sources:
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/housing/housing
-    label: MOS — Wiesbaden Housing
+    label: MOS: Wiesbaden Housing
     score:
       authority: 4
       currency: 5

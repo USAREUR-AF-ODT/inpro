@@ -32,7 +32,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/financial-assistance
-    label: MOS — Wiesbaden Financial Assistance
+    label: MOS: Wiesbaden Financial Assistance
     score:
       authority: 4
       currency: 5

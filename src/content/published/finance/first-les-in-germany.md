@@ -1,7 +1,7 @@
 ---
-title: Your first LES in Germany — reading the paycheck
+title: Your first LES in Germany: reading the paycheck
 summary: >-
-  Your first LES after PCS hits with OHA, COLA, TLA, and possibly a travel voucher — all USD, all untaxed. Expect confusion; expect 30–60 days for it to stabilize. File your travel voucher within 5
+  Your first LES after PCS hits with OHA, COLA, TLA, and possibly a travel voucher: all USD, all untaxed. Expect confusion; expect 30–60 days for it to stabilize. File your travel voucher within 5
   days of arrival.
 topic: finance
 phase: arrive
@@ -13,7 +13,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://myarmybenefits.us.army.mil/Benefit-Library
-    label: MyArmyBenefits — OHA
+    label: MyArmyBenefits: OHA
     score:
       authority: 5
       currency: 5
@@ -22,7 +22,7 @@ sources:
       license: 5
   - tier: T1
     url: https://myarmybenefits.us.army.mil/Benefit-Library
-    label: MyArmyBenefits — COLA
+    label: MyArmyBenefits: COLA
     score:
       authority: 5
       currency: 5
@@ -31,7 +31,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/financial-assistance
-    label: MOS — Wiesbaden Financial Assistance
+    label: MOS: Wiesbaden Financial Assistance
     score:
       authority: 4
       currency: 5

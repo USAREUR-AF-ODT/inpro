@@ -1,5 +1,5 @@
 ---
-title: Commissary, PX, and Shoppette — the on-post shopping economy
+title: Commissary, PX, and Shoppette: the on-post shopping economy
 summary: >-
   Tax-free US brands at DeCA Commissary. PX (AAFES) for electronics, clothing, home goods, and restaurant food court. Shoppette is a convenience store and gas station rolled together. Hainerberg is
   the main complex.
@@ -32,7 +32,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/morale-welfare-and-recreation/morale-welfare-and-recreation
-    label: MOS — Wiesbaden MWR
+    label: MOS: Wiesbaden MWR
     score:
       authority: 4
       currency: 5

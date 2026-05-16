@@ -1,5 +1,5 @@
 ---
-title: German Kita — pre-K immersion outside DoDEA
+title: German Kita: pre-K immersion outside DoDEA
 summary: >-
   German Kindertagesstätte (Kita) enrolls children from ~1 to ~6 in municipal-subsidized care. Strong immersion. Waitlists are long (6–18 months). Eligibility depends on Anmeldung; SOFA-status does
   not automatically exclude you. Free or income-scaled in Hessen.
@@ -15,7 +15,7 @@ profile_tags:
 sources:
   - tier: T4
     url: https://www.wiesbaden.de/leben-in-wiesbaden/gesellschaft/kinder/kinderbetreuung/
-    label: Stadt Wiesbaden — Kinderbetreuung
+    label: Stadt Wiesbaden: Kinderbetreuung
     score:
       authority: 2
       currency: 5
@@ -33,7 +33,7 @@ sources:
       license: 3
   - tier: T4
     url: https://soziales.hessen.de/familie/kinderbetreuung
-    label: Hessisches Ministerium für Soziales — Kinderbetreuung
+    label: Hessisches Ministerium für Soziales: Kinderbetreuung
     score:
       authority: 2
       currency: 5
@@ -42,7 +42,7 @@ sources:
       license: 3
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/childcare-and-schools
-    label: MOS — USAG Wiesbaden Childcare & Schools
+    label: MOS: USAG Wiesbaden Childcare & Schools
     score:
       authority: 4
       currency: 5

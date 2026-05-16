@@ -1,5 +1,5 @@
 ---
-title: Hessen holidays and store closures — when everything shuts
+title: Hessen holidays and store closures: when everything shuts
 summary: >-
   Germany has federal + state holidays. Hessen adds Corpus Christi (religious); no Reformation Day. Stores close Sundays and federal holidays by law (Ladenschlussgesetz). Restaurants, pharmacies with
   notdienst, gas stations, and on-post commissary/PX work around it.
@@ -14,7 +14,7 @@ profile_tags:
 sources:
   - tier: T4
     url: https://innen.hessen.de/sicherheit/feiertage
-    label: Hessisches Ministerium des Innern — Feiertage
+    label: Hessisches Ministerium des Innern: Feiertage
     score:
       authority: 2
       currency: 5
@@ -23,7 +23,7 @@ sources:
       license: 3
   - tier: T4
     url: https://www.wiesbaden.de/leben-in-wiesbaden/wirtschaft/handel/einzelhandel/ladenoeffnungszeiten.php
-    label: Stadt Wiesbaden — Ladenöffnungszeiten
+    label: Stadt Wiesbaden: Ladenöffnungszeiten
     score:
       authority: 2
       currency: 5

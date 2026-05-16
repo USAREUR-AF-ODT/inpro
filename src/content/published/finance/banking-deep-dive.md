@@ -1,5 +1,5 @@
 ---
-title: Banking strategy — US military banks, Community Bank, and German Sparkasse
+title: Banking strategy: US military banks, Community Bank, and German Sparkasse
 summary: >-
   Keep a US bank (USAA, Navy Federal, Andrews FCU) for DFAS pay and ATM access. Add Community Bank on-post for checks/cash. Consider a German bank (Sparkasse, Deutsche Bank, or Commerzbank) only if
   you need SEPA outflow or a landlord insists on IBAN. Dual is standard.

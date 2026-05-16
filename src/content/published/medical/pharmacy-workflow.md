@@ -1,7 +1,7 @@
 ---
-title: Pharmacy workflow — ARHC pharmacy, German Apotheke, and OTC differences
+title: Pharmacy workflow: ARHC pharmacy, German Apotheke, and OTC differences
 summary: >-
-  ARHC pharmacy fills most TRICARE prescriptions on-post at no cost. German Apotheken fill prescriptions off-post (most TRICARE-reimbursable). OTC in Germany is tighter — many US OTC drugs are
+  ARHC pharmacy fills most TRICARE prescriptions on-post at no cost. German Apotheken fill prescriptions off-post (most TRICARE-reimbursable). OTC in Germany is tighter: many US OTC drugs are
   pharmacist-only. Learn the dual system before you're sick.
 topic: medical
 phase: arrive
@@ -39,7 +39,7 @@ sources:
       license: 1
   - tier: T4
     url: https://www.aponet.de/
-    label: Aponet.de — German pharmacy finder (Notdienst)
+    label: Aponet.de: German pharmacy finder (Notdienst)
     score:
       authority: 2
       currency: 5

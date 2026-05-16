@@ -9,7 +9,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://www.aphis.usda.gov/pet-travel/us-to-another-country/export-pet-travel-us-germany
-    label: USDA APHIS — Pet Travel US to Germany
+    label: USDA APHIS: Pet Travel US to Germany
     score:
       authority: 5
       currency: 5
@@ -18,7 +18,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/moving/shipping-pets
-    label: MOS — Wiesbaden Shipping Pets
+    label: MOS: Wiesbaden Shipping Pets
     score:
       authority: 4
       currency: 5
@@ -27,7 +27,7 @@ sources:
       license: 5
   - tier: T1
     url: https://home.army.mil/wiesbaden/5417/1396/5081/2024_WELCOME_PACKET.pdf
-    label: 2024 Welcome Packet (PDF) — Vet info
+    label: 2024 Welcome Packet (PDF): Vet info
     score:
       authority: 5
       currency: 5

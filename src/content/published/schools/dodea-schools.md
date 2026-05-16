@@ -1,5 +1,5 @@
 ---
-title: DoDEA Wiesbaden — the four schools
+title: DoDEA Wiesbaden: the four schools
 summary: >-
   Wiesbaden High (Clay Kaserne), Middle School (Hainerberg), Aukamm Elementary, Hainerberg Elementary. Catchment tied to housing. Register via SLO; transcripts & translated shot records required.
   DoDEA calendar differs from US state calendars.

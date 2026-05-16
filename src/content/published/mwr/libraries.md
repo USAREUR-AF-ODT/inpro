@@ -1,5 +1,5 @@
 ---
-title: Clay Kaserne Library — books, wifi, and community programs
+title: Clay Kaserne Library: books, wifi, and community programs
 summary: >-
   MWR library on Clay Kaserne lends books, audiobooks, movies, and video games free to ID-card holders. Wifi, printing, and programs (book club, German conversation, preschool story time) run weekly.
   Digital library app works worldwide.

@@ -21,14 +21,14 @@ Core rule: **inpro is an information portal, not a blog.** Write what newcomers 
 
 Every topic entry has these six sections. Omit a heading only if it truly doesn't apply.
 
-- **What** — One paragraph. The thing. What it is, who's covered.
-- **Where** — Building, installation, address. Include parking/access tips if relevant.
-- **When** — Hours, deadlines, windows. Use 24-hour for duty-day times.
-- **Contact** — Use the `poc` frontmatter; POC cards render automatically. Profile-specific guidance goes here wrapped in `<div data-profile='…'>`.
-- **Gotchas** — Bulleted. Each bullet is one mistake to avoid or one thing people miss. Lead with the rule, follow with the why.
-- **Sources** — Short note. The footer renders the `sources[]` panel automatically.
+- **What**: One paragraph. The thing. What it is, who's covered.
+- **Where**: Building, installation, address. Include parking/access tips if relevant.
+- **When**: Hours, deadlines, windows. Use 24-hour for duty-day times.
+- **Contact**: Use the `poc` frontmatter; POC cards render automatically. Profile-specific guidance goes here wrapped in `<div data-profile='…'>`.
+- **Gotchas**: Bulleted. Each bullet is one mistake to avoid or one thing people miss. Lead with the rule, follow with the why.
+- **Sources**: Short note. The footer renders the `sources[]` panel automatically.
 
-## Profile tags — when to narrow
+## Profile tags: when to narrow
 
 - Leave `any` as default. Narrow only when content would confuse or mislead the wrong audience.
 - Rank bands gate housing priority, quarters type, and some entitlements. Don't over-gate.

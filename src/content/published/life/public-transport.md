@@ -1,5 +1,5 @@
 ---
-title: Public transport — RMV, Deutschlandticket, and the S-Bahn to Frankfurt
+title: Public transport: RMV, Deutschlandticket, and the S-Bahn to Frankfurt
 summary: >-
   Wiesbaden sits in the RMV transit network. The Deutschlandticket (~€58/month as of 2025) covers all regional and local transit nationwide. Buses + S1/S8/S9 S-Bahns and ICE trains from Hbf connect to
   Frankfurt (35 min) and Europe. No metro; buses and trains do everything.
@@ -32,7 +32,7 @@ sources:
       license: 3
   - tier: T4
     url: https://www.wiesbaden.de/leben-in-wiesbaden/verkehr/
-    label: Stadt Wiesbaden — Verkehr
+    label: Stadt Wiesbaden: Verkehr
     score:
       authority: 2
       currency: 5

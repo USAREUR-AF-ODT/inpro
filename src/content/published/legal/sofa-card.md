@@ -1,5 +1,5 @@
 ---
-title: SOFA card — the paper that makes everything work
+title: SOFA card: the paper that makes everything work
 summary: >-
   NATO SOFA status exempts you from German income tax, vehicle tax, and import duties. The SOFA stamp (Certificate of Entry) goes in your passport at the Passport/Visa Office within 90 days of
   arrival.
@@ -14,7 +14,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://home.army.mil/wiesbaden/about/Garrison/directorate-human-resources/passportvisa
-    label: USAG Wiesbaden — Passport/Visa Office
+    label: USAG Wiesbaden: Passport/Visa Office
     score:
       authority: 5
       currency: 5

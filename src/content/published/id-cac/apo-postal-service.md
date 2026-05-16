@@ -1,7 +1,7 @@
 ---
-title: APO mail — US address, German location
+title: APO mail: US address, German location
 summary: >-
-  Your APO address routes US mail + packages to Wiesbaden via the MPO. Amazon US ships to APO like domestic; most US retailers do too. German mail to your APO address doesn't work — you need a German
+  Your APO address routes US mail + packages to Wiesbaden via the MPO. Amazon US ships to APO like domestic; most US retailers do too. German mail to your APO address doesn't work: you need a German
   address for that.
 topic: id-cac
 phase: before
@@ -14,7 +14,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://home.army.mil/wiesbaden/about/Garrison/directorate-human-resources/postalservices
-    label: USAG Wiesbaden — Postal Services
+    label: USAG Wiesbaden: Postal Services
     score:
       authority: 5
       currency: 5

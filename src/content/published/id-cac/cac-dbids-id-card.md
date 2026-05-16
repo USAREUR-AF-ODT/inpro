@@ -1,7 +1,7 @@
 ---
 title: CAC, DBIDS, and the ID Card Center
 summary: >-
-  Your CAC comes with you from CONUS. Family members re-badge at the ID Card Center — CAC for teens 14+, DD-1173 for dependents under 14. DBIDS (installation access) is separate, automatic once
+  Your CAC comes with you from CONUS. Family members re-badge at the ID Card Center: CAC for teens 14+, DD-1173 for dependents under 14. DBIDS (installation access) is separate, automatic once
   enrolled.
 topic: id-cac
 phase: arrive
@@ -24,7 +24,7 @@ sources:
       license: 5
   - tier: T1
     url: https://milconnect.dmdc.osd.mil/milconnect/
-    label: DMDC milConnect — Dependents
+    label: DMDC milConnect: Dependents
     score:
       authority: 5
       currency: 5
@@ -33,7 +33,7 @@ sources:
       license: 5
   - tier: T1
     url: https://home.army.mil/wiesbaden/2616/0345/0820/CPL_19_Replacement_of_Lost_Stolen_or_Altered_Government_ID_Card_or_CAC.pdf
-    label: USAG Wiesbaden CPL 19 — Lost/Stolen ID (PDF)
+    label: USAG Wiesbaden CPL 19: Lost/Stolen ID (PDF)
     score:
       authority: 5
       currency: 5

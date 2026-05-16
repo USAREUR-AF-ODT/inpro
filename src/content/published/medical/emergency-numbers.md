@@ -1,5 +1,5 @@
 ---
-title: Emergency Numbers — Wiesbaden
+title: Emergency Numbers: Wiesbaden
 summary: Save these numbers before you arrive. 112 is German fire/ambulance; 110 is Polizei. On-post emergencies use 117 (ambulance/fire) and 114 (police).
 topic: medical
 phase: before

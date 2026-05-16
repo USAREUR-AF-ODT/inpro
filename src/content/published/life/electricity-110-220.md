@@ -1,7 +1,7 @@
 ---
-title: 110V vs 220V — electronics in Germany
+title: 110V vs 220V: electronics in Germany
 summary: >-
-  Germany is 220V / 50Hz. Your US hair dryer is a disaster. Laptops and phones (dual-voltage) work with just a plug adapter. High-draw appliances need 220V replacements or a step-down transformer —
+  Germany is 220V / 50Hz. Your US hair dryer is a disaster. Laptops and phones (dual-voltage) work with just a plug adapter. High-draw appliances need 220V replacements or a step-down transformer:
   rarely worth the hassle.
 topic: id-cac
 phase: before

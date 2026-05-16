@@ -1,5 +1,5 @@
 ---
-title: TRICARE Overseas — enrollment, referrals, the ATLAS
+title: TRICARE Overseas: enrollment, referrals, the ATLAS
 summary: >-
   Active Duty Family Members enroll in TRICARE Overseas Prime. Call International SOS to register, schedule your first PCM appointment at the Army Health Clinic, and expect specialty referrals to
   route through ATLAS to off-post German specialists.
@@ -32,7 +32,7 @@ sources:
       license: 5
   - tier: T1
     url: https://www.tricare-overseas.com/en/home
-    label: International SOS — TRICARE Overseas Contractor
+    label: International SOS: TRICARE Overseas Contractor
     score:
       authority: 4
       currency: 5
@@ -41,7 +41,7 @@ sources:
       license: 1
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care
-    label: MOS — Wiesbaden Health Care
+    label: MOS: Wiesbaden Health Care
     score:
       authority: 4
       currency: 5
@@ -52,11 +52,11 @@ last_verified: '2026-04-16'
 poc_volatile: true
 order: 15
 poc:
-  - name: International SOS — TRICARE Overseas
+  - name: International SOS: TRICARE Overseas
     phone: +00-800-4444-8844
     email: tohs-eurasiaafrica@internationalsos.com
     hours: 24/7 for medical issues; regional office business hours for admin
-  - name: Wiesbaden Army Health Clinic — TRICARE coordinator
+  - name: Wiesbaden Army Health Clinic: TRICARE coordinator
     dsn: 590-1300
     phone: +49-6371-9464-1330
 ---

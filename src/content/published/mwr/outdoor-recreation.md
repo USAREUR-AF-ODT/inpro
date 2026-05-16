@@ -1,5 +1,5 @@
 ---
-title: Outdoor Recreation (ODR) — Europe trips, gear rental, travel hub
+title: Outdoor Recreation (ODR): Europe trips, gear rental, travel hub
 summary: >-
   ODR Wiesbaden runs weekend bus trips across Europe and rents camping, biking, skiing, watersport, and party gear at MWR rates. Clay Kaserne location. Book trips 4–8 weeks out; popular weekends
   (Oktoberfest, Christmas markets) fill within hours.

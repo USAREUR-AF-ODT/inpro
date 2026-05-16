@@ -15,7 +15,7 @@ profile_tags:
 sources:
   - tier: T4
     url: https://kultusministerium.hessen.de/schulsystem
-    label: Hessisches Kultusministerium — Schulsystem
+    label: Hessisches Kultusministerium: Schulsystem
     score:
       authority: 2
       currency: 5
@@ -24,7 +24,7 @@ sources:
       license: 3
   - tier: T4
     url: https://www.wiesbaden.de/leben-in-wiesbaden/gesellschaft/bildung/schulen/
-    label: Stadt Wiesbaden — Schulen
+    label: Stadt Wiesbaden: Schulen
     score:
       authority: 2
       currency: 5
@@ -33,7 +33,7 @@ sources:
       license: 3
   - tier: T2
     url: https://hslda.org/legal/germany
-    label: HSLDA — Germany homeschool legal status
+    label: HSLDA: Germany homeschool legal status
     score:
       authority: 4
       currency: 5

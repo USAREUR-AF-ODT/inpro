@@ -1,5 +1,5 @@
 ---
-title: Dental care for kids — ARHC clinic, DoDEA screenings, and off-post Zahnärzte
+title: Dental care for kids: ARHC clinic, DoDEA screenings, and off-post Zahnärzte
 summary: >-
   ARHC Dental sees ADFM kids for routine cleanings when space allows. DoDEA runs annual screenings. Complex care (orthodontics, sedation, emergency) goes to a Wiesbaden pediatric Zahnarzt. TRICARE
   Dental Program (United Concordia) reimburses off-post costs at 50–100% by category.
@@ -18,7 +18,7 @@ poc:
     phone: +49-611-143-548-9999
     address: Clay Kaserne, Wiesbaden 65205
     hours: Mon–Fri duty hours; emergency via clinic after-hours line
-  - name: TRICARE Dental Program (TDP) — United Concordia
+  - name: TRICARE Dental Program (TDP): United Concordia
     phone: 1-844-653-4061 (CONUS line, international callback available)
     hours: 24/7 claim submission
 sources:

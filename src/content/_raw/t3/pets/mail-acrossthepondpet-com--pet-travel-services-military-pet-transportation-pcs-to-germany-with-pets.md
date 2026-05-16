@@ -42,7 +42,7 @@ Moving to Germany for a Permanent Change of Station (PCS) offers great opportuni
 
 - Complete a tapeworm treatment for dogs 24-120 hours before entering Germany (not required for cats).
 - Book pet-friendly flights with appropriate travel crates and airline approvals.
-- Prepare for possible customs inspection upon arrival — usually brief if documents are in order.
+- Prepare for possible customs inspection upon arrival: usually brief if documents are in order.
 
 ## Popular Military Routes to Germany
 
@@ -59,13 +59,13 @@ _Common breeds for PCS to Germany:_ German Shepherds, Dachshunds, Belgian Malino
 
 ## Special Considerations
 
-- Tapeworm treatment is mandatory for dogs prior to entry — missing it may result in quarantine.
+- Tapeworm treatment is mandatory for dogs prior to entry: missing it may result in quarantine.
 - Cats do not require tapeworm treatment but must meet microchip and vaccination standards.
 - Always double-check paperwork accuracy to avoid delays with German customs authorities.
 
 [Get Expert PCS Pet Move Assistance](https://form.asana.com/?k=uRQ22k5SHKCnxZ1TPXr0pg&d=1201402606690146)
 
-We’ve successfully helped military families relocate pets to Germany — let us handle the logistics so you can focus on your PCS.
+We’ve successfully helped military families relocate pets to Germany: let us handle the logistics so you can focus on your PCS.
 
 ## Hear from Happy Pet Parents
 

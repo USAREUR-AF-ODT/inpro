@@ -1,5 +1,5 @@
 ---
-title: Garrison directorates — who to call for what
+title: Garrison directorates: who to call for what
 summary: >-
   USAG Wiesbaden runs through ~15 directorates (DES for security, DPW for housing maintenance, DHR for personnel, DFMWR for family programs, Legal, SHARP, etc.). Garrison HQ at BLDG 3340 North Clay.
   This entry maps the problem to the office.

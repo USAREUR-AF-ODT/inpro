@@ -1,5 +1,5 @@
 ---
-title: ACS deployment support — pre-deployment, during, and reintegration
+title: ACS deployment support: pre-deployment, during, and reintegration
 summary: >-
   Army Community Service runs deployment programs for the soldier and family: Military Family Life Counselors, Pre-Deployment Readiness briefings, Hearts Apart events for kids, Family Readiness Group
   liaison, and Post-Deployment reintegration workshops. Free and confidential.
@@ -28,7 +28,7 @@ sources:
       license: 5
   - tier: T1
     url: https://www.armymwr.com/programs-and-services/family-programs/deployment-readiness
-    label: Army MWR — Deployment Readiness
+    label: Army MWR: Deployment Readiness
     score:
       authority: 4
       currency: 5

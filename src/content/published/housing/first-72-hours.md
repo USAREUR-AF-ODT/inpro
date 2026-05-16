@@ -30,7 +30,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/base-essentials/check-in-procedures
-    label: MOS — Wiesbaden Check-in
+    label: MOS: Wiesbaden Check-in
     score:
       authority: 4
       currency: 5

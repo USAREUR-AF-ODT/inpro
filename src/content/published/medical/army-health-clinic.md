@@ -23,7 +23,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/health/health-care
-    label: MilitaryOneSource — Wiesbaden Health Care
+    label: MilitaryOneSource: Wiesbaden Health Care
     scraped: '2026-04-16'
     score:
       authority: 4
@@ -41,7 +41,7 @@ sources:
       purpose: 5
       license: 5
 poc:
-  - name: Wiesbaden Army Health Clinic — Main
+  - name: Wiesbaden Army Health Clinic: Main
     dsn: 590-1300
     phone: +49-6371-9464-1330
     address: Clay Kaserne, Bldg 1040, Flugplatz Erbenheim, Wiesbaden

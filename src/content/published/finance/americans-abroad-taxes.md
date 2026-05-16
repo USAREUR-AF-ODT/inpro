@@ -1,5 +1,5 @@
 ---
-title: US taxes while stationed overseas — FBAR, FEIE, state residency
+title: US taxes while stationed overseas: FBAR, FEIE, state residency
 summary: >-
   You still file US federal taxes from Germany. SOFA-status shields you from German income tax, but FBAR reports any German bank account over $10K. Your state of legal residence (SLR) decides whether
   you owe state tax. File via VITA at Legal Office (free, Jan–Apr).
@@ -41,7 +41,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/military-and-family-support-center/financial-assistance
-    label: MOS — Wiesbaden Financial Assistance
+    label: MOS: Wiesbaden Financial Assistance
     score:
       authority: 4
       currency: 5

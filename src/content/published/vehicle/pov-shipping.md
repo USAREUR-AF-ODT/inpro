@@ -15,7 +15,7 @@ profile_tags:
 sources:
   - tier: T1
     url: https://www.afsbeurope.army.mil/Logistics-Readiness-Centers/Personal-Property-and-POV/
-    label: Army LRC Europe — POV shipment
+    label: Army LRC Europe: POV shipment
     score:
       authority: 5
       currency: 5
@@ -24,7 +24,7 @@ sources:
       license: 5
   - tier: T2
     url: https://installations.militaryonesource.mil/military-installation/usag-wiesbaden/transportation/motor-vehicles
-    label: MOS — Wiesbaden Motor Vehicles
+    label: MOS: Wiesbaden Motor Vehicles
     score:
       authority: 4
       currency: 5
@@ -33,7 +33,7 @@ sources:
       license: 5
   - tier: T1
     url: https://home.army.mil/wiesbaden/my-fort/getting-around
-    label: USAG Wiesbaden — Getting Around
+    label: USAG Wiesbaden: Getting Around
     score:
       authority: 5
       currency: 5

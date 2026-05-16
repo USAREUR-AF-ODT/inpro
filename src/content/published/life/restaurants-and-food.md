@@ -1,5 +1,5 @@
 ---
-title: Restaurants and food — opinion, not policy
+title: Restaurants and food: opinion, not policy
 summary: >-
   Wiesbaden is a food town. This page is opinion, not garrison policy: where to eat, what to order, and which neighborhoods actually reward wandering. Takes are specific to make them disagree-able;
   your taste varies.

@@ -1,6 +1,6 @@
 # Contributing to inpro
 
-Thanks for helping keep the guide accurate. This project is community-maintained — every correction saves another newcomer hours.
+Thanks for helping keep the guide accurate. This project is community-maintained: every correction saves another newcomer hours.
 
 ## Quick fixes (typos, broken links, outdated POCs)
 
@@ -12,11 +12,11 @@ Thanks for helping keep the guide accurate. This project is community-maintained
 Use the promote script to scaffold a published entry from a raw scrape, or write one by hand.
 
 ```bash
-# Option A — from a raw scrape:
+# Option A: from a raw scrape:
 FIRECRAWL_API_KEY=... npm run scrape -- --topic housing
 node scripts/promote.mjs src/content/raw/t1/housing/<file>.md
 
-# Option B — copy an existing entry and edit:
+# Option B: copy an existing entry and edit:
 cp src/content/published/housing/housing-services-office.md \
    src/content/published/housing/<new-slug>.md
 ```
@@ -32,7 +32,7 @@ Required frontmatter fields: `title`, `summary`, `topic`, `phase`, `last_verifie
 
 ### Profile tags
 
-Be generous with `any` — if a fact applies to most people, don't gate it behind a narrow filter. Only filter when the content would confuse or mislead someone in a different situation (e.g., OHA eligibility for contractors, child-specific content for singles).
+Be generous with `any`: if a fact applies to most people, don't gate it behind a narrow filter. Only filter when the content would confuse or mislead someone in a different situation (e.g., OHA eligibility for contractors, child-specific content for singles).
 
 ## Pull request checklist
 

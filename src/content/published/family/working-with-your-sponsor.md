@@ -1,5 +1,5 @@
 ---
-title: Working with your sponsor — get the most out of the person assigned to you
+title: Working with your sponsor: get the most out of the person assigned to you
 summary: >-
   Your sponsor is a peer contact at the gaining unit, not a concierge. Email first, ask specific questions, share arrival details early. Most sponsor relationships underperform because the newcomer
   waits for the sponsor to drive. You get what you ask for.
